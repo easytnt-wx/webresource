@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>年级考试首页</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
+</head>
+<body class="bg1">
+<script src="js/header.js"></script>
+<div class="wrapper pdlr20">
+    <div class="breadcrumb breadStyle1">
+        <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考生名单</a><i> &gt; </i><a class="current" href="#">从其它考试导入</a></p>
+    </div>
+    <div class="m-creatStep">
+        <p><strong class="stepName">创建答题卡模板</strong></p>
+        <ul class="clearfix">
+            <li class="active"><i></i>1 模板信息</li>
+            <li class="blue"><i></i>2 定位区</li>
+            <li class="blue"><i></i>3 选择考号区</li>
+            <li class="blue"><i></i>4 选择客观题区</li>
+            <li class="blue"><i></i>5 其他标记</li>
+            <li><i></i>6 题块</li>
+            <li class="last"><i></i>7 评题</li>
+        </ul>
+    </div>
+    <div class="item_editModel clearfix mgtb20">
+        <div class="editList" id="editListBox">
+            <ul>
+                <li class="on">
+                    <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                    <p class="name">01 正面</p>
+                </li>
+               <li>
+                    <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                    <p class="name">01 反面</p>
+                </li>
+               <li>
+                    <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                    <p class="name">02 正面</p>
+                </li>
+               <li>
+                    <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                    <p class="name">02 反面</p>
+                </li>                     
+            </ul>
+        </div>
+        <div class="editDetail">
+            <div class="photoRect fullPhotoRect"><img src="images/upload/editphoto_16.jpg" alt=""></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+$('#editListBox').perfectScrollbar({
+   suppressScrollX:true
+});
+</script>
+</html>

@@ -1,0 +1,45 @@
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.ni_g_cards_show .ni_km_t .ni_show .ni_show_map{
+    margin-left: 50px;
+}
+.ni_g_pa_load{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: url(../images/ni_img0.png) no-repeat center center;
+}
+.ni_g_pa_scan{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: url(../images/ni_img03.png) no-repeat center center;
+}
+.ni_g_pa_success{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: url(../images/ni_img04.png) no-repeat center center;
+}

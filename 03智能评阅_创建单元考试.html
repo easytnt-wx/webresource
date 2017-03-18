@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能评阅</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/cjdyks.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="current" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考试基本信息</a></p>
+            </div>
+            <div class="boxStyle create_exam mgb20">
+                <h3 class="title2">创建单元考试</h3>
+                <div class="set_info">
+                    <dl>
+                        <dt><span class="tit">阅卷时间</span></dt>
+                        <dd>
+                            <input class="inputDate1" type="text" style="width: 120px" onfocus="WdatePicker({startDate:'%y-%M-01 00',dateFmt:'yyyy-MM-dd HH:mm',alwaysUseStartDate:true})">
+                            <i class="mglr15">到</i>
+                            <input class="inputDate1" type="text" style="width: 120px" onfocus="WdatePicker({startDate:'%y-%M-01 00',dateFmt:'yyyy-MM-dd HH:mm',alwaysUseStartDate:true})">
+                            <span class="set_warm mgl15"><i class="icon_warm"></i><em>请选择时间</em></span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">年级</span></dt>
+                        <dd>
+                            <div class="radioList radioStyle1">
+                                <label class="Radio"><input type="radio" value="1">一年级</label>
+                                <label class="Radio RadioChecked"><input type="radio" value="2">一年级</label>
+                                <label class="Radio"><input type="radio" value="3">高三</label>
+                                <span class="set_warm mgl15"><i class="icon_warm"></i><em>错误信息</em></span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">考试科目</span></dt>
+                        <dd>
+                            <div class="radioList radioStyle2">
+                                <label class="Radio"><input type="radio" value="1">语文</label>
+                                <label class="Radio"><input type="radio" value="2">数学</label>
+                                <label class="Radio RadioChecked"><input type="radio" value="2">英语</label>
+                                <span class="set_warm mgl15"><i class="icon_warm"></i><em>错误信息</em></span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">满分</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="set_warm mgl15"><i class="icon_warm"></i><em>错误信息</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">选择题满分</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="set_warm mgl15"><i class="icon_warm"></i><em>错误信息</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">客观题满分</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="set_warm mgl15"><i class="icon_warm"></i><em>错误信息</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">名称</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="set_warm mgl15"><i class="icon_warm"></i><em>错误信息</em></span></dd>
+                    </dl>
+                    <p class="t_c"><a href="#" class="Btn1"><span>完成</span></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <script>
+        $(function(){
+            $('.radioList').radios();
+        });
+    </script>
+</body>
+</html>

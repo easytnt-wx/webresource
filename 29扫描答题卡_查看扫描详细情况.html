@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>查看扫描详细情况</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+<script src="js/header.js"></script>
+<div class="wrapper pdlr20">
+    <div class="breadcrumb breadStyle1">
+        <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考试基本信息</a></p>
+    </div>
+    <div class="boxStyle create_exam mgb20">
+        <h3 class="title2 mgb30">扫描答题卡</h3>
+        <div class="layout clearfix">
+            <div class="left">
+                <div class="card_state">
+                    <h3>已经扫描答题卡</h3>
+                    <div class="state-box">
+                        <ul class="state-list">
+                            <li><i class="icon_state1"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state2"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state3"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state4"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state1"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state2"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state3"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state4"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state1"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state2"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state3"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state4"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state1"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state2"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state3"></i><span>1254879</span><em></em></li>
+                            <li><i class="icon_state4"></i><span>1254879</span><em></em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-wrapper">
+                    <p class="scanning-progress mgb20"><span class="progress"><em style="width: 20%;"></em></span><i class="txt mgl15"><em>26</em>/50 已完成</i></p>
+                    <div class="tabStyle1" name="tab">
+                        <div class="tabTit" name="tabTit">
+                            <a href="#" class="">01正面</a> <a href="#" class="on">01反面</a>
+                        </div>
+                        <div class="tabContent dis_none" name="tabCon"><img src="images/upload/paper.jpg" alt=""></div>
+                        <div class="tabContent" name="tabCon"><img src="images/upload/paper.jpg" alt=""></div>
+                    </div>
+                    <div class="detail">
+                        <a href="#" class="Btn2">新建试卷袋</a>
+                        <div class="paper-info">
+                            <p class="tit"><i></i><span>试卷袋信息</span></p>
+                            <p>名称：XXXX</p>
+                            <p>考场号：12445</p>
+                            <p>答题卡数量：30</p>
+                            <p>缺考：2</p>
+                            <a href="#" class="Btn3">重新扫描</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--考生查询-->
+<div class="search-box dis_none" id="show1">
+    <div class="search-area clearfix pdb20">
+        <span class="searchBox searchStyle1"><input class="inputSearch" type="text" style="width: 151px"><i class="search"></i></span><a href="" class="Btn3 fr mgl15">下一页</a><a href="#" class="Btn3 fr">上一页</a>
+    </div>
+    <table class="show-list">
+        <thead>
+        <tr>
+            <th width="15%">姓名</th>
+            <th width="30%">考号</th>
+            <th width="30%">学校</th>
+            <th width="25%">班级</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>李成</td>
+            <td>1232343</td>
+            <td>肇庆一高</td>
+            <td>高一（6）班</td>
+        </tr>
+        <tr>
+            <td>李成</td>
+            <td>1232343</td>
+            <td>肇庆一高</td>
+            <td>高一（6）班</td>
+        </tr>
+        <tr>
+            <td>李成</td>
+            <td>1232343</td>
+            <td>肇庆一高</td>
+            <td>高一（6）班</td>
+        </tr>
+        <tr>
+            <td>李成</td>
+            <td>1232343</td>
+            <td>肇庆一高</td>
+            <td>高一（6）班</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $(function(){
+        $(".tabStyle1").tabControl();
+        $('.state-box').perfectScrollbar({
+            suppressScrollX:true
+        });
+        var dia1=artDialogs({
+            title:'考生查询',
+            content:document.getElementById('show1')
+        });
+    });
+    
+</script>
+</html>

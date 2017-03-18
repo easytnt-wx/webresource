@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>重新扫描答题卡模板</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg2">
+<script src="js/header.js"></script>
+<div class="wrapper pdlr20">
+    <div class="breadcrumb breadStyle1">
+        <p class="breadtxt"><a href="#">XXX考试</a><i> &gt; </i><a href="#">七年级语文</a><i> &gt; </i><a class="current"  href="#">七年级语文第15周周练（A卡）</a></p>
+    </div>
+    <div class="boxStyle mgb30 card_template">
+        <h3 class="title2">创建答题卡模板</h3>
+        <div class="step clearfix">
+            <a class="on" href="javascript:;"><span><i class="icon_done"></i><em>1 模板信息</em></span></a>
+            <em class="sep"></em>
+            <a href="javascript:;"><span><em>2 定位区</em></span></a>
+            <em class="sep"></em>
+            <a href="javascript:;"><span><em>3 选择考号区</em></span></a>
+            <em class="sep"></em>
+            <a href="javascript:;"><span><em>4 选择客观题区</em></span></a>
+            <em class="sep"></em>
+            <a href="javascript:;"><span><em>5 其他标记</em></span></a>
+            <em class="sep"></em>
+            <a href="javascript:;"><span><em>6 题块</em></span></a>
+            <em class="sep"></em>
+            <a href="javascript:;"><span><em>7 评题</em></span></a>
+        </div>
+    </div>
+    <div class="template_box clearfix">
+        <div class="right fr">
+            <div class="guide mgb20">
+                <p>系统检测到答题卡扫描程序没有运行，请先运行答题卡扫描程序。如果您还没有安装答题目卡扫描程序，您可以</p>
+                <a href="#" class="Btn2">下载答题卡扫描程序</a>
+                <p>下载后请解压磁盘根目录，如：d解压后找到d盘EasyScan目录，进入目录后运行my.Scan.exe更多帮助请查看</p>
+                <a href="#">答题卡扫描客户端安装设置指引</a>
+            </div>
+            <div class="equipment">
+                <ul class="reload_info">
+                    <li>
+                        <span class="tit">扫描设备：</span>
+                        <span class="selecterBox selecterStyle1" style="width:137px;">
+                            <span class="selecterValue">
+                                <p>默认值请在a标签列表上加class="active"</p>
+                                <input type="hidden" class="selRes" value="1" />
+                            </span>
+                            <span class="selecterDrop" style="width:137px;">
+                                <a href="#" value="1">第一个选项第一个选项第一个选项</a>
+                                <a href="#" value="2">第2个选项</a>
+                                <a href="#" value="3">第3个选项</a>
+                                <a href="#" class="active"  value="4">KV-SL5085</a>
+                                <a href="#" value="5">第5个选项</a>
+                                <a href="#" value="6">第6个选项</a>
+                                <a href="#" value="7">第7个选项</a>
+                                <a href="#" value="8">第8个选项</a>
+                            </span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="tit">纸型：</span>
+                        <span class="selecterBox selecterStyle1" style="width:137px;">
+                            <span class="selecterValue">
+                                <p>默认值请在a标签列表上加class="active"</p>
+                                <input type="hidden" class="selRes" value="1" />
+                            </span>
+                            <span class="selecterDrop" style="width:137px;">
+                                <a href="#" value="1">A3</a>
+                                <a href="#" value="2">A2</a>
+                                <a href="#" value="3">A1</a>
+                                <a href="#" class="active"  value="4">A4</a>
+                            </span>
+                        </span>
+                    </li>
+                    <li>
+                        <div class="radioList radioStyle1">
+                            <label class="Radio"><input value="1" style="display: none;">双面</label>
+                            <label class="Radio RadioChecked"><input type="radio" value="2">单面</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radioList radioStyle1">
+                            <label class="Radio"><input type="radio" value="1">黑白卡</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radioList radioStyle1">
+                            <label class="Radio"><input type="radio" value="1">套红卡</label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="left">
+            <div class="left_wrapper pd30">
+
+                <span class="circle"><em>正在扫描</em><i class="circle_percent"></i></span>
+                <p class="t_c">
+                    <a href="#" class="Btn4"><span>扫描答题卡模板</span></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $(function(){
+        $('.radioList').radios();
+        $('.onoff').click(function () {
+            $(this).toggleClass('open');
+        });
+        $(".selecterBox").Selector();
+
+    });
+</script>
+</html>
