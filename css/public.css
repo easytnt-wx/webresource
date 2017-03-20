@@ -519,10 +519,10 @@ input[type="text"].myinput{
 .has-feedback label~.form-control-feedback{
 	top: 0;
 }
-.form-horizontal .has-feedback .form-control-feedback{
+/*.form-horizontal .has-feedback .form-control-feedback{
 	right: 160px;
 }
 form.formvalidation .form-control-feedback {
     position: static;
     display: inline-block;
-}
+}*/
