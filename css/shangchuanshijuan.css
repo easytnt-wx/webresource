@@ -92,3 +92,16 @@ label.b{
 .detail {
  width:100%
 }
+.bg1 {
+    background-color: inherit;
+}
+
+.detail.active {
+    background-color: #99CCFF;
+}
+
+.exampaper-check {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
