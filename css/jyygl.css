@@ -91,6 +91,6 @@ form.educloud-form{
 .add-school-form .progress{
 	width: 100%;
 }
-.form-horizontal .has-feedback .form-control-feedback{
+.educloud-form .form-horizontal .has-feedback .form-control-feedback{
 	right: 220px;
 }
