@@ -105,3 +105,10 @@ label.b{
     top: 5px;
     right: 10px;
 }
+.progress {
+    margin-bottom: 0 !important;
+}
+
+.counter-files {
+    margin-top: 10px;
+}
