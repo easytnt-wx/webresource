@@ -85,3 +85,6 @@ select ~ button{
     line-height: 30px;
 }
 
+form.educloud-form{
+	text-align: center;
+}
