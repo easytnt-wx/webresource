@@ -298,7 +298,7 @@ div.ullist{
 }
 div.ullist li{
     font-size: 16px;
-    min-width: 127px;
+    min-width: 125px;
     margin: 0 6px 15px 6px;
-    text-align: center;
+    text-align: right;
 }
