@@ -88,3 +88,6 @@ select ~ button{
 form.educloud-form{
 	text-align: center;
 }
+.add-school-form .progress{
+	width: 100%;
+}
