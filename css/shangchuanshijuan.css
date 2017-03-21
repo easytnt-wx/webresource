@@ -92,10 +92,6 @@ label.b{
 .detail {
  width:100%
 }
-.bg1 {
-    background-color: inherit;
-}
-
 .detail.active {
     background-color: #99CCFF;
 }
