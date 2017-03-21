@@ -33,6 +33,7 @@ label.b{
 	position: relative;
 	cursor: default;
 	color: #323232;
+	border:1px solid #ccc;
 }
 .detail:hover{
 	box-shadow: 1px 1px 10px 2px #ccc;
@@ -89,13 +90,9 @@ label.b{
     background-color: #fff;
     color: #2B99F0;
 }
-.detail {
- width:100%
-}
 .detail.active {
     background-color: #99CCFF;
 }
-
 .exampaper-check {
     position: absolute;
     top: 5px;
