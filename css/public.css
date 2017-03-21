@@ -410,7 +410,7 @@ body,html{ width:100%; min-width:1200px;}
 .title1 .tag_index em { font-size: 14px; color: #fff; background: #8ea9b9; line-height: 20px; padding: 0 10px; border-radius: 20px; }
 .title1 .tag_index span { padding: 0 7px; }
 .title1 .tag_index span, .title1 .tag_index i, .title1 .tag_index em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.title1 .more { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 21px; height: 5px; background: url(../images/icon_more.png) center center no-repeat; margin-top: 10px;}
+.title1 .more { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 60px; height: 26px; background: url(../images/icon_more.png) center center no-repeat;}
 .title2{font-weight: normal;font-size: 20px;color: #222222;line-height: normal;}
 .title3{font-weight: normal;font-size: 16px;color: #555555;line-height: normal;}
 /*date*/
