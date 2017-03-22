@@ -35,3 +35,13 @@ p.card_detail > span:nth-child(2){
 p.card_detail > span:nth-child(3){
     width: 60px;
 }
+.card_btn button{
+    line-height: 32px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #419efc;
+    display: block;
+    border-radius: 3px;
+    color: #419efc;
+    background-color: #fff;
+}
