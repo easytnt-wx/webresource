@@ -1,0 +1,21 @@
+.header_menu{
+	margin: 82px auto 0;
+	background-color: #fff;
+}
+.header_menu > ul{
+	overflow: hidden;
+	text-align: center;
+	padding: 10px;
+}
+.header_menu > ul > li{
+	display: inline-block;
+	width: 80px;
+	padding: 10px;
+}
+.header_menu > ul > li:hover{
+	box-shadow: 0 0 6px 2px #ccc;
+}
+.header_menu > ul > li  img{
+	display: block;
+	margin: 0 auto;
+}

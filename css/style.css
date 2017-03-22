@@ -328,7 +328,11 @@
 
 /*创建考试选择*/
 .row .col-5 { float: left; width: 50%; }
-
+.eaxm_info{
+	width: 100%;
+	min-height: 260px;
+	background-color: #f2f2f2;
+}
 .create_choice { text-align: center; }
 .create_choice.boxStyle { padding-top: 100px; padding-bottom: 100px; }
 .create_choice .innerwrapper { margin: 0 45px; }
