@@ -1,107 +1,303 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>安排评卷人员</title>
-<link href="css/public.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>安排评卷人员</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body class="bg1">
-<script src="js/header.js"></script>
-<div class="wrapper pdlr20">
-    <div class="breadcrumb breadStyle1">
-        <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考试基本信息</a></p>
-    </div>
-    <div class="boxStyle create_exam mgb20">
-        <div class="tabStyle2" name="tab">
-            <div class="tabTit" name="tabTit">
-                <a href="#" class="on">语文</a> <a href="#">英语</a> <a href="#">文数</a><a href="#" class="">理数</a><a href="#" class="">文综</a><a href="#" class="">理综</a>
-            </div>
-            <div class="tabContent" name="tabCon">
-                <h3 class="title2 mgb30 mgt30 t_c">语文评卷人员安排</h3>
-
-                <div class="layout clearfix bad-deal">
-                    <div class="left">
-                        <ul class="tier">
-                            <li>
-                                <i class="switch on"></i><span>科目组长</span><i class="num">2</i>
-                                <ul>
-                                    <li>
-                                        <i class="switch on"></i><span>题组长</span><i class="num">1</i>
-                                        <ul>
-                                            <li><span>张三</span></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <i class="switch on"></i><span>成员</span><i class="num">3</i>
-                                        <ul>
-                                            <li><span>张三1</span></li>
-                                            <li><span>张三2</span></li>
-                                            <li><span>张三3</span></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <i class="switch on"></i><span>15-20</span><i class="num">2</i>
-                                <ul>
-                                    <li>
-                                        <i class="switch on"></i><span>题组长</span><i class="num">1</i>
-                                        <ul>
-                                            <li><span>张三</span></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <i class="switch on"></i><span>成员</span><i class="num">3</i>
-                                        <ul>
-                                            <li><span>张三1</span></li>
-                                            <li><span>张三2</span></li>
-                                            <li><span>张三3</span></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><span>21</span></li>
-                            <li><span>22</span></li>
-                            <li><span>异常处理</span></li>
-                        </ul>
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="right">
-                        <div class="right-wrapper">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="clearfix">
-                                        <span class="searchBox searchStyle1 fl"><input class="inputSearch" type="text"><i class="search"></i></span>
-                                        <div class="radioList radioStyle2 fl">
-                                            <label class="Radio RadioChecked"><input type="radio" checked="" name="r2" value="2" style="display: none;">女</label>
+                </dt>
+            </dl>
+        </div>
+    </div>
+	<div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考试基本信息</a></p>
+            </div>
+            <div class="boxStyle create_exam mgb20">
+                <div class="tabStyle2" name="tab">
+                    <div class="tabTit" name="tabTit">
+                        <a href="#" class="on">语文</a> <a href="#">英语</a> <a href="#">文数</a><a href="#" class="">理数</a><a href="#" class="">文综</a><a href="#" class="">理综</a>
+                    </div>
+                    <div class="tabContent" name="tabCon">
+                        <h3 class="title2 mgb30 mgt30 t_c">语文评卷人员安排</h3>
+
+                        <div class="layout clearfix person-plan">
+                            <div class="left">
+                                <ul class="tier">
+                                    <li>
+                                        <i class="switch on"></i><span>科目组长</span><i class="num">2</i>
+                                        <ul>
+                                            <li>
+                                                <i class="switch on"></i><span>题组长</span><i class="num">1</i>
+                                                <ul>
+                                                    <li><span>张三</span></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <i class="switch on"></i><span>成员</span><i class="num">3</i>
+                                                <ul>
+                                                    <li><span>张三1</span></li>
+                                                    <li><span>张三2</span></li>
+                                                    <li><span>张三3</span></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="switch on"></i><span>15-20</span><i class="num">2</i>
+                                        <ul>
+                                            <li>
+                                                <i class="switch on"></i><span>题组长</span><i class="num">1</i>
+                                                <ul>
+                                                    <li><span>张三</span></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <i class="switch on"></i><span>成员</span><i class="num">3</i>
+                                                <ul>
+                                                    <li><span>张三1</span></li>
+                                                    <li><span>张三2</span></li>
+                                                    <li><span>张三3</span></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><i class="switch on"></i><span>21</span><i class="num">0</i></li>
+                                    <li><i class="switch on"></i><span>22</span><i class="num">0</i></li>
+                                    <li><i class="switch on"></i><span>异常处理</span><i class="num">0</i></li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <div class="right-wrapper">
+                                    <div class="row clearfix pdb30">
+                                        <div class="col-4">
+                                            <div class="clearfix">
+                                                <span class="searchBox searchStyle2 fl"><input class="inputSearch" type="text"><i class="search"></i></span>
+                                                <div class="checkList checkStyle1 fl all-school">
+                                                    <label class="checkbox"><input type="checkbox" value='1' /><span>全校</span></label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-2">&nbsp;</div>
+                                        <div class="col-6">
+                                            <p class="clearfix"><i class="fl f16">15-20</i><a href="#" class="Btn3 fr">新增老师</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-4">
+                                            <div class="waiting-person">
+                                                <h3 class="tit clearfix"><span class="fl txt"><i>可安排人员</i><em>60</em></span><a href="#" class="more fr"></a></h3>
+                                                <div class="scroll-box">
+                                                    <table class="checkList checkStyle3 waiting-list waited">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>李四1</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四2</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四3</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四4</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四5</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四6</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四7</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四8</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四9</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>李四10</td>
+                                                            <td>语文</td>
+                                                            <td>七年级</td>
+                                                            <td>
+                                                                <label><input type="checkbox" value='1' /></label>
+                                                            </td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="javascript:;" class="to-right mgb30"></a><a href="javascript:;" class="to-left"></a>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="selected-person">
+                                                <h3 class="tit clearfix">
+                                                    <span class="fl txt"><i>可安排人员</i><em>60</em></span><i class="fl number">题量<em>600</em></i>
+                                                    <div class="radioList radioStyle1 fl">
+                                                        <label class="Radio"><input type="radio" value="1">自由分配</label>
+                                                        <label class="Radio"><input type="radio" value="2">平均分分配</label>
+                                                    </div>
+                                                </h3>
+                                                <div class="scroll-box">
+                                                    <table class="checkList checkStyle1 waiting-list chooseed">
+                                                        <tbody>
+                 
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-2"></div>
-                                <div class="col-6">
-                                    <p class="clearfix"><i class="fl">15-20</i><a href="#" class="Btn3 fr">新增老师</a></p>
-                                </div>
                             </div>
-
                         </div>
                     </div>
+                    <div class="tabContent dis_none" name="tabCon"> 内容二 </div>
+                    <div class="tabContent dis_none" name="tabCon"> 内容三 </div>
                 </div>
             </div>
-            <div class="tabContent dis_none" name="tabCon"> 内容二 </div>
-            <div class="tabContent dis_none" name="tabCon"> 内容三 </div>
+        </div>
+	</div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
         </div>
     </div>
-</div>
-<script type="text/javascript" src="js/footer.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function(){
+            $('.checkList').checkBox();
+            $('.radioList').radios();
+            $(".tabStyle2").tabControl();
+            $(".tier").floorTree();
+        });
+        $(function () {
+            var list=$('.waiting-list');
+            var waited=$('.waited');
+            var chooseed=$('.chooseed');
+            checkPerson(list);
+            $('.to-right').click(function () {
+                exchange(waited,chooseed);
+            });
+            $('.to-left').click(function () {
+                exchange(chooseed,waited);
+            });
+            function exchange(from,to) {
+                var result=from.find('tr').filter(function () {
+                    return this.className=='wait';
+                });
+                $.map(result,function (ele,index) {
+                    $(ele).toggleClass().find('label').removeClass('checked').css({opacity:0}).children('input')[0].checked=false;
+                    console.log(ele);
+                });
+                result.remove();
+                to.append(result);
+            }
+            function checkPerson(box) {
+                box.on('click','tr',function () {
+                    var _this=$(this);
+                    $(this).toggleClass('wait');
+                    if(_this.is('.wait')){
+                        _this.find('label').addClass('checked').css({opacity:1}).children('input')[0].checked=true;
+                    }else{
+                        _this.find('label').removeClass('checked').css({opacity:0}).children('input')[0].checked=false;
+                    }
+                });
+            }
+        });
+    </script>
 </body>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
-<script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script>
-    $(function(){
-        $('.checkList').checkBox();
-        $(".tabStyle2").tabControl();
-    });
-</script>
 </html>

@@ -1,0 +1,37 @@
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.card_btn a{
+    width: 100px;
+}
+.card_list{
+    padding: 10px 0;
+}
+.card_list li{
+    padding: 0 20px;
+}
+p.card_detail > span:nth-child(1){
+    width: 140px;
+}
+p.card_detail > span:nth-child(2){
+    width: 80px;
+}
+p.card_detail > span:nth-child(3){
+    width: 60px;
+}
