@@ -70,7 +70,7 @@ div.aside.btn-group-vertical{
 	right: -4px;
 	top: 200px;
 }
-div.aside.btn-group-vertical > button{
+div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
 	padding: 10px 15px;
 	font-size: 15px;
 	margin-bottom: 12px;
