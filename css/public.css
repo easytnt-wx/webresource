@@ -430,7 +430,7 @@ body,html{ width:100%; min-width:1200px;}
 .inputDate1{background:url(../images/public/icon_date.png) 95% center no-repeat #fff; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #c9c9c9; border-radius:3px;padding: 0 30px 0 5px;box-shadow: inset 0 0 10px 0 #f4f4f4;}
 .inputDate1:focus{border-color: #309aeb;}
 /*breadcrumb*/
-.breadStyle1{position: relative;z-index: 1;zoom: 1;}
+.breadStyle1{position: relative;z-index: 1;zoom: 1;padding: 0;margin: 0;}
 .breadStyle1 .breadtxt{padding: 18px 0;}
 .breadStyle1 .breadtxt a{color: #222222;-webkit-transition: color 300ms ease-in-out 0s; -moz-transition: color 300ms ease-in-out 0s;  transition: color 300ms ease-in-out 0s;padding: 0 15px;}
 .breadStyle1 .breadtxt a:first-child{padding-left: 0;}
@@ -487,3 +487,108 @@ body,html{ width:100%; min-width:1200px;}
 .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y,.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y {background-color:#999;}
 .ps-container.ie .ps-scrollbar-x,.ps-container.ie .ps-scrollbar-y {visibility:hidden;}
 .ps-container.ie:hover .ps-scrollbar-x,.ps-container.ie:hover .ps-scrollbar-y,.ps-container.ie.hover .ps-scrollbar-x,.ps-container.ie.hover .ps-scrollbar-y {visibility:visible;}
+
+/*form表单样式*/
+form.form-horizontal > .form-group{
+	margin: 30px 0;
+}
+.form-group > label{
+	min-width: 100px;
+	font-size: 16px;
+	color: #323232;
+	text-align: right;
+	font-weight: 500;
+}
+/*时间表单样式  在.form-group增加 .mytime*/
+.mytime > input{
+	display: inline-block;
+	width: 220px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.mytime > input ~ span{
+	position: relative;
+	left: -45px;
+}
+/*单选或者复选框样式  label后的div加 .mycheck */
+.mycheck{
+	margin-left: 125px;
+	margin-top: -25px;
+	width: 600px;
+}
+.mycheck > label{
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	min-width: 70px;
+}
+/*输入框表单样式  类型text的input增加 .myinput*/
+input[type="text"].myinput{
+	width: 400px;
+	display: inline-block;
+	margin-left: 20px;
+}
+/*下拉框*/
+.myselect-horizontal{
+	margin-left: 20px !important;
+}
+/*验证框架  右侧小图标位置*/
+.has-feedback label~.form-control-feedback{
+	top: 0;
+}
+/*.form-horizontal .has-feedback .form-control-feedback{
+	right: 160px;
+}
+form.formvalidation .form-control-feedback {
+    position: static;
+    display: inline-block;
+}*/
+
+/*分页样式*/
+.pages {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none; 
+}
+.pages li {
+  display: inline;
+  margin: 0 2px;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333333;
+    border-radius: 0;
+}
+.pages li.pgCurrent, 
+.pages li:hover {
+    border-color: #2B99F0;
+    background-color: #fff;
+    color: #2B99F0;
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 6px;  
+    height: 6px;  
+    background-color: #f2f2f2;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #fff;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #B2B4B6;
+}
