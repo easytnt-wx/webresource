@@ -3,7 +3,6 @@
 	background-color: #fff;
 }
 .header_menu > ul{
-	overflow: hidden;
 	text-align: center;
 	padding: 10px;
 }
@@ -11,11 +10,68 @@
 	display: inline-block;
 	width: 80px;
 	padding: 10px;
+	position: relative;
 }
 .header_menu > ul > li:hover{
 	box-shadow: 0 0 6px 2px #ccc;
 }
-.header_menu > ul > li  img{
+.header_menu > ul > li#menu:hover > div.menu{
+	display: block;
+}
+.header_menu > ul > li >a > img{
 	display: block;
 	margin: 0 auto;
+}
+div.menu{
+	position: absolute;
+	top: 100%;
+	left: -20px;
+	width: 120px;
+	display: none;
+}
+div.menu > ul{
+	background-color: #fff;
+	border-radius: 4px;
+	border: 1px solid #419EFB;
+	box-shadow: 0 2px 6px 2px #f2f2f2;
+}
+div.menu > span{
+	display: block;
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left:10px dashed transparent;
+    border-right:10px dashed transparent;
+    border-bottom:10px dashed #419EFB;
+}
+div.menu > span:after{
+	content: " ";
+	display: block;
+	position: relative;
+	top: 2px;
+	left: -10px;
+	width: 0;
+	height: 0;
+	border-left:10px dashed transparent;
+    border-right:10px dashed transparent;
+    border-bottom:10px dashed #fff;
+}
+div.menu li{
+	line-height: 50px;
+	color: #3d95d5;
+	font-size: 14px;
+}
+div.menu li:hover{
+	background-color: #E7F3FF;
+	cursor: pointer;
+}
+div.aside.btn-group-vertical{
+	position: fixed;
+	right: -4px;
+	top: 200px;
+}
+div.aside.btn-group-vertical > button{
+	padding: 10px 15px;
+	font-size: 15px;
+	margin-bottom: 12px;
 }
