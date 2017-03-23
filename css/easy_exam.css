@@ -258,7 +258,7 @@
 .item_editModel .fixTerm .fix_y:hover i,.item_editModel .fixTerm .fix_y.on i{ background-image: url(../images/fix_y_ico2.png); }
 .item_editModel .photoRect img{ display: block; width: 100%; height: auto; }
 .item_editModel .fixPhotoRect{ height: 448px; overflow: hidden; zoom:1; }
-.item_editModel .fullPhotoRect{ height: 501px; overflow: hidden; zoom:1; }
+.item_editModel .fullPhotoRect{ height: 501px; overflow: hidden; zoom:1;position: relative;border: 1px solid #d1e5f7;background: #fff;border-radius: 3px;}
 
 /*扫描设置*/
 .item_setScan .setBox{ width: 1000px; margin: 0 auto; padding-bottom: 100px;}
