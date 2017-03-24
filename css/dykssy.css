@@ -48,9 +48,6 @@ p.card_detail > span:nth-child(3){
     background-color: #fff;
     cursor: pointer;
 }
-.card_btn button:hover,.card_btn button:focus{
-    background-color: #f1f1f1;
-}
 .card_btn button[disabled="true"]{
     cursor: not-allowed;
 }
@@ -59,9 +56,6 @@ p.card_detail > span:nth-child(3){
 }
 .card_btn a.deal{
     cursor: pointer;
-}
-.card_btn a.deal:hover,.card_btn a.deal:focus{
-    background-color: #3b91e9;
 }
 .card_btn a.deal[disabled="true"]{
     cursor: not-allowed;
