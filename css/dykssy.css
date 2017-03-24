@@ -50,6 +50,7 @@ p.card_detail > span:nth-child(3){
 }
 .card_btn button[disabled="true"]{
     cursor: not-allowed;
+    opacity: 0.8;
 }
 .Btn3{
     background-color: #fff;
@@ -59,4 +60,5 @@ p.card_detail > span:nth-child(3){
 }
 .card_btn a.deal[disabled="true"]{
     cursor: not-allowed;
+    opacity: 0.8;
 }
