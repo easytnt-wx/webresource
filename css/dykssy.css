@@ -46,7 +46,23 @@ p.card_detail > span:nth-child(3){
     border-radius: 3px;
     color: #419efc;
     background-color: #fff;
+    cursor: pointer;
+}
+.card_btn button:hover,.card_btn button:focus{
+    background-color: #f1f1f1;
+}
+.card_btn button[disable="true"]{
+    cursor: not-allowed;
 }
 .Btn3{
     background-color: #fff;
+}
+.card_btn a.deal{
+    cursor: pointer;
+}
+.card_btn a.deal:hover,.card_btn a.deal:focus{
+    background-color: #3b91e9;
+}
+.card_btn a.deal[disable="true"]{
+    cursor: not-allowed;
 }
