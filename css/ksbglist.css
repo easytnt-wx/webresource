@@ -1,0 +1,74 @@
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.tabTit{
+    background-color: #fff;
+}
+.tabContent{
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    padding: 20px 30px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 120px;
+    margin-right: 10px;
+}
+.mytime > input{
+    width: 150px;
+    margin: 0 10px;
+}
+.mytime > input ~ span{
+    left: -30px;
+}
+.tablelist{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    min-height: 120px;
+    margin-bottom: 20px;
+}
+.tablelist:hover{
+    box-shadow: 2px 2px 10px 2px #ccc;
+    cursor: default;
+}
+.tablelist > h4{
+    color: #323232;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.tablelist > p > span{
+    margin-right: 60px;
+    display: inline-block;
+    font-size: 14px;
+}
+.tablelist > p > span >img{
+    display: inline-block;
+    margin-right: 6px;
+    height: 20px;
+    vertical-align: middle;
+}
+.tablelist > a.Btn1{
+    position: absolute;
+    top: 37px;
+    right: 40px;
+    cursor: pointer;
+}
