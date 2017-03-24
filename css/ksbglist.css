@@ -77,3 +77,8 @@ a.Btn3:focus{
     color: #fff;
     cursor: pointer;
 }
+a.menu{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
