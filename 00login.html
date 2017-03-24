@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>智能评阅登录</title>
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .bg1{
+            background-image: url("images/bg.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="login-wrapper">
+        <div class="login-box">
+            <a href="" class="login-logo mgb20"></a>
+            <form class="login-form mgb30">
+                <label class="user mgb20"><i class="icon-user"></i><input type="text" placeholder="用户名"></label>
+                <label class="password"><i class="icon-password"></i><input type="text" placeholder="密码"></label>
+            </form>
+            <div class="login-fun clearfix">
+                <p class="fl remember-state"><span class="onoff2 mgl10 open"><em></em></span><i class="mgl5">去扫描答题卡</i></p>
+                <a href="#" class="login-btn fr">登录</a>
+            </div>
+        </div>
+    </div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function () {
+            var wHeight=$(window).height();
+            var login=$('.login-box').outerHeight();
+            $('.login-wrapper').height(wHeight-61).css({minHeight:login});
+            $(window).resize(function () {
+                $('.login-wrapper').height($(window).height()-61);
+            });
+            $('.onoff2').click(function () {
+                $(this).toggleClass('open');
+            });
+
+        });
+    </script>
+</body>
+</html>
