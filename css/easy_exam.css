@@ -152,7 +152,7 @@
 .ni_g_title01 .ni_km_add:hover{border-color: #43a2fd;background-color: #e7f3ff;}
 .boxStyle.ni_g_peple{padding:0;}
 .ni_g_peple .ni_ul .ni_li{line-height: 60px;font-size: 14px;color: #888888;}
-.ni_g_peple .ni_ul .ni_li .ni_box_l{width: 11%;text-indent: 18px;}
+.ni_g_peple .ni_ul .ni_li .ni_box_l{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-right: 20px; width: 11%;text-indent: 18px;}
 .ni_g_peple .ni_ul .ni_li .ni_box_c{width: 70%}
 .ni_g_peple .ni_ul .ni_li .ni_box_r{width: 12%;text-align: right;margin-right: 2%}
 .ni_g_peple .ni_ul .ni_li .ni_box_c .ni_school_num{color: #222222;margin-right: 20%;}
