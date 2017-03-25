@@ -158,7 +158,7 @@
 .ni_g_peple .ni_ul .ni_li .ni_box_c .ni_school_num{color: #222222;margin-right: 20%;}
 .ni_g_peple .ni_ul .ni_li .ni_box_c .ni_school_num em{display: inline-block;margin-right: 0.5em;}
 .ni_g_peple .ni_ul .ni_li .ni_box_c .ni_join_num em{display: inline-block;margin: 0 0.5rem 0 1.5em;}
-.ni_g_admin_peple{background: url(../images/ni_g_ico_close.png) no-repeat right 6px #eaf5ff;font-size: 14px;color: #419efc;line-height: 22px;padding: 0 25px 0 12px;border-radius: 11px;border: 1px solid #eaf5ff; cursor: pointer;}
+.ni_g_admin_peple{vertical-align: text-bottom; background: url(../images/ni_g_ico_close.png) no-repeat right 6px #eaf5ff;font-size: 14px;color: #419efc;line-height: 22px;padding: 0 25px 0 12px;border-radius: 11px;border: 1px solid #eaf5ff; cursor: pointer;}
 .ni_g_peple .ni_ul .ni_li .ni_box_c .ni_g_admin_peple{float: left;margin: 18px 25px 18px 0;display: block;}
 .ni_g_peple .ni_ul .ni_li .ni_box_c .ni_g_admin_peple:hover{color: #ff8033;background-position: right -14px;background-color: #fff;border-color: #ff8033;}
 .ni_g_a{color: #43a2fd;}
@@ -169,8 +169,8 @@
 
 .ni_g_cards_show{padding: 0;}
 .ni_g_cards_show .ni_km_t{padding: 20px;}
-.ni_g_cards_show .ni_km_t .ni_tip .ni_tip_km{color: #555555;font-size: 16px;width: 10%;display: inline-block; white-space: nowrap; text-overflow: ellipsis;overflow: hidden; }
-.ni_g_cards_show .ni_km_t .ni_tip .ni_tip_admin{color: #888;font-size: 14px;margin-right: 2%;}
+.ni_g_cards_show .ni_km_t .ni_tip .ni_tip_km{margin-right: 10px; vertical-align: text-bottom; color: #555555;font-size: 16px;width: 10%;display: inline-block; white-space: nowrap; text-overflow: ellipsis;overflow: hidden; }
+.ni_g_cards_show .ni_km_t .ni_tip .ni_tip_admin{vertical-align: text-bottom; color: #888;font-size: 14px;margin-right: 2%;}
 
 
 .ni_g_cards_show .ni_km_t .ni_show{margin-top: 46px;padding-bottom: 20px}
