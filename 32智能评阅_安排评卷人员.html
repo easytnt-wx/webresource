@@ -8,7 +8,9 @@
 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="css/public.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/blue.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+    <link href="css/appjry.css" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -56,8 +58,7 @@
                         <a href="#" class="on">语文</a> <a href="#">英语</a> <a href="#">文数</a><a href="#" class="">理数</a><a href="#" class="">文综</a><a href="#" class="">理综</a>
                     </div>
                     <div class="tabContent" name="tabCon">
-                        <h3 class="title2 mgb30 mgt30 t_c">语文评卷人员安排</h3>
-
+                        <h3 class="title2 t_c">语文评卷人员安排</h3>
                         <div class="layout clearfix person-plan">
                             <div class="left">
                                 <ul class="tier">
@@ -107,22 +108,30 @@
                             <div class="right">
                                 <div class="right-wrapper">
                                     <div class="row clearfix pdb30">
-                                        <div class="col-4">
-                                            <div class="clearfix">
-                                                <span class="searchBox searchStyle2 fl"><input class="inputSearch" type="text"><i class="search"></i></span>
-                                                <div class="checkList checkStyle1 fl all-school">
-                                                    <label class="checkbox"><input type="checkbox" value='1' /><span>全校</span></label>
+                                        <div class="col-6">
+                                            <form class="form-inline">
+                                                <div class="input-group col-sm-3">
+                                                    <input type="text" class="form-control" placeholder="请输入">
+                                                    <span class="input-group-btn">
+                                                    <button class="btn btn-primary" type="button">查询</button>
+                                                    </span>
                                                 </div>
-                                            </div>
-
+                                                <div class="form-group">
+                                                    <label>
+                                                      <input type="checkbox" class="icheck" value="option1"> 全校
+                                                    </label>
+                                                </div> 
+                                            </form>
                                         </div>
-                                        <div class="col-2">&nbsp;</div>
                                         <div class="col-6">
                                             <p class="clearfix"><i class="fl f16">15-20</i><a href="#" class="Btn3 fr">新增老师</a></p>
                                         </div>
                                     </div>
+
+
+
                                     <div class="row clearfix">
-                                        <div class="col-4">
+                                        <div class="l">
                                             <div class="waiting-person">
                                                 <h3 class="tit clearfix"><span class="fl txt"><i>可安排人员</i><em>60</em></span><a href="#" class="more fr"></a></h3>
                                                 <div class="scroll-box">
@@ -214,16 +223,18 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-2">
+                                        <div class="c">
                                             <a href="javascript:;" class="to-right mgb30"></a><a href="javascript:;" class="to-left"></a>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="r">
                                             <div class="selected-person">
                                                 <h3 class="tit clearfix">
-                                                    <span class="fl txt"><i>可安排人员</i><em>60</em></span><i class="fl number">题量<em>600</em></i>
-                                                    <div class="radioList radioStyle1 fl">
-                                                        <label class="Radio"><input type="radio" value="1">自由分配</label>
-                                                        <label class="Radio"><input type="radio" value="2">平均分分配</label>
+                                                    <span class="txt"><i>可安排人员</i><em>60</em></span><i class="number">题量<em>600</em></i>
+                                                    <div class="fr">
+                                                        <select class="selectpicker">
+                                                            <option value="1">自由分配</option>
+                                                            <option value="2">平均分配</option>
+                                                        </select>
                                                     </div>
                                                 </h3>
                                                 <div class="scroll-box">
@@ -254,6 +265,8 @@
     </div>
 	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/icheck.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
     <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
     <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
@@ -263,6 +276,10 @@
             $('.radioList').radios();
             $(".tabStyle2").tabControl();
             $(".tier").floorTree();
+            $(".icheck").iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue',
+            });
         });
         $(function () {
             var list=$('.waiting-list');
