@@ -253,7 +253,7 @@ $.fn.extend({
     },
     leftSlide:function (options) {
         var defaults={
-            value:'-218px'
+            value:'-182px'
         };
         options=$.extend({},defaults,options);
         return this.each(function () {
