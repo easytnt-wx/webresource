@@ -1,116 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>设置答题卡结构</title>
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>年级考试首页</title>
     <link href="css/public.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/easy_exam.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
-    <link href="css/szdtkjg.css" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
+
 <body class="bg1">
-    <div class="ease_header pdlr20">
-        <div class="container clearfix">
-            <!-- <a href="#" class="fl easy_logo"></a> -->
-            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
-            <ul class="easy_nav fl">
-                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
-                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
-                <li><a href="javascript:;"><span>创建联考</span></a></li>
-                <li><a href="javascript:;"><span>设置</span></a></li>
-            </ul>
-            <dl class="easy_info fr">
-                <dt>
-                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
-                </dt>
-                <dt>
-                    <div class="uerbox">
-                        <p class="userinfo">
-                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
-                        </p>
-                        <div class="drop_wrap" style="display: none;">
-                            <ul class="user_droplist">
-                                <li><a href="javascript:;"><span>我的班级</span></a></li>
-                                <li><a href="javascript:;"><span>退出登录</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </dt>
-            </dl>
+    <script src="js/header.js"></script>
+    <div class="wrapper pdlr20">
+        <div class="breadcrumb breadStyle1">
+            <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考生名单</a><i> &gt; </i><a class="current" href="#">从其它考试导入</a></p>
         </div>
-    </div>
-    <div class="container">
-        <div class="wrapper pdlr20">
-            <div class="breadcrumb breadStyle1">
-                <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考生名单</a><i> &gt; </i><a class="current" href="#">从其它考试导入</a></p>
-            </div>
-            <div class="m-creatStep">
-                <p><strong class="stepName">创建答题卡模板</strong></p>
-                <ul class="clearfix">
-                    <li class="active"><i></i>1 模板信息</li>
-                    <li class="blue"><i></i>2 定位区</li>
-                    <li class="blue"><i></i>3 选择考号区</li>
-                    <li class="blue"><i></i>4 选择客观题区</li>
-                    <li class="blue"><i></i>5 其他标记</li>
-                    <li><i></i>6 题块</li>
-                    <li class="last"><i></i>7 评题</li>
+        <div class="m-creatStep">
+            <p><strong class="stepName">创建答题卡模板</strong></p>
+            <ul class="clearfix">
+                <li class="active"><i></i>1 模板信息</li>
+                <li class="blue"><i></i>2 定位区</li>
+                <li class="blue"><i></i>3 选择考号区</li>
+                <li class="blue"><i></i>4 选择客观题区</li>
+                <li class="blue"><i></i>5 其他标记</li>
+                <li><i></i>6 题块</li>
+                <li class="last"><i></i>7 评题</li>
+            </ul>
+        </div>
+        <div class="item_editModel clearfix mgtb20">
+            <div class="editList" id="editListBox">
+                <ul>
+                    <li class="on">
+                        <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                        <p class="name">01 正面</p>
+                    </li>
+                    <li>
+                        <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                        <p class="name">01 反面</p>
+                    </li>
+                    <li>
+                        <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                        <p class="name">02 正面</p>
+                    </li>
+                    <li>
+                        <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                        <p class="name">02 反面</p>
+                    </li>
                 </ul>
             </div>
-            <div class="item_editModel clearfix mgtb20">
-                <div class="editList" id="editListBox">
-                    <ul>
-                        <li class="on">
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
-                            <p class="name">01 正面</p>
-                        </li>
-                       <li>
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
-                            <p class="name">01 反面</p>
-                        </li>
-                       <li>
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
-                            <p class="name">02 正面</p>
-                        </li>
-                       <li>
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
-                            <p class="name">02 反面</p>
-                        </li>                     
-                    </ul>
-                </div>
-                <div class="editDetail">
-                    <div class="fixRect">
-                        <div class="fixTerm clearfix">
-                            <a href="javascript:void(0)" class="fixBtn on">定点</a><p class="fixMode fl"><a href="javascript:void(0)" class="fix_x"><i></i>水平同步头</a><a href="javascript:void(0)" class="fix_y"><i></i>垂直同步头</a></p>
+            <div class="editDetail">
+                <div class="fixRect">
+                    <div class="fixTerm clearfix">
+                        <a href="javascript:void(0)" class="fixBtn on">定点</a>
+                        <p class="fixMode fl"><a href="javascript:void(0)" class="fix_x"><i></i>水平同步头</a><a href="javascript:void(0)" class="fix_y"><i></i>垂直同步头</a></p>
+                    </div>
+                    <div class="photoRect fixPhotoRect" style="position: relative;">
+                        <div class="mark-area">
+                            <i class="handle-top"></i>
+                            <i class="handle-right"></i>
+                            <i class="handle-bottom"></i>
+                            <i class="handle-left"></i>
+                            <i class="handle-close"></i>
                         </div>
-                    <div class="photoRect fixPhotoRect"><img src="images/upload/editphoto_13.jpg" width="920" height="447" alt=""></div>
+                        <div class="control-module">
+                            <span class="right-rotate"></span><span class="left-rotate"></span>
+                            <i class="add"></i><span class="control-bar"><em></em></span><i class="subtract"></i>
+                        </div>
+                        <div class="mark-box"></div>
+                        <img src="images/upload/editphoto_13.jpg" width="920" height="447" alt="">
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class='footer bg2'>
-        <div class='pd20 clearfix'>
-            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
-            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
-        </div>
-    </div>
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/mousewheel.js"></script>
-    <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
-    <script type="text/javascript">
-        $('#editListBox').perfectScrollbar({
-           suppressScrollX:true
-        });
-    </script>
+    <script type="text/javascript" src="js/footer.js"></script>
 </body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+    $('#editListBox').perfectScrollbar({
+        suppressScrollX: true
+    });
+</script>
+
 </html>
