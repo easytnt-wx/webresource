@@ -700,7 +700,7 @@
 .onoff2.open em { left: 22px; background: #00c56f; }
 
 .hexagon { text-align: center; }
-.hexagon a { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 155px; height: 86px; padding: 44px 0; background-image: url(../images/hexagon.png); background-repeat: no-repeat; margin: 0 12px; color: #fff; }
+.hexagon a {box-sizing: content-box; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 155px; height: 86px; padding: 44px 0; background-image: url(../images/hexagon.png); background-repeat: no-repeat; margin: 0 12px; color: #fff; }
 .hexagon a.course { color: #49daf4; }
 .hexagon a.course.disabled { color: #949494; background-position: -154px -351px; }
 .hexagon a.scanning { color: #14b2ec; }
