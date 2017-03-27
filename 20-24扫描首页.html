@@ -1,187 +1,232 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>扫描首页</title>
-<link href="css/public.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>模板</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body class="bg1">
-<script src="js/header.js"></script>
-<div class="wrapper">
-    <div class="pd20">
-        <div class="boxStyle">
-            <div class="hexagon">
-                <div class="line1">
-                    <a class="number-student" href="javascript:;"><em>700</em><span>考生人数</span></a><a class="number-end" href="javascript:;"><em>350</em><span>已扫数量</span></a>
-                </div>
-                <div class="line2">
-                    <a class="course" href="javascript:;"><strong>周练<br/>高一年级</strong><span>语文</span></a><a class="scanning" href="javascript:;"><i></i><span>扫描</span></a><a class="storage-in" href="javascript:;"><em>348</em><span>已入库数量</span></a>
-                </div>
-                <div class="line3">
-                    <a class="set-param" href="javascript:;"><i></i><span>参数设置</span></a><a class="scan-unusual" href="javascript:;"><em>2</em><span>扫描异常</span></a>
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="pd20">
+                <div class="boxStyle">
+                    <div class="hexagon">
+                        <div class="line1">
+                            <a class="number-student" href="javascript:;"><em>700</em><span>考生人数</span></a><a class="number-end" href="javascript:;"><em>350</em><span>已扫数量</span></a>
+                        </div>
+                        <div class="line2">
+                            <a class="course" href="javascript:;"><strong>周练<br/>高一年级</strong><span>语文</span></a><a class="scanning" href="javascript:;"><i></i><span>扫描</span></a><a class="storage-in" href="javascript:;"><em>348</em><span>已入库数量</span></a>
+                        </div>
+                        <div class="line3">
+                            <a class="set-param" href="javascript:;"><i></i><span>参数设置</span></a><a class="scan-unusual" href="javascript:;"><em>2</em><span>扫描异常</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script type="text/javascript" src="js/footer.js"></script>
-<!--template-->
-<!--扫描数量-->
-<div class="setting-param dis_none" id="number">
-    <dl>
-        <dt><i class="mgr10 set-index">扫描数量</i><input type="text" class="input" style="width: 80px;"></dt>
-    </dl>
-</div>
-<!--扫描参数设置-->
-<div class="setting-param dis_none" id="param">
-    <dl>
-        <dt>
-            <i class="set-index">扫描设备</i>
-            <span class="selecterBox selecterStyle3" style="width:136px;">
-                <span class="selecterValue">
-                    <p>松下KV-SL5085</p>
-                    <input type="hidden" class="selRes" value="1" />
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <!--template-->
+    <!--扫描数量-->
+    <div class="setting-param dis_none" id="number">
+        <dl>
+            <dt><i class="mgr10 set-index">扫描数量</i><input type="text" class="input" style="width: 80px;"></dt>
+        </dl>
+    </div>
+    <!--扫描参数设置-->
+    <div class="setting-param dis_none" id="param">
+        <dl>
+            <dt>
+                <i class="set-index">扫描设备</i>
+                <span class="selecterBox selecterStyle3" style="width:136px;">
+                    <span class="selecterValue">
+                        <p>松下KV-SL5085</p>
+                        <input type="hidden" class="selRes" value="1" />
+                    </span>
+                    <span class="selecterDrop" style="width:136px;">
+                        <a href="#" value="1">松下KV-SL5085</a>
+                        <a href="#" value="2">松下KV-SL5085</a>
+                        <a href="#" value="3">松下KV-SL5085</a>
+                        <a href="#" value="4">松下KV-SL5085</a>
+                        <a href="#" value="5">松下KV-SL5085</a>
+                        <a href="#" value="6">松下KV-SL5085</a>
+                    </span>
                 </span>
-                <span class="selecterDrop" style="width:136px;">
-                    <a href="#" value="1">松下KV-SL5085</a>
-                    <a href="#" value="2">松下KV-SL5085</a>
-                    <a href="#" value="3">松下KV-SL5085</a>
-                    <a href="#" value="4">松下KV-SL5085</a>
-                    <a href="#" value="5">松下KV-SL5085</a>
-                    <a href="#" value="6">松下KV-SL5085</a>
+            </dt>
+            <dt><i class="set-index">&nbsp;</i><a href="#">更多扫描选项设置</a></dt>
+        </dl>
+    </div>
+    <!--扫描科目设置-->
+    <div class="setting-param dis_none" id="subject">
+        <dl>
+            <dt>
+                <i class="set-index">扫描设备</i>
+                <span class="selecterBox selecterStyle3" style="width:261px;">
+                    <span class="selecterValue">
+                        <p>2016-2017初三下学期语文期中检测</p>
+                        <input type="hidden" class="selRes" value="1" />
+                    </span>
+                    <span class="selecterDrop" style="width:261px;">
+                        <a href="#" value="1">松下KV-SL5085</a>
+                        <a href="#" value="2">松下KV-SL5085</a>
+                        <a href="#" value="3">松下KV-SL5085</a>
+                        <a href="#" value="4">松下KV-SL5085</a>
+                    </span>
                 </span>
-            </span>
-        </dt>
-        <dt><i class="set-index">&nbsp;</i><a href="#">更多扫描选项设置</a></dt>
-    </dl>
-</div>
-<!--扫描科目设置-->
-<div class="setting-param dis_none" id="subject">
-    <dl>
-        <dt>
-            <i class="set-index">扫描设备</i>
-            <span class="selecterBox selecterStyle3" style="width:261px;">
-                <span class="selecterValue">
-                    <p>2016-2017初三下学期语文期中检测</p>
-                    <input type="hidden" class="selRes" value="1" />
+            </dt>
+            <dt>
+                <i class="set-index">考试</i>
+                <span class="selecterBox selecterStyle3" style="width:71px;">
+                    <span class="selecterValue">
+                        <p>语文</p>
+                        <input type="hidden" class="selRes" value="1" />
+                    </span>
+                    <span class="selecterDrop" style="width:71px;">
+                        <a href="#" value="1">数学</a>
+                        <a href="#" value="2">英语</a>
+                        <a href="#" value="3">地理</a>
+                    </span>
                 </span>
-                <span class="selecterDrop" style="width:261px;">
-                    <a href="#" value="1">松下KV-SL5085</a>
-                    <a href="#" value="2">松下KV-SL5085</a>
-                    <a href="#" value="3">松下KV-SL5085</a>
-                    <a href="#" value="4">松下KV-SL5085</a>
-                </span>
-            </span>
-        </dt>
-        <dt>
-            <i class="set-index">考试</i>
-            <span class="selecterBox selecterStyle3" style="width:71px;">
-                <span class="selecterValue">
-                    <p>语文</p>
-                    <input type="hidden" class="selRes" value="1" />
-                </span>
-                <span class="selecterDrop" style="width:71px;">
-                    <a href="#" value="1">数学</a>
-                    <a href="#" value="2">英语</a>
-                    <a href="#" value="3">地理</a>
-                </span>
-            </span>
-        </dt>
-        <dt><i class="set-index">扫描模板</i><span class="template-download"><i>2016-2017初三下学期语文期中检测</i><a class="reload mgl10" href="#">重新下载</a></span></dt>
-        <dt><i class="set-index">扫描模板</i><span class="downloading"><span class="download-bar"><em></em></span><i href="#">正在下载模板</i></span></dt>
-        <dt><i class="set-index">扫描模板</i><span class="not-found"><i class="icon_error mgr5"></i><em>系统找不到此科目扫描模板</em></span></dt>
-    </dl>
-</div>
-<!--扫描异常处理-->
-<table class="dealwith dis_none" id="deal">
-    <thead>
-        <tr>
-            <th>识别考号<i class="sort mgl5"></i></th>
-            <th>姓名<i class="sort mgl5"></i></th>
-            <th>班级<i class="sort mgl5"></i></th>
-            <th>状态<i class="sort mgl5"></i></th>
-            <th>操作</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>0201115522</td>
-            <td>李虎 </td>
-            <td>高一五班 </td>
-            <td><span class="color2">重号</span></td>
-            <td><a class="front" href="#">正面</a><a class="reverse mglr10" href="#">反面</a><a class="fuzzy" href="#">模糊匹配</a></td>
-        </tr>
-        <tr>
-            <td>0201115522</td>
-            <td>李虎 </td>
-            <td>高一五班 </td>
-            <td><span class="color2">重号</span></td>
-            <td><a class="front" href="#">正面</a><a class="reverse mglr10" href="#">反面</a><a class="fuzzy" href="#">模糊匹配</a></td>
-        </tr>
-    </tbody>
-</table>
+            </dt>
+            <dt><i class="set-index">扫描模板</i><span class="template-download"><i>2016-2017初三下学期语文期中检测</i><a class="reload mgl10" href="#">重新下载</a></span></dt>
+            <dt><i class="set-index">扫描模板</i><span class="downloading"><span class="download-bar"><em></em></span><i href="#">正在下载模板</i></span></dt>
+            <dt><i class="set-index">扫描模板</i><span class="not-found"><i class="icon_error mgr5"></i><em>系统找不到此科目扫描模板</em></span></dt>
+        </dl>
+    </div>
+    <!--扫描异常处理-->
+    <table class="dealwith dis_none" id="deal">
+        <thead>
+            <tr>
+                <th>识别考号<i class="sort mgl5"></i></th>
+                <th>姓名<i class="sort mgl5"></i></th>
+                <th>班级<i class="sort mgl5"></i></th>
+                <th>状态<i class="sort mgl5"></i></th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0201115522</td>
+                <td>李虎 </td>
+                <td>高一五班 </td>
+                <td><span class="color2">重号</span></td>
+                <td><a class="front" href="#">正面</a><a class="reverse mglr10" href="#">反面</a><a class="fuzzy" href="#">模糊匹配</a></td>
+            </tr>
+            <tr>
+                <td>0201115522</td>
+                <td>李虎 </td>
+                <td>高一五班 </td>
+                <td><span class="color2">重号</span></td>
+                <td><a class="front" href="#">正面</a><a class="reverse mglr10" href="#">反面</a><a class="fuzzy" href="#">模糊匹配</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function () {
+            var wHeight=$(window).height();
+            var login=$('.hexagon').height();
+            $('.wrapper').height(wHeight-$('.footer')-$('.ease_header')).css({minHeight:login});
+            $(window).resize(function () {
+                $('.login-wrapper').height($(window).height()-$('.footer')-$('.ease_header'));
+            });
+            $(".selecterBox").Selector();
+            $('.number-end').on('click',function () {
+                var dialog=artDialogs({
+                    title:'扫描数量',
+                    content:document.getElementById('number'),
+                    ok:function () {
+
+                    },
+                    cancel:null
+                });
+            });
+            $('.set-param').on('click',function () {
+                var dialog=artDialogs({
+                    title:'扫描参数设置',
+                    content:document.getElementById('param'),
+                    ok:function () {
+
+                    },
+                    cancel:null
+                });
+            });
+            $('.scanning').on('click',function () {
+                var dialog=artDialogs({
+                    title:'扫描科目设置',
+                    content:document.getElementById('subject'),
+                    ok:function () {
+
+                    },
+                    cancel:null
+                });
+            });
+            $('.scan-unusual').on('click',function () {
+                var dialog=art.dialog({
+                    title:'扫描异常处理',
+                    content:document.getElementById('deal'),
+                    background: '#fff',
+                    drag: false,
+                    lock: true,
+                    opacity: 0.6,
+                    ok:function () {
+
+                    },
+                    okVal:'关闭',
+                    cancel:null
+                });
+
+            });
+
+
+        });
+    </script>
 </body>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script>
-$(function () {
-    var wHeight=$(window).height();
-    var login=$('.hexagon').height();
-    $('.wrapper').height(wHeight-$('.footer')-$('.ease_header')).css({minHeight:login});
-    $(window).resize(function () {
-        $('.login-wrapper').height($(window).height()-$('.footer')-$('.ease_header'));
-    });
-    $(".selecterBox").Selector();
-    $('.number-end').on('click',function () {
-        var dialog=artDialogs({
-            title:'扫描数量',
-            content:document.getElementById('number'),
-            ok:function () {
-
-            },
-            cancel:null
-        });
-    });
-    $('.set-param').on('click',function () {
-        var dialog=artDialogs({
-            title:'扫描参数设置',
-            content:document.getElementById('param'),
-            ok:function () {
-
-            },
-            cancel:null
-        });
-    });
-    $('.scanning').on('click',function () {
-        var dialog=artDialogs({
-            title:'扫描科目设置',
-            content:document.getElementById('subject'),
-            ok:function () {
-
-            },
-            cancel:null
-        });
-    });
-    $('.scan-unusual').on('click',function () {
-        var dialog=art.dialog({
-            title:'扫描异常处理',
-            content:document.getElementById('deal'),
-            background: '#fff',
-            drag: false,
-            lock: true,
-            opacity: 0.6,
-            ok:function () {
-
-            },
-            okVal:'关闭',
-            cancel:null
-        });
-
-    });
-
-
-});
-</script>
 </html>

@@ -176,7 +176,7 @@
 .exam_page.boxStyle { padding: 0; margin-bottom: 56px; }
 
 .handle_paper a, .handle_paper .txt { display: block; *display: inline; *zoom: 1; }
-.handle_paper a { border-radius: 3px; text-align: center; width: 213px; border: 2px solid #419efc; font-size: 20px; padding: 11px 0; }
+.handle_paper a {cursor: pointer; border-radius: 3px; text-align: center; width: 213px; border: 2px solid #419efc; font-size: 20px; padding: 11px 0; }
 .handle_paper .scan_paper { color: #419efc; position: relative; }
 .handle_paper .scan_paper span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-left: 6px; }
 .handle_paper .scan_paper:hover { border-color: #cdcdcd; color: #cdcdcd; }
