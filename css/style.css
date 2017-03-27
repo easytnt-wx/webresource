@@ -762,7 +762,7 @@
 .mark-area .handle-close { right: -15px; top: -18px; width: 17px; height: 17px; background: url(../images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; }
 
 .mark-area2 { position: absolute; /*width: 140px;height: 210px;*/ border: 2px solid #f29b76; top: 88px; left: 266px; }
-.mark-area2 .handle-top, .mark-area2 .handle-right, .mark-area2 .handle-bottom, .mark-area2 .handle-left, .mark-area2 .handle-num { position: absolute; width: 4px; height: 4px; border: 2px solid #f29b76; background: #fff; }
+.mark-area2 .handle-top, .mark-area2 .handle-right, .mark-area2 .handle-bottom, .mark-area2 .handle-left, .mark-area2 .handle-num {box-sizing: content-box; position: absolute; width: 4px; height: 4px; border: 2px solid #f29b76; background: #fff; }
 .mark-area2 .handle-top { left: 50%; top: -5px; cursor: n-resize; }
 .mark-area2 .handle-right { right: -5px; top: 50%; cursor: e-resize; }
 .mark-area2 .handle-bottom { bottom: -5px; left: 50%; cursor: n-resize; }
@@ -781,7 +781,7 @@
 .valid-num tbody td { width: 15px; text-align: center; }
 
 /*智能评阅_客观题区*/
-.left-slide { background: #fff; border: 1px solid #d1e5f7; border-radius: 5px; position: absolute; right: -218px; top: 0; height: 501px; }
+.left-slide { background: #fff; border: 1px solid #d1e5f7; border-radius: 5px; position: absolute; right: -182px; top: 0; height: 501px; }
 .left-slide .slide-wrapper { height: 501px; overflow: hidden; position: relative; padding: 0 18px 0 18px; width: 180px; }
 .left-slide .slide-btn { display: block; display: inline; zoom: 1; width: 12px; height: 53px; position: absolute; left: -12px; top: 50%; background-image: url(../images/slide_arrow.png); background-repeat: no-repeat; cursor: pointer; }
 .left-slide .slide-btn.on { background-position: 0 0; }

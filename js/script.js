@@ -315,6 +315,109 @@ $.fn.extend({
             }
 
         });
+    },
+    boxResize:function (options) {
+        var defaults={
+            container:'.photoRect',
+            initW:144,
+            initH:210,
+            startLeft:266,
+            startTop:88,
+        };
+        options=$.extend({},defaults,options);
+        return this.each(function () {
+            var _this=$(this);
+            var top=$(this).children('.handle-top'),bottom=$(this).children('.handle-bottom');
+            var right=$(this).children('.handle-right'),left=$(this).children('.handle-left');
+            var starX=0,starY=0;
+            var boxW=$(options.container).width();//父容器宽
+            var boxH=$(options.container).height();//父容器高
+            var initW=options.initW;//初始宽度
+            var initH=options.initH;//初始高度
+            var startLeft=options.startLeft;//初始left值
+            var startTop=options.startTop;//初始top值
+            init(boxW,boxH,initW,initH,startLeft,startTop);
+            function init(boxW,boxH,initW,initH,startLeft,startTop) {
+                _this.css({
+                    left:startLeft,
+                    right:boxW-initW-startLeft,
+                    top:startTop,
+                    bottom:boxH-initH-startTop
+                });
+            }
+            top.on('mousedown',function (event) {
+                var event=event||window.event
+                initVertical('top',event);
+            });
+            bottom.on('mousedown',function (event) {
+                var event=event||window.event
+                initVertical('bottom',event);
+            });
+            right.on('mousedown',function (event) {
+                var event=event||window.event
+                initHorizontal('right',event);
+            });
+            left.on('mousedown',function (event) {
+                var event=event||window.event
+                initHorizontal('left',event);
+            });
+            $(document).on('mouseup',function () {
+                $(document).off('mousemove',moveHorizontal);
+                $(document).off('mousemove',moveVertical);
+            });
+            var right=0,left=0,flag;
+            var top=0,bottom=0,flag2;
+            function initHorizontal(dir,e) {
+                starX=e.pageX;
+                if(dir=='left'){
+                    flag='left';
+                    left=parseInt(_this.css('left'));
+                }else if(dir=='right'){
+                    flag='right';
+                    right=parseInt(_this.css('right'));
+                }
+                $(document).on('mousemove',moveHorizontal);
+            }
+            function moveHorizontal(event) {
+                window.getSelection?window.getSelection().removeAllRanges():document.selection.empty();
+                var moveX=event.pageX;
+                var diffX=moveX-starX;
+                if(flag=='left'){
+                    _this.css({
+                        left:left+diffX<0?0:left+diffX
+                    });
+                }else if(flag=='right'){
+                    _this.css({
+                        right:right-diffX<0?0:right-diffX
+                    });
+                }
+            }
+            function initVertical(dir,e) {
+                starY=e.pageY;
+                if(dir=='top'){
+                    flag2='top';
+                    top=parseInt(_this.css('top'));
+                }else if(dir=='bottom'){
+                    flag2='bottom';
+                    bottom=parseInt(_this.css('bottom'));
+                }
+                $(document).on('mousemove',moveVertical);
+            }
+            function moveVertical(event) {
+                window.getSelection?window.getSelection().removeAllRanges():document.selection.empty();
+                var moveY=event.pageY;
+                var diffY=moveY-starY;
+                if(flag2=='top'){
+                    _this.css({
+                        top:top+diffY<0?0:top+diffY
+                    });
+                }else if(flag2=='bottom'){
+                    _this.css({
+                        bottom:bottom-diffY<0?0:bottom-diffY
+                    });
+                }
+            }
+        });
     }
     
 });
