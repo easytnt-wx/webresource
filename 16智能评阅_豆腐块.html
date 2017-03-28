@@ -46,13 +46,13 @@
             </dl>
         </div>
     </div>
-    <div class="container">
+    <div class="">
         <div class="wrapper pdlr20">
             <div class="breadcrumb breadStyle1">
                 <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考生名单</a><i> &gt; </i><a class="current" href="#">从其它考试导入</a></p>
             </div>
             <div class="m-creatStep">
-                <p><strong class="stepName">创建答题卡模板</strong></p>
+                <!-- <p><strong class="stepName">创建答题卡模板</strong></p> -->
                 <ul class="clearfix">
                     <li class="active"><i></i>1 模板信息</li>
                     <li class="blue"><i></i>2 定位区</li>
@@ -67,21 +67,13 @@
                 <div class="editList" id="editListBox">
                     <ul>
                         <li class="on">
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                            <p class="photo"><img src="images/upload/editphoto_16.jpg" width="210" height="143" alt=""></p>
                             <p class="name">01 正面</p>
                         </li>
-                       <li>
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
+                        <li>
+                            <p class="photo"><img src="images/upload/editphoto_16_2.jpg" width="210" height="143" alt=""></p>
                             <p class="name">01 反面</p>
-                        </li>
-                       <li>
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
-                            <p class="name">02 正面</p>
-                        </li>
-                       <li>
-                            <p class="photo"><img src="images/upload/answer_model.jpg" width="210" height="143" alt=""></p>
-                            <p class="name">02 反面</p>
-                        </li>                     
+                        </li>                   
                     </ul>
                 </div>
                 <div class="editDetail">
@@ -179,12 +171,12 @@
             </div>
         </div>
     </div>
-    <div class='footer bg2'>
+<!--     <div class='footer bg2'>
         <div class='pd20 clearfix'>
             <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
             <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
         </div>
-    </div>
+    </div> -->
     <script src="js/lib/jquery-2.1.1.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
@@ -200,6 +192,21 @@
         $('.slide-btn').leftSlide();
         $('.control-module').drag();
         $('.mark-area2').boxResize();
+        $(function(){
+            var wHeight=$(window).height();
+            $('.item_editModel').height(wHeight-240);
+            $('.editList').height(wHeight-240);
+            $('.photoRect').height(wHeight-240);
+            $('.left-slide').height(wHeight-240);
+            $('.slide-wrapper').height(wHeight-240);
+            $(window).resize(function () {
+                $('.item_editModel').height($(window).height()-240);
+                $('.editList').height($(window).height()-240);
+                $('.photoRect').height($(window).height()-240);
+                $('.left-slide').height($(window).height()-240);
+                $('.slide-wrapper').height($(window).height()-240);
+            });
+        });
     </script>
 </body>
 </html>
