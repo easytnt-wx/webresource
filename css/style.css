@@ -167,7 +167,7 @@
 .info_txt .brief { font-size: 16px; padding: 13px 0; }
 .info_txt .brief em { color: #01dba0; background: #e4fff8; padding: 0 10px; line-height: 28px; border-radius: 6px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .info_txt .brief > span { color: #419efc; background: #e7f3ff; padding: 0 10px; line-height: 28px; border-radius: 6px; margin: 0 15px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.info_txt .brief a { font-size: 14px; color: #888888; line-height: 28px; }
+.info_txt .brief a {margin-right: 5px; font-size: 14px; color: #888888; line-height: 28px; }
 .info_txt .brief a span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-left: 6px; }
 .info_txt .creat_name { font-size: 14px; color: #888888; }
 .info_txt .creat_name em { font-size: 19px; color: #5dbcd0; }
@@ -188,7 +188,7 @@
 .handle_paper .txt i { color: #419efc; }
 
 .icon_edit { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(../images/icon_edit.png) center center no-repeat; }
-
+.icon_del { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(../images/icon-remove.png) center center no-repeat; }
 .icon_paper { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 97px; height: 114px; background: url(../images/icon_paper.png) center center no-repeat; }
 
 .icon_scan2 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(../images/icon_scan2.png) center center no-repeat; }
