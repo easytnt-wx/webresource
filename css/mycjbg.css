@@ -26,7 +26,12 @@
 }
 .pdtb10 > a.Btn3{
     margin: 0 5px;
-    line-height: 20px;
+}
+.pdtb10 > a.Btn3:first-child{
+    margin-left: 20px;
+}
+.form-group{
+    margin-bottom: 0;
 }
 .pdtb10 > a.Btn3.active{
     background-color: #419efc;

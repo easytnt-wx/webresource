@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>我的成绩报告</title>
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
 	<link href="css/public.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/mycjbg.css" rel="stylesheet" type="text/css">
@@ -55,10 +56,9 @@
                     <a href="#" class="">考试历史</a>
                 </div>
                 <div class="tabContent pd10" name="tabCon">
-                    <div class="pdtb10 pdlr20">时间:
-                        <a href="#" class="Btn3 active"><span>一个月</span></a>
-                        <a href="#" class="Btn3"><span>三个月</span></a>
-                        <a href="#" class="Btn3"><span>六个月</span></a>
+                    <div class="pdtb10 pdlr20 form-group mytime">时间:
+                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>到&nbsp;&nbsp;
+                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>
                     </div>
                     <div class="pdtb10 pdlr20">考试:
                         <a href="#" class="Btn3"><span>单元考试</span></a>
@@ -67,10 +67,9 @@
                     </div>
                 </div>
                 <div class="tabContent pd10 dis_none" name="tabCon">
-                    <div class="pdtb10 pdlr20">时间:
-                        <a href="#" class="Btn3"><span>一个月</span></a>
-                        <a href="#" class="Btn3"><span>三个月</span></a>
-                        <a href="#" class="Btn3"><span>六个月</span></a>
+                    <div class="pdtb10 pdlr20 form-group mytime">时间:
+                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>到&nbsp;&nbsp;
+                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>
                     </div>
                     <div class="pdtb10 pdlr20">考试:
                         <a href="#" class="Btn3"><span>单元考试</span></a>
@@ -421,6 +420,7 @@
     </div>
 	<script src="js/lib/jquery-2.1.1.js"></script>
 	<script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript">
         $(function(){
@@ -429,7 +429,19 @@
                 var $this = $(this);
                 console.log($this);
                 $this.find("div").toggleClass("sr-only");
-            })
+            });
+            $('#datetime').datetimepicker({
+              format : "yyyy-mm-dd",
+              minView : 2,
+              autoclose : 1,
+              todayBtn : 1
+            });
+            $('#datetimepicker').datetimepicker({
+              format : "yyyy-mm-dd",
+              minView : 2,
+              autoclose : 1,
+              todayBtn : 1
+            });
         });
     </script>
 </body>

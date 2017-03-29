@@ -30,9 +30,8 @@
 .pdtb10 > a.Btn3:first-child{
     margin-left: 20px;
 }
-.pdtb10 > a.Btn3.active{
-    background-color: #419efc;
-    color: #fff;
+.form-group{
+    margin-bottom: 0;
 }
 h4:before{
     content: "考";
