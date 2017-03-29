@@ -62,10 +62,13 @@ h4:before{
     border: none;
     background-color: #deeefe;
     font-size: 14px;
+    text-align: center;
 }
 .table>tbody>tr>td{
     border: none;
     font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
 }
 .table>tbody>tr:hover{
     background-color: #f2f2f2;
