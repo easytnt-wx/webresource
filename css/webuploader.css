@@ -25,4 +25,10 @@
 	opacity: 0.6;
 	pointer-events:none;
 }
-
+.uploader-list{
+	border: 2px dashed #ccc;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 20px;
+    min-height: 200px;
+}
