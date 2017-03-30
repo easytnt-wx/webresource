@@ -51,3 +51,14 @@
 #picker{
 	margin-right: 10px;
 }
+.item > h4,.item > p.state{
+	display: inline-block;
+}
+.item > h4{
+	color: #42a0fc;
+	font-size: 16px;
+	margin-right: 20px;
+}
+.item > p.state{
+	font-size: 14px;
+}
