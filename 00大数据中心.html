@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>大数据应用情况监控</title>
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg3">
+	<div class="wrapper data-layout">
+        <div class="header">
+            <div class="head clearfix">
+                <a href="#" class="fl data-logo"></a>
+                <dl class="easy_info fr">
+                    <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+        <div class="content">
+            <div class="rows pdb30">
+                <div class="col-6">
+                    <div class="container mgr15">
+                        <div class="container-tit"><p>武汉二十九中心大数据中心运行情况</p></div>
+                        <div class="container-content" style="height: 241px;">
+                            <div class="circle-pie">
+                                <span class="circle-num bg4">
+                                     <i><em>1024</em>人</i>
+                                    <span>报名人数</span>
+                                </span>
+                                <span class="circle-num bg5">
+                                     <i><em>30</em>人</i>
+                                    <span>班级数量</span>
+                                </span>
+                                <span class="circle-num bg6">
+                                     <i><em>105</em>人</i>
+                                    <span>教师人数</span>
+                                </span>
+                                <span class="circle-num bg7">
+                                     <i><em>105</em>次</i>
+                                    <span>考试次数</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container mgl15">
+                        <div class="container-tit"><p>2016-2017学年下学期正在进行的考试</p></div>
+                        <div class="container-content" style="height: 241px;">
+                            <div class="underway-exam clearfix">
+                                <ul class="fl underway-list">
+                                    <li><i class="icon_exam"></i><a href="#">2016-2017高一年级第五数学周周练</a></li>
+                                    <li><i class="icon_exam"></i><a href="#">2016-2017高一年级第五数学周周练</a></li>
+                                    <li><i class="icon_exam"></i><a href="#">2016-2017高一年级第五数学周周练</a></li>
+                                    <li><i class="icon_exam"></i><a href="#">2016-2017高一年级第五数学周周练</a></li>
+                                </ul>
+                                <a href="#" class="hold-exam fr">举行考试</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rows pdb30">
+                <div class="col-6">
+                    <div class="container mgr15">
+                        <div class="container-content" style="height: 334px;">
+                            <div id="myChart" style="width: 600px;height:220px;padding-top: 50px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container pdb15 mgl15">
+                        <div class="container-tit"><p>2016-考试统计</p></div>
+                        <div class="container-content" style="height: 47px;">
+                            <p class="t_c number-times"><span>高一<i>15</i>次</span><span>高二<i>15</i>次</span><span>高三<i>15</i>次</span></p>
+                        </div>
+                    </div>
+                    <div class="container mgl15">
+                        <div class="container-tit clearfix"><p class="fl">荣耀榜</p><span class="fr mapping">高一年级第五周周练</span></div>
+                        <div class="container-content" style="height: 184px;">
+                            <div class="outer" style="padding-top: 10px;">
+                                <ul id="marquee" class="honour-list" >
+                                    <li>
+                                        <p class="honour-info">
+                                            <i class="icon_honour1"></i><span class="name">张三</span><span class="all-people"><em>505</em>人考试</span><span class="all-score">总分</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="honour-info">
+                                            <i class="icon_honour2"></i><span class="name">张三</span><span class="all-people"><em>505</em>人考试</span><span class="all-score">总分</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="honour-info">
+                                            <i class="icon_honour3"></i><span class="name">张三</span><span class="all-people"><em>505</em>人考试</span><span class="all-score">总分</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="honour-info">
+                                            <i class="icon_honour1"></i><span class="name">张三</span><span class="all-people"><em>505</em>人考试</span><span class="all-score">总分</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="honour-info">
+                                            <i class="icon_honour2"></i><span class="name">张三</span><span class="all-people"><em>505</em>人考试</span><span class="all-score">总分</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="honour-info">
+                                            <i class="icon_honour3"></i><span class="name">张三</span><span class="all-people"><em>505</em>人考试</span><span class="all-score">总分</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rows pdb30">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="container-tit"><p>答题卡扫描情况</p></div>
+                        <div class="container-content">
+                            <div class="card-detail">
+                                <table class="card-table">
+                                    <thead>
+                                        <tr>
+                                            <th width="240"></th>
+                                            <th width="100"></th>
+                                            <th width="100"></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>高一下学期语文考试</td>
+                                            <td>100</td>
+                                            <td><i class="percent-num">85%</i></td>
+                                            <td><span class="detail-bar progress-num1"><em style="width: 20%;"></em></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>高一下学期语文考试</td>
+                                            <td>100</td>
+                                            <td><i class="percent-num">85%</i></td>
+                                            <td><span class="detail-bar progress-num2"><em style="width: 70%;"></em></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>高一下学期语文考试</td>
+                                            <td>100</td>
+                                            <td><i class="percent-num">85%</i></td>
+                                            <td><span class="detail-bar progress-num1"><em style="width: 80%;"></em></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>高一下学期语文考试</td>
+                                            <td>100</td>
+                                            <td><i class="percent-num">85%</i></td>
+                                            <td><span class="detail-bar progress-num2"><em style="width: 70%;"></em></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>高一下学期语文考试</td>
+                                            <td>100</td>
+                                            <td><i class="percent-num">85%</i></td>
+                                            <td><span class="detail-bar progress-num1"><em style="width: 80%;"></em></span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="data-copyright clearfix">
+                <p class="fl">©2016 www.wuhaneduyun.cn All rights reserved 鄂ICP备05002327号-2</p>
+                <p class="fr"><span>客服热线：4001801818转1</span><span>QQ：4001801818转1</span></p>
+            </div>
+        </div>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+	<script type="text/javascript" src="js/mousewheel.js"></script>
+	<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script>
+	    $(function(){
+	        $(".selecterBox").Selector();
+	        $('.inner-box').fullPage();
+	        $('.paper-main-box').fullPage();
+	        $('.number-scroll').fullPage();
+
+	        $('.number-wrapper').perfectScrollbar({
+	            suppressScrollX:true
+	        });
+	        $('.paper-main-box').perfectScrollbar({
+	            suppressScrollX:true
+	        });
+	        $('.zoom-full').on('click',function () {
+	            $(this).fadeOut(function () {
+	                $('.img-view').fadeIn();
+	            });
+	        });
+	        $('.put').on('click',function () {
+	            $(this).parent().fadeOut(function () {
+	                $('.zoom-full').fadeIn();
+	            });
+	        });
+
+	        $('.onoff').click(function () {
+	            $(this).toggleClass('open');
+	        });
+	        $('.back').on('click',function () {
+	            $(this).siblings('.number-scroll').slideToggle();
+	        });
+	        var myChart = echarts.init(document.getElementById('myChart'));
+	        var option = {
+	            tooltip : {
+	                trigger: 'axis',
+	                axisPointer: {
+	                    type: 'cross',
+	                    label: {
+	                        backgroundColor: '#6a7985'
+	                    }
+	                }
+	            },
+	            grid: {
+	                left: '30px',
+	                right: '30px',
+	                top:'5px',
+	                bottom: '5px',
+	                containLabel: true
+	            },
+	            xAxis : [
+	                {
+	                    type : 'category',
+	                    boundaryGap : false,
+	                    axisLine:{lineStyle:{color:'#9099b7'}},
+	                    axisTick:{show:false},
+	                    data : ['2-10','2-11','2-12','2-13','2-14','2-15','2-16','2-17','2-18','2-19']
+	                }
+	            ],
+	            yAxis : [
+	                {
+	                    type : 'value',
+	                    axisLine:{show:false,lineStyle:{color:'#9099b7'}},
+	                    axisTick:{show:false},
+	                    splitLine:{lineStyle:{color:'#1e2d45'}}
+	                }
+	            ],
+	            series : [
+	                {
+	                    name:'',
+	                    type:'line',
+	                    smooth:true,
+	                    lineStyle: {normal: {color: '#6afcb2'}},
+	                    areaStyle: {normal: {color: '#4dc996'}},
+	                    itemStyle: {normal: {color: '#4dc996'}},
+	                    data:[120, 132, 101, 134, 90, 230, 210,120, 132, 101]
+	                }
+	            ]
+	        };
+	        myChart.setOption(option);
+
+	        $('#marquee').bxSlider({
+	            slideWidth: 151,
+	            moveSlides: 1,
+	            startSlide: 1,
+	            maxSlides: 3,
+	            minSlides: 2,
+	            slideMargin: 36,
+	            pager:false
+	        });
+	    });
+	</script>
+</body>
+</html>

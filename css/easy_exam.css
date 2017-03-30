@@ -210,7 +210,8 @@ transition: all ease .5s; */ }
 .ni_g_button01 { height: 48px; line-height: 48px; display: block; font-size: 20px; text-align: center; border: 2px solid #fff; border-radius: 3px; cursor: pointer; }
 
 .ni_g_button01.ni_g_button01_01 { color: #fff; background: #419efc; border-color: #419efc; }
-
+.ni_g_button01.ni_g_button01_01.disabled{background: #cdcdcd;color: #fff;border-color: #cdcdcd;}
+.ni_g_button01.ni_g_button01_01.disabled:hover{background: #cdcdcd;color: #fff;border-color: #cdcdcd;}
 .ni_g_button01.ni_g_button01_01.ni_over { color: #fff; background: #cdcdcd; border-color: #cdcdcd; }
 
 .ni_g_button01.ni_g_button01_01.ni_over:hover { color: #fff; background: #cdcdcd; border-color: #cdcdcd; }
@@ -344,7 +345,7 @@ transition: all ease .5s; */ }
 
 .item_answerModel .tit .scan_ico { background: url(../images/scan_ico.gif) no-repeat left center; float: right; padding-left: 27px; margin-top: 5px; }
 
-.item_answerModel .tit h3 { font-size: 20px; font-weight: normal; }
+.item_answerModel .tit h3 { font-size: 20px; font-weight: normal;color: #222222;font-weight: normal; }
 
 .item_answerModel ul { margin: 0 auto; overflow: hidden; zoom: 1; }
 
@@ -391,6 +392,8 @@ transition: all ease .5s; */ }
 .item_editModel .fixTerm .fixBtn { margin-left: 25px; }
 
 .item_editModel .fixTerm .fixMode { margin-left: 20px; }
+.fixPoint{margin: 11px 0 0 20px;}
+.fixPoint span{line-height: 32px;font-size: 14px;color: #888888;margin: 0 10px;display: inline-block;*display: inline;*zoom: 1;}
 
 .item_editModel .fixTerm .fix_x i { background: url(../images/fix_x_ico.png) no-repeat left top; width: 18px; height: 12px; display: inline-block; vertical-align: middle; margin-right: 7px; }
 
@@ -413,7 +416,8 @@ transition: all ease .5s; */ }
 .item_creatSub .photoRect { position: relative; }
 .item_creatSub .photoRect .photoRect_left { margin-right: 263px; height: 100%; }
 .item_creatSub .photoRect .photoRect_left > div.photoRect_left_content { height: 85%; width: 100%; }
-.item_creatSub .photoRect .photoRect_left > div.button_box { height: 15%; width: 100%; background: #f8fbff; }
+.item_creatSub .photoRect .photoRect_left > div.button_box { text-align: center; overflow: hidden; height: 15%; width: 100%; background: #f8fbff; }
+.item_creatSub .photoRect .photoRect_left > div.button_box div a.Btn1 { width: 113px; line-height: 32px; font-size: 14px; }
 .item_creatSub .photoRect .photoRect_left.on { margin-right: 467px; height: 100%; }
 .item_creatSub .photoRect .photoRect_right { position: absolute; right: 0; top: 0; width: 262px; height: 100%; border-left: 1px solid #d1e5f7; }
 .item_creatSub .photoRect .photoRect_right.on { width: 467px; }

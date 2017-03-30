@@ -398,6 +398,14 @@ body,html{ width:100%; min-width:1200px;}
 .selecterStyle5 .selecterDrop{ border:1px solid #d5d5d5; border-radius:3px;position:absolute; left:0px; height:auto; max-height:196px; overflow-x:hidden; overflow-y:auto; top:33px; white-space:nowrap; display:none; background:#fff;color: #000;*z-index: 999;}
 .selecterStyle5 .selecterDrop a{height:30px; line-height: 32px; color:#000; display:block; padding:0px 5px;}
 .selecterStyle5 .selecterDrop a:hover{ background:#f5f6f8;  text-decoration:none;}
+.selecterStyle6{border: 1px solid #d5d5d5;border-radius: 3px;position: relative;display: inline-block;*display: inline;*zoom: 1;}
+.selecterStyle6 .selectVal{display: inline-block;*display: inline;*zoom: 1;}
+.selecterStyle6 .selectVal i{display: inline-block;*display: inline;*zoom: 1;height: 30px;line-height: 30px;padding: 0 10px;position: relative;}
+.selecterStyle6 .selectVal i:after{content: '';position: absolute;top: 4px;right: 0;height: 21px;width: 1px;background: #d5d5d5;}
+.selecterStyle6 .selectVal em{display: inline-block;*display: inline;*zoom: 1;vertical-align: top;width: 30px;height: 30px;background: url(../images/public/icon_drop.png) center center no-repeat;cursor: pointer;}
+.selecterStyle6 .selectDrop{border:1px solid #d5d5d5; border-radius:3px;position:absolute; left:0px; height:auto; max-height:196px; overflow-x:hidden; overflow-y:auto; top:100%; white-space:nowrap; display:none; background:#fff;color: #000;*z-index: 999;}
+.selecterStyle6 .selectDrop a{height:30px; line-height: 32px; color:#000; display:block; padding:0px 5px;}
+.selecterStyle6 .selectDrop a:hover{ background:#f5f6f8;  text-decoration:none;}
 
 /* tab */
 .tabStyle1 .tabTit{ color:#fff;clear:both;_position:relative; position:relative;}
@@ -430,6 +438,7 @@ body,html{ width:100%; min-width:1200px;}
 .bg5{background-color: #f1b31a;}
 .bg6{background-color: #e46161;}
 .bg7{background-color: #46cf5e;}
+.bg8{background-color: #ddcdcd;}
 /*title*/
 .title1 { font-weight: normal; }
 .title1 .tag_index { font-size: 20px; color: #222222; }
