@@ -41,3 +41,13 @@
 	font-size: 14px;
 	background-color: #42a0fc;
 }
+.btns > button{
+	vertical-align: baseline;
+}
+.btn{
+	text-align: right;
+	margin: 0 20px;
+}
+#picker{
+	margin-right: 20px;
+}
