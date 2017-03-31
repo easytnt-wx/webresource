@@ -42,3 +42,16 @@ nav.navbar-default{
 .workspace .panel .panel-footer{
 	background-color: #fff;
 }
+.button-border.button-plain, .button-plain.button-border-thin, .button-plain.button-border-thick, .button-border-thin.button-plain, .button-border-thick.button-plain{
+	color: #45a5ff;
+}
+.button-plain, .button-plain-flat{
+	border-color: #45a5ff;
+}
+.button-plain:hover, .button-plain:focus, .button-plain-flat:hover, .button-plain-flat:focus{
+	color: #45a5ff;
+}
+.button-border.button-plain:hover, .button-plain.button-border-thin:hover, .button-plain.button-border-thick:hover, .button-border.button-plain:focus, .button-plain.button-border-thin:focus, .button-plain.button-border-thick:focus, .button-border-thin.button-plain:hover, .button-border-thin.button-plain:focus, .button-border-thick.button-plain:hover, .button-border-thick.button-plain:focus{
+	background-color: #45a5ff;
+    color: rgb(255, 255, 255);
+}
