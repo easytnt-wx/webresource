@@ -95,3 +95,25 @@ nav.navbar-default{
 .svGoLeft:hover,.svGoRight:hover{
 	opacity: 1;
 }
+.svClose{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    right: -20px;
+    border: 1px solid #45a5ff;
+    border-radius: 50%;
+    background: #fff;
+    color: #45a5ff;
+    font-size: 18px;
+}
+.svClose:hover{
+	color: #F44336;
+	border-color: #F44336;
+}
+.svZoomO{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+}
