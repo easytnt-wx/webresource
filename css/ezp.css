@@ -98,16 +98,30 @@ nav.navbar-default{
 .svClose{
 	position: absolute;
     width: 40px;
-    height: 40px;
+    height: 20px;
     top: 0;
     right: 0;
     border: 1px solid #45a5ff;
     background: #fff;
     color: #45a5ff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .svClose:hover{
 	color: #F44336;
 	border-color: #F44336;
 	top: none;
+}
+.svZooming{
+	position: absolute;
+    top: 0;
+    right: 39px;
+    width: 40px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #45a5ff;
+    color: #45a5ff;
+    font-size: 16px;
+}
+.svZooming:hover{
+	background-color: #f5f5f5;
 }
