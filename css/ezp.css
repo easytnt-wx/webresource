@@ -64,3 +64,29 @@ nav.navbar-default{
 .workspace .control-img .slider-handle{
 	background : #3d93e4;
 }
+.svGoLeft{
+	position: absolute;
+    top: 50%;
+    left: 0;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+    color: #45a5ff;
+}
+.svGoLeft{
+	position: absolute;
+    top: 50%;
+    right: 0;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+    color: #45a5ff;
+}
