@@ -461,7 +461,7 @@
 .control-module .add { background: url(../images/add.png) center center no-repeat; }
 .control-module .subtract { background: url(../images/subtract.png) center center no-repeat; }
 .control-module .overturn { background: url(../images/overturn.png) center center no-repeat; }
-
+.control-module .save{ background: url(../images/save.png) center center no-repeat; }
 .control-bar { width: 132px; height: 4px; background: #959595; position: relative; margin: 0 10px; }
 .control-bar em { display: block; *display: inline; *zoom: 1; width: 10px; height: 10px; background: #fff; border-radius: 50%; left: 0; top: -2px; position: absolute; z-index: 10; }
 
