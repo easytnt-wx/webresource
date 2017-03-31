@@ -58,3 +58,9 @@ nav.navbar-default{
 .button-plain:hover, .button-plain:focus, .button-plain-flat:hover, .button-plain-flat:focus{
 	border-color: #F44336;
 }
+.workspace .control-img .slider-selection{
+	background : #45a5ff;
+}
+.workspace .control-img .slider-handle{
+	background : #3d93e4;
+}
