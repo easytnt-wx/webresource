@@ -11,3 +11,9 @@ nav.navbar-default{
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
 	background-color: #378ee0;
 }
+.workspace aside{
+	background-color: #f5f5f5;
+}
+.workspace .score-history-panel{
+	background-color: #ebf3ff;
+}
