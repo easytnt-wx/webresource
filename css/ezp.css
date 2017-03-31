@@ -17,3 +17,12 @@ nav.navbar-default{
 .workspace .score-history-panel{
 	background-color: #ebf3ff;
 }
+.workspace .score-history-bar  .score-history-pin{
+	background-color: transparent;
+}
+.workspace .score-history-bar  .score-history-pin i{
+	color: #45a5ff;
+}
+.workspace .score-history-panel ul>li{
+	background-color: transparent;
+}
