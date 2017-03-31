@@ -26,3 +26,19 @@ nav.navbar-default{
 .workspace .score-history-panel ul>li{
 	background-color: transparent;
 }
+.workspace .panel-right{
+	background-color: #fff;
+}
+.workspace #scoreForm .panel .panel-heading{
+	background-color: #fff;
+}
+.workspace #scoreForm .panel .panel-heading .nav.navbar-inverse{
+	background-color: #fff;
+}
+.workspace .panel{
+	background-color: #fff;
+	color: #323232;
+}
+.workspace .panel .panel-footer{
+	background-color: #fff;
+}
