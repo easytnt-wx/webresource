@@ -76,8 +76,9 @@ nav.navbar-default{
     border: none;
     background-color: rgba(255,255,255,0.5);
     color: #45a5ff;
+    opacity: 0.6;
 }
-.svGoLeft{
+.svGoRight{
 	position: absolute;
     top: 50%;
     right: 0;
@@ -89,4 +90,8 @@ nav.navbar-default{
     border: none;
     background-color: rgba(255,255,255,0.5);
     color: #45a5ff;
+    opacity: 0.6;
+}
+.svGoLeft:hover,.svGoRight:hover{
+	opacity: 1;
 }
