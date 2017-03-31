@@ -2,3 +2,12 @@ nav.navbar-default{
 	background-color: #45a5ff;
 	background-image: none;
 }
+.workspace .score-history-panel{
+	background-color: 
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a{
+	background-color: #378ee0;
+}
