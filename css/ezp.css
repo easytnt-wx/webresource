@@ -55,3 +55,6 @@ nav.navbar-default{
 	background-color: #45a5ff;
     color: rgb(255, 255, 255);
 }
+.button-plain:hover, .button-plain:focus, .button-plain-flat:hover, .button-plain-flat:focus{
+	border-color: #F44336;
+}
