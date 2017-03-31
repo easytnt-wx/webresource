@@ -459,6 +459,7 @@
 .control-module .right-rotate { background: url(../images/right-rotate.png) center center no-repeat; }
 .control-module .left-rotate { background: url(../images/left-rotate.png) center center no-repeat; }
 .control-module .add { background: url(../images/add.png) center center no-repeat; }
+.control-module .del { background: url(../images/del.png) center center no-repeat; }
 .control-module .subtract { background: url(../images/subtract.png) center center no-repeat; }
 .control-module .overturn { background: url(../images/overturn.png) center center no-repeat; }
 .control-module .save{ background: url(../images/save.png) center center no-repeat; }
