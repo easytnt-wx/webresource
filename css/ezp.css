@@ -172,3 +172,8 @@ div#imgeye-panel{
     border: 1px solid #45a5ff;
     color: #fff;
 }
+.workspace .panel-body .button-caution{
+    background-color: #45a5ff;
+    border: 1px solid #45a5ff;
+    color: #ffffff;
+}
