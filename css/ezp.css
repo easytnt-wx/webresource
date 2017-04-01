@@ -28,6 +28,10 @@ nav.navbar-default{
 }
 .workspace .panel-right{
 	background-color: #fff;
+    width: 350px;
+    position: fixed;
+    top: 50px;
+    right: 0;
 }
 .workspace #scoreForm .panel .panel-heading{
 	background-color: #fff;
@@ -124,4 +128,7 @@ nav.navbar-default{
 }
 .svZooming:hover{
 	background-color: #f5f5f5;
+}
+.workspace{
+    background-color: #f5f5f5;
 }
