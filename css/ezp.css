@@ -165,7 +165,7 @@ div#imgeye-panel{
     border: 1px solid #45a5ff;
     color: #45a5ff;
 }
-.workspace .panel-body .button:hover{
+.workspace .panel-body .button:hover,.workspace .panel-body .button:focus{
     background-color: #45a5ff;
     text-decoration: none;
     outline: none;
