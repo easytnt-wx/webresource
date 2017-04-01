@@ -138,3 +138,6 @@ nav.navbar-default{
 #showScanView{
     background-color: #45a5ff;
 }
+div#scorePanel {
+    height: 650px!important;
+}
