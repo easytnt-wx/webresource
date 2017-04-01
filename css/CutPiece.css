@@ -1,0 +1,185 @@
+
+.img-page {
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 24px;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #7f8fa4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-page.active{
+    background-color: #38ae67;
+}
+
+.img-slider{
+    width:150px;
+    display: inline-block;
+}
+
+.img-area{
+
+}
+
+.icon-remove {
+    color: #e40000;
+}
+
+.selectCmpLabel {
+    color:#fff;
+    font-weight:bold;
+    font-size:10pt;
+    background-color: #5bc0de;
+    padding: 0px 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.rectangle {
+    position:absolute;
+    z-index:100;
+    border:2px solid #46b8da;
+    box-sizing: content-box;
+}
+
+.notDelete {
+    border-color: #e40000 !important;
+}
+
+.point {
+    background-color:#2a8ee1;
+    opacity:1;
+    border: 1px solid #9edeff;
+    border-radius: 100%;
+    font-size: 0;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    z-index: 5;
+    -moz-box-shadow:0 0 5px #5bc0de;/*firefox*/
+    -webkit-box-shadow:0 0 5px #5bc0de;/*webkit*/
+    box-shadow:0 0 5px #5bc0de;/*opera或ie9*/
+}
+
+.notDelete .point {
+    background-color: #7073f4 !important;
+}
+
+.point-list{
+    padding: 0 0 0 20px;
+}
+
+.point-list li{
+    margin:10px 0;
+}
+
+.left-point {
+    cursor: w-resize;
+    left: -7px;
+    top: 47%;
+}
+.right-point {
+    cursor: w-resize;
+    right: -7px;
+    top: 47%;
+}
+.up-point {
+    cursor: s-resize;
+    left: 47%;
+    top: -7px;
+}
+.down-point {
+    bottom: -7px;
+    cursor: s-resize;
+    left: 47%;
+}
+.leftUp-point {
+    cursor: nw-resize;
+    left: -7px;
+    top: -7px;
+}
+.rightUp-point {
+    cursor: ne-resize;
+    right: -7px;
+    top: -7px;
+}
+.leftDown-point {
+    bottom: -7px;
+    cursor: sw-resize;
+    left: -7px;
+}
+.rightDown-point {
+    bottom: -7px;
+    cursor: se-resize;
+    right: -7px;
+}
+
+/*设置左侧答题卡导航栏选中状态*/
+.panel.selected {
+    box-shadow: 0 0 2px 3px #5bc0de;
+    -moz-box-shadow:0 0 2px 3px #5bc0de;
+    -webkit-box-shadow:0 0 2px 3px #5bc0de;
+}
+
+/*选择矩形的按钮样式*/
+.selectBtn.selected {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+    color: #fff;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+#imgDivId {
+    background-color: #ccc;
+}
+
+#eyeDivId .panel {
+    margin-bottom: 8px !important;
+}
+
+#eyeDivId .toolbar:hover {
+    cursor: pointer;
+}
+
+.selectBtn {
+    margin: 3px;
+}
+
+.subjectSelect:hover {
+    cursor: pointer;
+}
+
+.item_editModel .editList li {
+     width: auto !important; 
+     height: auto !important; 
+}
+
+.photoRect {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: auto !important;
+    background-color: #ccc !important;
+}
+
+.control-module {
+    left: 100px;
+    top: 50px;
+    padding: 10px 12px !important;
+    right: inherit !important;
+    bottom: inherit !important;
+    display: none;
+}
+
+.layout {
+    position: relative;
+}
