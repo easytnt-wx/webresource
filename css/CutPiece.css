@@ -182,6 +182,7 @@ a:hover {
 .layout {
     position: relative;
 }
+/*滑块  放大缩小样式*/
 .slider-selection{
     background-image : linear-gradient(to bottom,#41a0fb 0,#43a0fd 100%);
     background-color: #43a0fd;
