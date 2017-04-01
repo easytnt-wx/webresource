@@ -45,6 +45,7 @@ nav.navbar-default{
 }
 .workspace .panel .panel-footer{
 	background-color: #fff;
+    border: none;
 }
 .button-border.button-plain, .button-plain.button-border-thin, .button-plain.button-border-thick, .button-border-thin.button-plain, .button-border-thick.button-plain{
 	color: #45a5ff;
@@ -140,4 +141,22 @@ nav.navbar-default{
 }
 div#scorePanel {
     height: 60% !important;
+}
+div#showComment{
+    display: inline-block;
+    width: 100px;
+    color: #45a5ff;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+}
+div#showComment + div{
+    display: inline-block;
+    margin-left: 20px;
+}
+div#ex1Slider{
+    margin-left: 20px;
+}
+div#imgeye-panel{
+    margin-left: 30px;
 }
