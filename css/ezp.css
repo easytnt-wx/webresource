@@ -160,3 +160,15 @@ div#ex1Slider{
 div#imgeye-panel{
     margin-left: 30px;
 }
+.workspace .panel-body .button-primary{
+    background-color: #ffffff;
+    border: 1px solid #45a5ff;
+    color: #45a5ff;
+}
+.workspace .panel-body .button:hover{
+    background-color: #45a5ff;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #45a5ff;
+    color: #fff;
+}
