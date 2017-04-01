@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>学生报告_多科</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!-- 以下的css样式引用的路径是  css/report/css -->
+    <link rel="stylesheet" type="text/css" href="css/report/css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/report/css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/report/css/chart.css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+	<div class="container">
+        <div class="wrapper pd20">
+            <div class="main_content">
+                    <div class="main_charts">
+                        <h4 class="common_title"><span>概况</span></h4>
+                        <div class="general side_distance">
+                            <dl class="general_c clearfix">
+                                <dt class="fl">分数<br/>得分率</dt>
+                                <dd class="fl">
+                                    <ul>
+                                        <li>
+                                            <p>总分</p>
+                                            <canvas id="chart_circle1" width="100" height="100">你的浏览器不支持请升级</canvas>
+                                        </li>
+                                        <li>
+                                            <p>语文</p>
+                                            <canvas id="chart_circle2" width="100" height="100">你的浏览器不支持请升级</canvas>
+                                        </li>
+                                        <li>
+                                            <p>数学</p>
+                                            <canvas id="chart_circle3" width="100" height="100">你的浏览器不支持请升级</canvas>
+                                        </li>
+                                        <li>
+                                            <p>英语</p>
+                                            <canvas id="chart_circle4" width="100" height="100">你的浏览器不支持请升级</canvas>
+                                        </li>
+                                        <li>
+                                            <p>文科综合</p>
+                                            <canvas id="chart_circle5" width="100" height="100">你的浏览器不支持请升级</canvas>
+                                        </li>
+                                        <li>
+                                            <p>理科综合</p>
+                                            <canvas id="chart_circle6" width="100" height="100">你的浏览器不支持请升级</canvas>
+                                        </li>
+                                        <li class="justify_fix"></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt class="fl"><span>年级名次</span><i>位居</i></dt>
+                                <dd class="fl">
+                                    <ul>
+                                        <li>
+                                            <p>12</p>
+                                            <div class="chart_progress"><i>20%</i><span><em style="width:20%;"></em></span></div>
+                                        </li>
+                                        <li>
+                                            <p>12</p>
+                                            <div class="chart_progress"><i>30%</i><span><em style="width:30%;"></em></span></div>
+                                        </li>
+                                        <li>
+                                            <p>12</p>
+                                            <div class="chart_progress"><i>90%</i><span><em style="width:90%;"></em></span></div>
+                                        </li>
+                                        <li>
+                                            <p>12</p>
+                                            <div class="chart_progress"><i>70%</i><span><em style="width:70%;"></em></span></div>
+                                        </li>
+                                        <li>
+                                            <p>12</p>
+                                            <div class="chart_progress"><i>65%</i><span><em style="width:65%;"></em></span></div>
+                                        </li>
+                                        <li>
+                                            <p>12</p>
+                                            <div class="chart_progress"><i>37%</i><span><em style="width:37%;"></em></span></div>
+                                        </li>
+                                        <li class="justify_fix"></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <h4 class="common_title"><span>对比高考</span></h4>
+                        <div class="college_exam side_distance">
+                            <dl class="clearfix mgb30">
+                                <dt class="fr">
+                                    <h4>总分上线</h4>
+                                    <p>成绩<i class="b_color">接近</i>2016年湖北省高考<i class="b_color">一本分</i>数线</p>
+                                </dt>
+                                <dd class="fl"><div id="upper_limit" style="width: 100%;height: 360px;"></div></dd>
+                            </dl>
+                            <dl class="clearfix">
+                                <dt class="fl">
+                                    <h4>各科达标</h4>
+                                    <p>根据2016年分数线，<i class="g_color">语文、英语</i>成绩分别超过一本达标分数线13.71分、28.17分；<i class="r_color">数学、文科综合、理科综</i>合未达标，分数差分别为20.57、30.57</p>
+                                </dt>
+                                <dd class="fr"><div id="standards" style="width: 100%;height: 360px;"></div></dd>
+                            </dl>
+                        </div>
+                        <h4 class="common_title"><span>对比同学</span></h4>
+                        <div class="compare_student side_distance">
+                            <div id="chart_consult" style="width:100%;height:300px;"></div>
+                            <p class="compare_explain t_c">个人总分得分率低于全班平均分，<i class="b_color">差值为-3.20%</i>；超过全部平均水平的科目有<i class="b_color">语文、英语</i>；低于平均的有<i class="b_color">数学、文科综合、理科综合</i>。</p>
+                        </div>
+                        <h4 class="common_title"><span>对比自己</span></h4>
+                        <div class="compare_own side_distance">
+                            <div id="chart_own" style="width: 100%;height: 322px;"></div>
+                            <p class="compare_explain t_c">个人总分得分率低于全班平均分，<i class="b_color">差值为-3.20%</i>；超过全部平均水平的科目有<i class="b_color">语文、英语</i>；低于平均的有<i class="b_color">数学、文科综合、理科综合</i>。</p>
+                        </div>
+                        <h4 class="common_title"><span>分析诊断</span></h4>
+                        <div class="balance side_distance">
+                            <dl class="clearfix mgb30 one">
+                                <dt class="fl">
+                                    <h4>科目均衡</h4>
+                                    <p>较好的科目有 <i class="g_color"> 英语、语文；</i></p>
+                                    <p>较差的科目有<i class="r_color">数学、理科综合、文科综合。</i></p>
+                                </dt>
+                                <dd class="fr">
+                                    <div id="chart_nets" style="width: 100%;height: 300px;"></div>
+                                </dd>
+                            </dl>
+                            <dl class="clearfix two">
+                                <dt class="fr">
+                                    <h4>知识均衡</h4>
+                                    <p>均衡指数越高则说明该科目内的各知识点掌握越均衡，<i class="b_color">没有明显偏倚。</i></p>
+                                </dt>
+                                <dd class="fl">
+                                    <div id="chart_balance" style="width: 100%;height: 312px;"></div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <h4 class="common_title"><span>提升空间</span></h4>
+                        <div class="advancement side_distance">
+                            <div id="chart_advance" style="width:100%;height: 370px;"></div>
+                            <p class="compare_explain t_c">文科综合有较大的提升空间，该科目较为容易提高，且该科目的成绩提高对于总体水平的提升效果最显著。</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+	</div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="css/report/js/jquery.js"></script>
+    <script type="text/javascript" src="css/report/js/fun.js"></script>
+    <script type="text/javascript" src="css/report/js/echarts.min.js"></script>
+    <script type="text/javascript" src="css/report/js/customer.js"></script>
+    <!-- 以上的js引用的路径是 css/report/js -->
+	<script type="text/javascript" src="js/script.js"></script>
+    <script>
+
+        //圆形进度条
+        function Circle(options) {
+            for (var i = 0; i < options.length; i++) {
+                var obj = new Object();
+                obj = options[i];
+                var canvas2d = document.getElementById(obj.id).getContext("2d");
+                var a=(obj.val/obj.number)*360;
+                console.log(obj);
+                var r = a * Math.PI / 180;   //canvas绘制圆形进度
+                canvas2d.clearRect(0, 0, 105, 105);
+                //1
+                canvas2d.beginPath();
+                canvas2d.fillStyle = "#fffff3";
+                canvas2d.strokeStyle = '#eed8d2';
+                canvas2d.lineWidth = 1;
+                canvas2d.arc(50, 50, 50, 0, 2 * Math.PI);
+                canvas2d.fill();
+                canvas2d.stroke();
+                canvas2d.closePath();
+                //2
+                canvas2d.beginPath();
+                canvas2d.strokeStyle = "#ff6d3f";
+                canvas2d.lineWidth = 14;
+                canvas2d.arc(50, 50, 42, 0 - 90 * Math.PI / 180, r - 90 * Math.PI / 180, false);
+                canvas2d.stroke();
+                canvas2d.closePath();
+
+                //3
+                canvas2d.beginPath();
+                canvas2d.fillStyle = "#ebeae2";
+                canvas2d.arc(50, 50, 36, 0, 2 * Math.PI); //canvas绘制弧形
+                canvas2d.fill();
+                //w文字1
+                var txt1 = obj.val;
+                var txt2 = ((obj.val/obj.number)*100).toFixed(2)+'%';
+                console.log(txt2);
+                canvas2d.beginPath();
+                canvas2d.strokeStyle = "rgba(0,0,0,0)";
+                canvas2d.lineWidth = 1;
+                canvas2d.moveTo(50, 0);
+                canvas2d.lineTo(50, 100);
+                canvas2d.stroke();
+
+                canvas2d.font = "24px arial";
+                canvas2d.fillStyle = '#de6b6b';
+                canvas2d.textAlign = "center";
+                canvas2d.fillText(txt1, 50, 50);
+                canvas2d.font = "16px arial";
+                canvas2d.fillStyle = '#686868';
+                canvas2d.fillText(txt2, 50, 70);
+            }
+        }
+        //id canvas的ID
+        //number 总数目
+        //val 实际数目即需要显示在画布上的数目
+        Circle([
+            {id: 'chart_circle1', number: '10000', val: '5070'},{id: 'chart_circle2', number: '100', val: '30'},{id: 'chart_circle3', number: '600', val: '226'},{id: 'chart_circle4', number: '400', val: '336'},{id: 'chart_circle5', number: '900', val: '368'},{id: 'chart_circle6', number: '900', val: '368'}
+        ]);
+    </script>
+    <script>
+        var myChart = echarts.init(document.getElementById('upper_limit'));
+        option = {
+            tooltip : {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['邮件营销','班级平均得分率'],
+                data:[{
+                    name: '邮件营销',
+                    icon: 'image://css/report/images/charts_icon.png'
+                },{
+                    name: '班级平均得分率',
+                    icon: 'image://css/report/images/charts_icon2.png',
+                }]
+            },
+            grid: {
+                top:'10%',
+                left: '0',
+                right: '4%',
+                bottom: '7%',
+                containLabel: true
+            },
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : true,
+                    data : ['2007年','2008年','2009年','20010年','20011年','20012年','20013年','20014年','20015年','20016年'],
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    axisLabel:{rotate:45,interval:0}
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    splitLine:{lineStyle:{color:'#8a8a8a'}},
+                    axisLabel: {
+                        formatter: '{value} %',
+                    }
+                }
+            ],
+            series : [
+                {
+                    name:'邮件营销',
+                    type:'line',
+                    stack: '总量',
+                    itemStyle:{normal:{color:'#278add'}},
+                    areaStyle: {normal: {color:'#278add',opacity:1}},
+                    lineStyle: {normal: {color:'#278add',opacity:1}},
+                    data:[60, 70, 90, 30, 50, 100, 95,55,64,53]
+                },
+                {
+                    name:'班级平均得分率',
+                    type:'line',
+                    itemStyle: {normal: {color: '#ff6d3f',}},
+                    markPoint:{symbolSize:100,itemStyle:{normal:{color:'#000'}}},
+                    data:[30, 20, 80, 54, 28, 76, 39, 22,28],
+                },
+            ]
+        };
+        myChart.setOption(option);
+
+
+        var myChart4 = echarts.init(document.getElementById('standards'));
+        option4 = {
+            tooltip : {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['邮件营销','班级平均得分率'],
+                data:[{
+                    name: '邮件营销',
+                    icon: 'image://css/report/images/charts_icon.png'
+                },{
+                    name: '班级平均得分率',
+                    icon: 'image://css/report/images/charts_icon2.png',
+                }]
+            },
+            grid: {
+                top:'10%',
+                left: '0',
+                right: '4%',
+                bottom: '7%',
+                containLabel: true
+            },
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : true,
+                    data : ['2007年','2008年','2009年','20010年','20011年','20012年','20013年','20014年','20015年','20016年'],
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    axisLabel:{rotate:45,interval:0}
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    splitLine:{lineStyle:{color:'#8a8a8a'}},
+                    axisLabel: {
+                        formatter: '{value} %',
+                    }
+                }
+            ],
+            series : [
+                {
+                    name:'邮件营销',
+                    type:'line',
+                    stack: '总量',
+                    itemStyle:{normal:{color:'#278add'}},
+                    areaStyle: {normal: {color:'#278add',opacity:1}},
+                    lineStyle: {normal: {color:'#278add',opacity:1}},
+                    data:[60, 70, 90, 30, 50, 100, 95,55,64,53]
+                },
+                {
+                    name:'班级平均得分率',
+                    type:'line',
+                    itemStyle: {
+                        normal: {
+                            color: '#ff6d3f',
+                        }
+                    },
+                    markPoint:{symbolSize:100,itemStyle:{normal:{color:'#000'}}},
+                    data:[30, 20, 80, 54, 28, 76, 39, 22,28],
+                },
+            ]
+        };
+        myChart4.setOption(option4);
+
+
+        var myChart2 = echarts.init(document.getElementById('chart_nets'));
+        option2 = {
+            tooltip: {
+                trigger: 'item',
+            },
+            textStyle: {
+                color: '#595959'
+            },
+            legend: {
+                right: 5,
+                top:'45%',
+                orient:'vertical',
+                itemWidth:15,
+                data: [{
+                    name: '总分得分率',
+                    icon: 'rect'
+                },{
+                    name: '单科得分率',
+                    icon: 'rect'
+                }]
+            },
+            radar: {
+                radius: "87%",
+                center:['40%', '55%'],
+                indicator : [
+                    { text: '语文', max: 100},
+                    { text: '理科综合', max: 100},
+                    { text: '文科综合', max: 100},
+                    { text: '英语', max: 100},
+                    { text: '数学', max: 100}
+                ]
+            },
+
+            series :[{
+                name:'浏览器（数据纯属虚构）',
+                type: 'radar',
+                symbol: 'none',
+                itemStyle: {
+                    normal: {
+                        lineStyle: {
+                            width:1
+                        }
+                    },
+                    emphasis : {
+                        areaStyle: {opacity:0.8}
+                    }
+                },
+                lineStyle:{normal:{color:'#ccc'}},
+                data:[
+                    {
+                        value : [80, 60, 70, 50, 11, 20],
+                        name : '总分得分率',
+                        areaStyle:{normal:{color:'#ff6d3f',opacity:1}}
+                    },
+                    {
+                        value : [55, 67, 35, 49, 99, 19],
+                        name : '单科得分率',
+                        areaStyle:{normal:{color:'#53aedb',opacity:1}}
+                    }
+                ]
+            }]
+        };
+        myChart2.setOption(option2);
+
+        var myChart3 = echarts.init(document.getElementById('chart_balance'));
+        option3 = {
+            tooltip : {
+                trigger: 'axis',
+                axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                    type : 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                },
+                formatter: function (params) {
+                    var tar = params[0];
+                    return tar.name + '<br/>' + tar.seriesName + ' : ' + tar.value;
+                }
+            },
+            legend:{
+                data:['均衡指数']
+            },
+            grid: {
+                top:'12%',
+                left: '0',
+                right: '25%',
+                bottom: '0',
+                containLabel: true
+            },
+            xAxis: {
+                type : 'category',
+                data : ['语文','数学','英语','文科综合','理科综合'],
+                axisLine:{lineStyle:{color:'#8a8a8a'}}
+            },
+            yAxis: {
+                type : 'value',
+                axisLine:{lineStyle:{color:'#8a8a8a'}},
+                splitLine:{lineStyle:{color:'#8a8a8a'}}
+            },
+            series: [
+                {
+                    name: '均衡指数',
+                    type: 'bar',
+                    stack:  '总量',
+                    barWidth:'34',
+                    itemStyle: {
+                        normal: {
+                            color: '#ff6d3f'
+                        }
+                    },
+                    data: [0.1, 0.2, 0.3, 0.4, 0.5]
+                }
+            ]
+        };
+        myChart3.setOption(option3);
+
+
+        var myChart5 = echarts.init(document.getElementById('chart_consult'));
+        option5 = {
+            tooltip : {
+                trigger: 'axis',
+                axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                    type : 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                },
+                formatter: function (params) {
+                    var tar = params[0];
+                    return tar.name + '<br/>' + tar.seriesName + ' : ' + tar.value;
+                }
+            },
+            legend: {
+                data:['均衡指数','班级平均得分率']
+            },
+            grid: {
+                top:'12%',
+                left: '25%',
+                right: '25%',
+                bottom: '0',
+                containLabel: true
+            },
+            xAxis: {
+                type : 'category',
+                data : ['语文','数学','英语','文科综合','理科综合','总分'],
+                axisLine:{lineStyle:{color:'#8a8a8a'}}
+            },
+            yAxis: {
+                type : 'value',
+                axisLine:{lineStyle:{color:'#8a8a8a'}},
+                splitLine:{lineStyle:{color:'#8a8a8a'}},
+                axisLabel: {
+                    formatter: '{value} %',
+                }
+            },
+            series: [
+                {
+                    name: '均衡指数',
+                    type: 'bar',
+                    stack:  '总量',
+                    barWidth:'34',
+                    itemStyle: {
+                        normal: {
+                            color: '#ff6d3f'
+                        }
+                    },
+                    data: [10, 60, 75, 85, 91, 33]
+                },
+                {
+                    name: '班级平均得分率',
+                    type: 'line',
+                    itemStyle: {
+                        normal: {
+                            color: '#53aedb',
+                        }
+                    },
+                    data: [10, 60, 75, 85, 91, 33]
+                }
+            ]
+        };
+        myChart5.setOption(option5);
+
+
+        var myChart6 = echarts.init(document.getElementById('chart_own'));
+        option6 = {
+            tooltip : {
+                trigger: 'axis'
+            },
+            toolbox: {
+                show : false,
+            },
+            grid: {
+                top: '0',
+                left: '25%',
+                right: '25%',
+                bottom: '5%',
+                containLabel: true
+            },
+            calculable : true,
+            xAxis :{
+                type : 'category',
+                position:'top',
+                data : ['其中考试','期末考试','本次考试'],
+                axisLine:{
+                    lineStyle: {
+                        color: '#686868'
+                    }
+                }
+            },
+            yAxis : [
+                {
+                    type : 'value',
+                    inverse:true,
+                    axisLabel: {textStyle: {color: '#757575', fontSize: '12'}},
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    splitLine:{lineStyle:{color:'#8a8a8a'}},
+                    axisLabel: {
+                        formatter: '{value} %',
+                    }
+                }
+            ],
+            series : [
+                {
+                    name:'班级平均得分率',
+                    type:'line',
+                    itemStyle: {
+                        normal: {
+                            color: '#53aedb',
+                        }
+                    },
+                    data:[10, 90, 56],
+                },
+            ]
+        };
+
+        // 为echarts对象加载数据
+        myChart6.setOption(option6);
+
+
+
+
+        var myChart7 = echarts.init(document.getElementById('chart_advance'));
+
+        option7 = {
+            tooltip : {
+                trigger: 'axis'
+            },
+            toolbox: {
+                show : false,
+            },
+            grid:{
+                top:'10%',
+                left: '25%',
+                right: '25%',
+                bottom: '0',
+                containLabel: true
+            },
+            legend: {
+                data:['差值']
+            },
+            xAxis : [
+                {
+                    type : 'category',
+                    data : ['语文','数学 ','英语','文科综合','理科综合','总分'],
+                    axisLabel: {
+                        show: true,
+                        textStyle: {
+                            color: '#757575'
+                        }
+                    },
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    splitLine:{lineStyle:{color:'#8a8a8a'}},
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    axisLabel: {
+                        show: true,
+                        textStyle: {
+                            color: '#757575'
+                        },
+                        formatter: '{value} %'
+                    },
+                    axisLine:{lineStyle: {color: '#686868'}},
+                    splitLine:{lineStyle:{color:'#8a8a8a'}},
+                }
+            ],
+            series : [
+                {
+                    name:'差值',
+                    type:'bar',
+                    data:[55, 66, 60, 77, -115,-120],
+                    barGap: '0',
+                    barCategoryGap: '50%',
+                    barWidth: 28,
+                    itemStyle: {
+                        normal: {
+                            color: '#ff6d3f',
+                        }
+                    },
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'top',
+                            formatter: '{c} %',
+                            textStyle:{color:'#545454'}
+                        }
+                    },
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart7.setOption(option7);
+    </script>
+</body>
+</html>
