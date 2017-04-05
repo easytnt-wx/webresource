@@ -96,4 +96,5 @@ div.selectBox > label{
 .tier > li > a > span.node_name{
     font-size: 16px;
     color: #323232;
+    margin: 0 5px;
 }
