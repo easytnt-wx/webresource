@@ -35,3 +35,14 @@
     float: left;
     margin-right: 10px;
 }
+#examkgAnwer .panel-heading input{
+    width:60px;
+}
+#examkgAnwer .form-inline .form-group label{
+    padding: 0px;
+    margin-top: 5px;
+    margin-left:10px;
+    margin-right:10px;
+    word-break:keep-all;           /* 不换行 */
+    white-space:nowrap;          /* 不换行 */
+}
