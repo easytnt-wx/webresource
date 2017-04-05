@@ -77,17 +77,19 @@ div.selectBox > label{
 .tier > li{
     outline: none;
 }
+.tier > li > a > span{
+    display: inline-block;
+    vertical-align: middle;
+}
 .tier > li > a > span.noline_close{
     background-image: url("../images/icon_on.png");
     background-color: #fff;
     width: 20px;
     height: 20px;
-    display: inline-block;
 }
 .tier > li > a > span.noline_open{
     background-image: url("../images/icon_off.png");
     background-color: #fff;
     width: 20px;
     height: 20px;
-    display: inline-block;
 }
