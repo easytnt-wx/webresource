@@ -74,3 +74,12 @@ div.selectBox > label{
 }
 
 /*ztree自定义样式*/
+.tier > li{
+    outline: none;
+}
+.tier > li > a > span.noline_close{
+    background-image: url("../images/icon_on.png");
+}
+.tier > li > a > span.noline_open{
+    background-image: url("../images/icon_off.png");
+}
