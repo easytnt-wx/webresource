@@ -793,6 +793,8 @@
 .sort1 { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(../images/icon_sort.png) center center no-repeat; cursor: pointer; }
 
 .sort2 { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(../images/icon_sort2.png) center center no-repeat; cursor: pointer; }
+.login-box > div.error-wrapper > p.error{ color: red; font-size: 16px; }
+
 /*设置答题卡结构*/
 .mark-area { position: absolute; width: 140px; height: 210px; border: 2px solid #f29b76; top: 177px; left: 304px; }
 .mark-area .handle-top, .mark-area .handle-right, .mark-area .handle-bottom, .mark-area .handle-left, .mark-area .handle-close { position: absolute; width: 4px; height: 4px; border: 2px solid #f29b76; background: #fff; }
