@@ -76,6 +76,7 @@ div.selectBox > label{
 /*ztree自定义样式*/
 .tier  li{
     outline: none;
+    cursor: pointer;
 }
 .tier > li > a > span{
     display: inline-block;
@@ -97,4 +98,9 @@ div.selectBox > label{
     font-size: 16px;
     color: #323232;
     margin: 0 5px;
+}
+li.level1:hover{
+    background-color: #eee;
+    color: #323232;
+    cursor: pointer;
 }
