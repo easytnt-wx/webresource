@@ -587,6 +587,11 @@ input[type="text"].myinput{
 	display: inline-block;
 	margin-left: 20px;
 }
+/*表单样式   时间选择输入框*/
+input[readonly]{
+	cursor: pointer;
+}
+
 /*下拉框*/
 .myselect-horizontal{
 	margin-left: 20px !important;
