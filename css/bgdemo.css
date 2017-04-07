@@ -41,20 +41,18 @@
 }
 .tabContent .select-menu > a{
     margin-right: 20px;
-    background-color: #fff;
+    font-size: 16px;
+    line-height: 35px;
 }
 .tabContent .select-menu > a:hover,.tabContent .select-menu > a:focus,.tabContent .select-menu > a.active{
     background-color: #42a0fc;
     color: #fff;
     text-decoration: none;
 }
-.tabContent .select-item{
-
-}
 .tabContent .select-item > a{
     margin-right: 10px;
-    line-height: 20px;
-    background-color: #fff;
+    line-height: 30px;
+    font-size: 14px;
 }
 .tabContent .select-item > a:hover,.tabContent .select-item > a:focus,.tabContent .select-item > a.active{
     background-color: #42a0fc;
@@ -87,4 +85,7 @@
     border-bottom: 2px solid #419efc;
     position: relative;
     z-index: 5;
+}
+.Btn3{
+    border: none;
 }
