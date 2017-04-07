@@ -270,7 +270,8 @@
 .upload_paper, .join_str, .design_card { color: #419efc; }
 .express .bx-wrapper { margin-bottom: 30px; }
 /*客观题设置*/
-.input_box .left { float: left; width: 200px; margin-right: -200px; position: relative; z-index: 5; }
+.input_box .left { float: left; width: 200px; margin-right: -200px; position: relative; z-index: 5;}
+.input_box .left > .tabBox{ max-height: 600px; min-height: 100px; overflow-y: auto; position: relative; border: 1px solid #ddd;}
 .input_box .right { float: left; width: 100%; }
 .input_box .right .right_wrapper { margin-left: 241px; }
 
@@ -288,7 +289,7 @@
 
 .view_recorder { color: #45a4fe; font-size: 14px; line-height: 30px; display: block; *display: inline; *zoom: 1; border: 1px solid #45a4fe; border-radius: 3px; text-align: center; margin-bottom: 30px; }
 
-.input_list { width: 100%; border-collapse: collapse; border: 1px solid #dddddd; font-size: 14px; }
+.input_list { width: 100%; border-collapse: collapse; font-size: 14px; }
 .input_list thead th { color: #555555; font-weight: normal; height: 40px; }
 .input_list tbody tr td { text-align: center; height: 50px; }
 
