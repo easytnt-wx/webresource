@@ -65,6 +65,9 @@ input[type="text"].myinput{
 .form-horizontal .has-feedback .form-control-feedback{
 	right: 160px;
 }
+.form-horizontal .has-feedback select + i.form-control-feedback{
+	right: 40px;
+}
 form.formvalidation .form-control-feedback {
     position: static;
     display: inline-block;
