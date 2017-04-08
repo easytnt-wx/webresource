@@ -70,3 +70,9 @@ ul.bar_list > li.nodata{
 a[name="btn"]{
     padding: 0;
 }
+.dropcont > ul > li {
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
