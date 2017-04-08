@@ -177,3 +177,10 @@ div#imgeye-panel{
     border: 1px solid #45a5ff;
     color: #ffffff;
 }
+
+i.glyphicon.glyphicon-ok.pull-right.active{
+    display: inline-block;
+}
+i.glyphicon.glyphicon-ok.pull-right{
+    display: none;
+}
