@@ -158,11 +158,6 @@ a:hover {
     cursor: pointer;
 }
 
-.item_editModel .editList li {
-     width: auto !important; 
-     height: auto !important; 
-}
-
 .photoRect {
     width: 100% !important;
     height: 100% !important;
