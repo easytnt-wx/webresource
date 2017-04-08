@@ -371,7 +371,7 @@ transition: all ease .5s; */ }
 
 .item_editModel .editList ul { height: 501px; }
 
-.item_editModel .editList li { width: 214px; height: 200px; }
+.item_editModel .editList li { width: 214px; height: auto; }
 
 .item_editModel .editList .photo { width: 210px; height: 143px; padding: 2px; }
 
