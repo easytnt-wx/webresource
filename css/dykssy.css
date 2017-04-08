@@ -67,3 +67,6 @@ ul.bar_list > li.nodata{
     text-align: center;
     color: #aaa;
 }
+a[name="btn"]{
+    padding: 0;
+}
