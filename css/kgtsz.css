@@ -46,3 +46,9 @@
     word-break:keep-all;           /* 不换行 */
     white-space:nowrap;          /* 不换行 */
 }
+.form-group{
+    margin: 0;
+}
+input.inputStyle4 + i.form-control-feedback{
+    right: -20px;
+}
