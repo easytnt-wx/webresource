@@ -13,7 +13,11 @@
 	<div class="wrapper data-layout">
         <div class="header">
             <div class="head clearfix">
-                <a href="#" class="fl data-logo"></a>
+                <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+                <ul class="easy_nav fl">
+                    <li onclick="full()"><a class="" href="javascript:;"><span>全屏</span></a></li>
+                    <li onclick="nofull()"><a href="javascript:;"><span>退出全屏</span></a></li>
+                </ul>
                 <dl class="easy_info fr">
                     <dt>
                     <div class="uerbox">
@@ -36,7 +40,7 @@
                 <div class="col-6">
                     <div class="container mgr15">
                         <div class="container-tit"><p>武汉二十九中心大数据中心运行情况</p></div>
-                        <div class="container-content" style="height: 241px;">
+                        <div class="container-content">
                             <div class="circle-pie">
                                 <span class="circle-num bg4">
                                      <i><em>1024</em>人</i>
@@ -61,7 +65,7 @@
                 <div class="col-6">
                     <div class="container mgl15">
                         <div class="container-tit"><p>2016-2017学年下学期正在进行的考试</p></div>
-                        <div class="container-content" style="height: 241px;">
+                        <div class="container-content">
                             <div class="underway-exam clearfix">
                                 <ul class="fl underway-list">
                                     <li><i class="icon_exam"></i><a href="#">2016-2017高一年级第五数学周周练</a></li>
@@ -78,22 +82,22 @@
             <div class="rows pdb30">
                 <div class="col-6">
                     <div class="container mgr15">
-                        <div class="container-content" style="height: 334px;">
-                            <div id="myChart" style="width: 600px;height:220px;padding-top: 50px;"></div>
+                        <div class="container-content">
+                            <div id="myChart"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="container pdb15 mgl15">
                         <div class="container-tit"><p>2016-考试统计</p></div>
-                        <div class="container-content" style="height: 47px;">
+                        <div class="container-content">
                             <p class="t_c number-times"><span>高一<i>15</i>次</span><span>高二<i>15</i>次</span><span>高三<i>15</i>次</span></p>
                         </div>
                     </div>
                     <div class="container mgl15">
                         <div class="container-tit clearfix"><p class="fl">荣耀榜</p><span class="fr mapping">高一年级第五周周练</span></div>
-                        <div class="container-content" style="height: 184px;">
-                            <div class="outer" style="padding-top: 10px;">
+                        <div class="container-content">
+                            <div class="outer">
                                 <ul id="marquee" class="honour-list" >
                                     <li>
                                         <p class="honour-info">
@@ -277,16 +281,67 @@
 	        };
 	        myChart.setOption(option);
 
-	        $('#marquee').bxSlider({
-	            slideWidth: 151,
-	            moveSlides: 1,
-	            startSlide: 1,
-	            maxSlides: 3,
-	            minSlides: 2,
-	            slideMargin: 36,
-	            pager:false
-	        });
+            if($(window).width() > 1920){
+                $('#marquee').bxSlider({
+                    slideWidth: 150,
+                    moveSlides: 1,
+                    startSlide: 1,
+                    maxSlides: 5,
+                    minSlides: 2,
+                    slideMargin: 30,
+                    pager:false,
+                    auto:true,
+                    pause:3000,
+                    controls:false
+                });
+            }else{
+                $('#marquee').bxSlider({
+                    slideWidth: 150,
+                    moveSlides: 1,
+                    startSlide: 1,
+                    maxSlides: 3,
+                    minSlides: 2,
+                    slideMargin: 30,
+                    pager:false,
+                    auto:true,
+                    pause:3000,
+                    controls:false
+                }); 
+            }  
 	    });
+        function full(){  
+            var docElm = document.documentElement;  
+            //W3C   
+            if (docElm.requestFullscreen) {  
+                docElm.requestFullscreen();  
+            }  
+                //FireFox   
+            else if (docElm.mozRequestFullScreen) {  
+                docElm.mozRequestFullScreen();  
+            }  
+                //Chrome等   
+            else if (docElm.webkitRequestFullScreen) {  
+                docElm.webkitRequestFullScreen();  
+            }  
+                //IE11   
+            else if (elem.msRequestFullscreen) {  
+                elem.msRequestFullscreen();  
+            }  
+        }  
+        function nofull() {  
+            if (document.exitFullscreen) {  
+                document.exitFullscreen();  
+            }  
+            else if (document.mozCancelFullScreen) {  
+                document.mozCancelFullScreen();  
+            }  
+            else if (document.webkitCancelFullScreen) {  
+                document.webkitCancelFullScreen();  
+            }  
+            else if (document.msExitFullscreen) {  
+                document.msExitFullscreen();  
+            }  
+        } 
 	</script>
 </body>
 </html>

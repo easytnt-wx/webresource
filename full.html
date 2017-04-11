@@ -9,10 +9,7 @@
 <input id="Button2" type="button" value="关闭全屏" onclick="guanbi()" />  
   
 <script>  
-    function kaishi()  
-    {  
-  
-  
+    function kaishi(){  
         var docElm = document.documentElement;  
         //W3C   
         if (docElm.requestFullscreen) {  
@@ -31,10 +28,7 @@
             elem.msRequestFullscreen();  
         }  
     }  
-  
     function guanbi() {  
-  
-  
         if (document.exitFullscreen) {  
             document.exitFullscreen();  
         }  
