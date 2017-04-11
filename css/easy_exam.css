@@ -405,7 +405,7 @@ transition: all ease .5s; */ }
 
 .item_editModel .fixTerm .fix_y:hover i, .item_editModel .fixTerm .fix_y.on i { background-image: url(../images/fix_y_ico2.png); }
 
-.item_editModel .photoRect img { display: block; width: 100%; height: auto; }
+.item_editModel .photoRect img { display: block; /*width: 100%; height: auto; */}
 
 .item_editModel .fixPhotoRect { height: 448px; overflow: hidden; zoom: 1; }
 
