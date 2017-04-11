@@ -184,3 +184,6 @@ i.glyphicon.glyphicon-ok.pull-right.active{
 i.glyphicon.glyphicon-ok.pull-right{
     display: none;
 }
+.dropdown-menu > li > a{
+    white-space: normal;
+}
