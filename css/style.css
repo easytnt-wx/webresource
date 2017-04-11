@@ -212,16 +212,16 @@
 .set_number .input { width: 157px; margin-left: 10px; }
 .set_number tbody tr td { height: 60px; padding: 0 20px; font-size: 16px; }
 
-.bar_list { width: 900px; margin: 0 auto; }
+.bar_list { width: 1000px; margin: 0 auto; }
 .bar_list li { *zoom: 1; display: block; color: #888888; font-size: 14px; padding: 17px 0; position: relative; }
 .bar_list li:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.bar_list li .tit { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 16px; width: 70px; text-align: right; }
+.bar_list li .tit { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 16px; width: 120px; text-align: right; }
 .bar_list li.complete .progress_bar2 em { background: #3de498; }
 .bar_list li.complete .progress_info { color: #3de498; }
 .bar_list li.complete .progress_info em { color: #3de498; }
 .bar_list li:hover .into_paper { opacity: 1; filter: alpha(opacity=100); z-index: 10; }
 
-.progress_bar2 { position: relative; width: 700px; height: 24px; border-radius: 20px; background: #f5f5f5; overflow: hidden; margin: 0 25px 0 25px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
+.progress_bar2 { position: relative; width: 600px; height: 24px; border-radius: 20px; background: #f5f5f5; overflow: hidden; margin: 0 25px 0 25px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .progress_bar2 em { background: #ffd07d; position: absolute; left: 0; top: 0; height: 10px; display: block; height: 24px; }
 
 .progress_info { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
