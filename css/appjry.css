@@ -64,12 +64,12 @@ div.selectBox > label{
     line-height: 34px;
 }
 .waiting-list tr:hover{
-    background-color: #43a1fd;
+    background-color: #ebf5ff;
     color: #fff;
     transition: all 0.1s ease;
 }
 .waiting-list tr.wait{
-    background-color: #43a1fd;
+    background-color: #ebf5ff;
     color: #fff;
 }
 
