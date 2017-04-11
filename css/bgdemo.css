@@ -89,3 +89,53 @@
 .Btn3{
     border: none;
 }
+
+.pel-red{
+    border-radius: 8px;
+    border:1px solid #ddd;
+    border-bottom: 4px solid #F44336;
+    text-align: center;
+    padding: 5px 10px;
+    width: 200px;
+    box-shadow: 4px 4px 10px #ddd;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.pel-red > h4{
+    padding: 12px 0;
+    border-bottom: 1px dashed #F44336;
+    font-weight: 600;
+    color: #F44336;
+}
+.pel-red > p{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #F44336;
+}
+.pel-green{
+    border-radius: 8px;
+    border:1px solid #ddd;
+    border-bottom: 4px solid #00d596;
+    text-align: center;
+    padding: 5px 10px;
+    width: 200px;
+    box-shadow: 4px 4px 10px #ddd;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.pel-green > h4{
+    padding: 12px 0;
+    border-bottom: 1px dashed #00d596;
+    font-weight: 600;
+    color: #00d596;
+}
+.pel-green > p{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #00d596;
+}
+
+.pel-red.horizontal, .pel-green.horizontal{
+    display: inline-block;
+    margin: 10px;
+}
