@@ -80,7 +80,7 @@ div.selectBox > label{
     display: inline-block;
     vertical-align: middle;
 }
-.tier > li > a > span.noline_close{
+.tier > li > a > span.noline_close,.tier > li > a > span.noline_docu{
     background-image: url("../images/icon_on.png");
     background-color: #fff;
     width: 20px;
