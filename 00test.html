@@ -121,10 +121,16 @@
             //   autoclose : 1,
             //   todayBtn : 1
             // });
+            var data = {
+                fromDate : '2016-10-1',
+                toDate : '2017-11-10',
+                version : 'v2'
+            }
             $.ajax({
                 type: "GET",
-                url:"http://192.168.1.235/ez/examinfo/school/F6C68AAFA605437CE040007F01001D3D/1/10?fromDate=2016-10-1&toDate=2017-11-10&version=v2",
+                url:"http://192.168.1.235/ez/examinfo/school/F6C68AAFA605437CE040007F01001D3D/1/10",
                 dataType: "json",
+                data : data,
                 success: function(data){
                     var _data = data.map.examList;
                     var htmlStr='';

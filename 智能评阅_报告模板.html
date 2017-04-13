@@ -105,7 +105,19 @@
                             <h4>
                                 <span>标题xxxx</span>
                             </h4>
-                            <div></div>
+                            <div>
+                                <button class="btn btn-default" id="moreImg">查看全图</button>
+                                <div class="pop-bg">
+                                    <div class="pop-panel">
+                                        <button><span class="glyphicon glyphicon-remove"></span></button>
+                                        <button><span class="glyphicon glyphicon-resize-full"></span></button>
+                                        <div class="pop-box">
+                                            <div><img src="images/upload/editphoto_16.jpg" alt=""></div>
+                                            <div><img src="images/upload/editphoto_16_2.jpg" alt=""></div>
+                                        </div>              
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="list">
                             <h4>
@@ -131,6 +143,30 @@
     <script type="text/javascript">
         $(function(){
             $(".tabStyle2").tabControl();
+
+
+            // 查看原图
+            $("#moreImg").on('click',function(){
+                $('.pop-bg').show(300);
+                $('.pop-box').css({ width: '900px', height: '500px'});
+                $('body').css('overflow','hidden');
+            });
+            $('.pop-panel button:eq(1)').on('click',function(){
+                var $bW = $('.pop-box').width();
+                if($bW == 900){
+                    var $w = $(window).width();
+                    var $h = $(window).height();
+                    $('.pop-box').css({ width: $w, height: $h});
+                    $('.pop-panel button:eq(1)').find('span').removeClass('glyphicon-resize-full').addClass('glyphicon-resize-small');
+                }else{
+                    $('.pop-box').css({ width: '900px', height: '500px'});
+                    $('.pop-panel button:eq(1)').find('span').removeClass('glyphicon-resize-small').addClass('glyphicon-resize-full');
+                }
+            });
+            $('.pop-panel button:eq(0)').on('click',function(){
+                $('.pop-bg').fadeOut(300);
+                $('body').css('overflow','auto');
+            });
         })
     </script>
 </body>

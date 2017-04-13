@@ -139,3 +139,57 @@
     display: inline-block;
     margin: 10px;
 }
+
+
+/* 查看原图插件样式  */
+.pop-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    overflow: hidden;
+    display: none;
+}
+.pop-panel{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 101;
+    border-radius: 4px;
+}
+.pop-panel > button{
+    background-color: #000;
+    opacity: 0.7;
+    width: 30px;
+    height: 30px;
+    border:1px solid #000;
+    color: #fff;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+.pop-panel > button:hover{
+    opacity: 1;
+}
+.pop-panel > button:nth-child(2){
+    right: 30px;
+}
+.pop-panel > .pop-box{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 900px;
+    height: 500px;
+}
+.pop-panel > .pop-box > div{
+    position: relative;
+}
+.pop-panel > .pop-box > div > img{
+    width: 100%;
+}
