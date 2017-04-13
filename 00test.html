@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>模板</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/teacherLook.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <!-- <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul> -->
+            <dl class="easy_info fr">
+                <!-- <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt> -->
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+	<div class="container">
+        <div class="wrapper pdlr20">
+<!--             <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">首页</a><i> &gt; </i><a class="current" href="#">成绩分析</a></p>
+            </div>
+            <div class="tabStyle2 mgb20" name="tab">
+                <div class="tabTit" name="tabTit">
+                    <a href="#" class="on">成绩分析</a>
+                    <a href="#" class="">考试历史</a>
+                </div>
+                <div class="tabContent pd10" name="tabCon">
+                    <div class="pdtb10 pdlr20 form-group mytime">时间:
+                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>到&nbsp;&nbsp;
+                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>
+                    </div>
+                    <div class="pdtb10 pdlr20">考试:
+                        <a href="#" class="Btn3"><span>单元考试</span></a>
+                        <a href="#" class="Btn3 active"><span>在线考试</span></a>
+                        <a href="#" class="Btn3"><span>水平考试</span></a>
+                    </div>
+                </div>
+                <div class="tabContent pd10 dis_none" name="tabCon">
+                    <div class="pdtb10 pdlr20">时间:
+                        <a href="#" class="Btn3"><span>一个月</span></a>
+                        <a href="#" class="Btn3"><span>三个月</span></a>
+                        <a href="#" class="Btn3"><span>六个月</span></a>
+                    </div>
+                    <div class="pdtb10 pdlr20">考试:
+                        <a href="#" class="Btn3"><span>单元考试</span></a>
+                        <a href="#" class="Btn3"><span>在线考试</span></a>
+                        <a href="#" class="Btn3"><span>水平考试</span></a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="pd10"></div>
+            <div class="list">
+                <!-- <div class="boxStyle mgb20 clearfix">
+                    <h4>武汉四中高一期中考试</h4>
+                    <p class="pdlr15">
+                        <span>班级: 10班</span>
+                        <span>创建时间: 2017-03-29</span>
+                    </p>
+                    <div class="btnGrp">
+                        <a href="javascript:void(0);" class="Btn3 btnR"><span>年级报告</span></a>
+                        <a href="javascript:void(0);" class="Btn3 btnR"><span>班级报告</span></a>
+                        <a href="javascript:void(0);" class="Btn3 btnR"><span>单科报告</span></a>
+                    </div> 
+                </div> -->
+            </div>
+        </div>
+	</div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            // $(".tabStyle2").tabControl();
+            // $('#datetime').datetimepicker({
+            //   format : "yyyy-mm-dd",
+            //   minView : 2,
+            //   autoclose : 1,
+            //   todayBtn : 1
+            // });
+            // $('#datetimepicker').datetimepicker({
+            //   format : "yyyy-mm-dd",
+            //   minView : 2,
+            //   autoclose : 1,
+            //   todayBtn : 1
+            // });
+            $.ajax({
+                type: "GET",
+                url:"http://192.168.1.235/ez/examinfo/school/F6C68AAFA605437CE040007F01001D3D/1/10?fromDate=2016-10-1&toDate=2017-11-10&version=v2",
+                dataType: "json",
+                success: function(data){
+                    var _data = data.map.examList;
+                    var htmlStr='';
+                    for(var i = 0 ; i < _data.length; i++){
+                        htmlStr += '<div class="boxStyle mgb20 clearfix"><h4>'+ _data[i].exam.schoolName + _data[i].exam.name+'</h4><p class="pdlr15"><span>班级: '+_data[i].exam.className+'</span><span>创建时间: '+_data[i].exam.createDate+'</span></p><div class="btnGrp"><a href="'+ _data[i].reports[0].url +'" class="Btn3 btnR"><span>'+ _data[i].reports[0].name +'</span></a><a href="'+ _data[i].reports[1].url +'" class="Btn3 btnR"><span>'+ _data[i].reports[1].name +'</span></a><a href="'+ _data[i].reports[2].url +'" class="Btn3 btnR"><span>'+ _data[i].reports[2].name +'</span></a></div></div>';
+                        $('.list').html(htmlStr);
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>
