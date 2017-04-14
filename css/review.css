@@ -1,3 +1,4 @@
+@charset 'UTF-8';
 .zgItemUI a {
     color: #4c4e54;
 }
@@ -150,7 +151,7 @@
 }
 
 .item_editModel .editList ul {
-    height: auto !important;
+    height: 100% !important;
 }
 
 .form-group > label {
