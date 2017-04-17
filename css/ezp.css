@@ -188,3 +188,8 @@ i.glyphicon.glyphicon-ok.pull-right{
 .dropdown-menu > li > a{
     white-space: normal;
 }
+.navbar-brand>img{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+}
