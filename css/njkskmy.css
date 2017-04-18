@@ -23,3 +23,10 @@
 .Btn3 {
     background-color: #fff;
 }
+span.qid , span.un-qid{
+    max-width: 800px;
+}
+span.un-qid > a{
+    width: auto;
+    padding: 0 20px;
+}
