@@ -731,7 +731,7 @@
 
 .icon-password { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 54px; height: 46px; background: url(../images/icon_password.png) center center no-repeat; }
 
-.remember-state { color: #c6c6c6; margin-top: 10px; }
+.remember-state { display: none; color: #c6c6c6; margin-top: 10px; }
 
 .login-btn { display: block; *display: inline; *zoom: 1; background: #00c56f; line-height: 48px; font-size: 20px; width: 125px; text-align: center; color: #fff; border-radius: 3px; text-decoration: none; }
 
