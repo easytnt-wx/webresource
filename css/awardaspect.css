@@ -159,6 +159,7 @@ a:hover {
 
 .item_editModel .photoRect img {
     width: none; /*这里需要修改easy_exam.css，取消图片width设置*/
+    user-select : none;
 }
 
 .photoRect {
