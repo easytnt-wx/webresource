@@ -9,3 +9,6 @@
 	height: auto;
 	overflow-y: visible;
 }
+.slider-selection{
+	background-image: linear-gradient(to bottom , #419efc, #419efa)
+}
