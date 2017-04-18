@@ -12,3 +12,6 @@
 .slider-selection{
 	background-image: linear-gradient(to bottom , #419efc, #419efa)
 }
+.processed{
+	width: 500px;
+}
