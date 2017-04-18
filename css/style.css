@@ -495,7 +495,7 @@
 .allot dl dt { display: block; *display: inline; *zoom: 1; font-size: 14px; color: #888888; float: left; line-height: 30px; margin-right: 15px; }
 .allot dl dd { display: block; *display: inline; *zoom: 1; float: left; width: 90%; }
 .allot dl dd .qid a { display: inline-block; *display: inline; *zoom: 1; height: 32px; line-height: 32px; border-radius: 5px; color: #fff; background-color: #06e7a5; text-align: center; font-size: 16px; margin: 0 10px 5px 0; padding: 0 20px; }
-.allot dl dd .un-qid a { display: inline-block; *display: inline; *zoom: 1; width: 30px; height: 30px; line-height: 30px; border-radius: 5px; color: #fff; background-color: #d2d2d2; text-align: center; font-size: 14px; margin: 0 10px 5px 0; }
+.allot dl dd .un-qid a { display: inline-block; *display: inline; *zoom: 1;height: 30px; line-height: 30px; border-radius: 5px; color: #fff; background-color: #d2d2d2; text-align: center; font-size: 14px; margin: 0 10px 5px 0; }
 
 /*安排评卷人员*/
 /*.tier > li { padding: 5px 0; }
