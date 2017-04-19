@@ -79,10 +79,12 @@
 .item-container .item-prev{
     padding-left:0px;
     width: calc(100% - 400px);
+    float: left;
 }
 .item-container .item-prev + div{
     width: 380px;
     margin-left: 20px;
+    float: left;
 }
 
 .item-container .item-prev .img-list{
