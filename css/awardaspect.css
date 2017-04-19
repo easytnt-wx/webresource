@@ -202,11 +202,12 @@ a:hover {
 }
 /* 框*/
 .item-container > div:first-child{
-    width: calc(100% - 400px);
+    width: calc(100% - 420px);
     float: left;
 }
 .item-container > div:last-child{
-    width: 380px;
+    width: 400px;
     margin-left: 20px;
     float: left;
+    margin-top: 24px;
 }
