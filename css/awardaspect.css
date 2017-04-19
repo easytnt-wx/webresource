@@ -200,3 +200,13 @@ a:hover {
     background-image : linear-gradient(to bottom,#41a0fb 0,#43a0fd 100%);
     background-color: #43a0fd;
 }
+/* 框*/
+.item-container > div:first-child{
+    width: calc(100% - 400px);
+    float: left;
+}
+.item-container > div:last-child{
+    width: 380px;
+    margin-left: 20px;
+    float: left;
+}
