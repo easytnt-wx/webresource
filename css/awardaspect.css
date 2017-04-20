@@ -211,3 +211,7 @@ a:hover {
     float: left;
     margin-top: 24px;
 }
+
+#item-edit-form .form-group label:not(.control-label){
+    min-width: 70px;
+}
