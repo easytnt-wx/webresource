@@ -214,4 +214,5 @@ a:hover {
 
 #item-edit-form .form-group label:not(.control-label){
     min-width: 70px;
+    margin-right: 10px;
 }
