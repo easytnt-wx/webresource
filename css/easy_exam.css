@@ -310,7 +310,7 @@ transition: all ease .5s; */ }
 
 .ni_g_cards_show .ni_del .ni_li01 .ni_g_ti_num { background: #06e7a5; }
 
-.ni_g_cards_show .ni_del .ni_li02 .ni_g_ti_num { background: #d2d2d2; }
+.ni_g_cards_show .ni_del .ni_li02 .ni_g_ti_num { background: #888; }
 
 .ni_g_a_del { line-height: 30px; padding: 0 17px; border: 1px solid #419efc; display: inline-block; border-radius: 3px; }
 
