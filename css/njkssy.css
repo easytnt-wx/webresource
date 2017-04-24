@@ -44,3 +44,14 @@
     right: -5px;
     background: url(../images/ni_img04.png) no-repeat center center;
 }
+.dialoglabel{
+    font-size: 14px;
+    font-weight: 500;
+}
+.dialogInput{
+    width: 480px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:6px 10px;
+    font-size: 14px;
+}
