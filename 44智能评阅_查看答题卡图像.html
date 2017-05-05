@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>答题卡图像</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/checkImg.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div>
+        <div class="slider">
+            <div class="logo">
+                <a href="javascript:void(0)">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                    <li>123456789876543</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">洪山中学</a><i> &gt; </i><a class="current" href="#">13400134000_217-385_20170317170320_33</a></p>
+            </div>
+            <div class="imagePanel">
+                <div class="tool clearfix">
+                    <div class="fl">
+                        <a href="#"><span class="page active">1</span></a>
+                        <a href="#"><span class="page">2</span></a>
+                    </div>
+                    <div class="fr">
+                        111
+                    </div>
+                </div>
+                <div class="imagesPool">
+                    <img src="images/upload/1.jpg" alt="11">
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var wH = $(window).height() - 74;
+            $('.list').css({
+                'height' : wH,
+                'overflow-y' : 'auto' 
+            });
+            var wH1 = $(window).height() - 128;
+            $('.imagesPool').css({
+                'height' : wH1,
+                'overflow-y' : 'auto' 
+            })
+        });
+    </script>
+</body>
+</html>
