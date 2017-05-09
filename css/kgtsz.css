@@ -44,12 +44,16 @@
     margin-top: 5px;
     margin-left:10px;
     margin-right:10px;
-    word-break:keep-all;           /* 不换行 */
-    white-space:nowrap;          /* 不换行 */
+    word-break:keep-all;     
+    white-space:nowrap;          
 }
 .form-group{
     margin: 0;
 }
 input.inputStyle4 + i.form-control-feedback{
     right: -20px;
+}
+
+input.inputStyle3 + i.form-control-feedback{
+    right: -25px;
 }
