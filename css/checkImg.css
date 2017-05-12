@@ -66,6 +66,7 @@ span.page{
 	color: #fff;
 	font-size: 16px;
 	margin-right: 6px;
+	cursor: pointer;
 }
 span.page.active{
 	background: #42a1fd;
