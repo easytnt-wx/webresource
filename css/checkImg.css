@@ -33,7 +33,7 @@
 	text-align: center;
 	margin-right: 6px;
 }
-.list > ul > li:hover,.list > ul > li:focus{
+.list > ul > li:hover,.list > ul > li:focus,.list > ul > li.active{
 	background-color: #3c91e4;
 }
 .main{
