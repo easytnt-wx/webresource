@@ -1,0 +1,59 @@
+@charset 'UTF-8';
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.progress_bar em{
+    border-radius: 20px;
+}
+.input_txt.boxStyle{
+    margin-bottom: 20px;
+}
+.input_list  th{
+    text-align: center;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 80px;
+}
+.bootstrap-select .dropdown-toggle:focus{
+    outline: none !important;;
+}
+.myselect{
+    float: left;
+    margin-right: 10px;
+}
+#examkgAnwer .panel-heading input{
+    width:60px;
+}
+#examkgAnwer .form-inline .form-group label{
+    padding: 0px;
+    margin-top: 5px;
+    margin-left:10px;
+    margin-right:10px;
+    word-break:keep-all;     
+    white-space:nowrap;          
+}
+.form-group{
+    margin: 0;
+}
+input.inputStyle4 + i.form-control-feedback{
+    right: -20px;
+}
+
+input.inputStyle3 + i.form-control-feedback{
+    right: -25px;
+}

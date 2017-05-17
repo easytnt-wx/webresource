@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+.rectangle {
+    position: absolute;
+    z-index: 100;
+    border: 2px solid #46b8da;
+    box-sizing: content-box;
+}
+.layout .left{
+	height: auto;
+	overflow-y: visible;
+}
+.slider-selection{
+	background-image: linear-gradient(to bottom , #419efc, #419efa)
+}
+.processed{
+	width: 500px;
+	max-height: 600px;
+	overflow-y: auto;
+}
+.icon_state1+span {
+    width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

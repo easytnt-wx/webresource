@@ -1,0 +1,97 @@
+@charset 'UTF-8';
+.main-tab{
+	background-color: #fff;
+	border-radius: 4px;
+
+}
+.main-tab > .head > h4{
+	color: #323232;
+	font-size: 18px;
+	padding: 20px;
+	margin: 0;
+	border-bottom: 1px solid #2B99F0;
+}
+.main-tab > .body{
+	overflow: hidden;
+	padding: 30px;
+}
+.btnGrop{
+	text-align: center;
+	margin: 20px 0;
+}
+.btnGrop > button{
+	margin-right: 30px;
+	width: 80px;
+	height: 40px;
+}
+.form-group{
+	margin-bottom: 25px;
+}
+.form-group > label{
+	color: #323232;
+	font-weight: 500;
+	font-size: 16px;
+}
+.form-control.seach{
+	width: 350px;
+	margin-right: 20px;
+}
+.form-control.select{
+	margin-right: 20px;
+}
+select ~ button{
+	margin-right: 15px;
+}
+.listBox{
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	padding: 20px 30px;
+	margin: 20px 0;
+}
+.listBox > h4{
+	color: #323232;
+	display: inline-block;
+	margin: 0;
+}
+.listBox > h4 > span{
+	margin-left: 20px;
+}
+.addresslink{
+	display: inline-block;
+	margin-left: 60px;
+	color: #0099FF;
+}
+.appid,.appkey{
+	margin: 15px 0;
+}
+.btnGp > button{
+	margin-right: 10px;
+}
+/*分页*/
+.mypager > li > a {
+  border-radius: 0;
+  color: #333333;
+}
+.mypager > li > a:hover,.mypager > li > a.active{
+  border-color: #2B99F0;
+  background-color: #fff;
+  color: #2B99F0;
+}
+
+.educloud-title {
+    display: inline-block;
+}
+
+.listBox p {
+    line-height: 30px;
+}
+
+form.educloud-form{
+	text-align: center;
+}
+.add-school-form .progress{
+	width: 100%;
+}
+.educloud-form.form-horizontal .has-feedback .form-control-feedback{
+	right: 220px;
+}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.progress_bar em{
+    border-radius: 20px;
+}
+.seach{
+	border-bottom: 1px solid #eee; 
+	padding: 20px 0 30px 0;
+}
+.list{
+	margin-top: 30px;
+	min-height: 400px;
+}
+table.mytable{
+	width: 100%;
+	font-size: 14px;
+}
+table.mytable th{
+	font-size: 15px;
+	font-weight: 600;
+}
+table.mytable th,table.mytable td{
+	padding: 12px 10px;
+	border-bottom: 1px solid #eee;
+}
+table.mytable tr:nth-child(odd){
+	background-color: #f9f9f9;
+}
+table.mytable tr:hover{
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+.Btn3{
+	background-color: #fff;
+	line-height: 32px;
+}
+.Btn3:hover,.Btn3:focus{
+	background-color: #42a1fd;
+	color: #fff;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 150px;
+	margin-right: 40px;
+}

@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*初始状态*/
+.circle-pie{
+	height: 123px;
+	padding: 20px 0;
+}
+.circle-num{
+	margin: 0 10px;
+}
+.underway-exam{
+	height: 117px;
+	padding: 23px;
+}
+#myChart{
+	height: 320px;
+	padding: 40px 0;
+	width: 600px;
+	margin: 0 auto;
+}
+.number-times{
+	padding: 0;
+	line-height: 80px;
+}
+.outer{
+	height: 166px;
+	padding: 24.5px 0;
+}
+.card-detail{
+	width: 1030px;
+	margin: 0 auto;
+	padding: 20px;
+}
+/*分辨率大于 1500px的状态*/
+@media(min-width: 1500px){
+	.wrapper.data-layout{
+		width: 1400px;
+	}
+}
+/*分辨率大于 2000px的状态*/
+@media(min-width: 2000px){
+	.wrapper.data-layout{
+		width: 1900px;
+	}
+	.circle-pie{
+		height: 150px;
+		padding: 50px 0;
+	}
+	.circle-num{
+		margin: 0 20px;
+		width: 150px;
+		height: 150px;
+	}
+	.underway-exam{
+		height: 170px;
+		padding: 40px;
+	}
+	#myChart{
+		height: 320px;
+		padding: 40px 0;
+		width: 800px;
+		margin: 0 auto;
+	}
+	.number-times{
+		padding: 0;
+		line-height: 80px;
+	}
+	.outer{
+		height: 166px;
+		padding: 24.5px 0;
+	}
+	.card-detail{
+		width: 1200px;
+		margin: 0 auto;
+		padding: 40px;
+	}
+}
+/*分辨率大于 3000px的状态*/
+@media(min-width: 3000px){
+	.wrapper.data-layout{
+		width: 2500px;
+	}
+	.circle-pie{
+		height: 200px;
+		padding: 60px 0;
+	}
+	.circle-num{
+		margin: 0 20px;
+		width: 200px;
+		height: 200px;
+	}
+	.circle-num i{
+		padding-top: 70px;
+		font-size: 28px;
+	}
+	.circle-num i + span{
+		display: block;
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.underway-exam{
+		height: 250px;
+		padding: 35px;
+	}
+	#myChart{
+		height: 600px;
+		padding: 60px 0;
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.number-times{
+		padding: 0;
+		line-height: 160px;
+		font-size: 25px;
+	}
+	.outer{
+		height: 166px;
+		padding: 145px 0;
+	}
+	.card-detail{
+		width: 1030px;
+		margin: 0 auto;
+		padding: 150px;
+	}
+}
+.easy_logoImg{
+	float: left;
+	margin-left: -20px;
+}
+.head{
+	padding:20px;
+}
+.easy_nav{
+	padding: 0;
+	margin-left: 40px;
+}

@@ -1,0 +1,105 @@
+@charset "utf-8";
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.title2{
+    padding: 20px;
+}
+.form-group > label{
+    margin:0;
+}
+.form-inline .input-group > input[type="text"]{
+    width: 200px;
+}
+i.fl.f16{
+    line-height: 34px;
+}
+.l,.c,.r{
+    float: left;
+}
+.l{
+    width: 350px;
+}
+.c{
+    width: 80px;
+}
+.r{
+    width: 400px;
+}
+.waiting-person,.selected-person{
+    height: 520px;
+}
+.scroll-box{
+    height: 450px;
+}
+.to-right{
+    margin-top: 180px;
+}
+div.selectBox{
+    padding: 10px 0 0 0;
+}
+div.selectBox > label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 120px;
+}
+.tit{
+    line-height: 34px;
+}
+.waiting-list tr:hover{
+    background-color: #ebf5ff;
+    transition: all 0.1s ease;
+}
+.waiting-list tr.wait{
+    background-color: #ebf5ff;
+}
+
+/*ztree自定义样式*/
+.tier  li{
+    outline: none;
+    cursor: pointer;
+}
+.tier > li > a > span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tier > li > a > span.noline_close,.tier > li > a > span.noline_docu{
+    background-image: url("../images/icon_on.png");
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.tier > li > a > span.noline_open{
+    background-image: url("../images/icon_off.png");
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+}
+.tier > li > a > span.node_name{
+    font-size: 16px;
+    color: #323232;
+    margin: 0 5px;
+}
+li.level1:hover{
+    background-color: #eee;
+    color: #323232;
+    cursor: pointer;
+}

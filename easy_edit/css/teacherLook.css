@@ -1,0 +1,130 @@
+@charset 'UTF-8';
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.tabStyle2{
+    background-color: #fff;
+    border-radius: 4px;
+    border:1px solid #eee;
+}
+.pdtb10{
+    font-size: 16px;
+}
+.pdtb10 > a.Btn3{
+    margin: 0 5px;
+}
+.pdtb10 > a.Btn3:first-child{
+    margin-left: 20px;
+}
+.form-group{
+    margin-bottom: 0;
+}
+h4:before{
+    content: "考";
+    background-color: #419efc;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: default;
+}
+.boxStyle:hover{
+    border: 1px solid #419efc ;
+}
+.boxStyle > p{
+    display: inline-block;
+    vertical-align: middle;
+}
+.boxStyle > p > span{
+    min-width: 100px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px;
+    margin: 10px 20px;
+}
+.boxStyle > div.btnGrp{
+    float: right;
+}
+.boxStyle > div.btnGrp > a{
+    margin: 0 5px;
+}
+.subjectList{
+    border-top: 1px solid #f0f0f0;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.subjectList > .ok, .subjectList > .no {
+    min-height: 60px;
+    line-height: 60px;
+}
+.subjectList > .ok > .dt{
+    font-size: 14px;
+    padding:0 30px;
+}
+.subjectList > .ok > .dt > em{
+    font-size: 28px;
+    color: #06e7a5;
+}
+.subjectList > .ok > .dd{
+    max-width: 850px;
+}
+.subjectList > .ok > .dd > a{
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #06e7a5;
+    line-height: 24px;
+    padding: 4px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #06e7a5;
+}
+.subjectList > .ok > .dd > a:hover,.subjectList > .ok > .dd > a:focus{
+    background-color: #06d095;
+    border: 1px solid #06d095;
+    text-decoration: none;
+}
+
+.subjectList > .no > .dt{
+    font-size: 14px;
+    padding:0 30px;
+}
+.subjectList > .no > .dt > em{
+    font-size: 28px;
+    color: #06e7a5;
+}
+.subjectList > .no > .dd{
+    max-width: 850px;
+}
+.subjectList > .no > .dd > a{
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+    padding: 4px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #646464;
+    background-color: #fff;
+}
+.subjectList > .no > .dd > a:hover,.subjectList > .no > .dd > a:focus{
+    background-color: #eee;
+    text-decoration: none;
+}
