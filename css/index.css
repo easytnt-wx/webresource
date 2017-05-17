@@ -20,3 +20,40 @@
 .progress_bar em{
     border-radius: 20px;
 }
+.tabStyle2 .tabTit a{
+    line-height: 70px;
+    height: 70px;
+}
+.tabTit{
+    background-color: #fff;
+    border: 1px solid #d1e5f7;
+    border-bottom: none;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.title1 .tag_index{
+    font-size: 18px;
+}
+.boxStyle{
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.title1 .tag_index em{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.exam_list tbody tr td{
+    height: 50px;
+}
+.tabBody{
+    min-height: 500px;
+    overflow: hidden;
+}
+.tabBody > img{
+    display: block;
+    margin: 120px auto 40px;
+}
+.tabBody > p{
+    font-size: 20px;
+}
