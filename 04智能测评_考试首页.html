@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>考试首页</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+    <link href="css/kssy.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+	<div class="container">
+		<div class="wrapper pdlr20">
+			<div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">年级考试基本信息</a></p>
+            </div>
+			<div class="boxStyle mgb20 ni_g_pr">
+              	<div class="ni_g_box1 clearfix pdt10">
+                  <div class="ni_box1_l clearfix pdt30">
+                      <div class="ni_img fl"><img src="./images/ni_img01.png" alt=""></div>
+                      <div class="ni_txt_list fl">
+                          <div class="ni_txt_list01">新疆维吾尔族自治区乌鲁木齐市2017年初中期中考试</div>
+                          <div class="ni_txt_list02 mgt20">
+                              <span class="ni_g_ico_tips01 ni_g_ico_tips01_01">校内周练</span>
+                              <span class="ni_g_ico_tips01 ni_g_ico_tips01_02">2017-2-28  至  2017-2-29</span>
+                              <a href="javascript:void(0)" class="updateExamName">修改考试名称</a>
+                              <a href="javascript:void(0)" class="deleteExam">删除考试信息</a>
+                          </div>
+                          <div class="ni_txt_list03 mgt15"><big>周伯通</big> 创建</div>
+                      </div>
+                  </div>
+                  <div class="ni_box1_r">
+                      <a class="ni_g_button01 ni_g_button01_02 mgb20">查看扫描情况</a>
+                      <a class="ni_g_button01 ni_g_button01_02 mgb20">查看评阅情况</a>
+                      <a class="ni_g_button01 ni_g_button01_02 mgb20">完成评卷</a>
+                  </div>
+            	</div>
+			</div>
+            <div class="ni_g_title01 clearfix">1. 考试人员管理<a href="javascript:;" class="btn_switch mgr30 fr"></a></div>
+            <!--考试标题 E-->
+            <!--考试人员 S-->
+            <div class="boxStyle create_exam mgb20 ni_g_pr ni_g_peple" style="display:none;">
+                <ul class="ni_ul">
+                    <li class="ni_li clearfix ni_g_border_bottom_1_f0f0f0">
+                        <div class="ni_box_l fl">参与学校数</div>
+                        <div class="ni_box_c fl">
+                            <span class="ni_school_num"><em>36</em>所</span>
+                            <span class="ni_join_num">参与人数<em>1052 </em>人</span>
+                        </div>
+                        <div class="ni_box_r fr"><a class="ni_g_a" href="#">管理参考学生名单</a></div>
+                    </li>
+                    <li class="ni_li clearfix">
+                        <div class="ni_box_l fl">考试管理员</div>
+                        <div class="ni_box_c fl clearfix">
+                            <span class="ni_g_admin_peple">刘德华</span>                           
+                        </div>
+                        <div class="ni_box_r fr"><a class="ni_g_a" href="#">添加考试管理员</a></div>
+                    </li>
+                </ul>
+            </div>
+			<div class="ni_g_title01">2. 管理考试科目<a class="ni_km_add fr mgr15">下载全部题卡</a><a class="ni_km_add fr">增加科目</a></div>
+			<div class="tabStyle2" name="tab">
+			    <div class="tabTit" name="tabTit">
+			        <a href="#" class="on">语文</a>
+			        <a href="#" class="last">数学</a> 
+			        <a href="#" class="last">英语</a>
+			    </div>
+			    <div class="tabContent" name="tabCon">
+		            <div class="boxStyle create_exam mgb20 ni_g_pr ni_g_cards_show">
+		                <div class="ni_g_pa_pj"></div>            
+		                <div class="ni_km_t">
+		                    <div class="ni_tip clearfix">
+		                    	<span class="ni_tip_admin">学科负责人</span><span class="ni_g_admin_peple">刘德华</span><span class="ni_g_admin_peple">刘德华</span>
+
+								<div class="ni_show_num">
+		                            <span>总分<big>150</big></span>
+		                            <span>主观<big>100</big></span>
+		                            <span>客观<big>50</big></span>
+		                        </div>
+		                        <div class="ni_box_r fr"><a class="ni_g_a_del" href="#">科目配置</a></div>
+		                    </div>
+		                    <div class="ni_show clearfix">
+		                        <div class="ni_show_map">
+		                            <ul class="ni_ul">
+		                                <!--百分比显示，以报名数为除数，报名数永远是百分百，其余的请开发对应计算设置-->
+		                                <li class="ni_li clearfix ni_li01">
+		                                    <span class="ni_span_name fl">报名数</span>
+		                                    <span class="ni_span_num fl">1000</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 100%"></i></span>
+		                                </li>
+		                                <li class="ni_li clearfix ni_li02">
+		                                    <span class="ni_span_name fl">已扫描</span>
+		                                    <span class="ni_span_num fl">600</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 60%"></i></span>
+		                                </li>
+		                                <li class="ni_li clearfix ni_li03">
+		                                    <span class="ni_span_name fl">已评阅</span>
+		                                    <span class="ni_span_num fl">500</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 50%"></i></span>
+		                                </li>
+		                                <li class="ni_li clearfix ni_li04">
+		                                    <span class="ni_span_name fl">已完成</span>
+		                                    <span class="ni_span_num fl">400</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 40%"></i></span>
+		                                </li>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="ni_del ni_g_border_top_1_f0f0f0 ni_g_peple">
+		                    <ul class="ni_ul">
+		                        <li class="ni_li clearfix ni_li01">
+		                            <div class="ni_box_l fl">已分配题号 <em class="f16 ni_g_color_06e7a5">18</em></div>
+		                            <div class="ni_box_c fl">
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                            </div>
+		                            <div class="ni_box_r fr"><a class="ni_g_a_del" href="#">管理评卷人员</a></div>
+		                        </li>
+		                        <li class="ni_li clearfix ni_li02">
+		                            <div class="ni_box_l fl">未分配题号 <em class="f16 ni_g_color_d2d2d2">18</em></div>
+		                            <div class="ni_box_c fl">
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                                <span class="ni_g_ti_num">22</span>
+		                            </div>
+		                            <div class="ni_box_r fr"></div>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div> 
+			    </div>
+			    <div class="tabContent dis_none" name="tabCon">
+					<div class="boxStyle create_exam mgb20 ni_g_pr ni_g_cards_show">
+		                <div class="ni_g_pa_pj"></div>            
+		                <div class="ni_km_t">
+		                    <div class="ni_tip clearfix">
+		                    	<span class="ni_tip_admin">学科负责人</span><span class="ni_g_admin_no_peple">未分配</span>
+
+								<div class="ni_show_no_num">
+		                            <span>总分<big>0</big></span>
+		                            <span>主观<big>0</big></span>
+		                            <span>客观<big>0</big></span>
+		                        </div>
+		                        <div class="ni_box_r fr"><a class="ni_g_a_del" href="#">科目配置</a></div>
+		                    </div>
+		                    <div class="ni_show clearfix">
+		                        <div class="ni_show_map">
+		                            <ul class="ni_ul">
+		                                <!--百分比显示，以报名数为除数，报名数永远是百分百，其余的请开发对应计算设置-->
+		                                <li class="ni_li clearfix ni_li01">
+		                                    <span class="ni_span_name fl">报名数</span>
+		                                    <span class="ni_span_num fl">1000</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 100%"></i></span>
+		                                </li>
+		                                <li class="ni_li clearfix ni_li02">
+		                                    <span class="ni_span_name fl">已扫描</span>
+		                                    <span class="ni_span_num fl">0</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 2%"></i></span>
+		                                </li>
+		                                <li class="ni_li clearfix ni_li03">
+		                                    <span class="ni_span_name fl">已评阅</span>
+		                                    <span class="ni_span_num fl">0</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 2%"></i></span>
+		                                </li>
+		                                <li class="ni_li clearfix ni_li04">
+		                                    <span class="ni_span_name fl">已完成</span>
+		                                    <span class="ni_span_num fl">0</span>
+		                                    <span class="ni_span_bar fl"><i style="width: 2%"></i></span>
+		                                </li>
+		                            </ul>
+		                        </div>
+		                    </div>
+		                </div>
+		                
+		            </div>
+			    </div>
+			    <div class="tabContent dis_none" name="tabCon"> 内容三 </div>
+			</div>
+
+
+
+	</div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.btn_switch').on('click',function(){
+		        $(this).parents('.ni_g_title01').next().slideToggle('fast');
+		        $(this).toggleClass('show');
+		    });
+			$(".tabStyle2").tabControl();
+		})
+	</script>
+</body>
+</html>

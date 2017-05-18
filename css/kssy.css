@@ -1,0 +1,134 @@
+@charset "UTF-8";
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+a.updateExamName{
+	background-color: rgba(252, 202, 81, 0.6);
+	color: #e88f0b;
+	font-size: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a.updateExamName:hover,a.updateExamName:active,a.updateExamName:focus{
+	background-color:rgba(252, 202, 81, 0.8);
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+a.deleteExam{
+	background-color: rgba(244, 67, 54, 0.3);
+	color: #F44336;
+	font-size: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a.deleteExam:hover,a.deleteExam:active,a.deleteExam:focus{
+	background-color:rgba(244, 67, 54, 0.5);
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+.ni_g_box1 .ni_box1_l{
+	margin-left: 12%;
+}
+.ni_g_box1 .ni_box1_r{
+	width: 100%;
+	text-align: center;
+	margin: 40px 0 15px;
+}
+.ni_g_button01{
+	display: inline-block;
+	width: 200px;
+	margin-right: 40px;
+}
+.ni_g_title01{
+	background-color: #fff;
+	padding: 10px 0 10px 15px ;
+	background-image: url(../images/title_1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	border-radius: 4px;
+	color: #fff;
+	margin: 45px 0 10px;
+	line-height: 30px;
+	height: 50px;
+}
+.ni_tip{
+	padding:20px 10px;
+	position: relative;
+}
+.ni_g_title01 .ni_km_add{
+	background-image: none;
+	padding-left: 8px;
+}
+.ni_show_num,.ni_show_no_num{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.ni_show_num > span{
+	color: #888888;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.ni_show_num > span > big{
+	color: #00dd78;
+    font-size: 26px;
+    margin-left: 5px;
+}
+.ni_g_cards_show .ni_km_t .ni_show .ni_show_map{
+	margin: 0 auto;
+	border-right: none;
+	width: 850px;
+}
+.ni_g_cards_show .ni_km_t .ni_show .ni_show_map .ni_span_bar{
+	width: 650px;
+}
+.ni_g_admin_peple{
+	background-image: none;
+	padding-right: 15px;
+	margin-right: 10px;
+}
+.ni_box_r{
+	margin-right:27px;
+}
+.ni_g_admin_no_peple{
+	background-color: #ddd;
+    font-size: 14px;
+    color: #F44336;
+    line-height: 22px;
+    padding: 0 12px 0 12px;
+    border-radius: 11px;
+    border: 1px solid #eaf5ff;
+    cursor: pointer;
+}
+.ni_show_no_num > span{
+	color: #888888;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.ni_show_no_num > span > big{
+	color: #F44336;
+    font-size: 26px;
+    margin-left: 5px;
+}
