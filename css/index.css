@@ -46,7 +46,7 @@
     height: 50px;
 }
 .tabBody{
-    min-height: 500px;
+    min-height: 400px;
     overflow: hidden;
 }
 .tabBody > img{
