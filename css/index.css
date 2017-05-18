@@ -24,13 +24,12 @@
     line-height: 70px;
     height: 70px;
 }
-.tabTit{
-    background-color: #fff;
-    border: 1px solid #d1e5f7;
+.tabStyle2 .tabTit a.on, .tabStyle2 .tabTit a:hover{
+    color: #419efc;
+    border: 1px solid #6ba4f3;
     border-bottom: none;
-    border-radius: 5px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    background-color: #fff;
+    cursor: pointer;
 }
 .title1 .tag_index{
     font-size: 18px;
