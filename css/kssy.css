@@ -132,3 +132,51 @@ a.deleteExam:hover,a.deleteExam:active,a.deleteExam:focus{
     font-size: 26px;
     margin-left: 5px;
 }
+
+.ni_g_pa_load{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: url(../images/ni_img0.png) no-repeat center center;
+}
+.ni_g_pa_scan{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: url(../images/ni_img03.png) no-repeat center center;
+}
+.ni_g_pa_success{
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: url(../images/ni_img04.png) no-repeat center center;
+}
+.dialoglabel{
+    font-size: 14px;
+    font-weight: 500;
+}
+.dialogInput{
+    width: 480px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:6px 10px;
+    font-size: 14px;
+}
+.tabStyle2 .tabTit a.on, .tabStyle2 .tabTit a:hover{
+	color: #419efc;
+    border: 1px solid #6ba4f3;
+    border-bottom: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.boxStyle{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: none;
+}
