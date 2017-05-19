@@ -168,6 +168,9 @@ a.deleteExam:hover,a.deleteExam:active,a.deleteExam:focus{
     padding:6px 10px;
     font-size: 14px;
 }
+.tabStyle2 .tabTit a.last{
+    border:1px solid transparent;
+}
 .tabStyle2 .tabTit a.on, .tabStyle2 .tabTit a:hover{
 	color: #419efc;
     border: 1px solid #6ba4f3;

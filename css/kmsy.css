@@ -111,6 +111,22 @@ a.designPapel:hover,a.designPapel:active,a.designPapel:focus{
 .ni_g_box1 .ni_box1_l .ni_txt_list .ni_txt_list01{
 	font-size: 28px;
 }
+.tabStyle2 .tabTit a.last{
+    border:1px solid transparent;
+}
+.tabStyle2 .tabTit a.on, .tabStyle2 .tabTit a:hover{
+    color: #419efc;
+    border: 1px solid #6ba4f3;
+    border-bottom: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.boxStyle{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: none;
+}
 
 
 /*客观题设置*/
@@ -120,7 +136,7 @@ a.designPapel:hover,a.designPapel:active,a.designPapel:focus{
 .input_list  th{
     text-align: center;
 }
-.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+.myselect >.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
     width: 80px;
 }
 .bootstrap-select .dropdown-toggle:focus{

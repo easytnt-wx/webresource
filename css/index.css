@@ -20,6 +20,9 @@
 .progress_bar em{
     border-radius: 20px;
 }
+.tabStyle2 .tabTit a.last{
+    border:1px solid transparent;
+}
 .tabStyle2 .tabTit a{
     line-height: 70px;
     height: 70px;
