@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+}
+a.updateExamName{
+	background-color: rgba(252, 202, 81, 0.6);
+	color: #e88f0b;
+	font-size: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a.updateExamName:hover,a.updateExamName:active,a.updateExamName:focus{
+	background-color:rgba(252, 202, 81, 0.8);
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+a.deleteExam{
+	background-color: rgba(244, 67, 54, 0.3);
+	color: #F44336;
+	font-size: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a.deleteExam:hover,a.deleteExam:active,a.deleteExam:focus{
+	background-color:rgba(244, 67, 54, 0.5);
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+a.uploadPapel{
+	background-color: #e7f3ff;
+	color: #419efc;
+	font-size: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a.uploadPapel:hover,a.uploadPapel:active,a.uploadPapel:focus{
+	background-color:#b6dbff;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+a.designPapel{
+	background-color: #c1ecff;
+	color: #2196f3;
+	font-size: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+a.designPapel:hover,a.designPapel:active,a.designPapel:focus{
+	background-color:#95dfff;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.5);
+}
+.ni_g_box1 .ni_box1_l{
+	margin-left: 15%;
+}
+.ni_g_box1 .ni_box1_r{
+	width: 100%;
+	text-align: center;
+	margin: 40px 0 30px;
+}
+.ni_g_button01{
+	display: inline-block;
+	width: 200px;
+	margin-right: 40px;
+}
+.pdlrb0{
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+.step .sep_ok{
+	background: url(../images/icon_next_ok.png) center center no-repeat;
+	width: 13px;
+    height: 20px;
+    margin-top: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+.ni_txt_list01 > small{
+	font-size: 16px;
+	margin-left: 20px;
+}
+.ni_g_box1 .ni_box1_l .ni_txt_list .ni_txt_list01{
+	font-size: 28px;
+}
+
+
+/*客观题设置*/
+.input_txt.boxStyle{
+    margin-bottom: 20px;
+}
+.input_list  th{
+    text-align: center;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 80px;
+}
+.bootstrap-select .dropdown-toggle:focus{
+    outline: none !important;;
+}
+.myselect{
+    float: left;
+    margin-right: 10px;
+}
+#examkgAnwer .panel-heading input{
+    width:60px;
+}
+#examkgAnwer .form-inline .form-group label{
+    padding: 0px;
+    margin-top: 5px;
+    margin-left:10px;
+    margin-right:10px;
+    word-break:keep-all;     
+    white-space:nowrap;          
+}
+.form-group{
+    margin: 0;
+}
+input.inputStyle4 + i.form-control-feedback{
+    right: -20px;
+}
+
+input.inputStyle3 + i.form-control-feedback{
+    right: -25px;
+}
+/*扫描进度*/
+.card_btn a{
+    width: 100px;
+}
+.card_list{
+    padding: 10px 0;
+}
+.card_list li{
+    padding: 0 20px;
+}
+p.card_detail > span:nth-child(1){
+    width: 140px;
+}
+p.card_detail > span:nth-child(2){
+    width: 80px;
+}
+p.card_detail > span:nth-child(3){
+    width: 60px;
+}
+.card_btn button{
+    line-height: 32px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #419efc;
+    display: block;
+    border-radius: 3px;
+    color: #419efc;
+    background-color: #fff;
+}

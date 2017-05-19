@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>年级考试科目页</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+    <link href="css/kmsy.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建考试</span></a></li>
+                <li><a href="javascript:;"><span>查看报告</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">年级考试基本信息</a></p>
+            </div>
+            <div class="boxStyle mgb20 pdlrb0 ni_g_pr">
+                <div class="ni_g_box1 clearfix pdt10">
+                  <div class="ni_box1_l clearfix pdt20">
+                      <div class="ni_img fl"><img src="./images/ni_img01.png" alt=""></div>
+                      <div class="ni_txt_list fl">
+                          <div class="ni_txt_list01">语文<small>荆门一中2017-05-18高一周练</small></div>
+                          <div class="ni_txt_list02 mgt20">
+                              <a href="javascript:void(0)" class="uploadPapel">上传试卷</a>
+                              <a href="javascript:void(0)" class="designPapel">设计答题卡</a>
+                              <a href="javascript:void(0)" class="updateExamName">重置分数</a>
+                              <a href="javascript:void(0)" class="deleteExam">删除科目</a>
+                          </div>
+                          <div class="ni_txt_list03 mgt15"><big>周伯通</big> 创建</div>
+                      </div>
+                  </div>
+                  <div class="ni_box1_r">
+                      <a class="ni_g_button01 ni_g_button01_02 mgb20">开始阅卷</a>
+                      <a class="ni_g_button01 ni_g_button01_02 mgb20">完成阅卷</a>
+                  </div>
+                </div>
+                <!-- <div class="step clearfix">
+                    <a class="on" href="javascript:;"><span><i class="icon_done"></i><em>1.录入客观题答案</em></span></a>
+                    <em class="sep_ok"></em>
+                    <a href="javascript:;"><span><i class="icon_done"></i><em>2.配置评卷方案</em></span></a>
+                    <em class="sep"></em>
+                    <a href="javascript:;"><span><i class="icon_done"></i><em>3.安排评卷人员</em></span></a>
+                    <em class="sep"></em>
+                    <a href="javascript:;"><span><i class="icon_done"></i><em>4.查看扫描进度</em></span></a>
+                    <em class="sep"></em>
+                    <a href="javascript:;"><span><i class="icon_done"></i><em>5.查看评阅进度</em></span></a>
+                </div> -->
+            </div>
+            
+            <div class="tabStyle2" name="tab">
+                <div class="tabTit" name="tabTit">
+                    <a href="#" class="on">1.录入客观题答案</a>
+                    <a href="#" class="last">2.配置评卷方案</a>
+                    <a href="#" class="last">3.安排评卷人员</a>
+                    <a href="#" class="last">4.查看扫描进度</a>
+                    <a href="#" class="last">5.查看评阅进度</a>
+                </div>
+                <div class="tabContent" name="tabCon">
+                    <div class="boxStyle input_txt">
+                        <h3 class="paper_title pdb30">设置期中考试语文可观题答案</h3>
+                        <div class="input_box clearfix">
+                            <div class="left">
+                                <a href="#" class="view_recorder">查看参与录入人员</a>
+                                <h3 class="input_tit">选择题（共20题，100分）</h3>
+                                <div class="tabBox">
+                                    <table class="input_list">
+                                        <thead>
+                                            <tr>
+                                                <th width="25%">题号</th>
+                                                <th width="40%">答案</th>
+                                                <th width="30%">分值</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td><input type="text" class="input inputStyle1"></td>
+                                                <td><input type="text" class="input inputStyle2"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="right_wrapper">
+                                    <div class="top_input">
+                                        <div class="myselect">
+                                            <select class="selectpicker">
+                                                <option value="1">单选题</option>
+                                                <option value="2">多选题</option>
+                                                <option value="3">判断题</option>
+                                            </select>
+                                        </div>
+                                        <p class="fl range">
+                                            从<input type="text" class="input inputStyle3">到<input type="text" class="input inputStyle3">每题<input type="text" class="input inputStyle3">
+                                        </p>
+                                        <p class="fl possible">可选项：<input type="text" class="input inputStyle4">少选择得分<span class="onoff mgl10 open"><em></em></span><input type="text" class="input inputStyle3">分</p>
+                                        <a href="#" class="Btn3 create">创建</a>
+                                    </div>
+                                    <ul class="setinput_list">
+                                        <li>
+                                            <i class="icon_empty"></i>
+                                            <table class="setinput_table">
+                                                <thead>
+                                                <tr>
+                                                    <th width="10%">题号</th>
+                                                    <th width="10%">题型</th>
+                                                    <th width="15%">正确答案</th>
+                                                    <th width="15%">少选答案</th>
+                                                    <th width="15%">可选项</th>
+                                                    <th width="15%">分数</th>
+                                                    <th width="20%">少选得分</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td><input type="text" class="input inputStyle3"><a href="#" class="Btn3 mgl10">拆分</a></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <i class="icon_empty"></i>
+                                            <table class="setinput_table">
+                                                <thead>
+                                                <tr>
+                                                    <th width="10%">题号</th>
+                                                    <th width="10%">题型</th>
+                                                    <th width="15%">正确答案</th>
+                                                    <th width="15%">少选答案</th>
+                                                    <th width="15%">可选项</th>
+                                                    <th width="15%">分数</th>
+                                                    <th width="20%">少选得分</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <i class="icon_empty"></i>
+                                            <table class="setinput_table">
+                                                <thead>
+                                                <tr>
+                                                    <th width="10%">题号</th>
+                                                    <th width="10%">题型</th>
+                                                    <th width="15%">正确答案</th>
+                                                    <th width="15%">少选答案</th>
+                                                    <th width="15%">可选项</th>
+                                                    <th width="15%">分数</th>
+                                                    <th width="20%">&nbsp;</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <i class="icon_empty"></i>
+                                            <table class="setinput_table">
+                                                <thead>
+                                                <tr>
+                                                    <th width="10%">题号</th>
+                                                    <th width="10%">题型</th>
+                                                    <th width="15%">正确答案</th>
+                                                    <th width="15%">少选答案</th>
+                                                    <th width="15%">可选项</th>
+                                                    <th width="15%">分数</th>
+                                                    <th width="20%">&nbsp;</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <i class="icon_empty"></i>
+                                            <table class="setinput_table">
+                                                <thead>
+                                                <tr>
+                                                    <th>题号</th>
+                                                    <th>题型</th>
+                                                    <th>正确答案</th>
+                                                    <th>少选答案</th>
+                                                    <th>可选项</th>
+                                                    <th>分数</th>
+                                                    <th>录入人</th>
+                                                    <th>操作</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4 error"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td>张三 <span class="onoff mgl10 open"><em></em></span></td>
+                                                    <td rowspan="3"><a href="#" class="Btn3">重录</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td>张三 <span class="onoff mgl10"><em></em></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>第1题</td>
+                                                    <td>多选</td>
+                                                    <td><input type="text" class="input inputStyle4 error"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle4"></td>
+                                                    <td><input type="text" class="input inputStyle3"></td>
+                                                    <td>张三 <span class="onoff mgl10"><em></em></span></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                    </ul>
+                                    <p class="t_c"><a href="#" class="Btn1 mgr10"><span>完成</span></a><a href="#" class="Btn1 mgl10"><span>全部录入</span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabContent dis_none" name="tabCon">
+
+                </div>
+                <div class="tabContent dis_none" name="tabCon">
+                    <h3 class="title2 t_c">语文评卷人员安排</h3>
+                    
+                </div>
+                <div class="tabContent dis_none" name="tabCon">
+                    <div class="boxStyle mgb20">
+                        <h1 class="monitoring pdb30">语文扫描监控</h1>
+                        <p class="t_r pdb20"><a href="#">查看阅卷情况</a></p>
+                        <div class="row clearfix">
+                            <div class="clo-4">
+                                <div class="clo">
+                                    <h3 class="title2 pdb15">答题卡扫描情况</h3>
+                                    <ul class="card_list">
+                                        <li>
+                                            <p class="card_detail clearfix"><span>已经扫描答题卡</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="card_detail clearfix"><span>准考证异常卡</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="card_detail clearfix"><span>选择题异常卡</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clo-4">
+                                <div class="clo">
+                                    <h3 class="title2 pdb15">准考证异常处理情况</h3>
+                                    <ul class="card_list">
+                                        <li>
+                                            <p class="card_detail clearfix"><span>已完成异常卡处理</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="card_detail clearfix"><span>未处理</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="card_btn clearfix"><a class="deal fl" href="#">去处理</a><a class="ignore fr" href="#">忽略</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clo-4">
+                                <div class="clo">
+                                    <h3 class="title2 pdb15">选择题证异常处理情况</h3>
+                                    <ul class="card_list">
+                                        <li>
+                                            <p class="card_detail clearfix"><span>已完成异常卡处理</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="card_detail clearfix"><span>未处理</span><span class="number"><em>50</em>张</span><span class="percent"><em>100</em>%</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="card_btn clearfix"><a class="deal fl" href="#">去处理</a><a class="ignore fr" href="#">忽略</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabContent dis_none" name="tabCon">
+                    
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function(){
+            $(".tabStyle2").tabControl();
+            $('.onoff').click(function () {
+                $(this).toggleClass('open');
+            });
+            $(".selecterBox").Selector();
+            
+            $(window).bind('scroll',function(){
+                var sTop = parseInt($(window).scrollTop());
+                if(sTop > 600){
+                    $('div.left').css({
+                        'position': "fixed",
+                        'top' : '100px',
+                    })
+                }else if(sTop = 590){
+                    $('div.left').css({
+                        'position': "relative",
+                        'top' : '0px'
+                    })
+                }
+
+            })
+
+        })
+    </script>
+</body>
+</html>
