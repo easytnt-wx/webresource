@@ -126,6 +126,10 @@ a.designPapel:hover,a.designPapel:active,a.designPapel:focus{
     border-top-right-radius: 0;
     border-top: none;
 }
+.set input {
+    width: 100px;
+    margin-right: 20px;
+}
 
 
 /*客观题设置*/
