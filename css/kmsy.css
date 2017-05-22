@@ -130,6 +130,9 @@ a.designPapel:hover,a.designPapel:active,a.designPapel:focus{
     width: 100px;
     margin-right: 20px;
 }
+.badge{
+    background-color: #8ea9b9;
+}
 
 
 /*客观题设置*/
