@@ -238,9 +238,9 @@
 	padding-top: 5px;
 }
 
-.dialog .form-group .form-control,.dialog .form-group input.form-control,.dialog .form-group select.form-control {
+/*.dialog .form-group .form-control,.dialog .form-group input.form-control,.dialog .form-group select.form-control {
 	width: 90%;
-}
+}*/
 
 .dialog .table .error-tip {
 	padding: 7px 0 0 0;
