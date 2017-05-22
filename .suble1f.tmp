@@ -465,36 +465,7 @@
                 </div>
                 <div class="tabContent dis_none" name="tabCon">
                     <div class="boxStyle mgb20">
-                        <div class="title clearfix">
-                            <div class="show_num fl">
-                                <span>主观题<big>100</big>分</span>
-                                <span>已录入<big>10</big>题&nbsp;&nbsp;&nbsp;共<big>60</big>分</span>
-                                <span>还可录入<big>40</big>分</span>
-                            </div>
-                            <div class="ni_box_r fr"><a class="ni_g_a_del" href="javascript:void(0)">详情</a></div>
-                        </div>
-                        <div class="qid clearfix">
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                            <span>21题<em>10分</em></span>
-                        </div>
+                        <h3>主观题100分</h3>
                     </div>
                 </div>
                 <div class="tabContent dis_none" name="tabCon">
