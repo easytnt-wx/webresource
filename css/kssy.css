@@ -192,3 +192,6 @@ a.deleteExam:hover,a.deleteExam:active,a.deleteExam:focus{
 .ni_person > span:nth-child(n+4){
     visibility: hidden;
 }
+.ni_g_peple .ni_ul .ni_li .ni_box_l{
+    width: 180px;
+}
