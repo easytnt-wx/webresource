@@ -183,3 +183,12 @@ a.deleteExam:hover,a.deleteExam:active,a.deleteExam:focus{
 	border-top-right-radius: 0;
 	border-top: none;
 }
+.ni_person{
+    width: 260px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ni_person > span:nth-child(n+4){
+    visibility: hidden;
+}
