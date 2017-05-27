@@ -77,3 +77,10 @@ a[name="btn"]{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.dialogInput{
+    width: 480px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding:6px 10px;
+    font-size: 14px;
+}
