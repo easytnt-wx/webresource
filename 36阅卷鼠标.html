@@ -107,8 +107,18 @@
         </div>
         <div class="paper-main-box">
             <div class="control-bar2">
-                <div class="img-view"><i class="put"></i><img src="images/upload/img.jpg" alt=""></div>
-                <p class="control-btn2"><span class="zoom-full mglr5"></span><span class="zoom-in mglr5"></span><span class="zoom-bar mglr5"><i><em></em></i></span><span class="zoom-out mglr5"></span></p>
+                <div class="img-view"><i class="put"></i><img src="images/upload/editphoto_16.jpg" width="200px" alt=""></div>
+                <p class="control-btn2">
+                    <span class="zoom-full mglr5"></span>
+                    <span class="zoom-out mglr5"></span>
+                    <span class="zoom-bar mglr5">
+                        <i><em></em></i>
+                    </span>
+                    <span class="zoom-in mglr5"></span>
+                </p>
+            </div>
+            <div class="imagesPool">
+                <img src="images/upload/editphoto_16.jpg" alt="">
             </div>
         </div>
     </div>
@@ -145,6 +155,26 @@
         $('.back').on('click',function () {
             $(this).siblings('.number-scroll').slideToggle();
         });
+
+        var _this = $('.zoom-bar em');
+        _this.on('mousedown',function(e){
+            left = parseInt(_this.css('left'));
+            starX=event.pageX;
+            $(document).on('mousemove',move);
+        })
+        _this.on('mouseup',function (event) {
+            $(document).off('mousemove',move);
+        });
+        $(document).on('mouseup',function () {
+            $(document).off('mousemove',move);
+        });
+        function move(event){
+            var moveX=event.pageX;
+            var offsetX = moveX - starX + left;
+            if(offsetX >= 0 && offsetX <= 100){
+                _this.css({left:offsetX});
+            }
+        }
     });
 </script>
 </html>
