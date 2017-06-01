@@ -629,7 +629,7 @@
 .back em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; line-height: 32px; font-size: 14px; color: #45a5fe; margin-right: 15px; }
 .back i { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 9px; height: 8px; background: url(../images/icon_back.png) center center no-repeat; }
 
-.number-scroll { position: absolute; left: 0; right: 0; top: 43px; background: #ebf3ff; z-index: 20; display: none; }
+.number-scroll { position: absolute; left: 0; right: 0; top: 42px; background: #ebf3ff; z-index: 20; display: none; }
 .number-scroll .scroll-up, .number-scroll .scroll-down { display: block; height: 31px; cursor: pointer; position: absolute; left: 0; right: 0; }
 .number-scroll .scroll-up { background: url(../images/icon_scrollup.png) center center no-repeat; top: 0; }
 .number-scroll .scroll-down { background: url(../images/icon_scrolldown.png) center center no-repeat; bottom: 0; }

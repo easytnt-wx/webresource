@@ -114,6 +114,7 @@
                         <span class="zoom-bar mglr5">
                             <i><em></em></i>
                         </span>
+                        <!-- <input id="imgslider" data-slider-id='ex1Slider' type="text" data-slider-min="-200" data-slider-max="200" data-slider-step="1" data-slider-value="0" data-slider-tooltip="hide"> -->
                         <span class="zoom-in mglr5"></span>
                     </p>
                 </div>
@@ -171,7 +172,9 @@
             if(offsetX >= 0 && offsetX <= 100){
                 _this.css({left:offsetX});
             }
+            return offsetX;
         }
+
     });
 </script>
 </html>
