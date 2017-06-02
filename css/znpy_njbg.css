@@ -1,0 +1,109 @@
+@charset "utf-8";
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper{
+    margin-top: 82px;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 1140px;
+    margin: 0 auto;
+}
+.easy_main{
+    background-color: #fff;
+}
+.btn1{
+    display: inline-block;
+    padding:4px 16px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #9b9b9b;
+    margin: 18px 0;
+}
+.exam_info{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.exam_info > h3{
+    font-size: 24px;
+    color: #222;
+}
+.exam_info > h3 > small{
+    font-size: 14px;
+    color: #717171;
+    padding:3px 18px;
+    border-radius: 10px;
+    background-color: #f0f1f3;
+    margin-left: 10px;
+}
+.tag > a {
+    padding:12px 0;
+    display: inline-block;
+    font-size: 16px;
+    color: #747474;
+    margin-right: 40px;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in .3s;
+}
+.tag > a.on,.tag > a:hover,.tag > a:focus{
+    color: #46a6ff;
+    border-bottom: 2px solid #46a6ff;
+    text-decoration: none;
+}
+.btnGrp1 > a{
+    font-size: 14px;
+    color: #46a6ff;
+    padding: 6px 24px;
+    display: inline-block;
+    border:1px solid #46a6ff;
+}
+.btnGrp1 > a:hover,.btnGrp1 > a:focus,.btnGrp1 > a.active{
+    background-color: #bddeff;
+    color: #1e7de0;
+    text-decoration: none;
+}
+.btnGrp1 > a:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+.btnGrp1 > a:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.suject{
+    text-align: center;
+    margin: 5px 0;
+}
+.suject > button{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 6px;
+    border:1px solid transparent;
+    font-size: 16px;
+    padding: 8px 16px;
+    color: #000022;
+    margin: 0 5px;
+    transition: all ease-in .2s;
+}
+.suject > button.on,.suject > button:hover,.suject > button:focus{
+    background-color: #46a6ff;
+    color: #fff;
+}
+.list{
+    margin: 30px 0;
+}
+.list > h4{
+    color: #656565;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
