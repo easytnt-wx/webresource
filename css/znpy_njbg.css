@@ -22,27 +22,34 @@
 }
 .btn1{
     display: inline-block;
-    padding:4px 16px;
+    padding:4px 16px 4px 32px;
     border-radius: 4px;
-    background-color: #f0f0f0;
     color: #9b9b9b;
     margin: 18px 0;
+    background: url('../images/back.png') no-repeat 12px center;
+    background-color: #f0f0f0;
+    font-size: 16px;
 }
 .exam_info{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .exam_info > h3{
     font-size: 24px;
     color: #222;
 }
-.exam_info > h3 > small{
+.exam_info > span{
     font-size: 14px;
     color: #717171;
     padding:3px 18px;
     border-radius: 10px;
     background-color: #f0f1f3;
-    margin-left: 10px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.tag{
+    text-align: center;
+    position: relative;
 }
 .tag > a {
     padding:12px 0;
@@ -58,30 +65,49 @@
     border-bottom: 2px solid #46a6ff;
     text-decoration: none;
 }
-.btnGrp1 > a{
+.btnGrp1.psR{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.btnGrp1 > a,.btnGrp1 > button{
     font-size: 14px;
     color: #46a6ff;
     padding: 6px 24px;
     display: inline-block;
     border:1px solid #46a6ff;
+    background-color: #fff;
+    outline: none;
 }
-.btnGrp1 > a:hover,.btnGrp1 > a:focus,.btnGrp1 > a.active{
+.btnGrp1 > a.disabled,.btnGrp1 > a.disabled:hover,.btnGrp1 > a.disabled:focus,.btnGrp1 > button.disabled,.btnGrp1 > button.disabled:hover,.btnGrp1 > button.disabled:focus{
+    opacity: .65;
+    cursor: not-allowed;
+    background-color: #f2f2f2;
+    color: #747474;
+    border-color: #ccc;
+}
+.btnGrp1 > a:hover,.btnGrp1 > a:focus,.btnGrp1 > a.active,.btnGrp1 > button:hover,.btnGrp1 > button:focus,.btnGrp1 > button.active{
     background-color: #bddeff;
     color: #1e7de0;
     text-decoration: none;
 }
-.btnGrp1 > a:first-child{
+.btnGrp1 > a:first-child,.btnGrp1 > button:first-child{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-right: none;
 }
-.btnGrp1 > a:last-child{
+.btnGrp1 > a:last-child,.btnGrp1 > button:last-child{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 .suject{
     text-align: center;
-    margin: 5px 0;
+    margin:0;
+    background-color: #fff;
+    padding: 25px 25px 0px 25px;
+    border:1px solid #d1e5f7;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
 }
 .suject > button{
     display: inline-block;
@@ -99,11 +125,15 @@
     color: #fff;
 }
 .list{
-    margin: 30px 0;
+    margin-bottom: 30px; 
 }
 .list > h4{
     color: #656565;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 12px;
+}
+.boxStyle.reportBody{
+    border-radius: 0 0 4px 4px;
+    border-top: none;
 }
