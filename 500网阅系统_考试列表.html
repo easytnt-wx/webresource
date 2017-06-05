@@ -212,18 +212,18 @@
         $(".searchStyle3").find('.inputSearch').blur(function(){
             $(this).parents('.searchStyle3').removeClass('on');
         });
-        // var dialog = artDialogs({
-        //    title:'温馨提示',
-        //    ok:function () {
-        //        alert('ok');
-        //    },
-        //    okVal:'查看任务',
-        //    cancelVal:'关闭',
-        //    cancel:function () {
-        //        alert('cancel');
-        //    },
-        //    content: document.getElementById('digR')
-        // });
+        var dialog = artDialogs({
+           title:'温馨提示',
+           ok:function () {
+               alert('ok');
+           },
+           okVal:'查看任务',
+           cancelVal:'关闭',
+           cancel:function () {
+               alert('cancel');
+           },
+           content: document.getElementById('digR')
+        });
         $(function(){
             $('#datetime').datetimepicker({
               format : "yyyy-mm-dd",
