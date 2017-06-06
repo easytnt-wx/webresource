@@ -64,13 +64,29 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container pst_rlt">
         <div class="suject">
             <button class="on">总分</button>
             <button>语文</button>
             <button>数学</button>
             <button>英语</button>
             <button>理综</button>
+        </div>
+        <div class="aside">
+            <h4><a class="all_class">全部班级</a></h4>
+            <ul>
+                <li><a class="on">七年级（1）班</a></li>
+                <li><a>七年级（2）班</a></li>
+                <li><a>七年级（3）班</a></li>
+                <li><a>七年级（4）班</a></li>
+                <li><a>七年级（5）班</a></li>
+                <li><a>七年级（6）班</a></li>
+                <li><a>七年级（7）班</a></li>
+                <li><a>七年级（8）班</a></li>
+                <li><a>七年级（9）班</a></li>
+                <li><a>七年级（10）班</a></li>
+                <li><a>七年级（11）班</a></li>
+            </ul>
         </div>
     </div>
     <div class="container">
@@ -101,6 +117,7 @@
             </div>
         </div>
     </div>
+    
     <div class='footer bg2'>
         <div class='pd20 clearfix'>
             <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
@@ -109,6 +126,12 @@
     </div>
 	<script src="js/lib/jquery-2.1.1.js"></script>
 	<script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function(){
+            $('.aside ul').perfectScrollbar()
+        })
+    </script>
 </body>
 </html>
