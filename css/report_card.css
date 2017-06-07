@@ -1,0 +1,171 @@
+.report_card_box{background:#fff;border-radius:6px;}
+.report_card_boxStyle1{padding-top:3px}
+
+
+.rc_classes li{text-align:center;font-size:16px;padding:0 15px;margin-top:20px;width:154px;}
+.rc_classes a{display:block;height:40px;line-height:40px;border-radius:20px;color:#555;}
+.rc_classes a.on,.rc_classes a:hover{background:#BDDEFF;color:#2576DB}
+.class_report_table tbody td{text-align:center;font-size:16px;padding:0 15px;}
+.class_report_table span{display:block;height:40px;line-height:40px;border-radius:16px;cursor:pointer;}
+.class_report_table span:hover,.class_report_table span.on{background:#BDDEFF;color:#2576DB}
+.all_class a{display:block;height:50px;line-height:50px;border-top:1px solid #DFECF9;font-size:16px;text-align:center;margin-top:20px;width:184px;color:#555;border-bottom-left-radius:6px;border-bottom-right-radius:6px;}
+.all_class a:hover{color:#2576DB;background:#d0e7fe;}
+
+.report_card_boxStyle2{padding:0 19px 14px 23px;}
+.report_card_boxStyle3{padding-bottom:14px;}
+.iexport{width:960px;padding-top:22px;padding-bottom:12px;+padding-bottom:10px;}
+.iexport .import{margin-right:10px;}
+.iexport1{width:960px;padding:20px 19px 10px 23px}
+.iexport1 .import{margin-right:10px;}
+/*.g_btn1{display:inline-block;height:36px;line-height:36px;padding:0 20px;background:#45A4FE;color:#fff;font-size:16px;border-radius:6px;}*/
+/*.g_btn1:hover{background:#53B2FF;}*/
+/*.g_btn2{display:inline-block;height:36px;line-height:36px;padding:0 20px;background:#FF9F01;color:#fff;font-size:16px;border-radius:6px;}*/
+/*.g_btn2:hover{background:#FDB43D;}*/
+/*541智能评阅查看考试成绩全科*/
+.searchStyle_g1 {background: #F4FAFF;overflow: hidden;vertical-align: middle;border: 1px solid #4FABEC;border-radius: 3px;display: inline-block;padding: 0 0 0 10px;}
+.searchStyle_g1 .inputSearch {background:#F4FAFF;display: inline-block;height: 28px;line-height: 28px;overflow: hidden;vertical-align: middle;word-break: break-all;border: none;outline: none;font-size: 14px;color: #a9c0d4;width:207px;}
+.searchStyle_g1 .search {display: inline-block;width: 30px;height: 30px;background: url(../images/public/icon_search.png) center center no-repeat;vertical-align: middle;cursor: pointer;}
+
+.report_card_table td{height:42px;font-size:14px;}
+.report_card_table td span{padding-left:24px;height:42px;}
+.report_card_table td em{display:block;color:#2F8CEC;padding-right:16px;text-align: center;}
+.report_card_table thead .last_td{border-top-right-radius:6px;border-bottom-right-radius: 6px;}
+.report_card_table thead .first_td{border-top-left-radius:6px;border-bottom-left-radius: 6px;}
+.report_card_table thead td em{color:#555;}
+.report_card_table thead td{background:#FBFBFB;}
+.report_card_table tbody tr:hover td{background:#E1F5FF;cursor:pointer;}
+
+.examListImg{margin-top:40px;padding-bottom:117px;}
+.warm_delete{font-size:18px;width:350px;text-align:center;margin-top:45px;}
+
+.report_firstlist_table td{height:42px;width:117px;font-size:14px;}
+.report_firstlist_table tr:hover{background:#e1f5ff;cursor:pointer;}
+.report_firstlist_table thead td{border-top-left-radius:6px;border-bottom-left-radius: 6px;background:#fbfbfb;}
+.report_firstlist_table td span{padding-left:24px;}
+.report_card_firsttd{padding-left:23px;position:absolute;top:0;left:0;background: #fff;z-index: 10;}
+
+.table_rightpadding{width:19px;position:absolute;top:0;right:0;z-index:20;background:#fff;}
+/*542查看考试成绩单单科*/
+.rc_table_container{position: relative;}
+.report_card_show{width:1000px;overflow-x:hidden;margin-bottom:14px;padding-bottom:20px;position: relative;}
+.report_card_tablewrap{padding:0 19px 0px 23px;}
+.report_card_table td i{display:inline-block;padding-left:115px;}
+/*530评阅管理*/
+.rm_top_content h2{height:50px;line-height:50px;font-size:30px;color:#222;font-weight:normal;}
+.creat_teacher{height:42px;line-height:42px;padding-bottom:8px;font-size:14px;color:#747474;}
+.creat_teacher span{margin-right:90px;}
+
+.review_manage_boxStyle{padding:0px 32px 0 27px;background:#fff;border-radius:6px;}
+.rm_title_style{padding-top:10px;height:50px;line-height:50px;padding-left:6px;}
+.rm_title{font-size:22px;color:#002222;font-weight:normal;}
+.rm_monitor_box{padding:20px 10px 40px 6px;}
+.rm_progress_list li{margin-bottom:12px;}
+.rm_progress_wrap{height:27px;width:670px;line-height:27px;border-radius:6px;overflow: hidden;border:1px solid #49CC93;}
+.rm_progress_wrap span{float:left;width:67px;text-align:center;color:#fff;background:#49CC93;font-size: 16px;}
+.rm_progress_wrap em{position:absolute;top:0;right:10px;color:#49CC93;}
+.rm_progress_wrap p{margin-left:67px;height:27px;position:relative;}
+.rm_progress_wrap p i{display:block;height:27px;background:#E2FAF0;}
+
+.rm_progress_style02{border:1px solid #31C6E1;}
+.rm_progress_style02  span{background:#31C6E1;}
+.rm_progress_style02 em{color:#61D0E6;}
+.rm_progress_style02  p i{background:#D3F4FA;}
+
+.rm_progress_style03{border:1px solid #FFB400;}
+.rm_progress_style03 span{background:#FFB400;}
+.rm_progress_style03 em{color:#FFA437;}
+.rm_progress_style03 p i{background:#FFF5DE;}
+
+.rm_progress_style04{border:1px solid #FF8B8B;}
+.rm_progress_style04 span{background:#FF8B8B;}
+.rm_progress_style04 em{color:#FFA5A5;}
+.rm_progress_style04 p i{background:#FDE7E7;}
+
+.rm_progress_style05{border:1px solid #C2AFFF;}
+.rm_progress_style05 span{background:#C2AFFF;}
+.rm_progress_style05 em{color:#FFBFBF;}
+.rm_progress_style05 p i{background:#EDE7FF;}
+
+.g_btn3{display:inline-block;*display: inline;*zoom: 1;height:38px;line-height:38px;padding:0 34px 0 25px;border:1px solid #58AAFC;color:#58AAFC;font-size:16px;border-radius:6px;}
+.g_btn3 i{display:inline-block;width:23px;height:22px;margin-right:8px;background:url(../images/consult/b_scan.png) no-repeat;vertical-align:middle;}
+.g_btn3 span{display:inline-block;line-height:38px;vertical-align:middle;}
+.g_btn4{display:inline-block;*display: inline;*zoom: 1;height:38px;line-height:38px;padding:0 48px 0 37px;border:1px solid #58AAFC;background:#45A4FE;color:#fff;font-size:16px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
+.g_btn4 i{display:inline-block;width:14px;height:17px;margin-right:7px;background:url(../images/consult/g_arrow.png) no-repeat;vertical-align:middle;}
+.g_btn4 span{display:inline-block;line-height:38px;vertical-align:middle;}
+.g_btn4:hover{background:#57ADFF;}
+.g_btn5{display:inline-block;*display: inline;*zoom: 1;height:34px;line-height:34px;padding:0 13px;border:1px solid #1FD49A;color:#1FD49A;font-size:16px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
+.g_btn5 i{display:inline-block;width:10px;height:10px;margin-right:7px;background:url(../images/consult/g_add.png) no-repeat;vertical-align:middle;}
+.g_btn5 span{display:inline-block;line-height:34px;vertical-align:middle;}
+.g_btn5:hover{color:#fff;background:#1FD49A;}
+.g_btn5:hover i{background-position:0 -14px;}
+
+
+.rm_testCheck{float:right;padding-top:42px;}
+.rm_testCheck li{margin-bottom:9px;}
+
+.disc_plepeo{padding:15px 10px 24px;line-height: 36px;}
+
+.rm_keyPle{padding-bottom:12px;border-bottom:1px solid #F5F5F5;font-size:16px;}
+.quesNum{padding-top:29px;}
+.quesNum li{margin-bottom:23px;}
+.quesNum_list dt{display:inline-block;font-size:14px;margin-right:30px;}
+.quesNum_list dt i{margin-left:10px;}
+.quesNum_list dt i.green{color:#23A57F;}
+.quesNum_list dd{display:inline-block;}
+.quesNum_list dd span{margin-right:13px;}
+
+.g_frame{display: inline-block;height:30px;line-height: 30px;text-align: center;color:#fff;background:#1FD49A;padding:0 11px;border-radius: 6px;font-size: 16px;}
+.g_frame1{display: inline-block;height:30px;line-height: 30px;text-align: center;color:#fff;background:#D6D6D6;padding:0 11px;border-radius: 6px;font-size: 16px;}
+
+.disc_detail{padding:30px 0 10px;}
+.rm_detail_list{border:1px solid #eee;border-radius:6px;overflow:hidden;}
+.rm_detail_list dt{background:#F9F9F9;padding:27px 0 25px;height:32px;line-height:32px;}
+
+
+.rm_detail_table td{font-size:16px;color:#888;}
+.rm_detail_table td i{color:#00DD78;font-size:18px;}
+
+.rm_detail_pro{font-size:16px;}
+.rm_detail_pro em{display:inline-block;vertical-align:middle;}
+.rm_detailprogress_wrap{display:inline-block;width:273px;border-radius:6px;background:#E9E9E9;height:16px;vertical-align:middle;margin-right:17px;}
+.rm_detailprogress_wrap i{background:#49D989;display:inline-block;height:16px;border-radius:6px;}
+
+.rm_detail_table2 td{font-size:14px;color:#555;height:45px;line-height:45px;}
+.rm_detail_table2 td span{color:#00DD78;font-size:14px;}
+.rm_detail_table2 td i{display:block;padding-left:50px;}
+
+.disc_detail .rm_detail_list{margin-bottom:19px;}
+.rm_dropdowm_arrow{display:block;width:28px;height:28px;padding-top:2px;background:url(../images/consult/g_topdownarrow.png) no-repeat;cursor:pointer;}
+.rm_dropdowm_arrow.show{background-position:0 -40px;}
+
+.g_btn6{display:inline-block;*display: inline;*zoom: 1;vertical-align:middle;height:31px;line-height:31px;background:#1AB4FA;padding:0 20px;border:1px solid #309AEB;color:#fff;font-size:14px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
+.g_btn6 span{display:inline-block;line-height:34px;vertical-align:middle;}
+
+.rm_detail_table td .Btn6 i{display:inline-block;width:10px;height:6px;margin-left:10px;background:url(../images/consult/g_arrowdown.png) no-repeat;vertical-align:middle;}
+
+.arrange_english_preson{width:435px;}
+.rm_wram_search{height:34px;width:435px;}
+.rm_wram_search .searchBox{margin-right:6px;}
+.rm_wram_search .searchStyle_g1 .inputSearch{width:313px;}
+.rm_radioWrap{border:1px solid #DCDCDC;margin-top:16px;border-radius:6px;padding:27px 23px 8px;}
+.rm_radioWrap ul li{margin-bottom:30px;}
+.rm_radioWrap ul li .Radio{margin-right:41px;}
+.rm_radioWrap ul li .Radio.last_Radio{margin-right:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

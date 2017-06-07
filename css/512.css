@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 150px;
+	margin-left: 20px;
+}
+.mycheck{
+	margin-left: 130px;
+}
