@@ -35,8 +35,9 @@
 .consult_list_content .list_content_ul li .right.on .con7 { display: block; width: 32px; height: 34px; margin: 0 auto 8px auto; background: url(../images/consult/con7_1.png) 0 0 no-repeat; }
 .consult_list_content .list_content_ul li .right.on:hover { background: #f3f9ff; }
 
-.cs_top { width: 100%; background: #ffffff; box-shadow: 0px 2px 0px #eff0f1; }
-.cs_top .cs_top_title { padding: 7px 0 7px 10px; }
+/*.cs_top { width: 100%; background: #ffffff; box-shadow: 0px 2px 0px #eff0f1; }*/
+.cs_top { width: 100%; box-shadow: 0px 2px 0px #eff0f1; }
+.cs_top .cs_top_title { padding: 7px 0 7px 10px; background-color: #fff;}
 .cs_top .breadcrumb { display: inline-block; float: left;background-color: transparent;margin-bottom: 0 }
 .cs_top .to-back { margin-top: 7px; }
 .cs_top .to-back:hover { background: #e7e7e7; }
@@ -119,7 +120,7 @@
 
 .stu_add { display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url(../images/consult/stu_add.png) 0 0 no-repeat; }
 
-.cs_top_content2 { padding-bottom: 40px; margin-top: 13px; }
+.cs_top_content2 { padding-bottom: 40px; padding-top: 13px; background-color: #fff;}
 .cs_top_content2 span { font-size: 30px; color: #222222; }
 .cs_top_content2 em { font-size: 20px; color: #888888; margin-left: 15px; }
 .cs_top_content2 .time { display: block; width: 206px; height: 26px; font-size: 16px; color: #555555; line-height: 26px; border-radius: 30px; text-align: center; margin: 18px auto 0 auto; background: #f0f1f3; }

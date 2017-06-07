@@ -562,3 +562,248 @@ transition: all ease .5s; */ }
 .item_mergeMark .mergeBtn_blue { background: #419efc; color: #fff; }
 
 .item_mergeMark .mergeBtn_blue:hover { background: #53a8fc; }
+
+
+
+/*ni S*/
+.ni_bg_ff9f01{background: #ff9f01;}
+.ni_c_fff{color: #fff;}
+.ni_border_c_ff9f01{border-color: #ff9f01;}
+.ni_bg_ff9f01:hover{background: #f19807;}
+.ni_bg_ff9f01.ni_c_fff:hover{color: #fff;}
+.ni_hover_bg_e1f5ff tr:hover{background: #e1f5ff;}
+
+.ni_g_l_bg_show{padding: 0 10px;padding: 5px 5px 5px 15px;border-radius: 15px;}
+.ni_g_l_bg_show.active{background: #44a5ff;color: #fff;}
+.ni_g_l_bg_show.active span{color: #fff;}
+.boxStyle.ni_box_style{border:none;padding:0px;background: none;}
+.boxStyle.ni_box_style .left{padding:20px 10px;background: #fff;border-radius: 8px;}
+.ni_box_style .layout .right{width: 911px;background: #fff;padding: 20px;border-radius: 8px;}
+.ni_box_style .layout .right .right-wrapper{margin-left: 0px;}
+
+.ni_g_main{background: #fff;border-radius: 8px;}
+.ni_g_main .ni_tit{border-bottom: 1px solid #dfecf9;height: 70px;line-height: 70px;font-size: 24px;text-indent: 30px;}
+.ni_pdlr70{padding: 50px 70px 30px;}
+
+.ni_g_b_ksmd span{font-size: 14px;border: 1px solid #dedede;display: inline-block;line-height: 38px;padding: 0 40px 0 15px;position: relative;border-radius: 6px;margin-right: 10px;}
+.ni_g_b_ksmd span i{background: url('../images/ni_xx.png') no-repeat center center;width: 13px;height: 12px;position: absolute;right: 10px;top: 50%;margin-top: -6px;cursor: pointer;}
+.ni_g_b_ksmd span i:hover{background: url('../images/ni_xx_hover.png') no-repeat center center;}
+.ni_btn a{height: 38px;line-height: 38px;color: #222222;display: inline-block;padding: 0 15px;background: #f5f5f5;border: 1px solid #d7d7d7;border-radius: 6px;font-size: 16px;}
+.ni_btn a:hover{background:#e3e3e3;background: ;}
+.ni_im_list{font-size: 16px;line-height: 58px;border: 1px solid #ffe194;border-radius: 6px;padding:0 20px}
+.ni_style_ffe194{color: #ffb703;background: #fffbf3;border-color: #ffe194;}
+.ni_style_ff7f7f{color: #ff7f7f;background: #fffafa;border-color: #ffd1d1;}
+.ni_btn a.ni_bg_1ab4fa{background: #1ab4fa;color: #fff;border-color: #1ab4fa;}
+.ni_btn a.ni_bg_1ab4fa:hover{background: #31bfff;}
+
+.ni_g_ks_ht .ni_ht{position: relative;padding-right: 104px;}
+.ni_g_ks_ht .ni_ht i{position: absolute;top:50%;margin-top:-16px;width: 38px;height: 32px;border: 1px solid #fff;border-radius: 3px;cursor: pointer;}
+.ni_g_ks_ht .ni_ht i.ni_edit{background: url('../images/ni_edit.png') no-repeat center center;border-color: #5ed083;right: 55px;}
+.ni_g_ks_ht .ni_ht i.ni_clear{background: url('../images/ni_clear.png') no-repeat center center;border-color: #ffa8a8;right: 0px;}
+.ni_btn.ni_wcpy a{color: #419efc;border-color: #419efc;background: #fff;}
+.ni_btn.ni_wcpy a:hover{color: #fff;border-color: #5badff;background: #5badff;}
+.ni_lh_40{line-height: 40px;}
+.ni_g_bg_fff{background: #fff;}
+.cs_top.ni_cs_top{box-shadow:none;}
+
+.ni_g_tit_txt01{font-size: 24px;color: #222222;line-height: 30px;}
+.ni_g_ksry_del .ni_ks {background: #f1f8ff;padding: 25px 0;border: 1px solid #d1e5f7; border-radius: 8px;position: relative;width: 560px;height: 95px;}
+.ni_g_ksry_del .ni_ks .ni_box{font-size: 16px;color: #888888;padding: 25px 25px 25px 80px;margin-left: 50px;width: 100px;}
+.ni_g_ksry_del .ni_ks .ni_box .ni_t1 big{color: #222;font-size: 24px;}
+
+.ni_g_ksry_del .ni_ks .ni_box.ni_bj{background: url('../images/ni_ks_01.png') no-repeat left center;}
+.ni_g_ksry_del .ni_ks .ni_box.ni_zs{background: url('../images/ni_ks_02.png') no-repeat left center;}
+.ni_g_ksry_del .ni_ks .ni_box.ni_xx{background: url('../images/ni_ks_03.png') no-repeat center top;padding: 55px 0 0 0;text-align: center;}
+.ni_g_ksry_del .ni_ks .ni_box.ni_cy{width: 300px;padding: 0px;font-size: 20px;color: #222222;margin-left: 20px;line-height: 25px;height: 75px;overflow: hidden;}
+.ni_g_ksry_del .ni_ks .ni_no_message{background: url('../images/ni_ks_04.png') no-repeat center top;padding: 55px 0 0 0;text-align: center;}
+.ni_border_r_d1e5f7{border-right: 1px solid #d1e5f7;}
+.ni_g_pa_txt{position: absolute;font-size: 16px;color: #3f9cfa;right: 15px;bottom: 15px;}
+.ni_g_pa_txt a{color: #3f9cfa;}
+
+.ni_g_tit_txt01 em{font-size: 20px;color: #ffffff;padding: 0 15px;background: #ff7c7c;display: inline-block;border-radius: 15px;margin-left: 15px;}
+
+.ni_add_km{color: #419efa;font-size: 16px;}
+.ni_g_km_list li{border: 1px solid #d1e5f7;border-radius: 5px;padding: 15px 0;position: relative;}
+.ni_g_km_list .ni_img{width: 90px;height: 90px;border-radius: 50%;margin-left: 30px;}
+.ni_g_km_list .ni_img.ni_ico01{background: url("../images/ni_lt_01.png") no-repeat center center #ddf1ff;}
+.ni_g_km_list .ni_img.ni_ico02{background: url("../images/ni_lt_02.png") no-repeat center center #ddf1ff;}
+.ni_g_km_list .ni_img.ni_ico03{background: url("../images/ni_lt_03.png") no-repeat center center #ddf1ff;}
+
+.ni_g_km_list .ni_txt{width: 370px;margin-left: 50px;margin-top: 5px;}
+.ni_g_km_list .ni_txt .ni_w50{float: left;width:50%;font-size: 16px;line-height: 40px;}
+.ni_g_km_list .ni_txt .ni_w50 .ni_span01{color: #555;display: inline-block;width: 5em;text-align: right;}
+.ni_g_km_list .ni_txt .ni_w50 .ni_span02{color: #888;}
+.ni_g_km_list .ni_sz{margin-right: 40px;}
+.ni_g_km_list .ni_sz a{height: 30px;border-radius: 3px;border: 1px solid #419efc;line-height: 30px;color: #419efc;padding: 0 43px;cursor: pointer;display: inline-block;margin-top: 30px;margin-right: 10px;font-size: 14px;}
+.ni_g_km_list .ni_sz a:hover{background: #419efc;border-color: #419efc;color: #fff;}
+.ni_g_km_list .ni_sz a.ni_yc:hover{background-color: #419efc;background-image: url('../images/ni_down_hover.png');}
+.ni_g_km_list .ni_sz a.ni_yc.active:hover{background-color: #419efc;background-image: url('../images/ni_up_hover.png');}
+.ni_g_km_list .ni_sz a.ni_yc{background: url('../images/ni_down.png') no-repeat 112px center;position: relative;}
+.ni_g_km_list .ni_sz a.ni_yc.active{background: url('../images/ni_up.png') no-repeat 112px center;}
+.ni_g_km_list .ni_sz a.ni_yc i{position: absolute;width:20px;height: 20px;background: url('../images/ni_ico_ycts.png') no-repeat center center;right: -5px;top: -10px;}
+
+.ni_g_del_ico{position: absolute;right: 0px;top: 0px;background: url('../images/ni_clear1.png') no-repeat center center #cfe4f5;width: 33px;height: 33px;border-bottom-left-radius: 4px;cursor: pointer;border-top-right-radius: 3px;}
+.ni_g_del_ico:hover{background-color:#ffa9a9;}
+
+.ni_g_km_list .ni_txt .ni_w50 .ni_span02.ni_g_c_ff7c7c{color: #ff7c7c;}
+.ni_g_km_list .ni_txt .ni_w50 .ni_span02.ni_g_c_3cce99{color: #3cce99;}
+.ni_g_km_list .ni_txt .ni_w50 .ni_span02.ni_g_c_419efc{color: #419efc;}
+
+.ni_g_h_s_box{padding: 0 20px;}
+.ni_g_h_s_box .ni_sbx{float: left;margin-right: 10px;}
+.ni_g_h_s_box .ni_sbx.ni_last_sbx{margin-right: 0px;}
+.ni_g_h_s_box .ni_sbx .ni_tit{font-size: 20px;color: #222222;line-height: 44px;}
+.ni_g_h_s_box .ni_sbx .ni_cent{border: 1px solid #d1e5f7;padding: 20px;width:320px;font-size:14px;color: #888888;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m{line-height: 50px;background: #f7f7f7;text-indent: 18px;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m.ni_g_bg_fff{background: #fff;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m span{display: inline-block;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m .ni_span01{width: 163px;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m span big{color: #16b2a1;}
+
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a{line-height: 30px;height: 30px;width: 115px;text-align: center;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a01{margin-right: 21px;background: #419efc;color: #fff;border-color: #419efc;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a01:hover{background: #6bb7ff;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a02{color: #419efc;border-color: #419efc;background: #fff;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a02:hover{background: #5badff;color: #fff;}
+.ni_g_vsb_hiden{visibility: hidden;}
+.ni_g_pop_add_tech .searchStyle1 .inputSearch,.ni_g_pop_add_tech .searchStyle1 .search,.ni_g_pop_add_tech .searchStyle1{background-color: #f4faff;}
+
+.ni_g_pop_add_tech{width: 588px;}
+.ni_g_pop_add_tech .ni_tech{margin-top: 20px;border: 1px solid #cee8ff;padding: 20px;max-height: 230px;overflow-y: scroll;}
+.ni_g_pop_add_tech .ni_tech label{width: 50px;margin: 5px 0;}
+.ni_g_c_222222{color: #222;}
+.titWrap .tit_sub i.ni_g_c_45a4fe,.ni_g_bg_fff .tit_sub i.ni_g_c_45a4fe{color: #45a4fe;}
+.titWrap .tit_sub i.ni_g_c_ff8c8c,.ni_g_bg_fff .tit_sub i.ni_g_c_ff8c8c{color: #ff9e9e;}
+.ni_g_bg_fff .examTable tr td{border: 0;}
+.ni_g_bg_fff .titWrap .tit_sub{font-size: 14px;color: #555555;}
+.ni_g_bg_1ab4fa{background: #1ab4fa;border-color:#1ab4fa;}
+.ni_g_bg_1ab4fa:hover{background: #31bfff;border-color:#31bfff;color: #fff;}
+
+.ni_g_pop_ycts{width: 540px;padding: 0 25px;}
+.ni_g_pop_ycts table{font-size: 16px;color: #555555;}
+.ni_g_pop_ycts table td{padding: 15px 0;}
+.ni_g_c_ffa8a8{color: #ff7f7f;}
+
+.ni_g_pop_ycts .ni_ul .ni_r_j{display: inline-block;border: 1px solid #fff;height: 20px;line-height: 20px;text-align: center;}
+.ni_g_pop_ycts .ni_ul .ni_r{border: 1px solid #d1d1d1;border-radius: 50%;width: 20px;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .cur .mainWrap{background: #fff;border: 1px solid #46a7ff;box-shadow: 0 0 0 3px #e8f4ff;width:218px;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li a{color: #888888;}
+.ni_g_ksdr_h .mainWrap .dropcont{padding-left: 0;padding-right: 0;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap h3,.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap h4{padding-left: 25px;padding-right: 25px;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li{margin: 0; padding: 9px 25px;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li:hover{background: #bedfff;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li:hover a{color: #2f8eee;}
+
+.ni_g_ksdr_h .examTable tr td{border: 0;}
+
+.ni_btn.ni_wcpy a.ni_g_bg_45a4fe{background: #45a4fe;color: #fff;}
+.ni_btn.ni_wcpy a.ni_g_bg_45a4fe:hover{background: #3c8edc;}
+
+.ni_g_ksry_del .ni_ks.ni_ksxq_ad{width: 100%;}
+.ni_g_ksry_del .ni_ks.ni_ksxq_ad .ni_box{margin-left: 146px;}
+.ni_g_ksry_del .ni_ks.ni_ksxq_ad .ni_box.ni_zs.ni_zs_04{background: url('../images/ni_ks_04.png') no-repeat left center;}
+
+.ni_g_kskm_rt .ni_tit{font-size: 16px;color: #555555;line-height: 55px;}
+.ni_g_kskm_rt .ni_bx{border-bottom: 1px solid #efefef;padding-bottom: 40px;}
+.ni_g_kskm_rt .ni_bx .ni_rt{width: 138px;height: 138px;border-radius: 50%;border: 1px solid #fff;margin-left: 50px;}
+.ni_g_kskm_rt .ni_bx .ni_rt .ni_p1{color: #222;font-size: 14px;padding-top: 50px;}
+.ni_g_kskm_rt .ni_bx .ni_rt .ni_p1 big{font-size: 26px;}
+.ni_g_kskm_rt .ni_bx .ni_rt .ni_p2{font-size: 14px;}
+
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt01{border-color: #87c3ff;background: #eaf4ff;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt01 .ni_p2{color: #238be2;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt02{border-color: #ffe299;background: #fff9eb;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt02 .ni_p2{color: #ecb326;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt03{border-color: #ffd1d1;background: #fff7f7;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt03 .ni_p2{color: #ff7f7f;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt04{border-color: #cfcfcf;background: #fff;}
+.ni_g_kskm_rt .ni_bx .ni_rt.ni_rt04 .ni_p2{color: #888888;}
+
+.ni_g_kskm_rt .ni_bx .ni_cj_dl .ni_t1{font-size: 16px;color: #888888;}
+.ni_g_kskm_rt .ni_bx .ni_cj_dl .ni_t1 big{color: #00de94;}
+.ni_g_kskm_rt .ni_bx .ni_cj_dl .ni_btn a{border-color: #1e98ff;background: #f4fafe;color: #1c8dec;}
+.ni_g_kskm_rt .ni_bx .ni_cj_dl .ni_btn a:hover{background: #eeeeef;}
+
+.ni_box_style .tier li .num{background: #cee8ff;color: #53a9ff;padding: 0 12px;}
+.ni_box_style .tier li .switch.on{background: url(../images/ni_ico_on01.png) center center no-repeat;}
+.ni_box_style .tier li .switch.off{background: url(../images/ni_ico_on02.png) center center no-repeat;}
+
+.ni_cs_top .breadStyle3 .breadtxt{padding: 16px 0;}
+.ni_cs_top .to-back{margin-top: 10px;}
+
+.ni_g_main .drag_txt{font-size: 18px;color: #222222;height: 60px;line-height: 60px;text-align: center;background: #e9f3fb;}
+.ni_g_main #drap_file{padding-bottom: 0;}
+.ni_g_main .ni_g_b_ksmd{color: #222;}
+.ni_g_main .drag_list li{padding-left: 40px;text-align: left;}
+
+.ni_cs_top.cs_top .breadcrumb {display: block;float: none;}
+
+.ni_box_style .waiting-person .tit .txt em{background: #ff9f01;}
+.ni_box_style .waiting-person .tit{background: #f3f3f3;}
+.ni_box_style .selected-person .tit{background: #f3f3f3;}
+.ni_box_style .selected-person .tit .txt em{background: #0083ff;color: #fff;}
+
+.ni_box_style .waiting-list.checkStyle1 .checkbox{opacity: 0;filter:alpha(opacity=0);}
+
+.ni_g_c_888888{color: #888;}
+.ni_add_km{cursor: pointer;}
+
+.ni_g_main #drap_file{border: 1px dashed #d1e5f7;}
+.ni_box_style .tier > li{padding: 5px 0;}
+.ni_box_style .tier > li > ul > li{padding: 10px 0 0;}
+.ni_box_style .tier > li > ul > li > ul > li{padding: 10px 0 0;}
+.ni_box_style .searchStyle1,.ni_box_style .searchStyle1 .inputSearch{background: #f4faff;}
+.ni_box_style .waiting-list tr{color: #888;}
+.ni_box_style .waiting-person{border-color: #e8e8e8;}
+.ni_box_style .selected-person{border-color: #e8e8e8;}
+.ni_box_style .selected-person .tit .radioStyle1{margin-left: 10px;}
+.ni_box_style .scroll-box{padding:5px 0 0;overflow: hidden;position: relative;margin: 0;}
+.ni_box_style .scroll-box tr{padding: 0 10px;}
+.ni_box_style .all-school{margin-left:20px;}
+.ni_box_style .checkStyle1 .checkbox{font-size: 16px;}
+
+.ni_span_btm_left{width: 200px;height: 100px;background: url('../images/ni_btm_left.png') no-repeat center center;position: absolute;top: 50%;left:0px;margin-top: -50px;}
+.ni_span_btm_right{width: 200px;height: 100px;background: url('../images/ni_btm_right.png') no-repeat center center;position: absolute;top: 50%;right:0px;margin-top: -50px;}
+
+.ni_g_ksdr_h .examinfoTab .btn.prev{background: url('../images/ni_m_left.png') no-repeat center center #ebf5ff;border: 1px solid #50aaff;}
+.ni_g_ksdr_h .examinfoTab .btn.next{background: url('../images/ni_m_right.png') no-repeat center center #ebf5ff;border: 1px solid #50aaff;}
+.ni_g_main .ni_tit .ni_btn a{background: #f5f5f5;text-indent: 0;}
+.ni_g_main .ni_tit .ni_btn a:hover{background:#e3e3e3;}
+.ni_g_main .ni_btn a.ni_bg_f5f5f5{background: #f5f5f5;}
+.ni_g_main .ni_btn a.ni_bg_f5f5f5:hover{background: #e3e3e3;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox{font-size: 14px;}
+
+.ni_box_style .col-6 .checkStyle3 .checkbox{background-image: url(../images/public/checkbox2.png);}
+
+.ni_box_style .to-right{background: url(../images/ni_bi_right.png) center center no-repeat;}
+.ni_box_style .to-left{background: url(../images/ni_bi_left.png) center center no-repeat;}
+.ni_box_style .to-right:hover{background: url(../images/ni_bi_right1.png) center center no-repeat;}
+.ni_box_style .to-left:hover{background: url(../images/ni_bi_left1.png) center center no-repeat;}
+.ni_box_style .right-wrapper .col-6 .checkStyle3 .input{text-align: center;text-indent: 0;font-size: 14px;}
+.ni_box_style .right-wrapper .col-6 .checkStyle3 .input:focus{border-color: #0083ff;}
+
+
+.ni_box_style .tier > li ul{padding-left: 0;}
+.ni_box_style .tier > li > ul > li > .ni_g_l_bg_show{padding-left: 45px;}
+.ni_box_style .tier > li > ul > li > ul >li > .ni_g_l_bg_show{padding-left: 80px;}
+
+.ni_box_style .waiting-person .tit,.selected-person .tit{    padding: 13px 20px;}
+.ni_box_style .layout .right{width: 950px;}
+
+.ni_g_pop_ycts .ni_tit{font-size: 16px;color: #222222;height: 58px;line-height: 58px;background: #f1fbff;border: 1px solid #98cafe;text-indent: 15px;border-radius: 5px;margin-top: 10px;}
+.ni_g_pop_ycts .ni_tit big{font-size: 24px;}
+.ni_g_pop_ycts .ni_tit .ni_g_color_45a4fe{color: #45a4fe;}
+.ni_g_pop_ycts .ni_tit .ni_g_color_ff8c8c{color: #ff8c8c;}
+
+
+.stu_tips{position: absolute;top: 22px;right: -6px;display: none;vertical-align: middle;width: 85px;height: 67px;line-height: 75px;text-align: center;color: #6f6f6f;font-size: 14px;}
+.ni_g_ks_ht .ni_ht i:hover .stu_tips{display: block;}
+
+.ni_g_pop_ycts table td .ni_sp{margin-top: 10px;display: inline-block;}
+
+.ni_g_pop_ycts .ni_ul li{margin-top: 25px;font-size: 16px;color: #555;}
+
+.ni_g_pop_ycts .ni_ul li .fl{width: 85px;}.ni_g_pop_ycts .ni_ul li .fl{width: 85px;}
+.ni_g_pop_ycts .ni_ul li .fl{width: 85px;}.ni_g_pop_ycts .ni_ul li .fr{width: 455px;}
+
+/*ni E*/

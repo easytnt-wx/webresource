@@ -66,37 +66,12 @@
             </dl>
         </div>
     </div>
-    
-    <!--弹框模板-->
-    <div id='digR' class='artDig5 dis_none'>
-        <i class='con_error3'></i>
-        <span>您有新的评阅任务</span>
-    </div>
 	<script src="js/lib/jquery-2.1.1.js"></script>
 	<script src="js/lib/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
     <script>
-        $(".selecterBox").Selector();
-        $('.checkList').checkBox();
-        $(".searchStyle3").find('.inputSearch').focus(function(){
-            $(this).parents('.searchStyle3').addClass('on');
-        });
-        $(".searchStyle3").find('.inputSearch').blur(function(){
-            $(this).parents('.searchStyle3').removeClass('on');
-        });
-        var dialog = artDialogs({
-           title:'温馨提示',
-           ok:function () {
-               alert('ok');
-           },
-           okVal:'查看任务',
-           cancelVal:'关闭',
-           cancel:function () {
-               alert('cancel');
-           },
-           content: document.getElementById('digR')
-        });
+        
     </script>
 </body>
 </html>
