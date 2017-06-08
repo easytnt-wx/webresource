@@ -157,8 +157,9 @@
 .addStu .center { width: 287px; height: 34px; border-radius: 5px; border: 1px solid #dcdcdc; padding-left: 10px; }
 .addStu div { margin-bottom: 20px; }
 
-.cs_top_content3 a { font-size: 16px; color: #555555; display: inline-block; vertical-align: middle; padding: 20px 0; border-bottom: 2px solid transparent; }
-.cs_top_content3 a.on { border-bottom: 2px solid #45a4fe; color: #45a4f4; }
+.cs_top_content3 { background-color: #fff }
+.cs_top_content3 a { cursor: pointer; text-decoration: none; font-size: 16px; color: #555555; display: inline-block; vertical-align: middle; padding: 20px 0; border-bottom: 2px solid transparent; }
+.cs_top_content3 a.on, .cs_top_content3 a:hover{ border-bottom: 2px solid #45a4fe; color: #45a4f4; }
 
 .abnormal .abnormal_ul > li { margin-bottom: 15px; background: #ffffff; border-radius: 5px; box-shadow: 0 0 15px #f2f2f2; padding: 25px 30px; }
 
@@ -168,7 +169,7 @@
 .abnormal_top_l .Btn19 .abnormal_error{position: absolute;top: -10px;right: -10px;}
 .abnormal_top_contentBox .abnormal_top_content { float: left; }
 .abnormal_top_contentBox .abnormal_top_content h4 { font-size: 20px; color: #222222; font-weight: inherit; margin-top: 25px; margin-bottom: 15px; }
-.abnormal_top_contentBox .abnormal_top_content .abnormal_top_content_table { width: 316px; padding: 20px; border: 1px solid #d1e5f7; height: 205px; }
+.abnormal_top_contentBox .abnormal_top_content .abnormal_top_content_table { box-sizing: content-box; width: 316px; padding: 20px; border: 1px solid #d1e5f7; height: 205px; }
 .abnormal_top_contentBox .abnormal_top_content table { width: 100%; margin-bottom: 15px; }
 .abnormal_top_contentBox .abnormal_top_content table td { height: 50px; font-size: 14px; color: #888888; background: #f7f7f7; }
 .abnormal_top_contentBox .abnormal_top_content table td strong { margin-left: 15px; font-weight: inherit; }
@@ -187,15 +188,15 @@
 .con_S { display: inline-block; vertical-align: middle; width: 48px; height: 48px; background: url(../images/consult/con_S.png) 0 0 no-repeat; }
 
 /*异常评阅任务*/
-.Review ul li { margin-bottom: 15px; background: #ffffff; border-radius: 5px; box-shadow: 0 0 15px #f2f2f2; padding: 25px 30px; }
+.Review ul li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
 .Review ul li div.left{margin-left: 30px;}
-.Review ul li div.left p.title{font-size:16px;color: #222222;margin-bottom: 5px;}
+.Review ul li div.left p.title{cursor: pointer;font-size:20px;color: #222222;margin-bottom: 5px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Review ul li div.left p.title:hover{color: #45a5ff;}
 .Review ul li div.left span{font-size: 14px;color: #888888;margin-right: 30px;}
 .Review ul li div.left em{font-size: 16px;color: #b3b3b3;}
 
 .Review ul li div.middle{margin-top: 12px;}
-.Review ul li div.middle .bar{width: 150px;height: 10px;display: inline-block;vertical-align:middle;border: 1px solid #00d596;
-    border-radius: 5px;}
+.Review ul li div.middle .bar{ line-height: 0; box-sizing: content-box; width: 150px;height: 10px;display: inline-block;vertical-align:middle;border: 1px solid #00d596;border-radius: 5px;}
 .Review ul li div.middle .bar em{width: 130px;height: 10px;display: inline-block;vertical-align:middle;
     border-radius: 5px;background: #00d596;}
 .Review ul li div.middle .txt{margin-right: 136px;display: inline-block;vertical-align: middle;font-size: 14px;color: #888888;margin-left: 20px;  }
@@ -203,14 +204,15 @@
 .Review ul li .Btn23{margin-top: 6px;}
 
 /*从教育云导入学生*/
-.import .import_top{background: #ffffff;box-shadow:0 0 2px #eeeeee; border-radius: 5px;}
+.import .import_top{border-radius: 5px;}
 .import .import_top .import_top_title{border-bottom: 1px solid #dfecf9;height: 40px;line-height: 40px;padding: 15px 25px;}
 .import .import_top .import_top_title em{font-size: 24px;color: #222222;}
 .import .import_top .import_top_content{padding:10px 25px 15px 25px;}
 .import .import_top .import_top_content .txt{line-height: 38px;display: inline-block;vertical-align: middle;font-size: 16px;color: #555555;}
 .import .import_top .import_top_content .txt em{color: #45a4fe;}
 .import .import_top .import_top_content ul li{float: left;margin-bottom: 20px;margin-right: 18px;}
-
+.import .import_top .import_top_content .checkStyle1 .checkbox {font-size: 16px;}
+.import .import_top .import_top_content .checkStyle1{margin-left: 28px;}
 .import .import_content{background: #ffffff;box-shadow:0 0 2px #eeeeee; border-radius: 5px;padding: 40px 28px 28px 28px;}
 .import .import_content table{width: 100%;}
 .import .import_content table thead tr{background: #fbfbfb;}
@@ -228,11 +230,56 @@
 .new_card ul li div { padding: 18px 43px; }
 
 .tip_Dig { width: 426px; height: 100px; line-height: 100px; text-align: center; font-size: 16px; color: #555555; }
-
+.tip_Dig .con_error4{display: inline-block;vertical-align: middle;width: 40px;height: 40px;background:url(../images/consult/con_error4.png) 0 0 no-repeat;}
 .con_del{display: inline-block;vertical-align: middle;width: 15px;height: 15px;cursor: pointer;
     background:url(../images/consult/con_del.png) 0 0 no-repeat;}
 .con_del:hover{background:url(../images/consult/con_del1.png) 0 0 no-repeat;}
 
+#loadingArt{width: 400px;  padding: 60px 30px;  border-radius: 5px;  background-color: #fff;  text-align: center;}
+#loadingArt .loading{display: inline-block;vertical-align: middle;width: 50px;height: 50px;
+    background:url(../images/consult/loading.gif) 0 0 no-repeat;color: red;}
+#loadingArt span{    font-size: 18px;  margin-left: 15px;  color: #222;  text-align: center;  display: inline-block;  vertical-align: middle;}
+
+/*设置客观题*/
+.cs_bjective_left{width: 280px;border-radius: 10px;height: 490px;}
+.cs_bjective_left .top{background: #edf7ff;padding: 19px 18px;border-radius: 10px 10px 0 0;}
+.cs_bjective_left .top span{font-size: 20px;color: #1b75bc;}
+.cs_bjective_left .top span em{margin-left: 5px;margin-top: 0px;}
+.cs_bjective_left .top em{font-size: 14px;color: #1b75bc;margin-top: 2px;}
+.cs_bjective_left .content{max-height: 386px;position: relative;overflow: hidden;}
+.cs_bjective_left table{width: 100%;text-align: center;}
+.cs_bjective_left table th{height: 45px;font-size: 14px;color: #555555;font-weight: inherit;border-bottom:1px solid #f4f4f4;}
+.cs_bjective_left table td{height: 42px;}
+.cs_bjective_left table td span{font-size: 16px;color: #888888;}
+.cs_bjective_left table td em{font-size: 16px;color: #f8827c;}
+
+
+.cs_bjective_right{width: 907px;border-radius: 10px;}
+.cs_bjective_right .top{padding: 27px 30px 35px 30px; }
+.cs_bjective_right .top .selecterStyle9 .selecterValue:hover{border: 1px solid #65b0f5;}
+.cs_bjective_right .top_section{font-size: 14px;color: #555555;display: inline-block;vertical-align: middle;}
+.cs_bjective_right .top_section input{display: inline-block;vertical-align: middle;width: 38px;height: 34px;line-height: 34px;text-align: center;font-size: 16px;color: #555555;border: 1px solid #dcdcdc;border-radius: 3px;}
+.cs_bjective_right .top_section em{display: inline-block;vertical-align: middle;font-size: 14px;color: #555555;}
+.cs_bjective_right .top_section input:hover{border:1px solid #65b0f5;}
+.bjective_del{display: inline-block;vertical-align: middle;width: 18px;height: 19px;
+    background:url(../images/consult/bjective_del.png) 0 0 no-repeat;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.bjective_b{display: inline-block;vertical-align: middle;width: 18px;height: 18px;
+    background:url(../images/consult/bjective_b.png) 0 0 no-repeat;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.cs_bjective_right .Btn27:hover .bjective_del{background:url(../images/consult/bjective_del1.png) 0 0 no-repeat;}
+.cs_bjective_right .content_box{padding: 0 30px;}
+.cs_bjective_right .content{border: 1px solid #eeeeee;border-radius: 10px;position:relative;margin-bottom: 25px;}
+.cs_bjective_right .content_box i.bjective_x{display: inline-block;vertical-align: middle;width: 24px;height: 24px;position: absolute;right: -12px;top:-12px;
+    background:url(../images/consult/bjective_x.png) 0 0 no-repeat;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;cursor: pointer}
+.cs_bjective_right .content_box i.bjective_x:hover{background:url(../images/consult/bjective_x1.png) 0 0 no-repeat}
+.cs_bjective_right .content table{width: 100%;text-align: center}
+.cs_bjective_right .content table thead td{height: 40px;background: #f9f9f9;font-size: 14px;color: #222222;}
+.cs_bjective_right .content table tbody td{height: 70px;font-size: 14px;color: #555555;}
+.cs_bjective_right .content table tbody td input{font-size: 16px;color: #222222;height: 34px;border: 1px solid #dcdcdc;border-radius: 5px;text-align: center;line-height: 34px;}
+.cs_bjective_right .content table tbody td span,.cs_bjective_right .content table tbody td em{display: inline-block;vertical-align: middle;}
+.cs_bjective_right .content table tbody td span input{width: 91px;}
+.cs_bjective_right .content table tbody td input:hover{border: 1px solid #65b0f5;}
+.cs_bjective_right .content table tbody td em input{width: 61px;}
+.cs_bjective_right .content table thead .first_td{border-radius: 10px 0 0 0;}
 
 
 /*弹出层样式*/

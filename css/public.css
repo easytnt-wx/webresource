@@ -600,7 +600,19 @@ body,html{ width:100%; min-width:1200px;}
 
 .Btn21{border: 1px solid #ff6666;width: 120px;background: #ffffff;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:16px;border-radius: 5px;color: #ff6969;text-align: center;line-height: 38px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .Btn21 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
-.Btn21:hover{background: #ff9f01;color: #ffffff;}
+.Btn21:hover{background: #ff6666;color: #ffffff;}
+.Btn23{padding: 0 15px;color: #ffffff;background: #1ab4fa;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:16px;border-radius: 5px;color: #ffffff;text-align: center;line-height: 40px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn23 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn23:hover {background: #31bfff;color: #ffffff;}
+.Btn24{border: 1px solid #45a4fe;padding: 0 17px;color: #45a4fe;background: #ffffff;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:14px;border-radius: 5px;color: #45a4fe;text-align: center;line-height: 34px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn24 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn24:hover {background: #45a4fe;color: #ffffff;}
+.Btn25{border: 1px solid #e5e5e5;width: 174px;color: #555555;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:16px;border-radius: 5px;text-align: center;line-height: 40px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn25 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn25.on{background: #f4fafe;color: #187bcf;border: 1px solid #1e98ff;}
+.Btn26{border: 1px solid #45a4fe;padding: 0 20px;background: #ffffff;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:14px;border-radius: 5px;color: #45a5fe;text-align: center;line-height: 38px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn26 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn26:hover {background: #45a4fe;color: #ffffff;}
 
 .g_btn1{display:inline-block;*display: inline;*zoom: 1;text-align: center;height:36px;line-height:36px;padding:0 20px;background:#45A4FE;color:#fff;font-size:16px;border-radius:6px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .g_btn1:hover{background:#53B2FF;}
