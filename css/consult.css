@@ -188,7 +188,7 @@
 .con_S { display: inline-block; vertical-align: middle; width: 48px; height: 48px; background: url(../images/consult/con_S.png) 0 0 no-repeat; }
 
 /*异常评阅任务*/
-.Review ul li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
+.Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
 .Review ul li div.left{margin-left: 30px;}
 .Review ul li div.left p.title{cursor: pointer;font-size:20px;color: #222222;margin-bottom: 5px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .Review ul li div.left p.title:hover{color: #45a5ff;}
