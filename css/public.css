@@ -454,9 +454,9 @@ body,html{ width:100%; min-width:1200px;}
 
 
 .selecterStyle7{display:inline-block; position:relative; cursor:pointer; vertical-align:middle;}
-.selecterStyle7 .selecterValue{font-size: 18px;background-color: #67b5ff; background: url(../images/public/icon_drop4.png) 93% center no-repeat #67b5ff; color:#fff;display:inline-block; vertical-align:middle; word-break:break-all; width:100%; border-radius:30px;text-align: center;}
+.selecterStyle7 .selecterValue{font-size: 18px;background-color: #67b5ff;/* background: url(../images/public/icon_drop4.png) 93% center no-repeat #67b5ff; */color:#fff;display:inline-block; vertical-align:middle; word-break:break-all; width:100%; border-radius:30px;text-align: center;}
 .selecterStyle7 .selecterValue.bluebor{background-color: #5bafff;}
-.selecterStyle7 .selecterValue p{ padding:0 30px 0 25px; line-height:42px; height:42px; display:block; overflow:hidden;width: 218px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.selecterStyle7 .selecterValue p{ padding:0 30px 0 25px; line-height:42px; height:42px; display:block; overflow:hidden;width: 290px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .selecterStyle7 .selectwrapper{z-index:100;position:absolute; left:0px; top:52px;display:none; padding: 5px;box-shadow: 0 3px 11px 2px #daedff;border-radius:3px;background: #fff;}
 .selecterStyle7 .selecterdown{ overflow:hidden; background:#fff;position: relative;}
 .selecterStyle7 .selecterDrop{display: block;*display: inline;}
