@@ -1,1 +1,7 @@
 @charset "UTF-8";
+.left{
+	cursor: pointer;
+}
+.number-lis span.score-low.selected{
+	background-color: #fff;
+}
