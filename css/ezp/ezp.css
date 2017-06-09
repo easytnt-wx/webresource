@@ -5,3 +5,6 @@
 .number-lis span.score-low.selected{
 	background-color: #fff;
 }
+.number-scroll{
+	box-shadow: 2px 8px 20px #ababab;
+}
