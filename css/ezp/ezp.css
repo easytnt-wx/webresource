@@ -50,8 +50,9 @@
 	width: 30px;
 	color: #03df9d;
 	background-color: #f5f5f5;
+	cursor: pointer;
 }
-.row > div > button.button-caution{
+.row > div > button.button-caution,.row > div > button:hover{
 	background-color: #03df9d;
 	color: #fff;
 }
