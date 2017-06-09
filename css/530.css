@@ -1,0 +1,7 @@
+@charset |"UTF-8";
+*{
+	box-sizing: content-box;
+}
+dt{
+	font-weight: 500;
+}

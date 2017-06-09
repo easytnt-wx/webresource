@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.Btn27 ,.Btn28{
+	box-sizing: content-box;
+}
+th{
+	text-align: center;
+}
+label{
+	font-weight: 500;
+}

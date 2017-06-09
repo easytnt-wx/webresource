@@ -205,9 +205,9 @@
 
 /*从教育云导入学生*/
 .import .import_top{border-radius: 5px;}
-.import .import_top .import_top_title{border-bottom: 1px solid #dfecf9;height: 40px;line-height: 40px;padding: 15px 25px;}
-.import .import_top .import_top_title em{font-size: 24px;color: #222222;}
-.import .import_top .import_top_content{padding:10px 25px 15px 25px;}
+.import .import_top .import_top_title{ box-sizing: content-box; border-bottom: 1px solid #dfecf9;height: 40px;line-height: 40px;padding: 15px 25px;}
+.import .import_top .import_top_title span.fl{font-size: 24px;color: #222222;}
+.import .import_top .import_top_content{padding:15px 25px;}
 .import .import_top .import_top_content .txt{line-height: 38px;display: inline-block;vertical-align: middle;font-size: 16px;color: #555555;}
 .import .import_top .import_top_content .txt em{color: #45a4fe;}
 .import .import_top .import_top_content ul li{float: left;margin-bottom: 20px;margin-right: 18px;}
@@ -230,7 +230,8 @@
 .new_card ul li div { padding: 18px 43px; }
 
 .tip_Dig { width: 426px; height: 100px; line-height: 100px; text-align: center; font-size: 16px; color: #555555; }
-.tip_Dig .con_error4{display: inline-block;vertical-align: middle;width: 40px;height: 40px;background:url(../images/consult/con_error4.png) 0 0 no-repeat;}
+.tip_Dig .con_error4{display: inline-block;vertical-align: middle;width: 40px;height: 40px;
+    background:url(../images/consult/con_error4.png) 0 0 no-repeat;}
 .con_del{display: inline-block;vertical-align: middle;width: 15px;height: 15px;cursor: pointer;
     background:url(../images/consult/con_del.png) 0 0 no-repeat;}
 .con_del:hover{background:url(../images/consult/con_del1.png) 0 0 no-repeat;}
