@@ -40,3 +40,9 @@ ul.tier{
 .ni_box_style .tier > li{
 	outline: none;
 }
+.level1{
+	display: none;
+}
+.level0 +span,.level0 +span+span{
+	display: none;
+}
