@@ -48,3 +48,13 @@ ul.tier{
 ul.level0{
 	margin-left: 15px;
 } 
+.badge{
+	background-color: #cee8ff;
+	color: #53a9ff;
+	line-height: 21px;
+    font-size: 16px;
+    padding: 0 9px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
