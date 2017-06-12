@@ -43,6 +43,3 @@ ul.tier{
 .level1{
 	display: none;
 }
-.level0 +span,.level0 +span+span{
-	display: none;
-}
