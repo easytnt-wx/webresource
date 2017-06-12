@@ -33,7 +33,15 @@ ul.tier{
 
 .level0.switch.noline_open{
 	background: url(../images/ni_ico_on02.png) center center no-repeat;
+	margin-right: 10px;
 }
 .level0.switch.noline_close{
 	background: url(../images/ni_ico_on01.png) center center no-repeat;
+	margin-right: 10px;
+}
+.ni_box_style .tier > li{
+	outline: none;
+}
+.tier li span{
+	padding:0;
 }
