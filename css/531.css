@@ -30,3 +30,10 @@
 ul.tier{
 	padding: 20px 10px;
 }
+
+.level0.switch.noline_open{
+	background: url(../images/ni_ico_on02.png) center center no-repeat;
+}
+.level0.switch.noline_close{
+	background: url(../images/ni_ico_on01.png) center center no-repeat;
+}
