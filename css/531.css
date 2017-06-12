@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.ni_box_style .layout .right{
+	height: 560px;
+}
+.waiting-person{
+	height: 500px;
+}
+.selected-person{
+	height: 500px;
+}
+.scroll-box{
+	height: 454px;
+}
+.Radio, .checkbox{
+	margin: 0;
+	font-weight: 500;
+}
+.scroll-box.ps-container{
+	margin:0;
+	padding: 0;
+}
+.layout .left{
+	overflow: hidden;
+	position: relative;
+	width: 198px;
+}
+.boxStyle.ni_box_style .left{
+	padding: 0;
+}
+ul.tier{
+	padding: 20px 10px;
+}

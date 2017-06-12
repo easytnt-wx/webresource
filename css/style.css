@@ -424,7 +424,7 @@
 .progress { height: 22px; width: 556px; border: 1px solid #3de498; border-radius: 20px; position: relative; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: #f6f6f6; overflow: hidden; }
 .progress em { position: absolute; left: 0; top: 0; height: 22px; background: #3de498; border-radius: 20px; }
 
-.layout .left { height: 600px; overflow-y: auto; float: left; width: 178px; margin-right: -178px; position: relative; z-index: 20; }
+.layout .left { height: 600px; overflow-y: auto; float: left; width: 178px; box-sizing: content-box; margin-right: -178px; position: relative; z-index: 20; }
 .layout .right { float: right; width: 100%; }
 .layout .right .right-wrapper { margin-left: 210px; position: relative; padding-right: 195px; }
 
@@ -499,7 +499,7 @@
 .allot dl dd .un-qid a { display: inline-block; *display: inline; *zoom: 1;height: 30px; line-height: 30px; border-radius: 5px; color: #fff; background-color: #888; text-align: center; font-size: 14px; margin: 0 10px 5px 0; }
 
 /*安排评卷人员*/
-/*.tier > li { padding: 5px 0; }
+.tier > li { padding: 5px 0; }
 .tier > li ul { padding: 0 0 0 30px; }
 .tier > li > ul > li { padding: 5px 0; }
 .tier li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 16px; color: #555555; padding: 0 6px 0 6px; }
@@ -507,10 +507,11 @@
 .tier li .switch.on { background: url(../images/icon_on.png) center center no-repeat; }
 .tier li .switch.off { background: url(../images/icon_off.png) center center no-repeat; }
 .tier li .num { line-height: 21px; font-size: 16px; color: #fff; padding: 0 9px; border-radius: 20px; background: #8ea9b9; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.tier ul { display: none; }*/
+.tier ul { display: none; }
 
-.row .col-4 { float: left; width: 30%; }
+.row .col-3 { float: left; width: 25%; }
 .row .col-2 { float: left; width: 20%; }
+.row .col-4 { float: left; width: 30%; }
 .row .col-6 { float: left; width: 50%; }
 
 .person-plan .right .right-wrapper { padding-right: 0; }

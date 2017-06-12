@@ -62,9 +62,17 @@ $.fn.extend({
         });
     },
     radios: function (options) {
-        var self = this;
-        return this.each(function () {
+        var defaults = {
+            clickAfter:function (obj) {
+
+            }
+        };
+        options = $.extend({}, defaults, options);
+        var box;
+        var currentChecked;
+        this.each(function () {
             var _this = $(this);
+            box = $(this);
             $('label', this).each(function () {
                 $(this).addClass('Radio');
                 if ($(this).is(".RadioChecked")) {
@@ -72,18 +80,32 @@ $.fn.extend({
                     $(this).siblings().removeClass("RadioChecked");
                 }
                 $(this).click(function (event) {
+                    var that=$(this);
                     if (!$(this).is('.RadioChecked')) {
                         $(this).addClass("RadioChecked");
                         $(this).siblings().removeClass("RadioChecked");
                         $(this).children()[0].checked = true;
+                        currentChecked=$(this).text();
                     }
                     $(this).siblings().map(function (ele,index) {
                         $(index).children()[0].checked = false;
                     });
-                    event.stopPropagation();
+                    options.clickAfter(that);
+                    return false;
                 });
             });
         });
+        return {
+            reload:function () {
+                box.find('label').each(function () {
+                    $(this).removeClass('RadioChecked');
+                    $(this).children()[0].checked = false;
+                });
+            },
+            checked:function () {
+                return currentChecked;
+            }
+        }
     },
     checkBox: function (options) {
         var defaults = {
@@ -219,6 +241,48 @@ $.fn.extend({
             });
         });
     },
+    BootstrapSelector: function (options) {
+        var defaults={
+            callback:function () {
+            }
+        };
+        options=$.extend({},defaults,options);
+        $(this).each(function () {
+            var Myobj = $(this);
+            var oInp = Myobj.find('input.selRes');
+            Myobj.find(".selectDrop a").each(function () {
+                if ($(this).hasClass('active')) {
+                    Myobj.find(".selectVal i").html($(this).html());
+                    if (oInp[0]) oInp.val($(this).attr('value'));
+                    return false;
+                }
+            });
+            Myobj.find('.dropdown-toggle').unbind().on('click', function (ev) {
+                var Ocur = Myobj.find(".selectVal");
+                var Odrop = Myobj.find(".selectDrop");
+                var Owidth = Myobj.width();
+                Odrop.toggle(0, function () {
+                    $(this).css({
+                        'z-index': 9999,
+                        "width": parseInt(Odrop.css('width')) > Owidth ? Odrop.css('width') : Owidth
+                    });
+                });
+
+                ev.stopPropagation();
+                $(document).click(function () {
+                    $(".selectDrop").hide();
+                });
+                Odrop.find("a").unbind().on('click', function () {
+                    Ocur.find("i").html($(this).html());
+                    Odrop.hide();
+                    $(this).addClass('active').siblings().removeClass('active');
+                    if (oInp[0]) oInp.val($(this).attr('value'));
+                    options.callback();
+                    return false;
+                });
+            });
+        });
+    },
     fullPage:function (options) {
         var defaults={
             ele:['.ease_header','.control']
@@ -246,14 +310,21 @@ $.fn.extend({
                 }else{
                     $(this).removeClass('off').addClass('on');
                 }
-                $(this).siblings('ul').slideToggle();
+                if($(this).parents(".ni_box_style").size() >= 1)
+                {
+                    $(this).parent().siblings('ul').slideToggle();
+                }
+                else{
+                    $(this).siblings('ul').slideToggle();
+                }
+                
             });
 
         });
     },
     leftSlide:function (options) {
         var defaults={
-            value:'-182px'
+            value:'-218px'
         };
         options=$.extend({},defaults,options);
         return this.each(function () {
@@ -268,6 +339,16 @@ $.fn.extend({
                 }
             });
         });
+    },
+    tableColor: function (options) {
+        var defaults = {
+            color: '#fafafa'
+        };
+        options = $.extend({}, defaults, options);
+        return this.each(function () {
+            $(this).find("tbody tr:even").css("background-color", options.color);//行号为奇数的是背景白色
+        });
+
     },
     drag:function (options) {
         var defaults={
@@ -322,7 +403,7 @@ $.fn.extend({
             initW:144,
             initH:210,
             startLeft:266,
-            startTop:88,
+            startTop:88
         };
         options=$.extend({},defaults,options);
         return this.each(function () {
