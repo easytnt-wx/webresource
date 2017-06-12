@@ -39,7 +39,7 @@ ul.tier{
 	background: url(../images/ni_ico_on01.png) center center no-repeat;
 	margin-right: 10px;
 }
-.ni_box_style .tier > li{
+.ni_box_style .tier  li{
 	outline: none;
 }
 .tier li span{
