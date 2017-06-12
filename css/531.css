@@ -48,7 +48,7 @@ ul.tier{
 ul.level0{
 	margin-left: 15px;
 } 
-.badge{
+.tier li span.badge{
 	background-color: #cee8ff;
 	color: #53a9ff;
 	line-height: 21px;
