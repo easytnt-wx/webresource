@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*head*/
-.ease_header { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_menubg.png) left top repeat-x #45a5ff; color: #fff; }
+.ease_header { background: url(../../images/icon_menubg.png) left top repeat-x #45a5ff; color: #fff; }
 
-.easy_logo { display: block; width: 172px; height: 33px; background: url(http://192.168.1.235/public/static/easy_exam/images/logo.png) center center no-repeat; padding: 24.5px 0 24.5px 0; margin-right: 62px; }
+.easy_logo { display: block; width: 172px; height: 33px; background: url(../../images/logo.png) center center no-repeat; padding: 24.5px 0 24.5px 0; margin-right: 62px; }
 
 .easy_nav { overflow: hidden; padding: 20px 0; }
 .easy_nav li { float: left; }
@@ -26,9 +26,9 @@
 .userinfo .user_img { border-radius: 50%; width: 34px; height: 34px; background: #fff; margin-right: 10px; overflow: hidden; }
 .userinfo .icon_drop { cursor: pointer; margin-left: 10px; }
 
-.icon_drop { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 8px; height: 5px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_drop.png) center center no-repeat; }
+.icon_drop { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 8px; height: 5px; background: url(../../images/icon_drop.png) center center no-repeat; }
 
-.icon_scan { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_scan.png) center center no-repeat; }
+.icon_scan { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(../../images/icon_scan.png) center center no-repeat; }
 
 .scan_card { line-height: 40px; padding: 0 15px; border-radius: 20px; display: block; -webkit-transition: background 300ms ease-in-out 0s; -moz-transition: background 300ms ease-in-out 0s; transition: background 300ms ease-in-out 0s; }
 .scan_card:hover { background: #69b4ff; }
@@ -52,25 +52,25 @@
 .progress_bar { position: relative; width: 151px; height: 10px; border: 1px solid #00d596; border-radius: 20px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .progress_bar em { background: #00d596; position: absolute; left: 0; top: 0; height: 10px; width: 20%; display: block; }
 
-.icon_into { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 18px; height: 16px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_into.png) center center no-repeat; }
+.icon_into { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 18px; height: 16px; background: url(../../images/icon_into.png) center center no-repeat; }
 
 .icon_tag1, .icon_tag2, .icon_tag3, .icon_tag4, .icon_tag5 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 26px; height: 25px; }
-.icon_tag1 { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_tag1.png) center center no-repeat; }
+.icon_tag1 { background: url(../../images/icon_tag1.png) center center no-repeat; }
 
-.icon_tag2 { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_tag2.png) center center no-repeat; }
+.icon_tag2 { background: url(../../images/icon_tag2.png) center center no-repeat; }
 
-.icon_tag3 { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_tag3.png) center center no-repeat; }
+.icon_tag3 { background: url(../../images/icon_tag3.png) center center no-repeat; }
 
-.icon_tag4 { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_tag4.png) center center no-repeat; }
+.icon_tag4 { background: url(../../images/icon_tag4.png) center center no-repeat; }
 
-.icon_tag5 { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_tag5.png) center center no-repeat; }
+.icon_tag5 { background: url(../../images/icon_tag5.png) center center no-repeat; }
 /*创建考试*/
 #modifyClass { width: 394px; height: 500px; }
 #modifyClass .modifyClassBox { width: auto; padding: 0 75px; overflow: hidden; position: relative; height: 500px; }
 #modifyClass .modifyClassBox ul { height: 500px; }
 #modifyClass .modifyClassBox ul li { margin-top: 18px; }
 #modifyClass .modifyClassBox ul li span { width: 70px; text-align: left; font-size: 16px; color: #555555; display: inline-block; vertical-align: middle; }
-#modifyClass .modifyClassBox ul li .icon_left { display: inline-block; vertical-align: middle; width: 19px; height: 19px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_left.png) 0 0 no-repeat; margin: 0 18px 0 5px; }
+#modifyClass .modifyClassBox ul li .icon_left { display: inline-block; vertical-align: middle; width: 19px; height: 19px; background: url(../../images/icon_left.png) 0 0 no-repeat; margin: 0 18px 0 5px; }
 #modifyClass .modifyClassBox ul li input { width: 113px; height: 28px; line-height: 28px; padding-left: 10px; border: 1px solid #d5d5d5; -webkit-transition: all 300ms ease-in-out 0s; -moz-transition: all 300ms ease-in-out 0s; transition: all 300ms ease-in-out 0s; color: #555555; font-size: 16px; border-radius: 3px; display: inline-block; vertical-align: middle; }
 #modifyClass .modifyClassBox ul li input:hover { border: 1px solid #309aeb; }
 
@@ -88,7 +88,7 @@
 .set_warm { color: #dc2626; font-size: 14px; }
 .set_warm em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 
-.icon_warm { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 20px; height: 20px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_warm.png) center center no-repeat; }
+.icon_warm { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 20px; height: 20px; background: url(../../images/icon_warm.png) center center no-repeat; }
 
 .gather { padding: 20px 0; }
 .gather .file_name { font-size: 16px; color: #555555; }
@@ -141,12 +141,12 @@
 .drag_txt { font-size: 14px; color: #555555; }
 .drag_txt span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-left: 6px; }
 
-.up_load { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 23px; height: 18px; background: url(http://192.168.1.235/public/static/easy_exam/images/up_load.png) center center no-repeat; }
+.up_load { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 23px; height: 18px; background: url(../../images/up_load.png) center center no-repeat; }
 
 .export { padding: 20px 0; }
 .export .gather { padding: 4px 0; }
 
-.icon_remove { width: 8px; height: 8px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_remove.png) center center no-repeat; }
+.icon_remove { width: 8px; height: 8px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: url(../../images/icon_remove.png) center center no-repeat; }
 
 /*编辑学生信息*/
 .error_tips { color: #eb4c4c; font-size: 14px; }
@@ -155,9 +155,9 @@
 .right_tips { color: #6fdd6c; font-size: 14px; }
 .right_tips em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-left: 5px; }
 
-.icon_error { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_error.png) center center no-repeat; }
+.icon_error { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_error.png) center center no-repeat; }
 
-.icon_right { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 16px; height: 16px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_right.png) center center no-repeat; }
+.icon_right { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 16px; height: 16px; background: url(../../images/icon_right.png) center center no-repeat; }
 
 /*单元考试首页*/
 .view_info { padding: 67px 57px 60px 92px; }
@@ -182,18 +182,18 @@
 .handle_paper .scan_paper { color: #419efc; position: relative; }
 .handle_paper .scan_paper span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-left: 6px; }
 .handle_paper .scan_paper:hover { border-color: #cdcdcd; color: #cdcdcd; }
-.handle_paper .scan_paper:hover .icon_scan2 { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_scan2_hover.png) center center no-repeat; }
+.handle_paper .scan_paper:hover .icon_scan2 { background: url(../../images/icon_scan2_hover.png) center center no-repeat; }
 .handle_paper .scan_paper .txt { position: absolute; right: 100%; width: 200px; text-align: right; top: 9px; font-size: 12px; color: #888888; margin-right: 20px; }
 .handle_paper .scan_paper .txt em { color: #00dd78; font-size: 20px; }
 .handle_paper .start_paper { color: #fff; background: #419efc; }
 .handle_paper .txt { font-size: 14px; color: #888; }
 .handle_paper .txt i { color: #419efc; }
 
-.icon_edit { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_edit.png) center center no-repeat; }
-.icon_del { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon-remove.png) center center no-repeat; }
-.icon_paper { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 97px; height: 114px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_paper.png) center center no-repeat; }
+.icon_edit { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(../../images/icon_edit.png) center center no-repeat; }
+.icon_del { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(../../images/icon-remove.png) center center no-repeat; }
+.icon_paper { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 97px; height: 114px; background: url(../../images/icon_paper.png) center center no-repeat; }
 
-.icon_scan2 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_scan2.png) center center no-repeat; }
+.icon_scan2 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(../../images/icon_scan2.png) center center no-repeat; }
 
 .step { /*padding: 15px 0;*/ border-top: 1px solid #f2f2f2; background: #f8fbff; border-radius: 0 0 5px 5px; }
 .step a, .step .sep { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; float: left; }
@@ -203,10 +203,10 @@
 .step a span i { margin-right: 6px; }
 .step a em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; line-height: 55px; }
 .step a.on { color: #3bc07a; }
-.step a.on .icon_done { width: 22px; height: 21px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_done.png) center center no-repeat; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
+.step a.on .icon_done { width: 22px; height: 21px; background: url(../../images/icon_done.png) center center no-repeat; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .step a.on:hover span { border-bottom: 2px solid #3bc07a; }
 .step a:hover span { border-bottom: 2px solid #419efc; }
-.step .sep { width: 13px; height: 20px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_next.png) center center no-repeat; }
+.step .sep { width: 13px; height: 20px; background: url(../../images/icon_next.png) center center no-repeat; }
 
 .set_number { border-collapse: collapse; width: 100%; background: #fff; border: 1px solid #f0f0f0; margin-bottom: 50px; }
 .set_number .input { width: 157px; margin-left: 10px; }
@@ -256,9 +256,9 @@
 .already li { display: inline-block; display: inline; zoom: 1; margin-right: 10px; }
 .already li a { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 14px; }
 .already li .icon_close { cursor: pointer; }
-.already li .icon_close:hover { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_close_hover.png) center center no-repeat; }
+.already li .icon_close:hover { background: url(../../images/icon_close_hover.png) center center no-repeat; }
 
-.icon_close { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_close.png) center center no-repeat; }
+.icon_close { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(../../images/icon_close.png) center center no-repeat; }
 
 .number_index { padding: 0 30px; }
 .number_index li { color: #888888; border-top: 1px solid #e8f2ff; padding: 12px 0; }
@@ -303,7 +303,7 @@
 .setinput_list li { position: relative; margin-bottom: 50px; }
 .setinput_list li .icon_empty { position: absolute; right: -10px; top: -10px; cursor: pointer; z-index: 10; }
 
-.icon_empty { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 30px; height: 30px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_empty.png) center center no-repeat; }
+.icon_empty { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 30px; height: 30px; background: url(../../images/icon_empty.png) center center no-repeat; }
 
 .setinput_table { width: 100%; border-collapse: collapse; font-size: 14px; border: 1px solid #e3e3e3; }
 .setinput_table thead { background: #f7f7f7; }
@@ -340,9 +340,9 @@
 .create_choice .innerwrapper .icon_many { margin-right: 6px; }
 .create_choice .container { background: #f2f2f2; height: 260px; }
 
-.icon_only { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_only.png) center center no-repeat; width: 20px; height: 20px; }
+.icon_only { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: url(../../images/icon_only.png) center center no-repeat; width: 20px; height: 20px; }
 
-.icon_many { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_many.png) center center no-repeat; width: 26px; height: 20px; }
+.icon_many { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: url(../../images/icon_many.png) center center no-repeat; width: 26px; height: 20px; }
 
 /*重新扫描答题卡模板*/
 .card_template.boxStyle { padding-left: 0; padding-right: 0; padding-bottom: 0; }
@@ -380,7 +380,7 @@
 
 .filter-list { position: absolute; left: -34px; top: 0; z-index: 50; }
 .filter-list li { margin-bottom: 20px; }
-.filter-list li span { display: block; *display: inline; *zoom: 1; width: 23px; height: 23px; background-image: url(http://192.168.1.235/public/static/easy_exam/images/state.png); background-repeat: no-repeat; cursor: pointer; }
+.filter-list li span { display: block; *display: inline; *zoom: 1; width: 23px; height: 23px; background-image: url(../../images/state.png); background-repeat: no-repeat; cursor: pointer; }
 
 .filter-state1 { background-position: 0 0; }
 
@@ -395,22 +395,22 @@
 .state-list { padding: 0 20px; }
 .state-list li { padding: 7px 0; }
 .state-list li span, .state-list li em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.state-list li em { width: 19px; height: 19px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_close.png) center center no-repeat; cursor: pointer; }
+.state-list li em { width: 19px; height: 19px; background: url(../../images/icon_close.png) center center no-repeat; cursor: pointer; }
 .state-list li span { color: #888888; font-size: 14px; margin: 0 6px; cursor: pointer; }
 .state-list li:hover span, .state-list li.on span { color: #419efc; }
-.icon_state1 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state1.png) center center no-repeat; }
+.icon_state1 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state1.png) center center no-repeat; }
 
-.icon_state2 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state2.png) center center no-repeat; }
+.icon_state2 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state2.png) center center no-repeat; }
 
-.icon_state3 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state3.png) center center no-repeat; }
+.icon_state3 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state3.png) center center no-repeat; }
 
-.icon_state4 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state4.png) center center no-repeat; }
+.icon_state4 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state4.png) center center no-repeat; }
 
-.icon_state5 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state4.png) center center no-repeat; }
+.icon_state5 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state4.png) center center no-repeat; }
 
-.icon_state6 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state6.png) center center no-repeat; }
+.icon_state6 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state6.png) center center no-repeat; }
 
-.icon_state7 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state7.png) center center no-repeat; }
+.icon_state7 { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 15px; height: 15px; background: url(../../images/icon_state7.png) center center no-repeat; }
 
 .scanning-progress .txt { font-size: 14px; color: #888888; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .scanning-progress .txt em { font-size: 20px; color: #00dd78; }
@@ -420,7 +420,7 @@
 .circle-scaning .icon_circleScan { margin: 12px auto 4px auto; }
 .circle-scaning span { font-size: 22px; }
 
-.icon_circleScan { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 24px; height: 24px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_circleScan.png) center center no-repeat; }
+.icon_circleScan { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 24px; height: 24px; background: url(../../images/icon_circleScan.png) center center no-repeat; }
 .progress { height: 22px; width: 556px; border: 1px solid #3de498; border-radius: 20px; position: relative; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background: #f6f6f6; overflow: hidden; }
 .progress em { position: absolute; left: 0; top: 0; height: 22px; background: #3de498; border-radius: 20px; }
 
@@ -448,7 +448,7 @@
 .obj-list li input.true { border-color: #419efc; }
 .obj-list li input.success { border-color: #419efc; }
 
-.success-mark { position: absolute; right: 10px; bottom: 0; width: 21px; height: 16px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_success.png) center center no-repeat; }
+.success-mark { position: absolute; right: 10px; bottom: 0; width: 21px; height: 16px; background: url(../../images/icon_success.png) center center no-repeat; }
 .prev-page, .next-page { line-height: 22px; border: 1px solid #419efc; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 60px; text-align: center; border-radius: 3px; margin: 0 10px; }
 .prev-page:hover, .next-page:hover { background: #e7f3ff; }
 
@@ -458,13 +458,13 @@
 .control-module .control-bar, .control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn ,.control-module .del,.control-module .save{ display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; cursor: pointer; }
 .control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn ,.control-module .del,.control-module .save{ width: 34px; height: 34px; border-radius: 3px; }
 .control-module .right-rotate:hover, .control-module .left-rotate:hover, .control-module .add:hover, .control-module .subtract:hover, .control-module .overturn:hover ,.control-module .save:hover,.control-module .del:hover{ background-color: #000; }
-.control-module .right-rotate { background: url(http://192.168.1.235/public/static/easy_exam/images/right-rotate.png) center center no-repeat; }
-.control-module .left-rotate { background: url(http://192.168.1.235/public/static/easy_exam/images/left-rotate.png) center center no-repeat; }
-.control-module .add { background: url(http://192.168.1.235/public/static/easy_exam/images/add.png) center center no-repeat; }
-.control-module .del { background: url(http://192.168.1.235/public/static/easy_exam/images/del.png) center center no-repeat; }
-.control-module .subtract { background: url(http://192.168.1.235/public/static/easy_exam/images/subtract.png) center center no-repeat; }
-.control-module .overturn { background: url(http://192.168.1.235/public/static/easy_exam/images/overturn.png) center center no-repeat; }
-.control-module .save{ background: url(http://192.168.1.235/public/static/easy_exam/images/save.png) center center no-repeat; }
+.control-module .right-rotate { background: url(../../images/right-rotate.png) center center no-repeat; }
+.control-module .left-rotate { background: url(../../images/left-rotate.png) center center no-repeat; }
+.control-module .add { background: url(../../images/add.png) center center no-repeat; }
+.control-module .del { background: url(../../images/del.png) center center no-repeat; }
+.control-module .subtract { background: url(../../images/subtract.png) center center no-repeat; }
+.control-module .overturn { background: url(../../images/overturn.png) center center no-repeat; }
+.control-module .save{ background: url(../../images/save.png) center center no-repeat; }
 .control-bar { width: 132px; height: 4px; background: #959595; position: relative; margin: 0 10px; }
 .control-bar em { display: block; *display: inline; *zoom: 1; width: 10px; height: 10px; background: #fff; border-radius: 50%; left: 0; top: -2px; position: absolute; z-index: 10; }
 
@@ -504,8 +504,8 @@
 .tier > li > ul > li { padding: 5px 0; }
 .tier li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 16px; color: #555555; padding: 0 6px 0 6px; }
 .tier li .switch { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 20px; height: 20px; cursor: pointer; }
-.tier li .switch.on { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_on.png) center center no-repeat; }
-.tier li .switch.off { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_off.png) center center no-repeat; }
+.tier li .switch.on { background: url(../../images/icon_on.png) center center no-repeat; }
+.tier li .switch.off { background: url(../../images/icon_off.png) center center no-repeat; }
 .tier li .num { line-height: 21px; font-size: 16px; color: #fff; padding: 0 9px; border-radius: 20px; background: #8ea9b9; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .tier ul { display: none; }*/
 
@@ -520,7 +520,7 @@
 .waiting-person .tit { font-size: 16px; color: #222222; font-weight: normal; padding: 15px 20px; }
 .waiting-person .tit .txt i, .waiting-person .tit .txt em { display: inline-block; *display: inline; *zoom: 1; }
 .waiting-person .tit .txt em { background: #8ea9b9; line-height: 20px; padding: 0 10px; color: #fff; font-size: 14px; border-radius: 20px; margin-left: 10px; }
-.waiting-person .tit .more { display: inline-block; *display: inline; *zoom: 1; width: 21px; height: 5px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_more.png) center center no-repeat; margin-top: 10px; }
+.waiting-person .tit .more { display: inline-block; *display: inline; *zoom: 1; width: 21px; height: 5px; background: url(../../images/icon_more.png) center center no-repeat; margin-top: 10px; }
 
 .waiting-list { border-collapse: collapse; width: 100%; font-size: 14px; color: #555555; text-align: center; }
 .waiting-list th { height: 0px; }
@@ -531,9 +531,9 @@
 
 .to-left, .to-right { display: block; height: 45px; width: 100%; }
 
-.to-right { background: url(http://192.168.1.235/public/static/easy_exam/images/to_right.png) center center no-repeat; margin-top: 140px; }
+.to-right { background: url(../../images/to_right.png) center center no-repeat; margin-top: 140px; }
 
-.to-left { background: url(http://192.168.1.235/public/static/easy_exam/images/to_left.png) center center no-repeat; }
+.to-left { background: url(../../images/to_left.png) center center no-repeat; }
 
 .selected-person { background: #fff; border: 1px solid #d1e5f7; border-radius: 5px; height: 380px; }
 .selected-person .tit { font-size: 16px; color: #222222; font-weight: normal; padding: 15px 20px; }
@@ -553,64 +553,64 @@
 .control .left { width: 5%; }
 .control .right { width: 93%; }
 
-.examine-view .easy_logo { padding: 12px 0; width: 134px; height: 25px; background: url(http://192.168.1.235/public/static/easy_exam/images/logo2.png) center center no-repeat; }
+.examine-view .easy_logo { padding: 12px 0; width: 134px; height: 25px; background: url(../../images/logo2.png) center center no-repeat; }
 .examine-view .easy_info { padding: 8px 0; }
 
 .info-view li { display: inline-block; *display: inline; *zoom: 1; padding-right: 20px; }
 .info-view li span { font-size: 14px; color: #fff; line-height: 50px; }
 
-.menu-btn { display: inline-block; *display: inline; *zoom: 1; width: 13px; height: 12px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_menu.png) center center no-repeat; }
+.menu-btn { display: inline-block; *display: inline; *zoom: 1; width: 13px; height: 12px; background: url(../../images/icon_menu.png) center center no-repeat; }
 
 .control-btn .Btn5 { font-size: 0px; }
 .control-btn .Btn5:hover { background-color: #44a4fe; }
 .control-btn .Btn6.disabled { background: #f5f5f5; color: #b4b4b4; cursor: not-allowed; }
 .control-btn .Btn7 { font-size: 0px; }
 
-.full { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_full.png); background-position: center center; background-repeat: no-repeat; }
-.full:hover { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_full_hover.png); }
-.full.disabled { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_full_disabled.png); cursor: not-allowed; }
-.full.disabled:hover { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_full_disabled.png); cursor: not-allowed; }
+.full { background-image: url(../../images/icon_full.png); background-position: center center; background-repeat: no-repeat; }
+.full:hover { background-image: url(../../images/icon_full_hover.png); }
+.full.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_full_disabled.png); cursor: not-allowed; }
+.full.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_full_disabled.png); cursor: not-allowed; }
 
-.horizontal-move { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_horizontal_move.png); background-position: center center; background-repeat: no-repeat; }
-.horizontal-move:hover { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_horizontal_move_hover.png); }
-.horizontal-move.disabled { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_horizontal_disabled.png); cursor: not-allowed; }
-.horizontal-move.disabled:hover { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_horizontal_disabled.png); cursor: not-allowed; }
+.horizontal-move { background-image: url(../../images/icon_horizontal_move.png); background-position: center center; background-repeat: no-repeat; }
+.horizontal-move:hover { background-image: url(../../images/icon_horizontal_move_hover.png); }
+.horizontal-move.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_horizontal_disabled.png); cursor: not-allowed; }
+.horizontal-move.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_horizontal_disabled.png); cursor: not-allowed; }
 
-.vertical-move { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_vertical_move.png); background-position: center center; background-repeat: no-repeat; }
-.vertical-move:hover { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_vertical_move_hover.png); }
-.vertical-move.disabled { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_vertical_disabled.png); cursor: not-allowed; }
-.vertical-move.disabled:hover { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_vertical_disabled.png); cursor: not-allowed; }
+.vertical-move { background-image: url(../../images/icon_vertical_move.png); background-position: center center; background-repeat: no-repeat; }
+.vertical-move:hover { background-image: url(../../images/icon_vertical_move_hover.png); }
+.vertical-move.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_vertical_disabled.png); cursor: not-allowed; }
+.vertical-move.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_vertical_disabled.png); cursor: not-allowed; }
 
-.all-correct { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_correct.png); background-position: center center; background-repeat: no-repeat; }
+.all-correct { background-image: url(../../images/icon_correct.png); background-position: center center; background-repeat: no-repeat; }
 
-.half-right { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_halfright.png); background-position: center center; background-repeat: no-repeat; }
+.half-right { background-image: url(../../images/icon_halfright.png); background-position: center center; background-repeat: no-repeat; }
 
-.wrong { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_wrong.png); background-position: center center; background-repeat: no-repeat; }
+.wrong { background-image: url(../../images/icon_wrong.png); background-position: center center; background-repeat: no-repeat; }
 
-.move-up { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_up.png); background-position: center center; background-repeat: no-repeat; }
-.move-up.disabled { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_up_disabled.png); cursor: not-allowed; border-color: #d4d4d4; }
+.move-up { background-image: url(../../images/icon_up.png); background-position: center center; background-repeat: no-repeat; }
+.move-up.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_up_disabled.png); cursor: not-allowed; border-color: #d4d4d4; }
 
-.move-down { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_down.png); background-position: center center; background-repeat: no-repeat; }
-.move-down.disabled { background-color: #f5f5f5; background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_down_disabled.png); cursor: not-allowed; border-color: #d4d4d4; }
+.move-down { background-image: url(../../images/icon_down.png); background-position: center center; background-repeat: no-repeat; }
+.move-down.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_down_disabled.png); cursor: not-allowed; border-color: #d4d4d4; }
 
-.mouse { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_mouse.png); background-position: center center; background-repeat: no-repeat; }
+.mouse { background-image: url(../../images/icon_mouse.png); background-position: center center; background-repeat: no-repeat; }
 
-.key { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_keyboard.png); background-position: center center; background-repeat: no-repeat; }
+.key { background-image: url(../../images/icon_keyboard.png); background-position: center center; background-repeat: no-repeat; }
 
 .right-wrong { border: 1px solid #03df9d; padding: 2px; border-radius: 20px; font-size: 0px; width: 120px; }
 .right-wrong a { display: inline-block; *display: inline; *zoom: 1; width: 40px; height: 26px; border-radius: 20px; background-color: transparent; }
 .right-wrong a:hover, .right-wrong a.on { background-color: #03df9d; }
-.right-wrong a:hover.all-correct, .right-wrong a.on.all-correct { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_correct_hover.png); }
-.right-wrong a:hover.half-right, .right-wrong a.on.half-right { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_halfright_hover.png); }
-.right-wrong a:hover.wrong, .right-wrong a.on.wrong { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_wrong_hover.png); }
+.right-wrong a:hover.all-correct, .right-wrong a.on.all-correct { background-image: url(../../images/icon_correct_hover.png); }
+.right-wrong a:hover.half-right, .right-wrong a.on.half-right { background-image: url(../../images/icon_halfright_hover.png); }
+.right-wrong a:hover.wrong, .right-wrong a.on.wrong { background-image: url(../../images/icon_wrong_hover.png); }
 
 .move-down { margin-left: -1px; }
 
 .way { display: inline-block; *display: inline; *zoom: 1; border: 1px solid #44a4fe; border-radius: 3px; }
 .way a { display: inline-block; *display: inline; *zoom: 1; width: 30px; height: 30px; line-height: 30px; border-radius: 3px; text-align: center; font-size: 0px; }
 .way a.on { background-color: #44a4fe; }
-.way a.on.mouse { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_mouse_hover.png); }
-.way a.on.key { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_keyboard_hover.png); }
+.way a.on.mouse { background-image: url(../../images/icon_mouse_hover.png); }
+.way a.on.key { background-image: url(../../images/icon_keyboard_hover.png); }
 
 .control-btn { width: 100%; border-collapse: collapse; }
 .control-btn tbody tr td { width: 10%; }
@@ -627,12 +627,12 @@
 
 .back { cursor: pointer; }
 .back em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; line-height: 32px; font-size: 14px; color: #45a5fe; margin-right: 15px; }
-.back i { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 9px; height: 8px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_back.png) center center no-repeat; }
+.back i { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 9px; height: 8px; background: url(../../images/icon_back.png) center center no-repeat; }
 
 .number-scroll { position: absolute; left: 0; right: 0; top: 42px; background: #ebf3ff; z-index: 20; display: none; }
 .number-scroll .scroll-up, .number-scroll .scroll-down { display: block; height: 31px; cursor: pointer; position: absolute; left: 0; right: 0; }
-.number-scroll .scroll-up { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_scrollup.png) center center no-repeat; top: 0; }
-.number-scroll .scroll-down { background: url(http://192.168.1.235/public/static/easy_exam/images/icon_scrolldown.png) center center no-repeat; bottom: 0; }
+.number-scroll .scroll-up { background: url(../../images/icon_scrollup.png) center center no-repeat; top: 0; }
+.number-scroll .scroll-down { background: url(../../images/icon_scrolldown.png) center center no-repeat; bottom: 0; }
 
 .number-lis { padding: 31px 0; }
 .number-lis li span { display: block; line-height: 41px; color: #03df9d; font-size: 24px; }
@@ -667,21 +667,21 @@
 .control-bar2 .control-btn2 span.zoom-bar i em { display: block; position: absolute; left: 0; top: -4px; width: 10px; height: 10px; background-color: #ffffff; border-radius: 50%; cursor: pointer; }
 
 .img-view { text-align: center; position: relative; padding: 6px 0 0 0; display: none; }
-.img-view .put { position: absolute; display: block; width: 9px; height: 6px; background: url(http://192.168.1.235/public/static/easy_exam/images/control_drop.png) center center no-repeat; left: 50%; top: 4px; cursor: pointer; }
+.img-view .put { position: absolute; display: block; width: 9px; height: 6px; background: url(../../images/control_drop.png) center center no-repeat; left: 50%; top: 4px; cursor: pointer; }
 .img-view img { max-width: 100%; }
 
 .paper-main-box { position: relative; margin: 0 202px 0 100px; overflow: hidden; }
 .paper-main-box > img { display: block; margin: 0 auto; max-width: 100%; margin: 10px auto; }
 
-.zoom-in { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_zoomin.png); background-position: center center; background-repeat: no-repeat; }
+.zoom-in { background-image: url(../../images/icon_zoomin.png); background-position: center center; background-repeat: no-repeat; }
 
-.zoom-out { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_zoomout.png); background-position: center center; background-repeat: no-repeat; }
+.zoom-out { background-image: url(../../images/icon_zoomout.png); background-position: center center; background-repeat: no-repeat; }
 
-.zoom-full { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_zoomfull.png); background-position: center center; background-repeat: no-repeat; }
+.zoom-full { background-image: url(../../images/icon_zoomfull.png); background-position: center center; background-repeat: no-repeat; }
 
 .num-value a { display: inline-block; *display: inline; *zoom: 1; width: 30px; height: 30px; line-height: 30px; background-color: #f5f5f5; border-radius: 3px; color: #03df9d; font-size: 14px; text-align: center; margin: 0 2px 5px 0; }
 
-.read-over { position: absolute; left: 50%; margin-left: -41px; top: 0; width: 82px; height: 62px; background-image: url(http://192.168.1.235/public/static/easy_exam/images/read_over.png); background-repeat: no-repeat; }
+.read-over { position: absolute; left: 50%; margin-left: -41px; top: 0; width: 82px; height: 62px; background-image: url(../../images/read_over.png); background-repeat: no-repeat; }
 
 .read1 { background-position: 0 0; }
 
@@ -692,7 +692,7 @@
 .postil { position: absolute; left: 50%; top: 21px; margin-left: 60px; }
 .postil textarea { height: 40px; line-height: 40px; width: 110px; border: 1px solid #c9c9c9; border-radius: 3px; padding: 0; outline: none; background: #fff; box-shadow: 0 0 20px  #e7e7e7; text-indent: 5px; color: #ff4444; font-size: 20px; resize: none; }
 .postil textarea:focus { border-color: #45a5fe; }
-.postil .postil-close { display: block; *display: inline; *zoom: 1; width: 15px; height: 15px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_state2.png) center center no-repeat; position: absolute; right: -7px; top: -5px; cursor: pointer; }
+.postil .postil-close { display: block; *display: inline; *zoom: 1; width: 15px; height: 15px; background: url(../../images/icon_state2.png) center center no-repeat; position: absolute; right: -7px; top: -5px; cursor: pointer; }
 
 .imagesPool{
 	position: relative;
@@ -721,22 +721,22 @@
 .introduce dt .content-txt { background-color: #fff0f0; border-radius: 3px; color: #ff4444; font-size: 14px; line-height: 24px; padding: 5px; }
 
 /*login*/
-.login-wrapper { position: relative;background-image: url("http://192.168.1.235/public/static/easy_exam/images/bg.jpg");background-repeat: repeat-x;background-position: center;background-size: contain; }
+.login-wrapper { position: relative;background-image: url("../../images/bg.jpg");background-repeat: repeat-x;background-position: center;background-size: contain; }
 
-.login-bg { background: url(http://192.168.1.235/public/static/easy_exam/images/login_bg1.jpg) center top no-repeat #58d1ce; position: relative; }
+.login-bg { background: url(../../images/login_bg1.jpg) center top no-repeat #58d1ce; position: relative; }
 
-.login-boxbg { background: url(http://192.168.1.235/public/static/easy_exam/images/login_bg2.jpg) center top no-repeat #58d1ce; position: absolute; left: 0; bottom: 0; right: 0; height: 319px; z-index: 20; }
+.login-boxbg { background: url(../../images/login_bg2.jpg) center top no-repeat #58d1ce; position: absolute; left: 0; bottom: 0; right: 0; height: 319px; z-index: 20; }
 
-.login-logo { display: inline-block; *display: inline; *zoom: 1; width: 219px; height: 42px; background: url(http://192.168.1.235/public/static/easy_exam/images/login_logo.png) center center no-repeat; }
+.login-logo { display: inline-block; *display: inline; *zoom: 1; width: 219px; height: 42px; background: url(../../images/login_logo.png) center center no-repeat; }
 
 .login-box { background: #fff; border: 1px solid #e8e8e8; border-radius: 3px; padding: 50px 56px; width: 373px; position: absolute; left: 50%; top: 50%; z-index: 30; margin-left: -243.5px; margin-top: -182px; }
 
 .login-form label { display: block; *display: inline; *zoom: 1; background: #f6f6f6; border: 1px solid #d7d7d7; border-radius: 3px; }
 .login-form label input { border: 0px; outline: none; padding: 0; text-indent: 5px; height: 46px; line-height: 46px; background: #f6f6f6; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 313px; font-size: 16px; }
 
-.icon-user { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 54px; height: 46px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_user.png) center center no-repeat; }
+.icon-user { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 54px; height: 46px; background: url(../../images/icon_user.png) center center no-repeat; }
 
-.icon-password { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 54px; height: 46px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_password.png) center center no-repeat; }
+.icon-password { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 54px; height: 46px; background: url(../../images/icon_password.png) center center no-repeat; }
 
 .remember-state { display: none; color: #c6c6c6; margin-top: 10px; }
 
@@ -747,14 +747,14 @@
 .onoff2.open em { left: 22px; background: #00c56f; }
 
 .hexagon { text-align: center; }
-.hexagon a { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 155px; height: 86px; padding: 44px 0; background-image: url(http://192.168.1.235/public/static/easy_exam/images/hexagon.png); background-repeat: no-repeat; margin: 0 12px; color: #fff; }
+.hexagon a { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 155px; height: 86px; padding: 44px 0; background-image: url(../../images/hexagon.png); background-repeat: no-repeat; margin: 0 12px; color: #fff; }
 .hexagon a.course { color: #49daf4; }
 .hexagon a.course.disabled { color: #949494; background-position: -154px -351px; }
 .hexagon a.scanning { color: #14b2ec; }
 .hexagon a.scanning em { color: #14b2ec; }
 .hexagon a.set-param { color: #e88bfc; }
 .hexagon a.set-param.disabled { color: #949494; background-position: -154px -351px; }
-.hexagon a.set-param.disabled i { background: url(http://192.168.1.235/public/static/easy_exam/images/set_param_disabled.png) center center no-repeat; }
+.hexagon a.set-param.disabled i { background: url(../../images/set_param_disabled.png) center center no-repeat; }
 .hexagon a.scan-unusual { color: #f65f5f; }
 .hexagon a.scan-unusual em { color: #f65f5f; }
 .hexagon a span { display: block; *display: inline; *zoom: 1; font-size: 14px; padding-top: 10px; }
@@ -771,12 +771,12 @@
 .course span { padding-top: 0 !important; }
 
 .scanning { background-position: 0 -175px; }
-.scanning i { background: url(http://192.168.1.235/public/static/easy_exam/images/scanning.png) center center no-repeat; }
+.scanning i { background: url(../../images/scanning.png) center center no-repeat; }
 
 .storage-in { background-position: -155px -175px; }
 
 .set-param { background-position: -310px -175px; }
-.set-param i { background: url(http://192.168.1.235/public/static/easy_exam/images/set_param.png) center center no-repeat; }
+.set-param i { background: url(../../images/set_param.png) center center no-repeat; }
 
 .scan-unusual { background-position: 0 -351px; }
 
@@ -797,10 +797,10 @@
 
 .front, .reverse, .fuzzy { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; line-height: 23px; width: 64px; color: #419efc; border: 1px solid #419efc; border-radius: 3px; text-align: center; }
 
-.sort { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_sort.png) center center no-repeat; cursor: pointer; }
-.sort1 { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_sort.png) center center no-repeat; cursor: pointer; }
+.sort { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(../../images/icon_sort.png) center center no-repeat; cursor: pointer; }
+.sort1 { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(../../images/icon_sort.png) center center no-repeat; cursor: pointer; }
 
-.sort2 { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_sort2.png) center center no-repeat; cursor: pointer; }
+.sort2 { display: inline-block; *display: inline; *zoom: 1; width: 9px; height: 11px; background: url(../../images/icon_sort2.png) center center no-repeat; cursor: pointer; }
 .login-box > div.error-wrapper > p.error{ color: red; font-size: 16px; }
 
 /*设置答题卡结构*/
@@ -810,7 +810,7 @@
 .mark-area .handle-right { right: -5px; top: 50%; cursor: e-resize; }
 .mark-area .handle-bottom { bottom: -5px; left: 50%; cursor: n-resize; }
 .mark-area .handle-left { left: -5px; top: 50%; cursor: e-resize; }
-.mark-area .handle-close { right: -15px; top: -18px; width: 17px; height: 17px; background: url(http://192.168.1.235/public/static/easy_exam/images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; }
+.mark-area .handle-close { right: -15px; top: -18px; width: 17px; height: 17px; background: url(../../images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; }
 
 .mark-area2 { position: absolute; /*width: 140px;height: 210px;*/ border: 2px solid #f29b76; top: 88px; left: 266px; }
 .mark-area2 .handle-top, .mark-area2 .handle-right, .mark-area2 .handle-bottom, .mark-area2 .handle-left, .mark-area2 .handle-num { position: absolute; width: 4px; height: 4px; border: 2px solid #f29b76; background: #fff; }
@@ -818,7 +818,7 @@
 .mark-area2 .handle-right { right: -5px; top: 50%; cursor: e-resize; }
 .mark-area2 .handle-bottom { bottom: -5px; left: 50%; cursor: n-resize; }
 .mark-area2 .handle-left { left: -5px; top: 50%; cursor: e-resize; }
-.mark-area2 .handle-num { left: 0; top: 0; width: 17px; height: 17px; background: url(http://192.168.1.235/public/static/easy_exam/images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; color: #f8fbff; font-size: 12px; line-height: 18px; width: 23px; text-align: center; border-radius: 0 0 7px 0; background: #f29b76; }
+.mark-area2 .handle-num { left: 0; top: 0; width: 17px; height: 17px; background: url(../../images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; color: #f8fbff; font-size: 12px; line-height: 18px; width: 23px; text-align: center; border-radius: 0 0 7px 0; background: #f29b76; }
 
 .mark-box { width: 25px; height: 25px; border: 2px solid #c20000; position: absolute; right: 58px; top: 49px; }
 
@@ -834,7 +834,7 @@
 /*智能评阅_客观题区*/
 .left-slide { background: #fff; border: 1px solid #d1e5f7; border-radius: 5px; position: absolute; right: -218px; top: 0; height: 501px; }
 .left-slide .slide-wrapper { height: 501px; overflow: hidden; position: relative; padding: 0 18px 0 18px; width: 180px; }
-.left-slide .slide-btn { display: block; display: inline; zoom: 1; width: 12px; height: 53px; position: absolute; left: -12px; top: 50%; background-image: url(http://192.168.1.235/public/static/easy_exam/images/slide_arrow.png); background-repeat: no-repeat; cursor: pointer; }
+.left-slide .slide-btn { display: block; display: inline; zoom: 1; width: 12px; height: 53px; position: absolute; left: -12px; top: 50%; background-image: url(../../images/slide_arrow.png); background-repeat: no-repeat; cursor: pointer; }
 .left-slide .slide-btn.on { background-position: 0 0; }
 .left-slide .slide-btn.on:hover { background-position: 0 bottom; }
 .left-slide .slide-btn.off { background-position: right 0; }
@@ -845,26 +845,26 @@
 .answer-react li em, .answer-react li span, .answer-react li i { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .answer-react li em { width: 18px; padding-right: 3px; }
 .answer-react li span { width: 85px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.answer-react li i { width: 19px; height: 19px; background: url(http://192.168.1.235/public/static/easy_exam/images/answer_close.png) 0 0 no-repeat; cursor: pointer; margin-left: 23px; opacity: 0; filter: alpha(opacity=0); }
+.answer-react li i { width: 19px; height: 19px; background: url(../../images/answer_close.png) 0 0 no-repeat; cursor: pointer; margin-left: 23px; opacity: 0; filter: alpha(opacity=0); }
 .answer-react li.add-list { text-align: center; }
 .answer-react li:hover i { opacity: 1; filter: alpha(opacity=100); }
 .answer-react:hover { background: #f8fbff; border: 1px solid #d1e5f7; }
 .answer-react:hover:before { opacity: 1; filter: alpha(opacity=100); }
-.answer-react:before { content: ''; position: absolute; width: 18px; height: 18px; background: url(http://192.168.1.235/public/static/easy_exam/images/mark_close.png) 0 0 no-repeat; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 50; left: -6px; top: -9px; }
+.answer-react:before { content: ''; position: absolute; width: 18px; height: 18px; background: url(../../images/mark_close.png) 0 0 no-repeat; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 50; left: -6px; top: -9px; }
 
 /*智能评阅_豆腐块*/
 .square-paper { margin-top: 10px; }
 .square-paper li { border-radius: 3px; border: 1px solid #dadada; position: relative; margin-bottom: 10px; }
-.square-paper li em { position: absolute; right: 0px; bottom: 0px; background: url(http://192.168.1.235/public/static/easy_exam/images/creatSub_ico2.png) no-repeat left top; width: 24px; height: 20px; text-align: center; line-height: 20px; font-size: 12px; color: #fff; }
-.square-paper li i { position: absolute; width: 18px; height: 18px; background: url(http://192.168.1.235/public/static/easy_exam/images/mark_close.png) 0 0 no-repeat; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 50; left: -6px; top: -9px; display: block; }
+.square-paper li em { position: absolute; right: 0px; bottom: 0px; background: url(../../images/creatSub_ico2.png) no-repeat left top; width: 24px; height: 20px; text-align: center; line-height: 20px; font-size: 12px; color: #fff; }
+.square-paper li i { position: absolute; width: 18px; height: 18px; background: url(../../images/mark_close.png) 0 0 no-repeat; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 50; left: -6px; top: -9px; display: block; }
 .square-paper li:hover { border: 1px solid #409cfa; }
-.square-paper li:hover em { background-image: url(http://192.168.1.235/public/static/easy_exam/images/creatSub_ico1.png); }
+.square-paper li:hover em { background-image: url(../../images/creatSub_ico1.png); }
 .square-paper li:hover i { opacity: 1; filter: alpha(opacity=100); }
 
 .scan-box { padding: 0 25px; width: 720px; margin: 0 auto; position: relative; }
 .scan-box .next-btn, .scan-box .prev-btn { width: 45px; height: 45px; border-radius: 50%; top: 50%; margin-top: -12px; position: absolute; cursor: pointer; background-color: #ebf5ff; background-position: center center; background-repeat: no-repeat; }
-.scan-box .next-btn { right: -20px; background-image: url(http://192.168.1.235/public/static/easy_exam/images/slide_next.png); }
-.scan-box .prev-btn { left: -20px; background-image: url(http://192.168.1.235/public/static/easy_exam/images/slide_prev.png); }
+.scan-box .next-btn { right: -20px; background-image: url(../../images/slide_next.png); }
+.scan-box .prev-btn { left: -20px; background-image: url(../../images/slide_prev.png); }
 
 .scan-img { width: 720px; overflow: hidden; position: relative; height: 294px; }
 
@@ -887,8 +887,8 @@
 .search-turnpage i, .search-turnpage span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
 .search-turnpage span { width: 80px; padding: 0 8px; }
 .search-turnpage i { width: 30px; height: 19px; border: 1px solid #cccccc; border-radius: 3px; font-size: 0; cursor: pointer; }
-.search-turnpage .turn-left { background: url(http://192.168.1.235/public/static/easy_exam/images/turn-left.png) center center no-repeat; }
-.search-turnpage .turn-right { background: url(http://192.168.1.235/public/static/easy_exam/images/turn-right.png) center center no-repeat; }
+.search-turnpage .turn-left { background: url(../../images/turn-left.png) center center no-repeat; }
+.search-turnpage .turn-right { background: url(../../images/turn-right.png) center center no-repeat; }
 
 .search-person dt { border-bottom: 1px solid #e5f0ff; position: relative; border-radius: 5px; overflow: hidden; padding: 5px; -webkit-transition: all 300ms ease-in-out 0s; -moz-transition: all 300ms ease-in-out 0s; transition: all 300ms ease-in-out 0s; }
 .search-person dt:hover .revaluation { opacity: 1; filter: alpha(opacity=100); }
@@ -930,15 +930,15 @@
 
 .nopass em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; margin-left: 10px; }
 
-.icon_nopass { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 32px; height: 32px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_nopass.png) center center no-repeat; }
+.icon_nopass { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 32px; height: 32px; background: url(../../images/icon_nopass.png) center center no-repeat; }
 
-.icon_pass { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 32px; height: 32px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_pass.png) center center no-repeat; }
+.icon_pass { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 32px; height: 32px; background: url(../../images/icon_pass.png) center center no-repeat; }
 
 /*40大数据应用情况监控*/
 .head { padding: 30px 0; }
 .head .easy_info { padding: 0; }
 
-.data-logo { display: block; *display: inline; *zoom: 1; width: 172px; height: 33px; background: url(http://192.168.1.235/public/static/easy_exam/images/data-logo.png) center center no-repeat; }
+.data-logo { display: block; *display: inline; *zoom: 1; width: 172px; height: 33px; background: url(../../images/data-logo.png) center center no-repeat; }
 
 .data-layout { width: 1240px; margin: 0 auto; }
 
@@ -963,7 +963,7 @@
 
 .hold-exam { display: inline-block; *display: inline; *zoom: 1; font-size: 20px; line-height: 44px; color: #a9deff; border-radius: 5px; border: 2px solid #a9deff; width: 146px; text-align: center; margin-top: 34px; }
 
-.icon_exam { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 16px; height: 16px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_exam.png) center center no-repeat; }
+.icon_exam { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 16px; height: 16px; background: url(../../images/icon_exam.png) center center no-repeat; }
 
 .number-times { font-size: 16px; color: #ffffff; padding-top: 13px; }
 .number-times span { margin: 0 50px; }
@@ -991,11 +991,11 @@
 .honour-info .all-people { border-bottom: 1px solid #214575; }
 .honour-info .all-people em { color: #a9deff; }
 
-.icon_honour1 { display: inline-block; *display: inline; *zoom: 1; width: 59px; height: 59px; background: url(http://192.168.1.235/public/static/easy_exam/images/honour1.png) center center no-repeat; }
+.icon_honour1 { display: inline-block; *display: inline; *zoom: 1; width: 59px; height: 59px; background: url(../../images/honour1.png) center center no-repeat; }
 
-.icon_honour2 { display: inline-block; *display: inline; *zoom: 1; width: 59px; height: 59px; background: url(http://192.168.1.235/public/static/easy_exam/images/honour2.png) center center no-repeat; }
+.icon_honour2 { display: inline-block; *display: inline; *zoom: 1; width: 59px; height: 59px; background: url(../../images/honour2.png) center center no-repeat; }
 
-.icon_honour3 { display: inline-block; *display: inline; *zoom: 1; width: 59px; height: 59px; background: url(http://192.168.1.235/public/static/easy_exam/images/honour3.png) center center no-repeat; }
+.icon_honour3 { display: inline-block; *display: inline; *zoom: 1; width: 59px; height: 59px; background: url(../../images/honour3.png) center center no-repeat; }
 
 .empty p { font-size: 20px; color: #888888; padding-top: 20px; }
 
@@ -1015,9 +1015,9 @@
 
 .delete-test { position: absolute; left: 0; top: 100%; border-radius: 0 0 5px 5px; margin-top: -1px; display: none; border-color: #d3d3d3; }
 
-.icon_modify { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_modify.png) center center no-repeat; }
+.icon_modify { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(../../images/icon_modify.png) center center no-repeat; }
 
-.icon_delet { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_delet.png) center center no-repeat; }
+.icon_delet { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 14px; height: 14px; background: url(../../images/icon_delet.png) center center no-repeat; }
 
 .coverage { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 24px; height: 11px; background: #33ff33; position: absolute; left: 0; top: 20px; }
 
@@ -1026,15 +1026,15 @@
 
 .notfound-bottom { position: absolute; left: 0; right: 0; height: 185px; background: #f2f2f2; bottom: 0; }
 
-.notfound-1 { width: 406px; height: 290px; background: url(http://192.168.1.235/public/static/easy_exam/images/404-1.png) center center no-repeat; position: absolute; left: 104px; top: 123px; }
+.notfound-1 { width: 406px; height: 290px; background: url(../../images/404-1.png) center center no-repeat; position: absolute; left: 104px; top: 123px; }
 
-.notfound-2 { width: 333px; height: 76px; background: url(http://192.168.1.235/public/static/easy_exam/images/404-2.png) center center no-repeat; position: absolute; right: 222px; top: 192px; }
+.notfound-2 { width: 333px; height: 76px; background: url(../../images/404-2.png) center center no-repeat; position: absolute; right: 222px; top: 192px; }
 
-.notfound-3 { width: 206px; height: 27px; background: url(http://192.168.1.235/public/static/easy_exam/images/404-3.png) center center no-repeat; position: absolute; right: 286px; top: 290px; }
+.notfound-3 { width: 206px; height: 27px; background: url(../../images/404-3.png) center center no-repeat; position: absolute; right: 286px; top: 290px; }
 
-.notfound-logo { width: 172px; height: 33px; background: url(http://192.168.1.235/public/static/easy_exam/images/404-4.png) center center no-repeat; position: absolute; right: 31px; bottom: 30px; }
+.notfound-logo { width: 172px; height: 33px; background: url(../../images/404-4.png) center center no-repeat; position: absolute; right: 31px; bottom: 30px; }
 
-.split { width: 30px; height: 30px; border: 1px solid #419efc; background-image: url(http://192.168.1.235/public/static/easy_exam/images/split.png); background-repeat: no-repeat; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; vertical-align: top; border-radius: 3px; }
+.split { width: 30px; height: 30px; border: 1px solid #419efc; background-image: url(../../images/split.png); background-repeat: no-repeat; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; vertical-align: top; border-radius: 3px; }
 
 .split-add { background-position: -1px -1px; }
 
