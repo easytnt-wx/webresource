@@ -60,3 +60,13 @@
     background-color: #44a4fe;
     background-image: url(../../images/icon_full_hover.png);
 }
+
+.rectangle.read1{
+    background-image: url(../../images/read_over.png);
+}
+.rectangle.read2{
+    background-image: url(../../images/read_over.png);
+}
+.rectangle.read3{
+    background-image: url(../../images/read_over.png);
+}
