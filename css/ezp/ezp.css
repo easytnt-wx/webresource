@@ -62,11 +62,20 @@
 }
 
 .rectangle.read1{
-    background-image: url(../../images/read_over.png);
+    background-image: url(../../images/read_over_01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .rectangle.read2{
-    background-image: url(../../images/read_over.png);
+    background-image: url(../../images/read_over_02.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .rectangle.read3{
-    background-image: url(../../images/read_over.png);
+    background-image: url(../../images/read_over_03.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
