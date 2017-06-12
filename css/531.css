@@ -37,9 +37,3 @@ ul.tier{
 .level0.switch.noline_close{
 	background: url(../images/ni_ico_on01.png) center center no-repeat;
 }
-.ni_box_style .tier > li{
-	outline: none;
-}
-.level1{
-	display: none;
-}
