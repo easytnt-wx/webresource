@@ -38,6 +38,14 @@ span.gray8{ color:#888; font-size:18px;}
 .m_c{ margin:0 auto;}
 /* function */
 .t_r{text-align:right}.t_c{text-align:center}.t_l{text-align:left}.dis_none{display:none}.thin{font-weight:normal}.bold{font-weight:bold}.cl{clear:both}
+
+/* width */
+.w1600{width:1600px; margin:0 auto}
+.w1200{width:1200px; margin:0 auto}
+.w1000{width:1000px; margin:0 auto}
+.w980{width:980px; margin: 0 auto}
+.w960{width:960px; margin:0 auto;}
+
 /* margin and padding */
 /* m-left-top-right-bottom  */
 .mg5{ margin:5px}
@@ -195,12 +203,6 @@ span.gray8{ color:#888; font-size:18px;}
 .pdtb40{ padding-top: 40px; padding-bottom: 40px; }
 .pdtb45{ padding-top: 45px; padding-bottom: 45px; }
 .pdtb50{ padding-top: 50px; padding-bottom: 50px; }
-/* width */
-.w1600{width:1600px; margin:0 auto}
-.w1200{width:1200px; margin:0 auto}
-.w1000{width:1000px; margin:0 auto}
-.w980{width:980px; margin: 0 auto}
-.w960{width:960px; margin:0 auto;}
 
 /*输入框焦点*/
 *::-webkit-input-placeholder {color: #b3b3b3; } 
