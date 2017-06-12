@@ -56,3 +56,6 @@
 	background-color: #03df9d;
 	color: #fff;
 }
+.all-correct.on{
+    background-image: url(../../images/icon_correct_hover.png);
+}

@@ -599,10 +599,10 @@
 
 .right-wrong { border: 1px solid #03df9d; padding: 2px; border-radius: 20px; font-size: 0px; width: 120px; }
 .right-wrong a { display: inline-block; *display: inline; *zoom: 1; width: 40px; height: 26px; border-radius: 20px; background-color: transparent; }
-.right-wrong a:hover, .right-wrong a .on { background-color: #03df9d; }
-.right-wrong a:hover.all-correct, .right-wrong a .on.all-correct { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_correct_hover.png); }
-.right-wrong a:hover.half-right, .right-wrong a .on.half-right { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_halfright_hover.png); }
-.right-wrong a:hover.wrong, .right-wrong a .on.wrong { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_wrong_hover.png); }
+.right-wrong a:hover, .right-wrong a.on { background-color: #03df9d; }
+.right-wrong a:hover.all-correct, .right-wrong a.on.all-correct { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_correct_hover.png); }
+.right-wrong a:hover.half-right, .right-wrong a.on.half-right { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_halfright_hover.png); }
+.right-wrong a:hover.wrong, .right-wrong a.on.wrong { background-image: url(http://192.168.1.235/public/static/easy_exam/images/icon_wrong_hover.png); }
 
 .move-down { margin-left: -1px; }
 
