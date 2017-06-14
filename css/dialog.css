@@ -120,7 +120,7 @@
 	background-color: #fff;
 	border-radius: 6px 6px 0 0;
 	color: #fff;
-	padding: 15px;
+	padding: 20px 30px;
 	border-bottom: 1px solid transparent;
 	min-height: 18px;
 }
@@ -155,11 +155,12 @@
 }
 
 .dialog-sm .dialog-header {
-	padding: 5px 15px;
+	padding: 20px 15px 5px 15px;
 }
 
 .dialog-sm .dialog-header h4 {
-	font-size: 15px;
+	font-size: 16px;
+	line-height: 21px;
 }
 
 .dialog-sm .dialog-body {
@@ -167,7 +168,7 @@
 }
 
 .dialog-sm .dialog-footer {
-	padding: 8px 20px;
+	padding: 20px 0 15px;
 }
 
 .dialog-sm .dialog-footer .btn {
@@ -317,4 +318,8 @@ input#examName {
     padding: 6px 12px;
     width: 400px;
     font-size: 16px;
+}
+/*安排考试管理员弹框*/
+input#teacherName {
+    box-sizing: border-box;
 }
