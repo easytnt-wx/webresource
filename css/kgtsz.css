@@ -57,3 +57,32 @@ input.inputStyle4 + i.form-control-feedback{
 input.inputStyle3 + i.form-control-feedback{
     right: -25px;
 }
+
+
+/*v2.2修改样式*/
+.setinput_list li .icon_empty{
+    background: url(../images/consult/bjective_x.png) 0 0 no-repeat;
+    right: -15px;
+    top: -12px;
+}
+.setinput_list li .icon_empty:hover{
+    background: url(../images/consult/bjective_x1.png) 0 0 no-repeat;
+}
+.Btn1{
+    background-color: #fff;
+    background-image: url(../images/consult/bjective_del.png);
+    background-repeat: no-repeat;
+    background-position: 16px;
+    color: #ff6c6c;
+    border: 1px solid #ff6c6c;
+    border-radius: 6px;
+    width: 180px;
+    padding: 0 15px 0 30px;
+}
+.Btn1:hover,.Btn1:focus{
+    background-color: #ff6c6c;
+    color: #fff;
+    background-image: url(../images/consult/bjective_del1.png);
+    background-repeat: no-repeat;
+    background-position: 16px;
+}
