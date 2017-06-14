@@ -73,8 +73,8 @@
                             <option value="2">高二</option>
                             <option value="3">高三</option>
                         </select>
-                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span><i style="margin-left:-10px">—</i>
-                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>
+                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="icon_date"></span><i style="margin-left:-10px">—</i>
+                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="icon_date"></span>
                         <div class="searchBox searchStyle3"><input class="inputSearch" type="text" style='width: 207px;'><i class="search"></i></div>
                         <div class="checkList checkStyle1 dis_lb" >
                             <label class="checkbox"><input type="checkbox" value='1' /><span>只看我创建的考试</span></label>
@@ -212,18 +212,18 @@
         $(".searchStyle3").find('.inputSearch').blur(function(){
             $(this).parents('.searchStyle3').removeClass('on');
         });
-        var dialog = artDialogs({
-           title:'温馨提示',
-           ok:function () {
-               alert('ok');
-           },
-           okVal:'查看任务',
-           cancelVal:'关闭',
-           cancel:function () {
-               alert('cancel');
-           },
-           content: document.getElementById('digR')
-        });
+        // var dialog = artDialogs({
+        //    title:'温馨提示',
+        //    ok:function () {
+        //        alert('ok');
+        //    },
+        //    okVal:'查看任务',
+        //    cancelVal:'关闭',
+        //    cancel:function () {
+        //        alert('cancel');
+        //    },
+        //    content: document.getElementById('digR')
+        // });
         $(function(){
             $('#datetime').datetimepicker({
               format : "yyyy-mm-dd",
