@@ -178,7 +178,7 @@ span.gray8{ color:#888; font-size:18px;}
 /*新弹窗样式*/
 .popWin,.popBox{ border:1px solid #9198a6; box-shadow:0 0 5px 0 #cfcfcf; background:#fff;}
 .popWin h2,.popBox h2{ height:49px; border-bottom:1px solid #dedede; font:16px/49px "microsoft yahei"; color:#555; padding:0px 53px 0px 16px; position:relative;}
-.popWin h2 a,.popBox h2 a{ position:absolute; right:15px; top:17px; background:url(http://192.168.1.235/public/static/easy_exam/images/public/a_close.png) no-repeat 0 -36px; width:19px; height:19px; -webkit-transition:-webkit-transform .6s ease; -ms-transition:-ms-transform .6s ease; -moz-transition:-moz-transform .6s ease; transition:transform .6s ease; }
+.popWin h2 a,.popBox h2 a{ position:absolute; right:15px; top:17px; background:url(../../images/public/a_close.png) no-repeat 0 -36px; width:19px; height:19px; -webkit-transition:-webkit-transform .6s ease; -ms-transition:-ms-transform .6s ease; -moz-transition:-moz-transform .6s ease; transition:transform .6s ease; }
 .popWin h2 a:hover,.popBox h2 a:hover{ background-position:0 0; -webkit-transform:rotate(360deg); -ms-transform:rotate(360deg); -moz-transform:rotate(360deg); transform:rotate(360deg);}
 .popCon{ padding:10px;}
 #Wscreen{width:100%;height:100%;position:absolute;top:0;left:0;display:none;z-index:2000;background-color:#fff;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;}
@@ -192,7 +192,7 @@ ul.ztreeStyle1 {}
 .ztreeStyle1 {margin:0; padding:5px; color:#333}
 .ztreeStyle1 li{padding:0; margin:0; list-style:none; line-height:14px; text-align:left; white-space:nowrap; outline:0;}
 .ztreeStyle1 li ul{ margin:0; padding:0 0 0 18px; }
-.ztreeStyle1 li ul.line{ background:url(http://192.168.1.235/public/static/easy_exam/images/public/ztree/line_conn.gif) 0 0 repeat-y;}
+.ztreeStyle1 li ul.line{ background:url(../../images/public/ztree/line_conn.gif) 0 0 repeat-y;}
 
 .ztreeStyle1 li a {padding:0px 3px 0 0; margin:0; cursor:pointer; height:24px; color: #555;
 	text-decoration:none; vertical-align:top; display: inline-block; border:1px solid transparent;}
@@ -209,7 +209,7 @@ ul.ztreeStyle1 {}
 .ztreeStyle1 li span.button {line-height:0; margin:0; margin-right:4px; width:20px; height:16px; display: inline-block; vertical-align:middle;
 	border:0 none; cursor: pointer;outline:none;
 	background-color:transparent; background-repeat:no-repeat; background-attachment: scroll;
-	background-image:url("http://192.168.1.235/public/static/easy_exam/images/public/ztree/zTreeStandard.png"); *background-image:url("http://192.168.1.235/public/static/easy_exam/images/public/ztree/zTreeStandard.gif")}
+	background-image:url("../../images/public/ztree/zTreeStandard.png"); *background-image:url("../../images/public/ztree/zTreeStandard.gif")}
 
 .ztreeStyle1 li span.button.chk {width:13px; height:13px; margin:7px 3px 0 4px;  /* *margin-top:4px;_margin-top:2px;*/ cursor: auto}
 .ztreeStyle1 li span.button.chk.checkbox_false_full {background-position:0 0;}
@@ -256,11 +256,11 @@ ul.ztreeStyle1 {}
 .ztreeStyle1 li span.button.add {margin-right:2px; width:16px; background-position:-144px -80px; margin-top:4px; vertical-align:top;  }
 .ztreeStyle1 li span.button.edit {margin-right:2px; width:16px; background-position:-110px -48px; margin-top:4px; vertical-align:top;  }
 .ztreeStyle1 li span.button.remove {margin-right:2px; width:16px; background-position:-110px -64px; margin-top:4px; vertical-align:top;  }
-.ztreeStyle1 li span.button.ico_loading{margin-right:2px; background:url(http://192.168.1.235/public/static/easy_exam/images/public/ztree/loading.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
+.ztreeStyle1 li span.button.ico_loading{margin-right:2px; background:url(../../images/public/ztree/loading.gif) no-repeat scroll 0 0 transparent; vertical-align:top; *vertical-align:middle}
 ul.tmpTargetzTree {background-color:#FFE6B0; opacity:0.8; filter:alpha(opacity=80)}
 span.tmpzTreeMove_arrow {width:16px; height:16px; z-index:999999999; display: inline-block; padding:0; margin:2px 0 0 1px; border:0 none; position:absolute;
 	background-color:transparent; background-repeat:no-repeat; background-attachment: scroll;
-	background-position:-110px -80px; background-image:url("http://192.168.1.235/public/static/easy_exam/images/public/ztree/zTreeStandard.png"); *background-image:url("http://192.168.1.235/public/static/easy_exam/images/public/ztree/zTreeStandard.gif")}
+	background-position:-110px -80px; background-image:url("../../images/public/ztree/zTreeStandard.png"); *background-image:url("../../images/public/ztree/zTreeStandard.gif")}
 ul.ztreeStyle1.zTreeDragUL {margin:0; padding:0; position:absolute; z-index:999999999; width:auto; height:auto;overflow:hidden; background-color:#cfcfcf; border:1px #00B83F dotted; opacity:0.8; filter:alpha(opacity=80)}
 .zTreeMask {z-index:99999999; background-color:#cfcfcf; opacity:0.0; filter:alpha(opacity=0); position:absolute}
 
@@ -272,7 +272,7 @@ table.aui_border, table.aui_dialog { border:0; margin:0; border-collapse:collaps
 
 .aui_titleBar { position:relative; height:100%; }
 .aui_title {height:49px; border-bottom:1px solid #dedede; font:16px/49px "microsoft yahei"; color:#555; padding:0px 2px 0px 15px;}
-a.aui_close{ position:absolute; right:15px; top:17px; background:url(http://192.168.1.235/public/static/easy_exam/images/public/a_close.png) no-repeat 0 0; width:19px; height:19px; display:block; border:none; text-decoration:none; outline:none;overflow: hidden;text-indent: 1000px;}
+a.aui_close{ position:absolute; right:15px; top:17px; background:url(../../images/public/a_close.png) no-repeat 0 0; width:19px; height:19px; display:block; border:none; text-decoration:none; outline:none;overflow: hidden;text-indent: 1000px;}
 a.aui_close:hover{ background-position:0 0;}
 .aui_buttons { padding:18px 8px; text-align:center; white-space:nowrap; }
 .aui_buttons button{height:31px;line-height:31px; *line-height:normal;background:transparent;display:inline-block;color:#222;font-size:14px;font-family: 'microsoft yahei';padding:0 20px;cursor:pointer;border:1px solid #d7d7d7;vertical-align:middle; margin-right:5px;border-radius: 3px;transition: all 300ms ease-in 0s;-webkit-transition: all 300ms ease-in 0s;-moz-transition: all 300ms ease-in 0s;outline: none;outline: 0;*display: inline;*zoom: 1;}
@@ -281,7 +281,7 @@ a.aui_close:hover{ background-position:0 0;}
 .aui_buttons button.aui_state_highlight:hover{background:#3187c5;text-decoration:none;color: #fff;}
 input.blue_btn,input.gray_btn{height:33px;line-height:30px;_padding:0 10px; overflow:visible; }
 .aui_content.aui_state_full { display:block; width:100%; margin:0; padding:0!important; height:100%; }
-.aui_loading { width:96px; text-indent:-9999em; height:32px; text-align:center; overflow:hidden; background:url(http://192.168.1.235/public/static/easy_exam/images/public/loading.gif) no-repeat center center; margin:0 auto;}
+.aui_loading { width:96px; text-indent:-9999em; height:32px; text-align:center; overflow:hidden; background:url(../../images/public/loading.gif) no-repeat center center; margin:0 auto;}
 .aui_icon { vertical-align: middle; }
 .aui_icon div { width:37px; height:42px; margin:10px 0 10px 45px; background-position: center center; background-repeat:no-repeat; }
 
@@ -295,7 +295,7 @@ table.d-border, table.d-dialog { border:0; margin:0; border-collapse:collapse; w
 
 .d-titleBar { position:relative; height:100%;}
 .d-title {height:49px; border-bottom:1px solid #dedede; font:16px/49px "微软雅黑"; color:#555; padding:0px 2px 0px 15px;}
-a.d-close{ position:absolute; right:15px; top:17px; background:#fff url(http://192.168.1.235/public/static/easy_exam/images/public/a_close.png) no-repeat center center; width:19px; height:19px; display:block; border:none; text-decoration:none; outline:none; -webkit-transition:-webkit-transform .6s ease; -ms-transition:-ms-transform .6s ease; -moz-transition:-moz-transform .6s ease; transition:transform .6s ease;}
+a.d-close{ position:absolute; right:15px; top:17px; background:#fff url(../../images/public/a_close.png) no-repeat center center; width:19px; height:19px; display:block; border:none; text-decoration:none; outline:none; -webkit-transition:-webkit-transform .6s ease; -ms-transition:-ms-transform .6s ease; -moz-transition:-moz-transform .6s ease; transition:transform .6s ease;}
 
 .d-buttons { padding-bottom:15px; text-align:center; white-space:nowrap; }
 
@@ -313,15 +313,15 @@ a.d-close{ position:absolute; right:15px; top:17px; background:#fff url(http://1
 
 .d-content{ display:block; display:block\0/*IE8 BUG*/; display:inline-block\9\0; *zoom:1; text-align:left; border:0 none;}
 .d-content.d-state-full { display:block; width:100%; margin:0; padding:0!important; height:100%; }
-.d-loading { width:96px; text-indent:-9999em; height:32px; text-align:center; overflow:hidden; background:url(http://192.168.1.235/public/static/easy_exam/images/ico/loading.gif) no-repeat center center; margin:0 auto;}
+.d-loading { width:96px; text-indent:-9999em; height:32px; text-align:center; overflow:hidden; background:url(../../images/ico/loading.gif) no-repeat center center; margin:0 auto;}
 .d-icon { vertical-align: middle; }
 .d-icon div { width:37px; height:42px; margin:10px 0 10px 45px; background-position: center center; background-repeat:no-repeat; }
 /**自定义弹出内容样式**/
 
 /*调出框2*/
-.popWrap{ /*padding:8px 0px;*/ border:1px solid #9198a6; box-shadow:0 0 5px 0 #cfcfcf; background:#fff; /*background:url(http://192.168.1.235/public/static/easy_exam/images/public/ico/50P_bg.png);*/ z-index:9999999; display:none}
+.popWrap{ /*padding:8px 0px;*/ border:1px solid #9198a6; box-shadow:0 0 5px 0 #cfcfcf; background:#fff; /*background:url(../../images/public/ico/50P_bg.png);*/ z-index:9999999; display:none}
 .popInner{ background:#fff; position:relative; }
-.popInner .close{position:absolute;right:5px;top:4px;width:45px;height:45px; background:url(http://192.168.1.235/public/static/easy_exam/images/public/ico/a_close.png) no-repeat  14px -23px; /*background:#3d95d5; border-left:1px solid #3085b3*/ -webkit-transition:-webkit-transform .6s ease; -ms-transition:-ms-transform .6s ease; -moz-transition:-moz-transform .6s ease; transition:transform .6s ease;}
+.popInner .close{position:absolute;right:5px;top:4px;width:45px;height:45px; background:url(../../images/public/ico/a_close.png) no-repeat  14px -23px; /*background:#3d95d5; border-left:1px solid #3085b3*/ -webkit-transition:-webkit-transform .6s ease; -ms-transition:-ms-transform .6s ease; -moz-transition:-moz-transform .6s ease; transition:transform .6s ease;}
 .popInner .close:hover{/*background:#3187c5*/ background-position: 14px 13px; -webkit-transform:rotate(360deg); -ms-transform:rotate(360deg); -moz-transform:rotate(360deg); transform:rotate(360deg);}
 .popInner .close img{ padding-top:13px; padding-left:13px; display:none; width:0px; height:0px;}
 .popInner h2{ background:#fff; font-size:16px; font-family:"microsoft yahei"; font-weight:normal; color:#555; text-indent:20px;height:50px; line-height:50px; border-bottom: 1px solid #dedede;}
@@ -338,30 +338,30 @@ body,html{ width:100%; min-width:1200px;}
 .checkbox_table tr.hover td{background:#f7f7f7}
 
 /* checkbox */
-.checkStyle1 .checkbox {padding-left: 29px; cursor:pointer;background: url(http://192.168.1.235/public/static/easy_exam/images/public/checkbox2.png) repeat-y 0% 0%; line-height:20px; height:20px; display:inline-block;color: #555555;font-size: 14px; }
+.checkStyle1 .checkbox {padding-left: 29px; cursor:pointer;background: url(../../images/public/checkbox2.png) repeat-y 0% 0%; line-height:20px; height:20px; display:inline-block;color: #555555;font-size: 14px; }
 .checkStyle1 .checked {background-position:left -20px;}
 .checkStyle1 .checkbox input{display: none;}
 .disabled{background-position:left 0px;}
 
-.checkStyle2 .checkbox {padding-left: 30px; cursor:pointer;background: url(http://192.168.1.235/public/static/easy_exam/images/public/ok.png) center center no-repeat #f0f0f0; line-height:30px; height:30px; display:inline-block;border-radius: 50%;}
+.checkStyle2 .checkbox {padding-left: 30px; cursor:pointer;background: url(../../images/public/ok.png) center center no-repeat #f0f0f0; line-height:30px; height:30px; display:inline-block;border-radius: 50%;}
 .checkStyle2 .checked {background-color: #ff9f01;}
 .checkStyle2 .checkbox input{display: none;}
 
-.checkStyle3 .checkbox {padding-left: 29px; cursor:pointer;background: url(http://192.168.1.235/public/static/easy_exam/images/public/checkbox3.png) repeat-y 0% 0%; line-height:20px; height:20px; display:inline-block;color: #555555;font-size: 14px; }
+.checkStyle3 .checkbox {padding-left: 29px; cursor:pointer;background: url(../../images/public/checkbox3.png) repeat-y 0% 0%; line-height:20px; height:20px; display:inline-block;color: #555555;font-size: 14px; }
 .checkStyle3 .checked {background-position:left -20px;}
 .checkStyle3 .checkbox input{display: none;}
 .disabled{background-position:left 0px;}
 /* radio */
-.radioStyle1 .Radio{padding-left:24px; display: inline-block;background: transparent url(http://192.168.1.235/public/static/easy_exam/images/public/radio01.png) no-repeat left top;/* height: 21px; */ line-height:21px;cursor:pointer;vertical-align:middle;_height:21px;min-height: 21px;font-size: 16px;color: #555;}
+.radioStyle1 .Radio{padding-left:24px; display: inline-block;background: transparent url(../../images/public/radio01.png) no-repeat left top;/* height: 21px; */ line-height:21px;cursor:pointer;vertical-align:middle;_height:21px;min-height: 21px;font-size: 16px;color: #555;}
 .radioStyle1 .Radio input{display: none;}
-.radioStyle1 .RadioChecked { background: transparent url(http://192.168.1.235/public/static/easy_exam/images/public/radio01_checked.png) no-repeat left top;}
+.radioStyle1 .RadioChecked { background: transparent url(../../images/public/radio01_checked.png) no-repeat left top;}
 
-.radioStyle2 .Radio{padding-left:24px; display: inline-block;background: transparent url(http://192.168.1.235/public/static/easy_exam/images/public/radio02.png) no-repeat left top;/* height: 21px; */ line-height:21px;cursor:pointer;vertical-align:middle;_height:21px;min-height: 21px;font-size: 16px;color: #555;}
+.radioStyle2 .Radio{padding-left:24px; display: inline-block;background: transparent url(../../images/public/radio02.png) no-repeat left top;/* height: 21px; */ line-height:21px;cursor:pointer;vertical-align:middle;_height:21px;min-height: 21px;font-size: 16px;color: #555;}
 .radioStyle2 .Radio input{display: none;}
-.radioStyle2 .RadioChecked { background: transparent url(http://192.168.1.235/public/static/easy_exam/images/public/radio02_checked.png) no-repeat left top;}
+.radioStyle2 .RadioChecked { background: transparent url(../../images/public/radio02_checked.png) no-repeat left top;}
 /* select */
 .selecterStyle1{display:inline-block; position:relative; cursor:pointer; vertical-align:middle;}
-.selecterStyle1 .selecterValue{ background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_drop.png) 95% center no-repeat; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; width:100%; border-radius:3px;border: 1px solid #d5d5d5;box-shadow: inset 0 0 10px 0 #f4f4f4;}
+.selecterStyle1 .selecterValue{ background: url(../../images/public/icon_drop.png) 95% center no-repeat; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; width:100%; border-radius:3px;border: 1px solid #d5d5d5;box-shadow: inset 0 0 10px 0 #f4f4f4;}
 .selecterStyle1 .selecterValue.bluebor{}
 .selecterStyle1 .selecterValue p{ margin:0 20px 0 10px; line-height:30px; height:30px; display:block; overflow:hidden;}
 .selecterStyle1 .selecterDrop{ border:1px solid #8bc0f2; border-radius:3px;position:absolute; left:0px; height:auto; max-height:129px; overflow-x:hidden; overflow-y:auto; top:33px; white-space:nowrap; display:none; background:#fff;color: #555555;box-shadow: 0 0 10px 0 #d9e8f7;}
@@ -369,7 +369,7 @@ body,html{ width:100%; min-width:1200px;}
 .selecterStyle1 .selecterDrop a:hover{ background:#f1f8ff;  text-decoration:none;}
 
 .selecterStyle2{display:inline-block; position:relative; cursor:pointer; vertical-align:middle;}
-.selecterStyle2 .selecterValue{ background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_drop2.png) 95% center no-repeat #ecf1f2; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid transparent; width:100%; border-radius:3px;}
+.selecterStyle2 .selecterValue{ background: url(../../images/public/icon_drop2.png) 95% center no-repeat #ecf1f2; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid transparent; width:100%; border-radius:3px;}
 .selecterStyle2 .selecterValue.bluebor{}
 .selecterStyle2 .selecterValue p{ margin:0 20px 0 10px; line-height:30px; height:30px; display:block; overflow:hidden;}
 .selecterStyle2 .selecterDrop{ border:1px solid #d5d5d5; border-radius:3px;position:absolute; left:0px; height:auto; max-height:196px; overflow-x:hidden; overflow-y:auto; top:33px; white-space:nowrap; display:none; background:#fff;color: #000;}
@@ -377,7 +377,7 @@ body,html{ width:100%; min-width:1200px;}
 .selecterStyle2 .selecterDrop a:hover{ background:#f5f6f8;  text-decoration:none;}
 
 .selecterStyle3{display:inline-block; position:relative; cursor:pointer; vertical-align:middle;}
-.selecterStyle3 .selecterValue{ background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_drop.png) 95% center no-repeat; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; width:100%; border-radius:3px;border: 1px solid #d5d5d5;box-shadow: inset 0 0 10px 0 #f4f4f4;}
+.selecterStyle3 .selecterValue{ background: url(../../images/public/icon_drop.png) 95% center no-repeat; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; width:100%; border-radius:3px;border: 1px solid #d5d5d5;box-shadow: inset 0 0 10px 0 #f4f4f4;}
 .selecterStyle3 .selecterValue.bluebor{}
 .selecterStyle3 .selecterValue p{ margin:0 20px 0 10px; line-height:30px; height:30px; display:block; overflow:hidden;font-size: 14px;}
 .selecterStyle3 .selecterDrop{ border:1px solid #dddddd; border-radius:3px;position:absolute; left:0px; height:auto; max-height:129px; overflow-x:hidden; overflow-y:auto; top:33px; white-space:nowrap; display:none; background:#fff;color: #555555;box-shadow: 0 0 10px 0 #d9e8f7;}
@@ -385,7 +385,7 @@ body,html{ width:100%; min-width:1200px;}
 .selecterStyle3 .selecterDrop a:hover{ background:#f1f8ff;  text-decoration:none;}
 
 .selecterStyle4{display:inline-block; position:relative; cursor:pointer; vertical-align:middle;}
-.selecterStyle4 .selecterValue{ background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_drop3.png) 95% center no-repeat #ebf3ff; color:#45a5fe;display:inline-block; height:32px; line-height:32px; overflow:hidden; vertical-align:middle; word-break:break-all;width:100%; border-radius:3px;}
+.selecterStyle4 .selecterValue{ background: url(../../images/public/icon_drop3.png) 95% center no-repeat #ebf3ff; color:#45a5fe;display:inline-block; height:32px; line-height:32px; overflow:hidden; vertical-align:middle; word-break:break-all;width:100%; border-radius:3px;}
 .selecterStyle4 .selecterValue.bluebor{}
 .selecterStyle4 .selecterValue p{ margin:0 20px 0 10px; line-height:32px; height:32px; display:block; overflow:hidden;}
 .selecterStyle4 .selecterDrop{ border:1px solid #d5d5d5; border-radius:3px;position:absolute; left:0px; height:auto; max-height:196px; overflow-x:hidden; overflow-y:auto; top:33px; white-space:nowrap; display:none; background:#fff;color: #000;}
@@ -393,7 +393,7 @@ body,html{ width:100%; min-width:1200px;}
 .selecterStyle4 .selecterDrop a:hover{ background:#f5f6f8;  text-decoration:none;}
 
 .selecterStyle5{display:inline-block; position:relative; cursor:pointer; vertical-align:middle;}
-.selecterStyle5 .selecterValue{ *zoom: 1;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;color:#309aeb;background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_drop.png) 95% center no-repeat #fff; color:#555;display:inline-block;line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #c9c9c9;border-radius:3px;height: 30px;}
+.selecterStyle5 .selecterValue{ *zoom: 1;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;color:#309aeb;background: url(../../images/public/icon_drop.png) 95% center no-repeat #fff; color:#555;display:inline-block;line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #c9c9c9;border-radius:3px;height: 30px;}
 .selecterStyle5 .selecterValue p{ margin:0 20px 0 10px; line-height:28px; height:30px; display:block; overflow:hidden;font-size: 12px; color: #555555;}
 .selecterStyle5 .selecterDrop{ border:1px solid #d5d5d5; border-radius:3px;position:absolute; left:0px; height:auto; max-height:196px; overflow-x:hidden; overflow-y:auto; top:33px; white-space:nowrap; display:none; background:#fff;color: #000;*z-index: 999;}
 .selecterStyle5 .selecterDrop a{height:30px; line-height: 32px; color:#000; display:block; padding:0px 5px;}
@@ -402,7 +402,7 @@ body,html{ width:100%; min-width:1200px;}
 .selecterStyle6 .selectVal{display: inline-block;*display: inline;*zoom: 1;}
 .selecterStyle6 .selectVal i{display: inline-block;*display: inline;*zoom: 1;height: 30px;line-height: 30px;padding: 0 10px;position: relative;}
 .selecterStyle6 .selectVal i:after{content: '';position: absolute;top: 4px;right: 0;height: 21px;width: 1px;background: #d5d5d5;}
-.selecterStyle6 .selectVal em{display: inline-block;*display: inline;*zoom: 1;vertical-align: top;width: 30px;height: 30px;background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_drop.png) center center no-repeat;cursor: pointer;}
+.selecterStyle6 .selectVal em{display: inline-block;*display: inline;*zoom: 1;vertical-align: top;width: 30px;height: 30px;background: url(../../images/public/icon_drop.png) center center no-repeat;cursor: pointer;}
 .selecterStyle6 .selectDrop{border:1px solid #d5d5d5; border-radius:3px;position:absolute; left:0px; height:auto; max-height:196px; overflow-x:hidden; overflow-y:auto; top:100%; white-space:nowrap; display:none; background:#fff;color: #000;*z-index: 999;}
 .selecterStyle6 .selectDrop a{height:30px; line-height: 32px; color:#000; display:block; padding:0px 5px;}
 .selecterStyle6 .selectDrop a:hover{ background:#f5f6f8;  text-decoration:none;}
@@ -445,11 +445,11 @@ body,html{ width:100%; min-width:1200px;}
 .title1 .tag_index em { font-size: 14px; color: #fff; background: #8ea9b9; line-height: 20px; padding: 0 10px; border-radius: 20px; }
 .title1 .tag_index span { padding: 0 7px; }
 .title1 .tag_index span, .title1 .tag_index i, .title1 .tag_index em { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; }
-.title1 .more { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 60px; height: 26px; background: url(http://192.168.1.235/public/static/easy_exam/images/icon_more.png) center center no-repeat;}
+.title1 .more { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 60px; height: 26px; background: url(../../images/icon_more.png) center center no-repeat;}
 .title2{font-weight: normal;font-size: 20px;color: #222222;line-height: normal;}
 .title3{font-weight: normal;font-size: 16px;color: #555555;line-height: normal;}
 /*date*/
-.inputDate1{background:url(http://192.168.1.235/public/static/easy_exam/images/public/icon_date.png) 95% center no-repeat #fff; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #c9c9c9; border-radius:3px;padding: 0 30px 0 5px;box-shadow: inset 0 0 10px 0 #f4f4f4;}
+.inputDate1{background:url(../../images/public/icon_date.png) 95% center no-repeat #fff; color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #c9c9c9; border-radius:3px;padding: 0 30px 0 5px;box-shadow: inset 0 0 10px 0 #f4f4f4;}
 .inputDate1:focus{border-color: #309aeb;}
 /*breadcrumb*/
 .breadStyle1{position: relative;z-index: 1;zoom: 1;padding: 0;margin: 0;background-color: transparent;}
@@ -459,7 +459,7 @@ body,html{ width:100%; min-width:1200px;}
 .breadStyle1 .breadtxt a,.breadStyle1 .breadtxt i{display: inline-block;*display: inline; *zoom: 1; vertical-align: middle;}
 .breadStyle1 .breadtxt a:hover{color: #222222;}
 .breadStyle1 .breadtxt a.current{color: #888888;}
-.breadStyle1 .breadtxt i{width: 7px;height: 12px;background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_bread2.png) center center no-repeat;overflow: hidden;text-indent: 999px;}
+.breadStyle1 .breadtxt i{width: 7px;height: 12px;background: url(../../images/public/icon_bread2.png) center center no-repeat;overflow: hidden;text-indent: 999px;}
 /*btn*/
 .Btn1{display: inline-block;*display: inline;*zoom: 1;color: #fff;text-align: center;background: #45a3ff;font-size: 16px;border-radius: 3px;line-height: 46px;padding: 0 20px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;width: 171px;}
 .Btn1 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
@@ -486,10 +486,10 @@ body,html{ width:100%; min-width:1200px;}
 /*search*/
 .searchStyle1{background:#fff; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #d5d5d5; border-radius:3px;display: inline-block;*display: inline;*zoom: 1;padding: 0 0 0 5px;}
 .searchStyle1 .inputSearch{color:#555;display:inline-block; height:28px; line-height:28px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;*border:0;}
-.searchStyle1 .search{display: inline-block;*display: inline;*zoom: 1;width: 30px;height: 30px;background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_search.png) center center no-repeat; vertical-align: middle;cursor: pointer;}
+.searchStyle1 .search{display: inline-block;*display: inline;*zoom: 1;width: 30px;height: 30px;background: url(../../images/public/icon_search.png) center center no-repeat; vertical-align: middle;cursor: pointer;}
 .searchStyle2{background:#fff; overflow:hidden; vertical-align:middle; word-break:break-all; border-radius:3px;display: inline-block;*display: inline;*zoom: 1;overflow: hidden;}
 .searchStyle2 .inputSearch{color:#555;display:inline-block; height:30px; line-height:30px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;border: 1px solid #dddddd;padding: 0;width: 165px;}
-.searchStyle2 .search{display: inline-block;*display: inline;*zoom: 1;width: 54px;height: 32px;background: url(http://192.168.1.235/public/static/easy_exam/images/public/icon_search2.png) center center no-repeat #419efc; vertical-align: middle;cursor: pointer;}
+.searchStyle2 .search{display: inline-block;*display: inline;*zoom: 1;width: 54px;height: 32px;background: url(../../images/public/icon_search2.png) center center no-repeat #419efc; vertical-align: middle;cursor: pointer;}
 /*输入框*/
 .input{height: 30px;line-height: 30px;border: 1px solid #d5d5d5;border-radius: 3px;outline: none;box-shadow: inset 0 0 10px 0 #f4f4f4;padding: 0;text-indent: 5px;}
 .boxStyle{border: 1px solid #d1e5f7;border-radius: 5px;background: #fff;padding: 25px;}
@@ -523,22 +523,22 @@ body,html{ width:100%; min-width:1200px;}
 .bx-wrapper .bx-viewport{border: 5px solid transparent;left: -5px;/*fix other elements on the page moving (on Chrome)*/-webkit-transform: translatez(0);-moz-transform: translatez(0);-ms-transform: translatez(0);-o-transform: translatez(0);transform: translatez(0);}
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto{position: absolute;bottom: -30px;width: 100%;}
-.bx-wrapper .bx-loading{min-height: 50px;background: url(http://192.168.1.235/public/static/easy_exam/images/bx_loader.gif) center center no-repeat #fff;height: 100%;width: 100%;position: absolute;top: 0;left: 0;z-index: 2000;}
+.bx-wrapper .bx-loading{min-height: 50px;background: url(../../images/bx_loader.gif) center center no-repeat #fff;height: 100%;width: 100%;position: absolute;top: 0;left: 0;z-index: 2000;}
 .bx-wrapper .bx-pager{text-align: center;font-size: .85em;font-family: Arial;font-weight: bold;color: #666;padding-top: 20px;}
 .bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item{display: inline-block;*zoom: 1;*display: inline;}
 .bx-wrapper .bx-pager.bx-default-pager a{background: #666;text-indent: -9999px;display: block;width: 10px;height: 10px;margin: 0 5px;outline: 0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active{background: #000;}
-.bx-wrapper .bx-prev{left: -32px;background: url(http://192.168.1.235/public/static/easy_exam/images/public/controls.png) no-repeat 0 0;}
-.bx-wrapper .bx-next{right: -32px;background: url(http://192.168.1.235/public/static/easy_exam/images/public/controls.png) no-repeat 0px -24px;}
+.bx-wrapper .bx-prev{left: -32px;background: url(../../images/public/controls.png) no-repeat 0 0;}
+.bx-wrapper .bx-next{right: -32px;background: url(../../images/public/controls.png) no-repeat 0px -24px;}
 .bx-wrapper .bx-controls-direction a{position: absolute;top: 50%;margin-top: -12px;outline: 0;width: 24px;height: 24px;text-indent: -9999px;z-index: 9999;}
 .bx-wrapper .bx-controls-direction a.disabled{display: none;}
 .bx-wrapper .bx-controls-auto{text-align: center;}
-.bx-wrapper .bx-controls-auto .bx-start{display: block;text-indent: -9999px;width: 10px;height: 11px;outline: 0;background: url(http://192.168.1.235/public/static/easy_exam/images/controls.png) -86px -11px no-repeat;margin: 0 3px;}
+.bx-wrapper .bx-controls-auto .bx-start{display: block;text-indent: -9999px;width: 10px;height: 11px;outline: 0;background: url(../../images/controls.png) -86px -11px no-repeat;margin: 0 3px;}
 .bx-wrapper .bx-controls-auto .bx-start:hover,
 .bx-wrapper .bx-controls-auto .bx-start.active{background-position: -86px 0;}
-.bx-wrapper .bx-controls-auto .bx-stop{display: block;text-indent: -9999px;width: 9px;height: 11px;outline: 0;background: url(http://192.168.1.235/public/static/easy_exam/images/controls.png) -86px -44px no-repeat;margin: 0 3px;}
+.bx-wrapper .bx-controls-auto .bx-stop{display: block;text-indent: -9999px;width: 9px;height: 11px;outline: 0;background: url(../../images/controls.png) -86px -44px no-repeat;margin: 0 3px;}
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
 .bx-wrapper .bx-controls-auto .bx-stop.active{background-position: -86px -33px;}
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{text-align: left;width: 80%;}

@@ -2,7 +2,7 @@
 .left{
 	cursor: pointer;
 }
-.number-lis span.score-low.selected{
+.number-lis span.selected{
 	background-color: #fff;
 }
 .number-scroll{
