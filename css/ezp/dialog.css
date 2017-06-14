@@ -317,3 +317,22 @@ div.ullist li{
 .dialog .dialog-header h1, .dialog .dialog-header h2, .dialog .dialog-header h3, .dialog .dialog-header h4, .dialog .dialog-header h5{
 	color: #555;
 }
+.dialog-sm{
+	width: 350px;
+}
+.dialog .dialog-footer{
+	text-align: center;
+}
+.dialog-sm .dialog-header h4{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	float: left;
+}
+.dialog-header > button{
+	background-color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+	color: #555;
+	float: right;
+}
