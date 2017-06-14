@@ -84,3 +84,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.notDelete{
+    border:none;
+}
