@@ -340,3 +340,9 @@ div.ullist li{
 .dialog-header > button:hover{
 	color: #ff6c6c;
 }
+.dialog-sm .dialog-header{
+	padding: 15px 20px;
+}
+.dialog .dialog-header{
+	min-height: 30px;
+}
