@@ -2,3 +2,160 @@
 *{
 	box-sizing: content-box;
 }
+.ni_img > span{
+	display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 90px;
+    text-align: center;
+    opacity: 0;
+    font-size: 18px;
+    background-color: #ddf1ff;
+    border-radius: 50%;
+    color: #03A9F4;
+    font-weight: 900;
+    cursor: default;
+    transition: all ease-in-out .3s;
+}
+.ni_img:hover > span{
+	opacity: 1;
+}
+
+.ni_g_km_list .ni_img.ni_icon1001,.ni_g_km_list .ni_img.ni_iconjcsub01{
+	background-image: url(../images/subject_01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1002,.ni_g_km_list .ni_img.ni_iconjcsub03{
+	background-image: url(../images/subject_03.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1003,.ni_g_km_list .ni_img.ni_iconjcsub02{
+	background-image: url(../images/subject_02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1004,.ni_g_km_list .ni_img.ni_iconjcsub013{
+	background-image: url(../images/subject_04.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1005,.ni_g_km_list .ni_img.ni_iconjcsub14{
+	background-image: url(../images/subject_05.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1006,.ni_g_km_list .ni_img.ni_iconSUB53,.ni_g_km_list .ni_img.ni_iconjcsub08,.ni_g_km_list .ni_img.ni_iconjcsub07,.ni_g_km_list .ni_img.ni_iconjcsub06{
+	background-image: url(../images/subject_09.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1007,.ni_g_km_list .ni_img.ni_iconjcsub11{
+	background-image: url(../images/subject_08.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1008,.ni_g_km_list .ni_img.ni_iconjcsub12{
+	background-image: url(../images/subject_07.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1009{
+	background-image: url(../images/subject_02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1010{
+	background-image: url(../images/subject_02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1011{
+	background-image: url(../images/subject_06.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1012{
+	background-image: url(../images/subject_11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_icon1013{
+	background-image: url(../images/subject_12.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconSUB48{
+	background-image: url(../images/subject_21.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconSUB52{
+	background-image: url(../images/subject_14.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconSUB59{
+	background-image: url(../images/subject_15.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconSUB49{
+	background-image: url(../images/subject_13.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconSUB27{
+	background-image: url(../images/subject_17.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconjcsub23{
+	background-image: url(../images/subject_19.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconjcsub18{
+	background-image: url(../images/subject_18.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconjcsub16{
+	background-image: url(../images/subject_20.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconjcsub21{
+	background-image: url(../images/subject_10.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}
+.ni_g_km_list .ni_img.ni_iconjcsub20{
+	background-image: url(../images/subject_16.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60px;
+}

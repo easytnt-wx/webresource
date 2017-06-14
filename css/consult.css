@@ -185,9 +185,148 @@
 
 .abnormal_up1.on { background: url(../images/consult/abnormal_down1.png) 0 0 no-repeat; }
 
-.con_S { display: inline-block; vertical-align: middle; width: 48px; height: 48px; background: url(../images/consult/con_S.png) 0 0 no-repeat; }
-
 /*异常评阅任务*/
+	/*科目图标 star*/
+	.con_S { display: inline-block; vertical-align: middle; width: 50px; height: 50px;background-color: #ddf1ff;border-radius: 50%; }
+	.con_S.ni_icon1001,.con_S.ni_iconjcsub01{
+		background-image: url(../images/subject_01.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1002,.con_S.ni_iconjcsub03{
+		background-image: url(../images/subject_03.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1003,.con_S.ni_iconjcsub02{
+		background-image: url(../images/subject_02.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1004,.con_S.ni_iconjcsub013{
+		background-image: url(../images/subject_04.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1005,.con_S.ni_iconjcsub14{
+		background-image: url(../images/subject_05.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1006,.con_S.ni_iconSUB53,.con_S.ni_iconjcsub08,.con_S.ni_iconjcsub07,.con_S.ni_iconjcsub06{
+		background-image: url(../images/subject_09.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1007,.con_S.ni_iconjcsub11{
+		background-image: url(../images/subject_08.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1008,.con_S.ni_iconjcsub12{
+		background-image: url(../images/subject_07.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1009{
+		background-image: url(../images/subject_02.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1010{
+		background-image: url(../images/subject_02.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1011{
+		background-image: url(../images/subject_06.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1012{
+		background-image: url(../images/subject_11.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_icon1013{
+		background-image: url(../images/subject_12.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconSUB48{
+		background-image: url(../images/subject_21.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconSUB52{
+		background-image: url(../images/subject_14.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconSUB59{
+		background-image: url(../images/subject_15.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconSUB49{
+		background-image: url(../images/subject_13.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconSUB27{
+		background-image: url(../images/subject_17.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconjcsub23{
+		background-image: url(../images/subject_19.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconjcsub18{
+		background-image: url(../images/subject_18.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconjcsub16{
+		background-image: url(../images/subject_20.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconjcsub21{
+		background-image: url(../images/subject_10.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	.con_S.ni_iconjcsub20{
+		background-image: url(../images/subject_16.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+	/*科目图标 end*/
 .Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
 .Review ul li div.left{margin-left: 30px;}
 .Review ul li div.left p.title{cursor: pointer;font-size:20px;color: #222222;margin-bottom: 5px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
