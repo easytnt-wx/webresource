@@ -303,3 +303,17 @@ div.ullist li{
     margin: 0 6px 15px 6px;
     text-align: right;
 }
+
+
+
+/*v2.2弹框*/
+.dialog .dialog-header{
+	background-color: #fff;
+    border-bottom: none;
+}
+.dialog .dialog-footer{
+	border-top:none;
+}
+.dialog .dialog-header h1, .dialog .dialog-header h2, .dialog .dialog-header h3, .dialog .dialog-header h4, .dialog .dialog-header h5{
+	color: #555;
+}
