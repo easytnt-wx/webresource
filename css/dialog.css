@@ -135,12 +135,12 @@
 
 .dialog .dialog-footer {
 	padding: 19px 20px 20px;
-	text-align: right;
+	text-align: center;
 	border-top: 1px solid transparent;
 }
 
 .dialog .dialog-footer .btn {
-	margin-right: 8px;
+	margin-right: 10px;
 }
 
 .dialog-body {
@@ -302,4 +302,19 @@ div.ullist li{
     min-width: 125px;
     margin: 0 6px 15px 6px;
     text-align: right;
+}
+
+
+/*修改考试名称弹框*/
+label.dialoglabel {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+input#examName {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 400px;
+    font-size: 16px;
 }
