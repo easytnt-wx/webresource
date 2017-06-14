@@ -87,3 +87,7 @@
 .notDelete{
     border:none;
 }
+.Btn6:hover,.Btn6.on,.Btn6:focus{
+    color: #419ffb;
+    border: 1px solid #419ffb;
+}
