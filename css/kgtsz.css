@@ -86,3 +86,13 @@ input.inputStyle3 + i.form-control-feedback{
     background-repeat: no-repeat;
     background-position: 16px;
 }
+.Btn3:hover,.Btn3:focus{
+    background-color: #419efc;
+    color: #fff;
+}
+.input_box .left{
+    border: 1px solid #ddd;
+}
+.input_box .left > .tabBox{
+    border: none;
+}
