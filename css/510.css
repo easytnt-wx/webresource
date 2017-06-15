@@ -9,3 +9,21 @@
 .tabTit a{
 	text-decoration: none;
 }
+form.form-horizontal > .form-group{
+	position: relative;
+}
+.error_info{
+	color: #ff7c7c;
+	font-size: 14px;
+}
+.form-group.mytime .error_info{
+	margin-left: 15px;
+}
+.mycheck + .error_info{
+	position: absolute;
+	top: 12px;
+	right: 150px;
+}
+.form-group >.error_info{
+	margin-left: 15px;
+}
