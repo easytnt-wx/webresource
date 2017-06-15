@@ -20,7 +20,7 @@
 	padding: 0;
 }
 .layout .left{
-	overflow: hidden;
+	overflow-y: auto;
 	position: relative;
 	width: 198px;
 }
