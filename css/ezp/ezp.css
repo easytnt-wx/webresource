@@ -88,6 +88,7 @@
     border:none;
 }
 .Btn6:hover,.Btn6.on,.Btn6:focus{
-    color: #419ffb;
+    color: #fff;
     border: 1px solid #419ffb;
+    background-color: #419ffb;
 }
