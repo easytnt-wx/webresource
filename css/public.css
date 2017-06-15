@@ -595,7 +595,7 @@ body,html{ width:100%; min-width:1200px;}
 .Btn16 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
 .Btn16.on{color: #00a0e9;border: 1px solid #00a9e9;}
 
-.Btn17{padding: 0 40px;background: #1ab4fa;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:18px;border-radius: 5px;color: #ffffff;line-height: 50px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn17{border:1px solid #1ab4fa; padding: 0 40px;background: #1ab4fa;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:18px;border-radius: 5px;color: #ffffff;line-height: 50px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .Btn17 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
 .Btn17:hover {background: #5db0ff;}
 
