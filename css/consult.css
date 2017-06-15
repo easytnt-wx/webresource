@@ -102,7 +102,7 @@
 
 .con_ok2 { -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;;display: inline-block; vertical-align: middle; width: 24px; height: 24px; background: url(../images/consult/con_ok2.png) 0 0 no-repeat; }
 
-.exam_list_content { margin-left: 305px; overflow: hidden; }
+.exam_list_content { margin-left: 305px;}
 .exam_list_content .exam_list_ui { margin-top: 30px; }
 .exam_list_content .exam_list_ui li { margin-bottom: 20px; }
 .exam_list_content .exam_list_ui li .inputDate1 { height: 35px; }
