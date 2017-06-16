@@ -129,10 +129,10 @@
     display: block;
     text-align: left;
     padding: 15px;
-    color: #555;
+    color: #419efa;
     font-weight: 600;
     font-size: 14px;
 }
 .easy_menu .menu-btn~ul a:hover,.easy_menu .menu-btn~ul a.on{
-    background-color: #e1f5ff;
+    background-color: #ebf3ff;
 }
