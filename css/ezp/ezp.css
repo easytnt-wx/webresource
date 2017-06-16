@@ -133,6 +133,6 @@
     font-weight: 600;
     font-size: 14px;
 }
-.easy_menu .menu-btn~ul a:hover{
+.easy_menu .menu-btn~ul a:hover,.easy_menu .menu-btn~ul a.on{
     background-color: #e1f5ff;
 }
