@@ -92,3 +92,47 @@
     border: 1px solid #419ffb;
     background-color: #419ffb;
 }
+
+/*menu-btn选项*/
+.easy_menu{
+    position: relative;
+    margin-right: 50px;
+    padding: 0 20px;
+}
+.menu-btn{
+    width: 60px;
+    height: 50px;
+    padding: 0 15px;
+    background: url(../../images/icon_menu.png) 0px center no-repeat;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
+.easy_menu:hover{
+    background-color: #64b2ff;
+}
+.easy_menu .menu-btn + ul{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    box-shadow: 0px 6px 20px #ccc;
+    z-index: 99;
+}
+.easy_menu:hover .menu-btn + ul{
+    display: block;
+}
+.easy_menu .menu-btn + ul a{
+    width: 120px;
+    display: block;
+    text-align: left;
+    padding: 15px;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+}
+.easy_menu .menu-btn~ul a:hover{
+    background-color: #e1f5ff;
+}
