@@ -30,7 +30,13 @@
 }
 
 .update-ing .tip-icon {
-	background-position: 0 0;
+	/*background-position: 0 0;*/
+	padding: 0;
+	display: inline-block;
+	width: 32px;
+	height: 35px;
+	background: url("../images/loading.gif") no-repeat;
+	background-size: 32px;
 }
 
 .update-success .tip-icon {
