@@ -550,8 +550,8 @@
 
 /*阅卷键盘*/
 .control { padding-top: 9px; padding-bottom: 9px; border-bottom: 1px solid #d1e5f7; }
-.control .left { width: 5%; }
-.control .right { width: 93%; }
+.control .left { width: 95px; }
+.control .right { width: 90%; }
 
 .examine-view .easy_logo { padding: 12px 0; width: 134px; height: 25px; background: url(../../images/logo2.png) center center no-repeat; }
 .examine-view .easy_info { padding: 8px 0; }
@@ -615,10 +615,10 @@
 .control-btn { width: 100%; border-collapse: collapse; }
 .control-btn tbody tr td { width: 10%; }
 .control-btn tbody tr td + td { width: 10%; }
-.control-btn tbody tr td + td + td { width: 20%; }
-.control-btn tbody tr td + td + td + td { width: 20%; }
-.control-btn tbody tr td + td + td + td + td { width: 20%; }
-.control-btn tbody tr td + td + td + td + td + td { width: 10%; }
+.control-btn tbody tr td + td + td { width: 15%; }
+.control-btn tbody tr td + td + td + td { width: 15%; }
+.control-btn tbody tr td + td + td + td + td { width: 15%; }
+.control-btn tbody tr td + td + td + td + td + td { width: 15%; }
 .control-btn tbody tr td + td + td + td + td + td + td { width: 5%; }
 .control-btn tbody tr td + td + td + td + td + td + td + td { width: 5%; }
 
