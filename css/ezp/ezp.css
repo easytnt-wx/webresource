@@ -33,11 +33,15 @@
 }
 .form-group > label {
     min-width: 60px;
+    max-width: 68px;
     font-size: 16px;
     color: #323232;
     text-align: right;
     font-weight: 500;
     display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .row{
 	margin: 12px 10px;
