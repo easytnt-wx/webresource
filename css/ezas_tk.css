@@ -65,11 +65,11 @@ div.menu li:hover{
 	background-color: #E7F3FF;
 	cursor: pointer;
 }
-div.aside.btn-group-vertical{
+/*div.aside.btn-group-vertical{
 	position: fixed;
 	right: -4px;
 	top: 200px;
-}
+}*/
 div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
 	padding: 10px 15px;
 	font-size: 15px;
@@ -90,6 +90,9 @@ div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
 }
 div.aside.btn-group-vertical{
 	position: fixed;
-	right: -4px;
-	top: 105px;
+	left: -4px;
+	top: 150px;
+}
+body{
+	background-color: #eee;
 }
