@@ -338,17 +338,7 @@
 .Review ul li div.left span{font-size: 14px;color: #888888;margin-right: 30px;}
 .Review ul li div.left em{font-size: 16px;color: #b3b3b3;}
 
-.Review ul li div.middle{margin-top: 24px;}
-.Review ul li div.middle .bar{width: 150px;height: 10px;display: inline-block;vertical-align:middle;border: 1px solid #00d596;
-    border-radius: 5px;}
-.Review ul li div.middle .bar em{width: 130px;height: 10px;display: inline-block;vertical-align:middle;
-    border-radius: 5px;background: #00d596;}
-.Review ul li div.middle .txt{margin-right: 136px;display: inline-block;vertical-align: middle;font-size: 14px;color: #888888;margin-left: 20px;  }
-.Review ul li div.middle .txt em{margin-left: 3px;}
-.Review ul li .Btn26{margin-top:15px;}
-.Review ul li .Btn23{margin-top: 6px;}
-
-/*.Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
+.Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
 .Review ul li div.left{margin-left: 30px;}
 .Review ul li div.left p.title{cursor: pointer;font-size:20px;color: #222222;margin-bottom: 5px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .Review ul li div.left p.title:hover{color: #45a5ff;}
@@ -362,7 +352,7 @@
 .Review ul li div.middle .txt{margin-right: 136px;display: inline-block;vertical-align: middle;font-size: 14px;color: #888888;margin-left: 20px;  }
 .Review ul li div.middle .txt em{margin-left: 3px;}
 .Review ul li .Btn23{margin-top: 6px;}
-*/
+
 /*从教育云导入学生*/
 .import .import_top{border-radius: 5px;}
 .import .import_top .import_top_title{ box-sizing: content-box; border-bottom: 1px solid #dfecf9;height: 40px;line-height: 40px;padding: 15px 25px;}
