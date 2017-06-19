@@ -7,6 +7,7 @@
 	background-color: #fff;
 	width: 1080px;
 	margin-left: 20px;
+	position: relative;
 }
 .list > ul > li{
 	padding: 12px 20px;
@@ -45,4 +46,7 @@ span.page.active{
 .imagesPool{
 	position: relative;
 	overflow: hidden;
+}
+.panel{
+	margin-bottom: 0;
 }
