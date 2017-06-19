@@ -83,16 +83,24 @@ div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
 .header_menu{
 	margin:0 auto;
 }
+div.aside.btn-group-vertical{
+	position: fixed;
+	right: -76px;
+	top: 150px;
+}
 div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
 	padding: 10px 15px;
 	font-size: 15px;
 	margin-bottom: 0px;
+	text-align: left;
 }
-div.aside.btn-group-vertical{
-	position: fixed;
-	left: -4px;
-	top: 150px;
+div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a:hover{
+	right: 76px;
 }
+
 body{
 	background-color: #eee;
+}
+.glyphicon{
+	margin-right: 8px;
 }
