@@ -75,3 +75,21 @@ div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
 	font-size: 15px;
 	margin-bottom: 12px;
 }
+
+/*v2.3版本增加的样式 */
+.ease_header.pdlr20{
+	display:none
+}
+.header_menu{
+	margin:0 auto;
+}
+div.aside.btn-group-vertical > button, div.aside.btn-group-vertical > a{
+	padding: 10px 15px;
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+div.aside.btn-group-vertical{
+	position: fixed;
+	right: -4px;
+	top: 105px;
+}
