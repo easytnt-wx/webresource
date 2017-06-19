@@ -1,0 +1,48 @@
+@charset "utf-8";
+.leftDiv{
+	background-color: #fff;
+	width: 100px;
+}
+.rightDiv{
+	background-color: #fff;
+	width: 1080px;
+	margin-left: 20px;
+}
+.list > ul > li{
+	padding: 12px 20px;
+	text-align: center;
+    color: #03df9d;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.list > ul > li:hover,.list > ul > li.on{
+	background-color: #ebf3ff;
+}
+span.page{
+	display: inline-block;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background: #ccc;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 6px;
+	cursor: pointer;
+}
+span.page.active{
+	background: #42a1fd;
+}
+.list{
+	border:1px solid #eee;
+	position: relative;
+	overflow: hidden;
+}
+.tool{
+	padding: 10px 20px;
+}
+.imagesPool{
+	position: relative;
+	overflow: hidden;
+}
