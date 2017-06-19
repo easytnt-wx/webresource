@@ -43,8 +43,12 @@
     white-space: nowrap;
     overflow: hidden;
 }
+.num-lis{
+    height: 450px;
+    overflow-y: auto;
+}
 .row{
-	margin: 12px 10px;
+	margin: 12px 5px;
 }
 .row > div{
 	display: inline-block;
