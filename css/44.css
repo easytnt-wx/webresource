@@ -16,7 +16,7 @@
     line-height: 30px;
     cursor: pointer;
 }
-.list > ul > li:hover,.list > ul > li.on{
+.list > ul > li:hover,.list > ul > li.active{
 	background-color: #ebf3ff;
 }
 span.page{
