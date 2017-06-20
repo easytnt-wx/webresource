@@ -53,7 +53,7 @@
 .s_setting .s_setting_content { padding: 25px 30px; }
 .s_setting .s_setting_content ul li { float: left; font-size: 18px; color: #222222; margin-right: 70px; }
 .s_setting .s_setting_content ul li input { font-size: 20px; color: #222222; border: 1px solid #00a0e9; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
-.s_setting .s_setting_content ul.on li input { font-size: 20px; color: #222222; border: 1px solid transparent; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
+.s_setting .s_setting_content ul.on li input { background-color: #fff; font-size: 20px; color: #222222; border: 1px solid transparent; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
 
 .setting_top { padding: 23px 27px 14px 27px; border-bottom: 1px solid #efefef; }
 .setting_top .con_setting { display: inline-block; vertical-align: middle; width: 23px; height: 22px; background: url(../images/consult/con_setting.png) 0 0 no-repeat; }
