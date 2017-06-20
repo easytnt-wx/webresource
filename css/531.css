@@ -29,6 +29,7 @@
 }
 ul.tier{
 	padding: 20px 10px;
+	cursor: pointer;
 }
 
 .noline_open{
