@@ -50,3 +50,8 @@ form.form-horizontal > .form-group{
 	text-align: center;
 
 }
+.row.noMargin{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
