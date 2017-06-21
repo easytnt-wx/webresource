@@ -7,8 +7,10 @@
 	<title>合成成绩</title>
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/easy_exam.css">
     <link href="css/teacher.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/consult.css" type="text/css">
+    <link rel="stylesheet" href="css/581.css" type="text/css">
 	<!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -69,18 +71,110 @@
     <div class="cs_top">
         <div class="cs_top_title pdl10">
             <div class="w1200 clearfix">
-
+                <div class="breadcrumb breadStyle3">
+                    <p class="breadtxt">
+                        <a href="#">考试列表</a><i></i>
+                        <a href="#">武汉四中七年级上第一次月考</a><i></i>
+                        <a class="current" href="#">合成成绩报告</a>
+                    </p>
+                </div>
+                <a href="#" class="to-back fr"><i class="icon_turnback"></i><span>返回</span></a>
             </div>
         </div>
-        <div class="t_c cs_top_content2"></div>
-        <div class="w1200"></div>
+        <div class="t_c cs_top_content">
+            <div class="w1200">
+                <a href='#'>2016年华师一附中七年级小测验</a>
+                <span>
+                    <i>创建老师:</i><em style='margin-right: 40px;'>杨老师</em>
+                    <i>考试时间:</i><em>2017-5-1 至 2017-5-20</em>
+                </span>
+            </div>
+        </div>
+        <div class="w1200 mgtb20">
+            <div class="boxStyle create_exam mgtb20">
+                <div class="f30 t_c mgb30">
+                    合成成绩报表
+                </div>
+                <div class="ni_g_tit_txt01">
+                    已选择考试科目<em>4</em>
+                </div>
+                <div class="ni_g_km_list">
+                    <ul class="clearfix">
+                        <li><div class="ni_img ni_icon1001"></div><a href="javascript:;" class="Btn19 on">语文</a></li>
+                        <li><div class="ni_img ni_icon1003"></div><a href="javascript:;" class="Btn19 on">数学</a></li>
+                        <li><div class="ni_img ni_icon1002"></div><a href="javascript:;" class="Btn19 on">英语</a></li>
+                        <li><div class="ni_img ni_icon1004"></div><a href="javascript:;" class="Btn19 on">物理</a></li>
+                        <li><div class="ni_img ni_icon1005"></div><a href="javascript:;" class="Btn19">化学</a></li>
+                        <li><div class="ni_img ni_icon1009"></div><a href="javascript:;" class="Btn19">生物</a></li>
+                        <li><div class="ni_img ni_icon1007"></div><a href="javascript:;" class="Btn19">历史</a></li>
+                        <li><div class="ni_img ni_icon1008"></div><a href="javascript:;" class="Btn19">地理</a></li>
+                        <li><div class="ni_img ni_icon1006"></div><a href="javascript:;" class="Btn19">政治</a></li>
+                    </ul>
+                </div>
+                <div class='s_setting pdt30'>
+                    <div class="ni_g_tit_txt01">
+                        报表设置
+                    </div>
+                    <div class='s_setting_content clearfix t_c'>
+                       <ul class='fl mgb30'>
+                           <li>优秀率<input type="text" value='80'> %</li>
+                           <li>良好率<input type="text" value='60'> %</li>
+                           <li>及格率<input type="text" value='50'> %</li>
+                           <li>低分率<input type="text" value='20'> %</li>
+                           <li>分数段<input type="text" value='40'></li>
+                           <li>名次段<input type="text" value='40'></li>
+                       </ul>
+                        <!-- <a href="#" class='Btn13'><span>提交</span></a> -->
+                    </div>
+                </div>
+                <div class="s_setting">
+                    <div class="ni_g_tit_txt01">
+                        上线设置
+                    </div>
+                    <div class="ni_g_container mgt20">
+                        <div class="Left">
+                            <p class="ni_tit">理科</p>
+                            <p>理科高考总分<input type="text" value='750'></p>
+                            <p style="margin-right:250px;"><i title="增加一行" class="add"></i><i title="减少一行" class="remove"></i></p>
+                            <ul>
+                                <li><input type="text" value='一本'><input type="text" value='600'></li>
+                                <li><input type="text" value='二本'><input type="text" value='500'></li>
+                                <li><input type="text" value='高职专科'><input type="text" value='400'></li>
+                            </ul>
+                        </div>
+                        <div class="Right">
+                            <p class="ni_tit">文科</p>
+                            <p>文科高考总分<input type="text" value='750'></p>
+                            <p style="margin-right:250px;"><i class="add"></i><i class="remove"></i></p>
+                            <ul>
+                                <li><input type="text" value='一本'><input type="text" value='600'></li>
+                                <li><input type="text" value='二本'><input type="text" value='500'></li>
+                                <li><input type="text" value='高职专科'><input type="text" value='400'></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="t_c mgtb30 downLoad">
+                    <p>成绩报表名称<input type="text" value=''></p>
+                    <a class="Btn18" href="javascript:;">下载报表</a>
+                </div>
+            </div>
+        </div>
     </div>
 	<script src="js/lib/jquery-2.1.1.js"></script>
 	<script src="js/lib/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
     <script>
-        
+        $(function(){
+            $('.add').on('click',function(){
+                var $li = $('<li><input type="text" value=""><input type="text" value=""></li>');
+                $(this).parent().next().append($li)
+            })
+            $('.remove').on('click',function(){
+                $(this).parent().next().find('li:last').remove();
+            })
+        })
     </script>
 </body>
 </html>

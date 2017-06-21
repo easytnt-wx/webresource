@@ -1,0 +1,119 @@
+@charset "utf-8";
+.ni_g_km_list li{
+	float: left;
+	border:none;
+	text-align: center;
+}
+.ni_g_km_list li{
+	padding: 10px 20px;
+}
+.ni_g_km_list .ni_img{
+	margin: 20px 30px;
+}
+.Btn19.on{
+	background: #45a4fe;
+    color: #ffffff;
+    text-decoration: none;
+}
+.s_setting .s_setting_content ul li{
+	margin: 20px 95px;
+	width: 165px;
+	text-align: left;
+}
+a.Btn13{
+	color: #fff;
+}
+.ni_g_container > .Left,.ni_g_container > .Right{
+	width: 570px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+.ni_g_container > .Left{
+	border-right: 1px solid #eee;
+}
+.ni_g_container > .Right{
+	border-left: 1px solid #eee;
+	position: relative;
+	left: -4px;
+}
+.ni_tit{
+	display: inline-block;
+	font-size: 20px;
+	background-color: #45a4fe;
+	line-height: 80px;
+	width: 80px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-weight: 500;
+	border-radius: 80px;
+}
+.ni_tit + p{
+	font-size: 18px;
+    color: #222222;
+    line-height: 60px;
+}
+.ni_tit + p > input{
+	font-size: 20px;
+    color: #222222;
+    border: 1px solid #00a0e9;
+    border-radius: 5px;
+    width: 62px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 25px;
+}
+.add{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background : url('../images/icon_updown1.png') no-repeat 0 0;
+	cursor: pointer;
+	margin: 0 5px;
+}
+.add:hover{
+	background : url('../images/icon_updown.png') no-repeat 0 0;
+}
+.remove{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background : url('../images/icon_updown1.png') no-repeat 0 -21px;
+	cursor: pointer;
+	margin: 0 5px;
+}
+.remove:hover{
+	background : url('../images/icon_updown.png') no-repeat 0 -21px;
+}
+.ni_g_container li{
+	margin: 20px 0;
+}
+.ni_g_container li input{
+	font-size: 20px;
+    color: #222222;
+    border: 1px solid #00a0e9;
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 25px;
+}
+.downLoad > p{
+	font-size: 18px;
+    color: #222222;
+    margin: 40px 0 30px 0 ;
+}
+.downLoad > p > input{
+	font-size: 20px;
+    color: #222222;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    line-height: 36px;
+    text-align: left;
+    padding: 6px 12px;
+    margin-left: 25px;
+}

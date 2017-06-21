@@ -12,7 +12,7 @@
 .class_report_table span{display:block;height:40px;line-height:40px;border-radius:16px;cursor:pointer;}
 .class_report_table span:hover,.class_report_table span.on{background:#BDDEFF;color:#2576DB}
 .all_class a{display:block;height:50px;line-height:50px;border-top:1px solid #DFECF9;font-size:16px;text-align:center;margin-top:20px;width:184px;color:#555;border-bottom-left-radius:6px;border-bottom-right-radius:6px;}
-.all_class a:hover{color:#2576DB;background:#d0e7fe;}
+.all_class a:hover,.all_class a.on{color:#2576DB;background:#d0e7fe;}
 
 .report_card_boxStyle2{padding:0 19px 14px 23px;}
 .report_card_boxStyle3{padding-bottom:14px;}
