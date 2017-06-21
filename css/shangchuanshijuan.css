@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 .load{
-	padding: 10px 40px;
+	padding: 10px 40px 30px;
 }
 .load + div{
 	padding: 30px 40px;
