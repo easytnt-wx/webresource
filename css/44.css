@@ -38,7 +38,7 @@ span.page.active{
 .list{
 	border:1px solid #eee;
 	position: relative;
-	overflow: hidden;
+	overflow-y: auto;
 }
 .tool{
 	padding: 10px 20px;
