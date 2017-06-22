@@ -26,7 +26,7 @@
 .userinfo .user_img { border-radius: 50%; width: 34px; height: 34px; background: #fff; margin-right: 10px; overflow: hidden; }
 .userinfo .icon_drop { cursor: pointer; margin-left: 10px; }
 
-.icon_drop { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 8px; height: 5px; background: url(../../images/icon_drop.png) center center no-repeat; }
+.icon_drop { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 8px; height: 5px;/* background: url(../../images/icon_drop.png) center center no-repeat;*/ }
 
 .icon_scan { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 19px; height: 19px; background: url(../../images/icon_scan.png) center center no-repeat; }
 
