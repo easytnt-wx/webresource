@@ -55,7 +55,7 @@
     top: 47%;
 }
 .right {
-    cursor: w-resize;
+    cursor: default;
     right: -7px;
     top: 47%;
 }
