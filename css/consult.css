@@ -190,55 +190,55 @@
 /*异常评阅任务*/
 	/*科目图标 star*/
 	.con_S { display: inline-block; vertical-align: middle; width: 50px; height: 50px;background-color: #ddf1ff;border-radius: 50%; }
-	.con_S.ni_icon1001,.con_S.ni_iconjcsub01{
+	.con_S.ni_icon001,.con_S.ni_icon1001,.con_S.ni_iconjcsub01{
 		background-image: url(../images/subject_01.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1002,.con_S.ni_iconjcsub03{
+	.con_S.ni_icon003,.con_S.ni_icon1002,.con_S.ni_iconjcsub03{
 		background-image: url(../images/subject_03.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1003,.con_S.ni_iconjcsub02{
+	.con_S.ni_icon002,.con_S.ni_icon1003,.con_S.ni_iconjcsub02{
 		background-image: url(../images/subject_02.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1004,.con_S.ni_iconjcsub013{
+	.con_S.ni_iconjcsub13,.con_S.ni_icon004,.con_S.ni_icon1004,.con_S.ni_iconjcsub013{
 		background-image: url(../images/subject_04.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1005,.con_S.ni_iconjcsub14{
+	.con_S.ni_icon005,.con_S.ni_icon1005,.con_S.ni_iconjcsub14{
 		background-image: url(../images/subject_05.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1006,.con_S.ni_iconSUB53,.con_S.ni_iconjcsub08,.con_S.ni_iconjcsub07,.con_S.ni_iconjcsub06{
+	.con_S.ni_icon007,.con_S.ni_icon1006,.con_S.ni_iconSUB53,.con_S.ni_iconjcsub08,.con_S.ni_iconjcsub07,.con_S.ni_iconjcsub06{
 		background-image: url(../images/subject_09.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1007,.con_S.ni_iconjcsub11{
+	.con_S.ni_icon008,.con_S.ni_icon1007,.con_S.ni_iconjcsub11{
 		background-image: url(../images/subject_08.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1008,.con_S.ni_iconjcsub12{
+	.con_S.ni_icon009,.con_S.ni_icon1008,.con_S.ni_iconjcsub12{
 		background-image: url(../images/subject_07.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1009{
+	.con_S.ni_icon010,.con_S.ni_icon011,.con_S.ni_icon1009{
 		background-image: url(../images/subject_02.png);
 		background-position: center;
 		background-repeat: no-repeat;
@@ -250,19 +250,19 @@
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1011{
+	.con_S.ni_iconjcsub15,.con_S.ni_icon006,.con_S.ni_icon1011{
 		background-image: url(../images/subject_06.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1012{
+	.con_S.ni_icon013,.con_S.ni_icon1012{
 		background-image: url(../images/subject_11.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_icon1013{
+	.con_S.ni_icon012,.con_S.ni_icon1013{
 		background-image: url(../images/subject_12.png);
 		background-position: center;
 		background-repeat: no-repeat;
@@ -274,7 +274,7 @@
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_iconSUB52{
+	.con_S.ni_iconSUB7,.con_S.ni_iconSUB52{
 		background-image: url(../images/subject_14.png);
 		background-position: center;
 		background-repeat: no-repeat;
@@ -286,7 +286,7 @@
 		background-repeat: no-repeat;
 		background-size: 40px;
 	}
-	.con_S.ni_iconSUB49{
+	.con_S.ni_iconSUB50,.con_S.ni_iconSUB49{
 		background-image: url(../images/subject_13.png);
 		background-position: center;
 		background-repeat: no-repeat;
