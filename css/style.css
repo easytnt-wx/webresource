@@ -443,7 +443,7 @@
 .obj-list { border-bottom: 1px solid #dddddd; padding: 0 0 23px 0; text-align: left; }
 .obj-list li { display: inline-block; *display: inline; *zoom: 1; font-size: 16px; color: #555555; position: relative; margin-bottom: 10px; }
 .obj-list li i, .obj-list li input { display: block; text-align: center; }
-.obj-list li input { line-height: 30px; width: 50px; margin: 0 auto; border: 1px solid #dddddd; border-radius: 3px; color: #888888; margin: 15px 10px 0 10px; outline: none; background: none; padding: 0; }
+.obj-list li input { line-height: 30px; height: 30px;width: 50px; margin: 0 auto; border: 1px solid #dddddd; border-radius: 3px; color: #888888; margin: 15px 10px 0 10px; outline: none; background: none; padding: 0; }
 .obj-list li input.error { border-color: #f43f3f; }
 .obj-list li input.true { border-color: #419efc; }
 .obj-list li input.success { border-color: #419efc; }
