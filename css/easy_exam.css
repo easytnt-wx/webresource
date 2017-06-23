@@ -624,21 +624,26 @@ transition: all ease .5s; */ }
 
 .ni_add_km{color: #419efa;font-size: 16px;}
 .ni_g_km_list li{border: 1px solid #d1e5f7;border-radius: 5px;padding: 15px 0 40px;position: relative;}
-.ni_g_km_list .ni_img{width: 90px;height: 90px;border-radius: 50%;margin-left: 30px; background-color: #ddf1ff;}
+.ni_g_km_list .ni_img{width: 90px;height: 90px;border-radius: 50%;margin-left: 30px; background-color: #ddf1ff;text-align: center;}
 .ni_img > span{
-	display: block;
-    width: 100%;
+	display: inline-block;
+    max-width: 90px;
     height: 30px;
     line-height: 30px;
     text-align: center;
-    font-size: 18px;
-    color: #404040;
+    font-size: 14px;
     font-weight: 500;
     cursor: default;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin-top:90px;
+    margin-top: 75px;
+    border: 1px solid #66c0ff;
+    color: #66c0ff;
+    border-radius: 30px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    background-color: #fff;
     transition: all ease-in-out .3s;
 }
 .ni_g_km_list .ni_img.ni_icon001,.ni_g_km_list .ni_img.ni_icon1001,.ni_g_km_list .ni_img.ni_iconjcsub01{
