@@ -353,6 +353,8 @@
 .Review > ul li div.left em{font-size: 16px;color: #b3b3b3;}
 
 .Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px 10px; background-color: #fff; }
+.Review > ul > li > a.Btn26{ position:relative; }
+.Review > ul > li > a.Btn26 > i.con3{ display: inline-block; vertical-align: middle; width: 14px; height: 14px; background: url(../images/consult/con3.png) 0 0 no-repeat; position: absolute; right: -7px; top: -7px; }
 .Review ul li div.left{margin-left: 30px;}
 .Review ul li div.left p.title{cursor: pointer;font-size:20px;color: #222222;margin-bottom: 5px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;width: 330px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 /*.Review ul li div.left p.title:hover{color: #45a5ff;}*/
