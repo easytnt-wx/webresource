@@ -5,6 +5,7 @@
 }
 .mycheck{
 	margin-left: 130px;
+	min-height: 34px;
 }
 .tabTit a{
 	text-decoration: none;
