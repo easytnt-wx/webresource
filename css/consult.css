@@ -165,7 +165,21 @@
 
 .abnormal_top_l a { display: inline-block; }
 .rev_module{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;text-align:center;}
-.rev_module p{ white-space: nowrap;text-overflow: ellipsis;overflow: hidden;width: 70px; color:#888;text-align:center;font-size:14px;margin-top:5px;}
+.rev_module p{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 80px;
+    color: #43a0fd;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -10px;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 6px;
+    border: 1px solid #66c0ff;
+    border-radius: 20px;
+}
 .abnormal_top_l em { -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;font-size: 20px; color: #222222; display: inline-block; margin-left: 25px; width: 403px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .abnormal_top_l .Btn19 { text-align: center; position: relative;margin-top: 17px;height: 34px;line-height: 34px;}
 .abnormal_top_l .Btn19 .abnormal_error{position: absolute;top: -10px;right: -10px;}
@@ -189,7 +203,7 @@
 
 /*异常评阅任务*/
 	/*科目图标 star*/
-	.con_S { display: block; width: 70px; height: 70px;background-color: #ddf1ff;border-radius: 50%; }
+	.con_S { display: block; margin: 0 auto; width: 70px; height: 70px;background-color: #ddf1ff;border-radius: 50%; }
 	.con_S.ni_icon001,.con_S.ni_icon1001,.con_S.ni_iconjcsub01{
 		background-image: url(../images/subject_01.png);
 		background-position: center;
@@ -338,14 +352,14 @@
 .Review > ul li div.left span{font-size: 14px;color: #888888;margin-right: 30px;}
 .Review > ul li div.left em{font-size: 16px;color: #b3b3b3;}
 
-.Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px; background-color: #fff; }
+.Review > ul > li { margin-bottom: 15px;  border-radius: 5px;  padding: 25px 30px 10px; background-color: #fff; }
 .Review ul li div.left{margin-left: 30px;}
 .Review ul li div.left p.title{cursor: pointer;font-size:20px;color: #222222;margin-bottom: 5px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;width: 330px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 /*.Review ul li div.left p.title:hover{color: #45a5ff;}*/
 .Review ul li div.left span{font-size: 14px;color: #888888;margin-right: 30px;}
 .Review ul li div.left em{font-size: 16px;color: #b3b3b3;}
 
-.Review ul li div.middle{margin-top: 12px;}
+.Review ul li div.middle{margin-top: 12px; margin-right: 30px; }
 .Review ul li div.middle .bar{ line-height: 0; box-sizing: content-box; width: 150px;height: 10px;display: inline-block;vertical-align:middle;border: 1px solid #00d596;border-radius: 5px;}
 .Review ul li div.middle .bar em{width: 130px;height: 10px;display: inline-block;vertical-align:middle;
     border-radius: 5px;background: #00d596;}
