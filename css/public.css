@@ -636,10 +636,23 @@ body,html{ width:100%; min-width:1200px;}
 .Btn28 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
 .Btn28:hover {background: #ddeeff;color: #309aeb;}
 
+.Btn29{border: 1px solid #dcdcdc;padding: 0 11px;height: 36px;line-height: 36px;background: #fff;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:16px;border-radius: 5px;color: #00a0e9;text-align: center;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn29 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn29:hover,.Btn29.on {border: 1px solid #00a0e9;}
+
+.Btn30{border-top: 1px solid #dfecf9;background: #eef7ff;border-bottom: 1px solid #dfecf9;width: 100%;height: 49px;line-height: 49px;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:16px;color: #288add;text-align: center;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn30 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn30:hover{background: #dfecf9;}
+
+.Btn31{border-radius: 5px;background: #ffffff;padding: 0 10px;height: 30px;line-height:30px;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:16px;color: #555555;text-align: center;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn31 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn31:hover{background: #45a4fe;color: #ffffff;}
+
 .g_btn1{display:inline-block;*display: inline;*zoom: 1;text-align: center;height:36px;line-height:36px;padding:0 20px;background:#45A4FE;color:#fff;font-size:16px;border-radius:6px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .g_btn1:hover{background:#53B2FF;}
 .g_btn2{display:inline-block;*display: inline;*zoom: 1;text-align: center;height:36px;line-height:36px;padding:0 20px;background:#FF9F01;color:#fff;font-size:16px;border-radius:6px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .g_btn2:hover{background:#FDB43D;}
+
 .g_btn3{display:inline-block;*display: inline;*zoom: 1;width:178px;height:38px;line-height:38px;text-align:center;border:1px solid #58AAFC;color:#58AAFC;font-size:18px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
 .g_btn3 i{display:inline-block;width:23px;height:22px;margin-right:8px;background:url(../images/consult/b_scan.png) no-repeat;vertical-align:middle;}
 .g_btn3 span{display:inline-block;vertical-align:middle;}
@@ -649,6 +662,14 @@ body,html{ width:100%; min-width:1200px;}
 .g_btn4 i{display:inline-block;width:14px;height:17px;margin-right:7px;background:url(../images/consult/g_arrow.png) no-repeat;vertical-align:middle;}
 .g_btn4 span{display:inline-block;vertical-align:middle;}
 .g_btn4:hover{background:#57ADFF;}
+
+.as_btn1{display:inline-block;*display:inline;*zoom:1;width:84px;height:38px;border:1px solid #309aeb;border-radius:8px;line-height:38px;text-align:center;font-size:16px;color:#288add; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.as_btn1 span{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;}
+.as_btn1:hover{background:#5badff;color:#fff;}
+
+.as_btn2{display:inline-block;*display:inline;*zoom:1;width:84px;height:38px;border:1px solid #d7d7d7;border-radius:8px;line-height:38px;text-align:center;font-size:16px;color:#222; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.as_btn2 span{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;}
+.as_btn2:hover{background:#f5f5f5;}
 /*search*/
 .searchStyle1{background:#fff; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #d5d5d5; border-radius:3px;display: inline-block;*display: inline;*zoom: 1;padding: 0 0 0 5px;}
 .searchStyle1 .inputSearch{color:#555;display:inline-block; height:28px; line-height:28px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;*border:0;}
