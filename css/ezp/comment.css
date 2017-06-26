@@ -56,8 +56,7 @@
 }
 .right {
     cursor: default;
-    right: -7px;
-    top: 47%;
+    line-height: 0px;
 }
 .up {
     cursor: s-resize;
