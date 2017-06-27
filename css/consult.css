@@ -1332,19 +1332,19 @@ div.ni_border_0{border: 0;}
 
 .mark-area2 { position: absolute; /*width: 140px;height: 210px;*/ border: 2px solid #43a2fd; top: 88px; left: 266px; z-index: 999;}
 .mark-area2 .handle-top, .mark-area2 .handle-right, .mark-area2 .handle-bottom, .mark-area2 .handle-left, .mark-area2 .handle-num ,.mark-area2 .handle-cross{ box-sizing: content-box; position: absolute; width: 6px; height: 6px; border: 2px solid #43a2fd; background: #fff; }
-.mark-area2 .handle-top { left: 50%; top: -5px; cursor: n-resize; }
-.mark-area2 .handle-right { right: -5px; top: 50%; cursor: e-resize; }
-.mark-area2 .handle-bottom { bottom: -5px; left: 50%; cursor: n-resize; }
-.mark-area2 .handle-left { left: -5px; top: 50%; cursor: e-resize; }
+.mark-area2 .handle-top { left: 50%; top: -6px; cursor: n-resize; }
+.mark-area2 .handle-right { right: -6px; top: 50%; cursor: e-resize; }
+.mark-area2 .handle-bottom { bottom: -6px; left: 50%; cursor: n-resize; }
+.mark-area2 .handle-left { left: -6px; top: 50%; cursor: e-resize; }
 .mark-area2 .handle-num { left: 0; top: 0; width: 17px; height: 17px; background: url(../images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; color: #f8fbff; font-size: 12px; line-height: 18px; width: 23px; text-align: center; border-radius: 0 0 7px 0; background: #43a2fd; }
 .mark-area2 .handle-cross{right:-12px;top:-12px;width:24px;height:24px;background: url(../images/consult/bjective_x.png) 0 0 no-repeat;border:none;cursor:pointer;}
 
 .ni_mark-area2 { position: absolute; /*width: 140px;height: 210px;*/ border: 2px solid #f29b76; top: 88px; left: 266px; }
 .ni_mark-area2 .handle-top, .ni_mark-area2 .handle-right, .ni_mark-area2 .handle-bottom, .ni_mark-area2 .handle-left, .ni_mark-area2 .handle-num { box-sizing: content-box; position: absolute; width: 6px; height: 6px; border: 2px solid #f29b76; background: #fff; }
-.ni_mark-area2 .handle-top { left: 50%; top: -5px;  }
-.ni_mark-area2 .handle-right { right: -5px; top: 50%; }
-.ni_mark-area2 .handle-bottom { bottom: -5px; left: 50%; }
-.ni_mark-area2 .handle-left { left: -5px; top: 50%; }
+.ni_mark-area2 .handle-top { left: 50%; top: -6px;  }
+.ni_mark-area2 .handle-right { right: -6px; top: 50%; }
+.ni_mark-area2 .handle-bottom { bottom: -6px; left: 50%; }
+.ni_mark-area2 .handle-left { left: -6px; top: 50%; }
 .ni_mark-area2 .handle-num { left: 0; top: 0; width: 17px; height: 17px; background: url(../images/mark_close.png) 0 0 no-repeat; border: none; cursor: pointer; color: #f8fbff; font-size: 12px; line-height: 18px; width: 23px; text-align: center; border-radius: 0 0 7px 0; background: #f29b76; }
 
 .ni_g_t_list{background: #ffffff;}
