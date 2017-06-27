@@ -571,7 +571,7 @@ a.d-close { position: absolute; right: 15px; top: 17px; background: #fff url(../
 .artDig5 .con_error4 { display: inline-block; vertical-align: middle; width: 40px; height: 40px; background: url(../images/consult/con_error4.png) 0 0 no-repeat; }
 
 
-.control-module {right: inherit;bottom: inherit; position: absolute; border: 1px solid #000000; border-radius: 3px; background: rgba(0, 0, 0, 0.7); padding: 10px 15px; cursor: move; z-index: 50; }
+.control-module {right: 40px;bottom: 40px; width: 470px;height: 56px; position: absolute; border: 1px solid #000000; border-radius: 3px; background: rgba(0, 0, 0, 0.7); padding: 10px 15px; cursor: move; z-index: 50; }
 .control-module .save,.control-module .control-bar, .control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; cursor: pointer; }
 .control-module .save,.control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn { width: 34px; height: 34px; border-radius: 3px; }
 .control-module .save:hover,.control-module .right-rotate:hover, .control-module .left-rotate:hover, .control-module .add:hover, .control-module .subtract:hover, .control-module .overturn:hover { background-color: #000; }
