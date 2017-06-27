@@ -1327,7 +1327,7 @@ div.ni_border_0{border: 0;}
 .ni_g_card_list span:hover,.ni_g_card_list span.hover{background: #45a4fe;color: #fff;}
 .ni_g_silder_fl{width: 1004px;float: left;height: 100%;}
 .ni_g_slide_img_box{background: #fff;border-radius: 5px;}
-.ni_g_silder_img01{width: 654px;margin: 0 auto;border: 2px solid #e9e9e9;border-radius: 10px;position: relative;height: 728px;overflow-y: hidden;overflow: hidden;}
+.ni_g_silder_img01{width: 100%;margin: 0 auto;border: 2px solid #e9e9e9;border-radius: 10px;position: relative;height: 728px;overflow-y: hidden;overflow: hidden;}
 .ni_g_silder_img01 img{width: 100%;}
 
 .mark-area2 { position: absolute; /*width: 140px;height: 210px;*/ border: 2px solid #43a2fd; top: 88px; left: 266px; z-index: 999;}
