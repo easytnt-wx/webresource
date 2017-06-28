@@ -136,8 +136,8 @@
 .stu_admin_top .stu_admin_top_r .searchStyle4 { margin-left: 10px; margin-right: 20px; }
 .stu_admin_top .stu_admin_top_r .searchStyle4.on { background: #f1f8ff; border: 1px solid #2692de; }
 .stu_admin_top .stu_admin_top_r .searchStyle4.on .inputSearch { background: #f1f8ff; color: #222222; font-size: 12px; }
-.abnormal_error{display: inline-block;vertical-align: middle;width: 20px;height: 20px;
-    background:url(../images/consult/abnormal_error.png) 0 0 no-repeat;}
+.abnormal_error{display: inline-block;vertical-align: middle;width: 20px;height: 20px;background:url(../images/consult/abnormal_error.png) 0 0 no-repeat;}
+.abnormal_remove{display: inline-block;vertical-align: middle;width: 20px;height: 20px;background:url(../images/consult/bjective_x.png) 0 0 no-repeat;background-size: 20px;}
 
 .stu_admin_table { width: 100%; margin-top: -12px; }
 .stu_admin_table .icon_tip{position: relative;}
