@@ -1383,6 +1383,8 @@ div.ni_border_0{border: 0;}
 .reviewBox_middle .top ul li.on .Btn31{background: #45a4fe;color: #ffffff;}
 .reviewBox_middle .top ul li .abnormal_error{display: none;position: absolute;right: -10px;top: -10px;}
 .reviewBox_middle .top ul li.on .abnormal_error{display: inline-block;position: absolute;right: -10px;top: -10px;}
+.reviewBox_middle .top ul li .abnormal_remove{display: none;position: absolute;right: -10px;top: -10px;}
+.reviewBox_middle .top ul li.on .abnormal_remove{display: inline-block;position: absolute;right: -10px;top: -10px;}
 .reviewBox_middle .top ul li>span{cursor: pointer;display: inline-block;vertical-align: middle;line-height: 30px;font-size: 16px;color: #45a4fe;}
 .reviewBox_middle .contentImg{margin-top: 148px;overflow: hidden;}
 .reviewBox_middle .content{height: 799px;overflow: hidden;border-radius: 5px;}
