@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5{color:#3d95d5;}
 label{vertical-align:middle}
 a,a:visited{ text-decoration:none;}
 a:hover,a:active{ text-decoration:none;}
-a:focus {outline:none;-moz-outline:none;}
+a:focus {outline:none;-moz-outline:none;text-decoration: none;}
 /* input pub and focus placeholder */
 input,select,textarea{color:#222; font-size:12px;line-height:140%;resize:none;outline:none;font-family:"microsoft yahei";}
 textarea{padding: 5px;border: 1px solid #d5d5d5;}
