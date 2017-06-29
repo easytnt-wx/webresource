@@ -872,10 +872,10 @@ transition: all ease .5s; */ }
 
 .ni_g_pop_ycts .ni_ul .ni_r_j{display: inline-block;border: 1px solid #fff;height: 20px;line-height: 20px;text-align: center;}
 .ni_g_pop_ycts .ni_ul .ni_r{border: 1px solid #d1d1d1;border-radius: 50%;width: 20px;}
-.ni_g_ksdr_h .examinfoTab .showArea .moveBox .cur .mainWrap{background: #fff;border: 1px solid #46a7ff;box-shadow: 0 0 0 3px #e8f4ff;width:218px;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .cur .mainWrap{background: #fff;border: 1px solid #46a7ff;box-shadow: 0 0 0 3px #e8f4ff;width:240px;}
 .ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li a{color: #888888;}
 .ni_g_ksdr_h .mainWrap .dropcont{padding-left: 0;padding-right: 0;}
-.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap h3,.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap h4{padding-left: 25px;padding-right: 25px;}
+.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap h3,.ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap h4{padding-left: 15px;padding-right: 15px;}
 .ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li{margin: 0; padding: 9px 25px;}
 .ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li:hover{background: #bedfff;}
 .ni_g_ksdr_h .examinfoTab .showArea .moveBox .mainWrap ul li:hover a{color: #2f8eee;}
