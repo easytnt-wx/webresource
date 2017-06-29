@@ -17,3 +17,15 @@
     width: 100%;
     margin: 0 auto;
 }
+
+input[type="text"]{
+    height: 30px;
+    border:1px solid #ccc;
+    color: #555;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+input[type="text"]:focus{
+    border-color: #43a1fd;
+}
