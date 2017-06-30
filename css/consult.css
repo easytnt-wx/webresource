@@ -1394,8 +1394,48 @@ div.ni_border_0{border: 0;}
 .reviewBox_rightBox h5{font-size: 20px;color: #555555;height: 53px;line-height: 53px;border-bottom: 1px solid #dfecf9;width: 260px;margin-left: 10px;font-weight: inherit;padding: 0 10px;}
 .reviewBox_icon3{margin-right: 10px;display: inline-block;vertical-align: middle;width: 12px;height: 12px;
     background:url(../images/consult/reviewBox_icon3.png) 0 0 no-repeat;}
-.reviewBox_icon4{display: inline-block;vertical-align: middle;width: 107px;height: 30px;position: absolute;
-    background:url(../images/consult/reviewBox_icon4.png) 0 0 no-repeat;right: 94px;top:-30px;}
+.reviewBox_icon4{
+    width: 150px;
+    display: block;
+    line-height: 20px;
+    min-height: 20px;
+    border: 1px solid #ff6c6c;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #ff6c6c;
+    position: absolute;
+    bottom: 40px;
+    left: 30%;
+    background-color: #fff;
+    text-align:left;
+    word-break: break-all;
+}
+.reviewBox_icon4:after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 10px dashed #ff6c6c;
+    border-left: 10px dashed transparent;
+    border-right: 10px dashed transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+}
+.reviewBox_icon4:before{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 10px dashed #fff;
+    border-left: 10px dashed transparent;
+    border-right: 10px dashed transparent;
+    position: absolute;
+    z-index: 2;
+    bottom: -8.5px;
+    left: 20px;
+}
 .reviewBox_rightBox ul label{font-size: 16px;color: #555555;display: inline-block;vertical-align: middle;width: 64px;text-align: right;margin-right: 12px;}
 .reviewBox_rightBox ul li{margin-top: 20px;padding-right:33px;position: relative}
 .reviewBox_rightBox ul input{ -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;height: 36px;border-radius: 5px;border: 1px solid #dcdcdc;width: 166px;padding:0 10px;}
