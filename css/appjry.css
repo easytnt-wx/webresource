@@ -94,13 +94,13 @@ div.selectBox > label{
     display: inline-block;
     vertical-align: middle;
 }
-.tier > li > a > span.noline_close,.tier > li > a > span.noline_docu{
+.noline_close,.noline_docu{
     background-image: url(../images/ni_ico_on01.png);
     background-color: #fff;
     width: 20px;
     height: 20px;
 }
-.tier > li > a > span.noline_open{
+.noline_open{
     background-image: url(../images/ni_ico_on02.png);
     background-color: #fff;
     width: 20px;
