@@ -502,7 +502,7 @@
 .tier > li { padding: 5px 0; }
 .tier > li ul { padding: 0 0 0 30px; }
 .tier > li > ul > li { padding: 5px 0; }
-.tier li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 16px; color: #555555; padding: 0 6px 0 6px; }
+/*.tier li span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 16px; color: #555555; padding: 0 6px 0 6px; }*/
 .tier li .switch {background-color: #fff; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 20px; height: 20px; cursor: pointer; }
 .tier li .switch.on { background: url(../images/icon_on.png) center center no-repeat; }
 .tier li .switch.off { background: url(../images/icon_off.png) center center no-repeat; }
