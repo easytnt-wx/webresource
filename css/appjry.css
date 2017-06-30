@@ -112,10 +112,14 @@ div.selectBox > label{
     margin: 0 5px;
 }
 li.level1:hover{
-    background-color: #eee;
     color: #323232;
     cursor: pointer;
 }
-.noline_docu{
-
+.tier a{
+    display: block;
+    padding: 8px 0 8px 5px;
+}
+.tier a:hover{
+    background-color: #f1f1f1;
+    border-radius: 6px;
 }
