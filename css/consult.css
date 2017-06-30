@@ -56,6 +56,7 @@
 .s_setting .s_setting_content ul.on li input { background-color: #fff; font-size: 20px; color: #222222; border: 1px solid transparent; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
 
 .setting_top { padding: 23px 27px 14px 27px; border-bottom: 1px solid #efefef; }
+.setting_top > a{ cursor: default; }
 .setting_top .con_setting { display: inline-block; vertical-align: middle; width: 23px; height: 22px; background: url(../images/consult/con_setting.png) 0 0 no-repeat; }
 .setting_top span { display: inline-block; vertical-align: middle; font-size: 18px; color: #44a3fd; }
 
