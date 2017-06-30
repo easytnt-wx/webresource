@@ -86,6 +86,10 @@ div.selectBox > label{
     background: url(../images/icon_user.png) center center no-repeat;
     margin: 0 10px;
 }
+.button.level1.switch.noline_docu {
+    width: 0;
+    height: 0;
+}
 .tier > li > a > span{
     display: inline-block;
     vertical-align: middle;
