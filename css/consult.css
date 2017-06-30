@@ -1450,7 +1450,7 @@ div.ni_border_0{border: 0;}
 .reviewBox_rightBox2 ul li{margin-top: 20px;padding-right:33px;position: relative}
 .reviewBox_rightBox2 ul input{ -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;height: 36px;border-radius: 5px;border: 1px solid #dcdcdc;width: 166px;padding:0 10px;}
 .reviewBox_rightBox2 ul input:hover {border: 1px solid #00a0e9;}
-.reviewBox_rightBox2 ul .Box2Input{width: 75px;height: 36px;}
+.reviewBox_rightBox2 ul .Box2Input{width: 75px;height: 36px; display: inline-block;}
 
 li.no-relation-item-block > img{
     width: 100%;
