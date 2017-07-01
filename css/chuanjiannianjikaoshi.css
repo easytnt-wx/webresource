@@ -73,3 +73,8 @@ form.formvalidation .form-control-feedback {
     position: static;
     display: inline-block;
 }
+
+
+label .icheckbox_square-blue,label .iradio_square-blue{
+	margin-right: 6px
+}

@@ -185,3 +185,7 @@ input[type=checkbox]:checked + label:after{
 .has-error > label{
   color: #a94442;
 }
+
+label .icheckbox_square-blue,label .iradio_square-blue{
+  margin-right: 6px
+}
