@@ -23,7 +23,7 @@ form.form-horizontal > .form-group{
 .mycheck + .error_info{
 	position: absolute;
 	top: 12px;
-	right: 150px;
+	right: 80px;
 }
 .form-group >.error_info{
 	margin-left: 15px;
