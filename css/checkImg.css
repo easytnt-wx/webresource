@@ -72,7 +72,11 @@ span.page.active{
 	background: #42a1fd;
 }*/
 
-
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
 .leftDiv{
 	background-color: #fff;
 	width: 100px;
@@ -112,7 +116,7 @@ span.page.active{
 .list{
 	border:1px solid #eee;
 	position: relative;
-	overflow-y: auto;
+	overflow-y: hidden;
 }
 .tool{
 	padding: 10px 20px;
