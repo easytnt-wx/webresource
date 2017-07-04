@@ -778,7 +778,7 @@ form.form-horizontal > .form-group{
 /*单选或者复选框样式  label后的div加 .mycheck */
 .mycheck{
 	margin-left: 125px;
-	margin-top: -25px;
+	margin-top: -35px;
 	width: 600px;
 }
 .mycheck > label{
