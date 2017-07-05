@@ -96,6 +96,7 @@
 .btnGrp1 > a:last-child,.btnGrp1 > button:last-child{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-left: -4px;
 }
 .suject{
     text-align: left;
