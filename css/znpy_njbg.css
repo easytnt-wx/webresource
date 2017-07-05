@@ -11,7 +11,7 @@
     margin: 0 20px 0 -20px;
 }
 .footer{
-    width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 .easy_main{
@@ -369,3 +369,34 @@
 
 
   
+/*屏幕分辨率为1280px - 1366px 的时候*/
+@media(max-width: 1280px){
+  .easy_main ~ .container{
+    width: 900px;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .easy_main ~ .container{
+    width: 1100px;
+    margin-right: 10px;
+  }
+}
+/*屏幕分辨率为1366px - 1440px 的时候*/
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .easy_main ~ .container{
+    width: 1100px;
+    margin-right: 40px;
+  }
+}
+/*屏幕分辨率为1440px - 1500px的时候*/
+@media (min-width: 1441px) and (max-width: 1500px) {
+  .easy_main ~ .container{
+    width: 1140px;
+    margin-right: 40px;
+  }
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+}
