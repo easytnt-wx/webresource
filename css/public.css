@@ -815,8 +815,8 @@ form.formvalidation .form-control-feedback {
     display: inline-block;
 }*/
 
-/*分页样式*/
-.pages {
+/*分页样式 v2.1*/
+/*.pages {
     padding-left: 0;
     margin: 20px 0;
     text-align: center;
@@ -836,8 +836,49 @@ form.formvalidation .form-control-feedback {
     border-color: #2B99F0;
     background-color: #fff;
     color: #2B99F0;
-}
+}*/
+/*分页样式 v2.1 end*/
 
+/*分页样式 v2.2*/
+.pages {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none; 
+}
+.pages li.pgNext {
+    display: inline-block;
+    margin: 0 4px;
+    width: 50px;
+    height: 24px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.pages li.page-number{
+	width: 30px;
+    height: 30px;
+    margin: 0 2px 0px 3px;
+    color: #555555;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+.pages li.pgCurrent, 
+.pages li:hover {
+    border-color: #309aeb;
+    background-color: #309aeb;
+    color: #fff;
+}
+/*分页样式 v2.2 end*/
 
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
 ::-webkit-scrollbar  

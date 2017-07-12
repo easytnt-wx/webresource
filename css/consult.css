@@ -3,7 +3,7 @@
 .consult_list_top .list_top_left { margin-top: 5px; font-size: 16px; }
 .consult_list_top .selecterStyle2 { margin-right: 6px; }
 .consult_list_top .dataSpan { font-size: 16px; }
-.consult_list_top .searchStyle3 { margin-left: 10px; margin-right: 20px; }
+.consult_list_top .searchStyle3 { margin-left: -16px; margin-right: 20px; }
 .consult_list_top .searchStyle3.on { background: #f1f8ff; border: 1px solid #2692de; }
 .consult_list_top .searchStyle3.on .inputSearch { background: #f1f8ff; color: #222222; font-size: 12px; }
 .consult_list_top .checkbox { color: #222222; }
@@ -18,9 +18,9 @@
 .consult_list_content .list_content_ul .list_content_title:hover { color: #45a5ff; }
 .consult_list_content .list_content_ul > li { background: #ffffff; margin-top: 10px; border-radius: 5px; box-shadow: 0 0 2px #e7eef0; }
 .consult_list_content .list_content_ul > li:hover { box-shadow: 0 0 20px #d2e4f8; }
-.consult_list_content .list_content_ul > li .left { width: 1046px; float: left; padding: 33px 0 29px 24px; position: relative; }
+.consult_list_content .list_content_ul > li .left { width: 1070px; float: left; padding: 33px 0 29px 24px; position: relative; }
 .consult_list_content .list_content_ul > li .left div { font-size: 14px; color: #555555; margin-top: 10px; }
-.consult_list_content .list_content_ul > li .left div span.fr { margin-right: 10px; color: #888888; margin-right: 30px; display: inline-block; vertical-align: middle; }
+.consult_list_content .list_content_ul > li .left div span.fr { margin-right: 30px; color: #888888;display: inline-block; vertical-align: middle; }
 .consult_list_content .list_content_ul > li .left div span.fr em { color: #555555; margin-left: 5px; display: inline-block; vertical-align: middle; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: -4px; }
 .consult_list_content .list_content_ul > li .left .con6 {cursor: pointer; display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url(../images/consult/con6.png) center center no-repeat; margin-top: -3px; margin-left: 10px; }
 .consult_list_content .list_content_ul > li .left .con6:hover {background: url(../images/consult/con6_hover.png) center center no-repeat;}
