@@ -14,7 +14,7 @@
 .logoTea > img{
   display: block;
   height: 34px;
-  margin: 23px 30px 23px 0px;
+  margin: 23px 35px 23px 0px;
 }
 .infoT > dt {
     font-weight: 500;
@@ -93,8 +93,7 @@
   background: #fff;
   box-shadow: 0px 6px 10px 0px #efeff0; }
 
-.infoT {
-  padding: 19px 0; }
+.infoT { padding: 23px 0; }
   .infoT dt {
     display: inline-block;
     *display: inline;
