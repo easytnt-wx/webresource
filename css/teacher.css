@@ -14,7 +14,7 @@
 .logoTea > img{
   display: block;
   height: 34px;
-  margin: 23px 35px 23px 0px;
+  margin: 23px 35px 23px -15px;
 }
 .infoT > dt {
     font-weight: 500;
@@ -56,9 +56,9 @@
           bottom: 0;
           width: 0;
           height: 0;
-          border-left: 8px solid transparent;
+          /*border-left: 8px solid transparent;
           border-right: 8px solid transparent;
-          border-bottom: 8px solid #ecf6ff;
+          border-bottom: 8px solid #ecf6ff;*/
           margin-left: -8px; }
     .navBar li span {
       font-size: 18px;
