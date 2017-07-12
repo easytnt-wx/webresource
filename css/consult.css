@@ -16,24 +16,24 @@
 .consult_list_content .list_content_ul .con5 { display: inline-block; vertical-align: middle; width: 28px; height: 28px; background: url(../images/consult/con5.png) 0 0 no-repeat; }
 .consult_list_content .list_content_ul .list_content_title { text-decoration: none; cursor: pointer;color: #000000; font-size: 20px; display: inline-block; vertical-align: middle; }
 .consult_list_content .list_content_ul .list_content_title:hover { color: #45a5ff; }
-.consult_list_content .list_content_ul li { background: #ffffff; margin-top: 10px; border-radius: 5px; box-shadow: 0 0 2px #e7eef0; }
-.consult_list_content .list_content_ul li:hover { box-shadow: 0 0 20px #d2e4f8; }
-.consult_list_content .list_content_ul li .left { width: 1046px; float: left; padding: 33px 0 29px 24px; position: relative; }
-.consult_list_content .list_content_ul li .left div { font-size: 14px; color: #555555; margin-top: 10px; }
-.consult_list_content .list_content_ul li .left div span.fr { margin-right: 10px; color: #888888; margin-right: 30px; display: inline-block; vertical-align: middle; }
-.consult_list_content .list_content_ul li .left div span.fr em { color: #555555; margin-left: 5px; display: inline-block; vertical-align: middle; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: -4px; }
-.consult_list_content .list_content_ul li .left .con6 {cursor: pointer; display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url(../images/consult/con6.png) center center no-repeat; margin-top: -3px; margin-left: 10px; }
-.consult_list_content .list_content_ul li .left .con6:hover {background: url(../images/consult/con6_hover.png) center center no-repeat;}
-.consult_list_content .list_content_ul li .left .con_tips, .consult_list_content .list_content_ul li .left .con_tips2, .consult_list_content .list_content_ul li .left .con_tips3 { display: inline-block; vertical-align: middle; width: 65px; height: 26px; position: absolute; top: -7px; left: 10px; }
-.consult_list_content .list_content_ul li .left .con_tips { background: url(../images/consult/con_tips.png) 0 0 no-repeat; }
-.consult_list_content .list_content_ul li .left .con_tips2 { background: url(../images/consult/con_tips2.png) 0 0 no-repeat; }
-.consult_list_content .list_content_ul li .left .con_tips3 { background: url(../images/consult/con_tips3.png) 0 0 no-repeat; }
-.consult_list_content .list_content_ul li .right { width: 129px; float: right; text-align: center; display: inline-block; padding: 29px 0; border-left: 1px solid #e7eef0; cursor: not-allowed;}
-.consult_list_content .list_content_ul li .right .con7 { display: block; width: 32px; height: 34px; margin: 0 auto 8px auto; background: url(../images/consult/con7.png) 0 0 no-repeat; }
-.consult_list_content .list_content_ul li .right span { font-size: 14px; color: #555555; }
-.consult_list_content .list_content_ul li .right:hover { background: transparent; }
-.consult_list_content .list_content_ul li .right.on .con7 { display: block; width: 32px; height: 34px; margin: 0 auto 8px auto; background: url(../images/consult/con7_1.png) 0 0 no-repeat; }
-.consult_list_content .list_content_ul li .right.on:hover { background: #f3f9ff; cursor: pointer;}
+.consult_list_content .list_content_ul > li { background: #ffffff; margin-top: 10px; border-radius: 5px; box-shadow: 0 0 2px #e7eef0; }
+.consult_list_content .list_content_ul > li:hover { box-shadow: 0 0 20px #d2e4f8; }
+.consult_list_content .list_content_ul > li .left { width: 1046px; float: left; padding: 33px 0 29px 24px; position: relative; }
+.consult_list_content .list_content_ul > li .left div { font-size: 14px; color: #555555; margin-top: 10px; }
+.consult_list_content .list_content_ul > li .left div span.fr { margin-right: 10px; color: #888888; margin-right: 30px; display: inline-block; vertical-align: middle; }
+.consult_list_content .list_content_ul > li .left div span.fr em { color: #555555; margin-left: 5px; display: inline-block; vertical-align: middle; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: -4px; }
+.consult_list_content .list_content_ul > li .left .con6 {cursor: pointer; display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url(../images/consult/con6.png) center center no-repeat; margin-top: -3px; margin-left: 10px; }
+.consult_list_content .list_content_ul > li .left .con6:hover {background: url(../images/consult/con6_hover.png) center center no-repeat;}
+.consult_list_content .list_content_ul > li .left .con_tips, .consult_list_content .list_content_ul li .left .con_tips2, .consult_list_content .list_content_ul li .left .con_tips3 { display: inline-block; vertical-align: middle; width: 65px; height: 26px; position: absolute; top: -7px; left: 10px; }
+.consult_list_content .list_content_ul > li .left .con_tips { background: url(../images/consult/con_tips.png) 0 0 no-repeat; }
+.consult_list_content .list_content_ul > li .left .con_tips2 { background: url(../images/consult/con_tips2.png) 0 0 no-repeat; }
+.consult_list_content .list_content_ul > li .left .con_tips3 { background: url(../images/consult/con_tips3.png) 0 0 no-repeat; }
+.consult_list_content .list_content_ul > li .right { width: 129px; float: right; text-align: center; display: inline-block; padding: 29px 0; border-left: 1px solid #e7eef0; cursor: not-allowed;}
+.consult_list_content .list_content_ul > li .right .con7 { display: block; width: 32px; height: 34px; margin: 0 auto 8px auto; background: url(../images/consult/con7.png) 0 0 no-repeat; }
+.consult_list_content .list_content_ul > li .right span { font-size: 14px; color: #555555; }
+.consult_list_content .list_content_ul > li .right:hover { background: transparent; }
+.consult_list_content .list_content_ul > li .right.on .con7 { display: block; width: 32px; height: 34px; margin: 0 auto 8px auto; background: url(../images/consult/con7_1.png) 0 0 no-repeat; }
+.consult_list_content .list_content_ul > li .right.on:hover { background: #f3f9ff; cursor: pointer;}
 
 /*.cs_top { width: 100%; background: #ffffff; box-shadow: 0px 2px 0px #eff0f1; }*/
 .cs_top { width: 100%;}
