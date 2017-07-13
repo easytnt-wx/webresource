@@ -22,7 +22,7 @@ input[type="text"].inp:focus, input[type="password"].inp:focus, textarea:focus{ 
 /* clearfix  */
 .clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
 .clearfix {*zoom:1;}
-.clearfix {display:block;clear: both;}
+.clearfix {display:block;}
 .posRel{ position:relative;}
 .posAbs{ position:absolute;}
 .fl{ float:left;}
