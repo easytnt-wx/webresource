@@ -247,11 +247,12 @@
 .as_scorepointWrap dl{font-size:14px;}
 .as_scorepointWrap dt{width:178px;padding-left:25px;height:38px;line-height:38px;color:#077dfa;cursor:pointer;}
 .as_scorepointWrap dt:hover,.as_scorepointWrap dt.on{background:#f8fbff;}
-.as_scorepointWrap dd{padding-left:35px;height:40px;line-height:40px;color:#3e99fa;display:none;}
-.as_scorepointWrap dd p{position:relative;}
+.as_scorepointWrap dd{padding-left:35px;color:#3e99fa;display:none;}
+.as_scorepointWrap dd p{position:relative;padding: 10px 12px;}
+.as_scorepointWrap dd p:hover,.as_scorepointWrap dd p.active{background-color: #cef0ff;border-radius: 4px;}
 .as_scorepointWrap span.on{color:#ff7c7c;}
 .as_scorepointWrap dd p:hover i{display:block;}
-.as_scorepointWrap dd i{position:absolute;width:19px;height:19px;top:10px;right:0;background:url(../images/consult/g_cross.png) no-repeat center center;cursor:pointer;display:none;}
+.as_scorepointWrap dd i{position:absolute;width:19px;height:19px;top:10px;right:5px;background:url(../images/consult/g_cross.png) no-repeat center center;cursor:pointer;display:none;}
 
 .as_midbox{width:667px;height: 900px; background:#fff;border-radius:4px;margin-left:10px;overflow:hidden;position:relative;}
 
