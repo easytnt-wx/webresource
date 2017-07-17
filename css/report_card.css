@@ -248,7 +248,7 @@
 .as_scorepointWrap dt{width:178px;padding-left:25px;height:38px;line-height:38px;color:#077dfa;cursor:pointer;}
 .as_scorepointWrap dt:hover,.as_scorepointWrap dt.on{background:#f8fbff;}
 .as_scorepointWrap dd{padding-left:35px;color:#3e99fa;display:none;}
-.as_scorepointWrap dd p{position:relative;padding: 10px 12px;}
+.as_scorepointWrap dd p{position:relative;padding: 10px 12px;cursor: pointer;}
 .as_scorepointWrap dd p:hover,.as_scorepointWrap dd p.active{background-color: #cef0ff;border-radius: 4px;}
 .as_scorepointWrap span.on{color:#ff7c7c;}
 .as_scorepointWrap dd p:hover i{display:block;}
@@ -260,7 +260,7 @@
 .as_scoredetailbox{padding:0 10px;}
 .as_scoretitle{padding-left:8px;border-bottom:1px solid #dfecf9;font-size:20px;color:#555;font-weight:normal;height:52px;line-height:52px;}
 .as_scoredetailbox ul{font-size:16px;color:#555;padding-top:5px;padding-bottom:30px;}
-.as_scoredetailbox li{margin-top:15px;}
+.as_scoredetailbox li{margin-top:15px;position: relative;}
 
 .as_scoredetailbox label{display:inline-block;*display:inline;*zoom:1;width:70px;text-align:right;margin-right:12px;vertical-align:middle;}
 .as_scoredetailbox input{padding-left:10px;height:34px;width:177px;border-radius:4px;border:1px solid #dcdcdc;font-size:16px;color:#888;}
