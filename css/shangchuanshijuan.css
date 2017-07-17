@@ -60,7 +60,7 @@ label.b{
 	right: 30px;
 }
 /*分页*/
-.mypager > li > a {
+/*.mypager > li > a {
   border-radius: 0;
   color: #333333;
 }
@@ -91,7 +91,7 @@ label.b{
     border-color: #2B99F0;
     background-color: #fff;
     color: #2B99F0;
-}
+}*/
 .detail.active {
     background-color: #99CCFF;
 }
