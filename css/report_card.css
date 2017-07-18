@@ -242,6 +242,7 @@
 .as_finished:hover{background:#31bfff;}
 
 /*529*/
+.control-module {right: 40px;bottom: 40px; width: 320px;height: 56px; position: absolute; border: 1px solid #000000; border-radius: 3px; background: rgba(0, 0, 0, 0.7); padding: 10px 15px; cursor: move; z-index: 50; }
 .as_leftbox{background:#fff;border-radius:4px;height:900px;position:relative;overflow-y:hidden;}
 .as_scorepointWrap{padding:10px 25px 10px 10px;min-height:1200px;}
 .as_scorepointWrap dl{font-size:14px;}
