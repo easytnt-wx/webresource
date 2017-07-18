@@ -37,7 +37,7 @@
 .examListImg{margin-top:40px;padding-bottom:117px;}
 .warm_delete{font-size:18px;width:350px;text-align:center;margin-top:45px;}
 
-.report_firstlist_table td{height:42px;width:180px;font-size:14px;}
+.report_firstlist_table td{height:42px;width:100px;font-size:14px;}
 .report_firstlist_table tr:hover{background:#e1f5ff;cursor:pointer;}
 .report_firstlist_table thead td{border-top-left-radius:6px;border-bottom-left-radius: 6px;background:#fbfbfb;}
 .report_firstlist_table td span{padding-left:24px;}
