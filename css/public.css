@@ -513,7 +513,7 @@ body,html{ width:100%; min-width:1200px;}
 .bg6{background-color: #e46161;}
 .bg7{background-color: #46cf5e;}
 .bg8{background-color: #ddcdcd;}
-.bg9{background-color: #ffffff; -webkit-box-shadow: 0 0 8px #ededed;  -moz-box-shadow: 0 0 8px #ededed;  box-shadow: 0 0 8px #ededed}
+.bg9{background-color: #ffffff; -webkit-box-shadow: 0 0 10px 2px #ccc;  -moz-box-shadow: 0 0 10px 2px #ccc;  box-shadow: 0 0 10px 2px #ccc}
 /*title*/
 .title1 { font-weight: normal; }
 .title1 .tag_index { font-size: 20px; color: #222222; }

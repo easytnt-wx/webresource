@@ -1281,7 +1281,7 @@ div.ni_border_0{border: 0;}
 .view-item li:hover .thumbnail-box,.view-item li.on .thumbnail-box{border-color: #43a2fd;}
 .view-item li img{display: block;overflow: hidden;width: 108px;height: 126px;}
 .view-item li span{display: block;margin: 0 auto;margin-top: 10px;width: 72px;border-radius: 3px;background: #fff;color: #43a2fd;text-align: center;font-size: 14px;line-height: 26px;*display: inline;*zoom: 1;}
-.paper-view{background-color: #fff;border-radius: 5px;font-family: "microsoft yahei";min-height:904px;}
+.paper-view{background-color: #fff;border-radius: 5px;font-family: "microsoft yahei";min-height:904px;box-shadow: 2px 2px 10px 4px #ccc;}
 .paper-view i,.paper-view em{font-style: normal;}
 .front1,.front2,.back1,.back2{position: absolute;top: 0;left: 0;bottom: 0;right: 0;z-index: 100;}
 .front1{background: url(./images/front1.png) center center no-repeat;}
@@ -1322,7 +1322,7 @@ div.ni_border_0{border: 0;}
 
 
 
-.ni_g_card_list{position: relative;    padding: 20px 24px 20px 38px;    border: 1px solid #fff;    background: #fff;    border-radius: 5px;margin: 0 0 20px 0;overflow:hidden;}
+.ni_g_card_list{position: relative;box-shadow: 0 4px 15px #bfbfbf;padding: 20px 24px 20px 38px;    border: 1px solid #fff;    background: #fff;    border-radius: 5px;margin: 0 0 20px 0;overflow:hidden;}
 
 .ni_g_card_list span{padding: 0 10px;display: inline-block;line-height: 30px;color: #45a4fe;border-radius: 6px;cursor: pointer;font-size: 16px;margin:5px;}
 .ni_g_card_list span:hover,.ni_g_card_list span.hover{background: #45a4fe;color: #fff;}
@@ -1369,7 +1369,7 @@ div.ni_border_0{border: 0;}
 
 /*528设置主管题-评题3 star*/
 .reviewBox{margin-top: 30px;padding-bottom: 20px;}
-.reviewBox_left{width: 240px;height: 901px;border-radius: 5px;}
+.reviewBox_left{width: 240px;height: 901px;border-radius: 5px;box-shadow: 0 0 20px #bfbfbf;}
 .reviewBox_left ul{padding:0 27px;height: 600px;position: relative;overflow: hidden}
 .reviewBox_left ul li{margin-top: 20px;text-align: center;position: relative;cursor: pointer;border: 2px solid transparent;border-radius: 5px;overflow: hidden;}
 .reviewBox_left ul li:hover{border: 2px solid #43a2fd;}
@@ -1378,7 +1378,7 @@ div.ni_border_0{border: 0;}
     background:url(../images/consult/reviewBox_icon1.png) 0 0 no-repeat;color: #f8fbff;font-size: 14px;}
 .reviewBox_left ul li img{width: 100%;}
 .reviewBox_middle{width:620px;height: 901px;}
-.reviewBox_middle .top {width: 620px;border-radius: 5px;}
+.reviewBox_middle .top {width: 620px;border-radius: 5px;box-shadow: 0 0 20px #bfbfbf;}
 .reviewBox_middle .top ul{padding: 25px 20px;}
 .reviewBox_middle .top ul li{float: left;margin-left:22px;position: relative}
 .reviewBox_middle .top ul li.on .Btn31{background: #45a4fe;color: #ffffff;}
@@ -1388,7 +1388,7 @@ div.ni_border_0{border: 0;}
 .reviewBox_middle .top ul li.on .abnormal_remove{display: inline-block;position: absolute;right: -10px;top: -10px;}
 .reviewBox_middle .top ul li>span{cursor: pointer;display: inline-block;vertical-align: middle;line-height: 30px;font-size: 16px;color: #45a4fe;}
 .reviewBox_middle .contentImg{margin-top: 148px;overflow: hidden;}
-.reviewBox_middle .content{height: 799px;overflow: hidden;border-radius: 5px;}
+.reviewBox_middle .content{height: 799px;overflow: hidden;border-radius: 5px;box-shadow: 0 0 20px #bfbfbf;}
 .reviewBox_middle .content p span{font-size: 20px;color: #cccccc;display: block}
 .reviewBox_right{width: 300px;height: 901px;border-radius: 5px;}
 
@@ -1441,7 +1441,7 @@ div.ni_border_0{border: 0;}
 .reviewBox_rightBox ul li{margin-top: 20px;padding-right:33px;position: relative}
 .reviewBox_rightBox ul input{ -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;height: 36px;border-radius: 5px;border: 1px solid #dcdcdc;width: 166px;padding:0 10px;}
 .reviewBox_rightBox ul input:hover {border: 1px solid #00a0e9;}
-.reviewBox_rightBox{width: 300px;height: 901px;border-radius: 5px;}
+.reviewBox_rightBox{width: 300px;height: 901px;border-radius: 5px;box-shadow: 0 0 20px #bfbfbf;}
 
 .reviewBox_rightBox2{width: 300px;height: 901px;border-radius: 5px;}
 .reviewBox_rightBox2 h5{font-size: 20px;color: #555555;height: 53px;line-height: 53px;border-bottom: 1px solid #dfecf9;width: 260px;margin-left: 10px;font-weight: inherit;padding: 0 10px;}
