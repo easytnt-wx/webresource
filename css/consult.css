@@ -1406,6 +1406,7 @@ div.ni_border_0{border: 0;}
     font-size: 14px;
     color: #ff6c6c;
     position: absolute;
+    z-index: 50;
     bottom: 40px;
     left: 30%;
     background-color: #fff;
