@@ -94,7 +94,7 @@
 
 .exam_list_ui .con_error { margin-left: 7px; margin-right: 3px; }
 
-.exam_list_Box {border-radius: 5px; box-shadow: 0 0 2px #eeeeee; }
+.exam_list_Box {border-radius: 5px; box-shadow: 0 0 2px #eeeeee;background-color: #fff; }
 .exam_list_Box .Btn15 { margin-top: 50px; }
 .exam_list_Box .Btn15.on .con_ok2{
     background:url(../images/consult/con_ok.png) 0 0 no-repeat;}
@@ -578,7 +578,7 @@ a.d-close { position: absolute; right: 15px; top: 17px; background: #fff url(../
 .control-module .save:hover,.control-module .right-rotate:hover, .control-module .left-rotate:hover, .control-module .add:hover, .control-module .subtract:hover, .control-module .overturn:hover { background-color: #000; }
 .control-module .right-rotate { background: url(../images/right-rotate.png) center center no-repeat; }
 .control-module .left-rotate { background: url(../images/left-rotate.png) center center no-repeat; }
-.control-module .add { background: url(../images/add.png) center center no-repeat; }
+.control-module .add { background: url(../images/add.png) center center no-repeat; margin-left: 10px;}
 .control-module .subtract { background: url(../images/subtract.png) center center no-repeat; }
 .control-module .overturn { background: url(../images/overturn.png) center center no-repeat; }
 .control-module .save { background: url(../images/save.png) center center no-repeat; }
