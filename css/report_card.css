@@ -249,7 +249,7 @@
 .as_scorepointWrap dt{width:178px;padding-left:25px;height:38px;line-height:38px;color:#077dfa;cursor:pointer;}
 .as_scorepointWrap dt:hover,.as_scorepointWrap dt.on{background:#f8fbff;}
 .as_scorepointWrap dd{padding-left:35px;color:#3e99fa;display:none;}
-.as_scorepointWrap dd p{position:relative;padding: 10px 12px;cursor: pointer;}
+.as_scorepointWrap dd p{position:relative;padding: 10px 12px;cursor: pointer;width: 119px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .as_scorepointWrap dd p:hover,.as_scorepointWrap dd p.active{background-color: #cef0ff;border-radius: 4px;}
 .as_scorepointWrap span.on{color:#ff7c7c;}
 .as_scorepointWrap dd p:hover i{display:block;}

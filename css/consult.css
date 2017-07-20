@@ -1281,7 +1281,7 @@ div.ni_border_0{border: 0;}
 .view-item li:hover .thumbnail-box,.view-item li.on .thumbnail-box{border-color: #43a2fd;}
 .view-item li img{display: block;overflow: hidden;width: 108px;height: 126px;}
 .view-item li span{display: block;margin: 0 auto;margin-top: 10px;width: 72px;border-radius: 3px;background: #fff;color: #43a2fd;text-align: center;font-size: 14px;line-height: 26px;*display: inline;*zoom: 1;}
-.paper-view{background-color: #fff;border-radius: 5px;font-family: "microsoft yahei";min-height:904px;box-shadow: 2px 2px 10px 4px #ccc;}
+.paper-view{width: 152px; background-color: #fff;border-radius: 5px;font-family: "microsoft yahei";min-height:904px;box-shadow: 2px 2px 10px 4px #ccc;}
 .paper-view i,.paper-view em{font-style: normal;}
 .front1,.front2,.back1,.back2{position: absolute;top: 0;left: 0;bottom: 0;right: 0;z-index: 100;}
 .front1{background: url(./images/front1.png) center center no-repeat;}
