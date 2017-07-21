@@ -1,11 +1,11 @@
 @charset "utf-8";
 .leftDiv{
 	background-color: #fff;
-	width: 100px;
+	width: 180px;
 }
 .rightDiv{
 	background-color: #fff;
-	width: 1080px;
+	width: 1000px;
 	margin-left: 20px;
 	position: relative;
 }
