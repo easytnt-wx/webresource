@@ -145,7 +145,7 @@
 .stu_admin_table .icon_tip:hover .stu_tips{display:block;}
 .stu_tips{position: absolute;top: 17px;right: -6px;display: none;vertical-align: middle;width: 85px;height: 67px;line-height: 75px;text-align: center;color: #6f6f6f;font-size: 14px;
     background:url(../images/consult/stu_tips.png) 0 0 no-repeat;z-index: 99;}
-.stu_admin_table span {display: inline-block; vertical-align: middle; width: 128px; }
+.stu_admin_table span { padding-left: 20px; display: inline-block; vertical-align: middle; width: 128px; }
 .stu_admin_table thead { background: #fbfbfb; font-size: 12px; color: #555555; }
 .stu_admin_table thead td { height: 42px; }
 .stu_admin_table tbody { font-size: 14px; color: #222222; }
@@ -687,7 +687,7 @@ a.d-close { position: absolute; right: 15px; top: 17px; background: #fff url(../
 
 .examTable tr th, .examTable tr td { height: 45px; }
 
-.examTable tr th { color: #222; background: #f7f7f7; font-weight: normal; text-align:left; }
+.examTable tr th { color: #222; background: #f7f7f7; font-weight: normal; text-align: left; }
 
 .examTable tr td { color: #888; border-bottom: 1px solid #e9e9e9; text-align: left; padding-left: 20px;}
 
