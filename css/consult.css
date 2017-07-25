@@ -1449,7 +1449,7 @@ div.ni_border_0{border: 0;}
 .reviewBox_rightBox2 h5{font-size: 20px;color: #555555;height: 53px;line-height: 53px;border-bottom: 1px solid #dfecf9;width: 260px;margin-left: 10px;font-weight: inherit;padding: 0 10px;}
 .reviewBox_rightBox2 ul label{font-size: 16px;color: #555555;display: inline-block;vertical-align: middle;width: 64px;text-align: right;margin-right: 12px;}
 .reviewBox_rightBox2 ul li>span{font-size: 16px;color: #555555;display: inline-block;vertical-align: middle;text-align: left;margin-left: 12px;}
-.reviewBox_rightBox2 ul li{margin-top: 20px;padding-right:33px;position: relative}
+.reviewBox_rightBox2 > ul > li{margin-top: 20px;padding-right:33px;position: relative}
 .reviewBox_rightBox2 ul input{ -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;height: 36px;border-radius: 5px;border: 1px solid #dcdcdc;width: 166px;padding:0 10px;}
 .reviewBox_rightBox2 ul input:hover {border: 1px solid #00a0e9;}
 .reviewBox_rightBox2 ul .Box2Input{width: 75px;height: 36px; display: inline-block;}
