@@ -1397,13 +1397,13 @@ div.ni_border_0{border: 0;}
 .reviewBox_icon3{margin-right: 10px;display: inline-block;vertical-align: middle;width: 12px;height: 12px;
     background:url(../images/consult/reviewBox_icon3.png) 0 0 no-repeat;}
 .reviewBox_icon4{
-    width: 150px;
+    width: 100px;
     display: block;
     line-height: 20px;
     min-height: 20px;
     border: 1px solid #ff6c6c;
     border-radius: 4px;
-    padding: 6px 12px;
+    padding: 4px 6px;
     font-size: 14px;
     color: #ff6c6c;
     position: absolute;
