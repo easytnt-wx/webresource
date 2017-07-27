@@ -18,7 +18,7 @@
 	overflow-y: auto;
 }
 .icon_state1+span {
-    width: 90px;
+    width: 107px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
