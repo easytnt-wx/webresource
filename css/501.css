@@ -245,10 +245,13 @@
     font-size: 18px;
     color: #404040;
     font-weight: 500;
-    cursor: default;
+    cursor: pointer;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-top: 100px;
     transition: all ease-in-out .3s;
+}
+.ni_img > a:hover{
+	color: #45a5ff
 }

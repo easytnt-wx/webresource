@@ -28,7 +28,7 @@
 .consult_list_content .list_content_ul > li .left .con_tips { background: url(../images/consult/con_tips.png) 0 0 no-repeat; }
 .consult_list_content .list_content_ul > li .left .con_tips2 { background: url(../images/consult/con_tips2.png) 0 0 no-repeat; }
 .consult_list_content .list_content_ul > li .left .con_tips3 { background: url(../images/consult/con_tips3.png) 0 0 no-repeat; }
-.consult_list_content .list_content_ul > li .right { width: 129px; float: right; text-align: center; display: inline-block; padding: 29px 0; border-left: 1px solid #e7eef0; cursor: not-allowed;}
+.consult_list_content .list_content_ul > li .right { width: 129px; float: right; text-align: center; display: inline-block; padding: 29px 0; border-left: 1px solid #e7eef0; cursor: default;}
 .consult_list_content .list_content_ul > li .right .con7 { display: block; width: 32px; height: 34px; margin: 0 auto 8px auto; background: url(../images/consult/con7.png) 0 0 no-repeat; }
 .consult_list_content .list_content_ul > li .right span { font-size: 14px; color: #555555; }
 .consult_list_content .list_content_ul > li .right:hover { background: transparent; }
