@@ -1150,7 +1150,7 @@ div.ni_border_0{border: 0;}
 .g_btn5:hover i{background-position:0 -14px;}
 
 
-.rm_testCheck{float:right;padding-top:42px;position:relative;width:180px;height:140px;}
+.rm_testCheck{float:right;position:relative;width:180px;height:140px;}
 .rm_testCheck ul{position:absolute;background:#fff;width:180px;height:140px;}
 .rm_testCheck .rm_startlook_wrap{position:absolute;background:#fff;width:180px;height:140px;}
 .rm_testCheck li{margin-bottom:9px;}
