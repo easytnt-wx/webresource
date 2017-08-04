@@ -2,11 +2,14 @@
 	color:#6db33f;
 }
 
-.rectangle textarea{  
-    border:0;  
-    background-color:transparent;   
+.rectangle textarea {
+    border: 0;
+    background-color: transparent;
     color: #c83025;
-    resize:none;
+    resize: none;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
 }
 
 .rectangle {
@@ -14,8 +17,8 @@
   border:2px solid #46b8da;
   box-sizing: content-box;
   cursor:move;
-  margin: 5px;
-  padding: 3px;
+  margin: 0;
+  padding: 15px;
 }
 
 .notDelete {
@@ -23,18 +26,15 @@
 }
 
 .point {
-    background-color:#2a8ee1;
+    background-color:#45a5fe;
     opacity:1;
-    border: 1px solid #9edeff;
+    border: 1px solid #45a5fe;
     border-radius: 100%;
     font-size: 0;
     height: 12px;
     position: absolute;
     width: 12px;
     z-index: 5;
-    -moz-box-shadow:0 0 5px #5bc0de;/*firefox*/
-  -webkit-box-shadow:0 0 5px #5bc0de;/*webkit*/
-  box-shadow:0 0 5px #5bc0de;/*opera或ie9*/ 
 }
 
 .notDelete .point {
@@ -76,12 +76,13 @@
 }
 .rightUp {
     cursor: pointer;
-    right: -7px;
-    top: -7px;
-    width: 18px;
-    height: 18px;
+    right: -14px;
+    top: -14px;
+    width: 25px;
+    height: 25px;
     background-image: url("../../images/mark_close.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: 0 0;
     border:none;
     background-color: #fff;
@@ -89,7 +90,7 @@
 .rightUp:hover{
     background-image: url("../../images/mark_close.png");
     background-repeat: no-repeat;
-    background-position: -19px 0;
+    background-position: -27px 0;
 }
 .leftDown {
     bottom: -7px;

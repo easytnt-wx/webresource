@@ -72,7 +72,7 @@
     border: 2px solid transparent;
 }
 .rectangle[isselected="true"]{
-    border: 2px solid #46b8da
+    border: 2px solid #45a5fe;
 }
 .rectangle.read1{
     background-image: url(../../images/read_over_01.png);
