@@ -34,17 +34,19 @@ ul.tier{
 
 .noline_open{
 	background: url(../images/ni_ico_on02.png) center center no-repeat;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .noline_close{
 	background: url(../images/ni_ico_on01.png) center center no-repeat;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .ni_box_style .tier  li{
 	outline: none;
+	white-space: nowrap;
 }
 .tier li span{
 	padding:0;
+	font-size: 14px;
 }
 ul.level0{
 	margin-left: 15px;
@@ -58,4 +60,16 @@ ul.level0{
     border-radius: 20px;
     display: inline-block;
     vertical-align: middle;
+    margin-left: 5px;
+}
+.icon-user{
+	width: 28px;
+    height: 28px;
+    background: url(../images/icon_user.png) top center no-repeat;
+}
+span.node_name{
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;	
 }

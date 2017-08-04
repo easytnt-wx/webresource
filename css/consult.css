@@ -166,7 +166,7 @@
 
 .abnormal .abnormal_ul > li { margin-bottom: 15px; background: #ffffff; border-radius: 5px; box-shadow: 0 0 15px #f2f2f2; padding: 15px 30px 10px; }
 
-.abnormal_top_l a { display: inline-block; }
+.abnormal_top_l a { display: inline-block; cursor: default; }
 .rev_module{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;text-align:center;}
 .rev_module p{
 	white-space: nowrap;
@@ -184,7 +184,7 @@
     border-radius: 20px;
 }
 .abnormal_top_l em { -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;font-size: 20px; color: #222222; display: inline-block; margin-left: 25px; width: 403px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.abnormal_top_l .Btn19 { text-align: center; position: relative;margin-top: 17px;height: 34px;line-height: 34px;}
+.abnormal_top_l .Btn19 { text-align: center; position: relative;margin-top: 17px;height: 34px;line-height: 34px;cursor: pointer;}
 .abnormal_top_l .Btn19 .abnormal_error{position: absolute;top: -10px;right: -10px;}
 .abnormal_top_contentBox .abnormal_top_content { float: left; }
 .abnormal_top_contentBox .abnormal_top_content h4 { font-size: 20px; color: #222222; font-weight: inherit; margin-top: 25px; margin-bottom: 15px; }
