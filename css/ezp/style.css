@@ -551,7 +551,7 @@
 /*阅卷键盘*/
 .control { padding-top: 9px; padding-bottom: 9px; border-bottom: 1px solid #d1e5f7; }
 .control .left { width: 95px; }
-.control .right { width: 90%; }
+.control .right { width: 90%;cursor: default;line-height: 0px; }
 
 .examine-view .easy_logo { padding: 12px 0; width: 134px; height: 25px; background: url(../../images/logo2.png) center center no-repeat; }
 .examine-view .easy_info { padding: 8px 0; }

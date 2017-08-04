@@ -55,8 +55,9 @@
     top: 47%;
 }
 .right {
-    cursor: default;
-    line-height: 0px;
+    cursor: w-resize;
+    right: -7px;
+    top: 47%;
 }
 .up {
     cursor: s-resize;
@@ -74,9 +75,21 @@
     top: -7px;
 }
 .rightUp {
-    cursor: ne-resize;
+    cursor: pointer;
     right: -7px;
     top: -7px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../../images/mark_close.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border:none;
+    background-color: #fff;
+}
+.rightUp:hover{
+    background-image: url("../../images/mark_close.png");
+    background-repeat: no-repeat;
+    background-position: -19px 0;
 }
 .leftDown {
     bottom: -7px;
