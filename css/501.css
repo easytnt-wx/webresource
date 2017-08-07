@@ -92,7 +92,7 @@
     margin-bottom: 60px;
     margin-right: 40px;
     opacity: 0.6;
-    cursor: not-allowed;
+    cursor: default;
 }
 
 .ni_img.ni_icon001,.ni_img.ni_icon1001,.ni_img.ni_iconjcsub01{
@@ -245,13 +245,15 @@
     font-size: 18px;
     color: #404040;
     font-weight: 500;
-    cursor: pointer;
+    cursor: default;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-top: 100px;
     transition: all ease-in-out .3s;
 }
-.ni_img > a:hover{
-	color: #45a5ff
+
+.stateOk .ni_img > a:hover{
+	color: #45a5ff;
+	cursor: pointer;
 }
