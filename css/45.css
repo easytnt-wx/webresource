@@ -1,0 +1,68 @@
+@charset "utf-8";
+.yyry{
+	height: 800px;
+	width: 150px;
+}
+.yyry > h3,.school > h3{
+	color: #555;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.school{
+	width: 978px;
+	height: 800px;
+	padding: 0 20px;
+	margin-left: 20px;
+}
+.school > .list{
+	height: 700px;
+	width: 100%;
+	overflow-y: auto;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+.school > .list > button{
+	margin:0 15px 15px 0;
+}
+.person{
+	height: 760px;
+	overflow-y: auto;
+}
+.person > li{
+	padding-bottom: 10px;
+} 
+.person > li > a{
+	display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #555;
+    transition: all ease-in .3s;
+}
+.person > li > a.on,.person > li > a:hover{
+	background: #bddeff;
+    color: #2576db;
+}
+.person > li > a > i{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background: url(../images/consult/con_ok2.png) no-repeat center center;
+    margin-right: 13px;
+    transition: all ease-in .3s;
+}
+.person > li > a.on > i,.person > li > a:hover > i{
+	background-image: url(../images/consult/con_ok.png);
+}
+.person > li > a > span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.Btn16:hover{
+	color: #00a0e9;
+    border: 1px solid #00a9e9;
+}
