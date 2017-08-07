@@ -269,6 +269,7 @@
 .number_detail em { color: #00dd78; font-size: 26px; line-height: normal; }
 
 .upload_paper, .join_str, .design_card { color: #419efc; }
+a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 .express .bx-wrapper { margin-bottom: 30px; }
 /*客观题设置*/
 .input_box .left { float: left; width: 200px; margin-right: -200px; position: relative; z-index: 5;}

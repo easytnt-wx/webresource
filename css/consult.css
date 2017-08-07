@@ -16,8 +16,8 @@
 .consult_list_content .list_content_ul .con5 { display: inline-block; vertical-align: middle; width: 28px; height: 28px; background: url(../images/consult/con5.png) 0 0 no-repeat; }
 .consult_list_content .list_content_ul .list_content_title { text-decoration: none; cursor: pointer;color: #000000; font-size: 20px; display: inline-block; vertical-align: middle; }
 .consult_list_content .list_content_ul .list_content_title:hover { color: #45a5ff; }
-.consult_list_content .list_content_ul .list_content_title.notcreator{cursor: default;}
-.consult_list_content .list_content_ul .list_content_title.notcreator:hover{ color: #000; }
+.consult_list_content .list_content_ul .list_content_title.notcreator{cursor: default;color:#cfcfcf;}
+.consult_list_content .list_content_ul .list_content_title.notcreator:hover{ color:#cfcfcf; }
 .consult_list_content .list_content_ul > li { background: #ffffff; margin-top: 10px; border-radius: 5px; box-shadow: 0 0 2px #e7eef0; }
 .consult_list_content .list_content_ul > li:hover { box-shadow: 0 0 20px #d2e4f8; }
 .consult_list_content .list_content_ul > li .left { width: 1070px; float: left; padding: 33px 0 29px 24px; position: relative; }

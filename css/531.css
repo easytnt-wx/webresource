@@ -73,3 +73,12 @@ span.node_name{
     white-space: nowrap;
     text-overflow: ellipsis;	
 }
+.curSelectedNode.on{
+	display:inline-block;
+	background-color:rgba(66, 160, 252,.9);
+	padding:5px 15px 5px 5px;
+	border-radius:20px;
+}
+.curSelectedNode.on span{
+	color: #fff;
+}
