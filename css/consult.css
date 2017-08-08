@@ -71,8 +71,14 @@
 .c_setting_content p .con_up { width: 12px; height: 14px; background: url(../images/consult/con_up.png) 0 0 no-repeat; }
 .c_setting_content p .con_down { width: 12px; height: 14px; background: url(../images/consult/con_down.png) 0 0 no-repeat; }
 .c_setting_content p .con_edit { width: 14px; height: 14px; background: url(../images/consult/con_edit.png) 0 0 no-repeat; }
+.c_setting_content p a[href="javascript:void(0);"]{ cursor: default; }
+.c_setting_content p a[href="javascript:void(0);"] .con_down { width: 12px; height: 14px; background: url(../images/consult/con_down.png) -12px 0 no-repeat; }
+.c_setting_content p a[href="javascript:void(0);"] .con_edit { width: 14px; height: 14px; background: url(../images/consult/con_edit.png) -14px 0 no-repeat; }
+
+
 .c_setting_content p a.fr { display: inline-block; vertical-align: middle; background: #ffffff; }
 .c_setting_content p a.fr span { font-size: 16px; color: #1ab4fa; display: inline-block; vertical-align: middle; }
+.c_setting_content p a[href="javascript:void(0);"].fr span,.c_setting_content p a[href="javascript:void(0);"].fr:hover span{ color: #ccc; }
 .c_setting_content p a.fr:hover span{color: #149eed}
 
 .c_setting_content p .setting_tips { border-radius: 4px;margin-left: 40px; display: inline-block; vertical-align: middle; width: 257px; height: 38px; background: #f6f6f6; border: 1px solid #dedede; line-height: 35px; }
