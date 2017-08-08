@@ -455,13 +455,13 @@ a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 
 .img-box { position: relative; border: 3px solid #dddddd; border-radius: 3px; overflow: auto; }
 
-.control-module { position: absolute; right: 20px; bottom: 33px; border: 1px solid #000000; border-radius: 3px; background: rgba(0, 0, 0, 0.7); padding: 10px 15px; cursor: move; z-index: 50; }
+.control-module { position: absolute; right: 20px; bottom: 33px; border: 1px solid #000000; border-radius: 3px; background: rgba(0, 0, 0, 0.4); padding: 3px 6px; cursor: move; z-index: 50; }
 .control-module .control-bar, .control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn ,.control-module .del,.control-module .save{ display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; cursor: pointer; }
 .control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn ,.control-module .del,.control-module .save{ width: 34px; height: 34px; border-radius: 3px; }
 .control-module .right-rotate:hover, .control-module .left-rotate:hover, .control-module .add:hover, .control-module .subtract:hover, .control-module .overturn:hover ,.control-module .save:hover,.control-module .del:hover{ background-color: #000; }
 .control-module .right-rotate { background: url(../images/right-rotate.png) center center no-repeat; }
 .control-module .left-rotate { background: url(../images/left-rotate.png) center center no-repeat; }
-.control-module .add { background: url(../images/add.png) center center no-repeat; }
+.control-module .add { background: url(../images/add.png) center center no-repeat;margin-left: 8px; }
 .control-module .del { background: url(../images/del.png) center center no-repeat; }
 .control-module .subtract { background: url(../images/subtract.png) center center no-repeat; }
 .control-module .overturn { background: url(../images/overturn.png) center center no-repeat; }
