@@ -614,7 +614,7 @@ transition: all ease .5s; */ }
 .ni_g_ksry_del .ni_ks .ni_box.ni_bj{background: url('../images/ni_ks_01.png') no-repeat left center;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_zs{background: url('../images/ni_ks_02.png') no-repeat left center;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_xx{background: url('../images/ni_ks_03.png') no-repeat center top;padding: 55px 0 0 0;text-align: center;}
-.ni_g_ksry_del .ni_ks .ni_box.ni_cy{width: 400px;padding: 0px;font-size: 16px;color: #222222;margin-left: 20px;line-height: 75px;height: 75px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.ni_g_ksry_del .ni_ks .ni_box.ni_cy{width: 400px;padding: 0px;font-size: 20px;color: #222222;margin-left: 20px;line-height: 75px;height: 75px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_cy span.deleteRole{ margin-right: 6px; }
 .ni_g_ksry_del .ni_ks .ni_no_message{background: url('../images/ni_ks_04.png') no-repeat center top;padding: 55px 0 0 0;text-align: center;}
 .ni_border_r_d1e5f7{border-right: 1px solid #d1e5f7;}
