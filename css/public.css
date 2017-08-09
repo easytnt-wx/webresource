@@ -385,7 +385,7 @@ body,html{ width:100%; min-width:1200px;}
 .checkbox_table tr.hover td{background:#f7f7f7}
 
 /* checkbox */
-.checkStyle1 .checkbox {padding-left: 29px; cursor:pointer;background: url(../images/public/checkbox2.png) repeat-y 0% 0%; line-height:20px; height:20px; display:inline-block;color: #555555;font-size: 14px; }
+.checkStyle1 .checkbox {padding-left: 25px; cursor:pointer;background: url(../images/public/checkbox2.png) repeat-y 0% 0%; line-height:20px; height:20px; display:inline-block;color: #555555;font-size: 14px; }
 .checkStyle1 .checked {background-position:left -20px;}
 .checkStyle1 .checkbox input{display: none;}
 .disabled{background-position:left 0px;}

@@ -828,7 +828,7 @@ transition: all ease .5s; */ }
 .ni_g_pop_add_tech{width: 100%;}
 .ni_g_pop_add_tech > span.searchBox.searchStyle3{ margin-bottom: 20px; }
 .ni_g_pop_add_tech .ni_tech{margin-top: 0px;border: 1px solid #cee8ff;padding: 20px;max-height: 230px;overflow-y: auto;}
-.ni_g_pop_add_tech .ni_tech label{width: 50px;margin: 5px 0;}
+.ni_g_pop_add_tech .ni_tech label{min-width: 30px;margin: 5px 0;}
 .ni_g_c_222222{color: #222;}
 .titWrap .tit_sub i.ni_g_c_45a4fe,.ni_g_bg_fff .tit_sub i.ni_g_c_45a4fe{color: #45a4fe;}
 .titWrap .tit_sub i.ni_g_c_ff8c8c,.ni_g_bg_fff .tit_sub i.ni_g_c_ff8c8c{color: #ff9e9e;}
