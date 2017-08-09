@@ -882,28 +882,28 @@ form.formvalidation .form-control-feedback {
 
 /*谷歌浏览器滚动兼容*/
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
-::-webkit-scrollbar  
+/*::-webkit-scrollbar  
 {  
     width: 6px;  
     height: 6px;  
     background-color: #fff;  
-}  
+}  */
   
 /*定义滚动条轨道 内阴影+圆角*/  
-::-webkit-scrollbar-track  
+/*::-webkit-scrollbar-track  
 {  
     -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.2);  
     border-radius: 3px;  
     background-color: #fff;  
-}  
+}*/  
   
 /*定义滑块 内阴影+圆角*/  
-::-webkit-scrollbar-thumb  
+/*::-webkit-scrollbar-thumb  
 {  
     border-radius: 3px;  
     -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.2);  
     background-color: #eee;
-}
+}*/
 
 /*翻页2*/
 .turnPage2{ /*text-align:center;*/ padding:10px 0}
