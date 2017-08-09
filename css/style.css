@@ -377,7 +377,7 @@ a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 /*查看扫描详细情况*/
 .card_state { border: 1px solid #d5d5d5; position: relative; }
 .card_state h3 { font-size: 14px; color: #45a4fe; text-align: center; border-bottom: 1px solid #dddddd; line-height: 38px; background: #deeefe; font-weight: normal; }
-.card_state .state-box { height: 600px; overflow: hidden;}
+.card_state .state-box { height: 600px; overflow: hidden !important;}
 
 .filter-list { position: absolute; left: -34px; top: 0; z-index: 50; }
 .filter-list li { margin-bottom: 20px; }
