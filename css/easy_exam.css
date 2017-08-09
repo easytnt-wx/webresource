@@ -825,6 +825,7 @@ transition: all ease .5s; */ }
 .ni_g_pop_add_tech .searchStyle1 .inputSearch,.ni_g_pop_add_tech .searchStyle1 .search,.ni_g_pop_add_tech .searchStyle1{background-color: #f4faff;}
 
 .ni_g_pop_add_tech{width: 100%;}
+.ni_g_pop_add_tech > span.searchBox.searchStyle3{ margin-bottom: 20px; }
 .ni_g_pop_add_tech .ni_tech{margin-top: 0px;border: 1px solid #cee8ff;padding: 20px;max-height: 230px;overflow-y: auto;}
 .ni_g_pop_add_tech .ni_tech label{width: 50px;margin: 5px 0;}
 .ni_g_c_222222{color: #222;}
