@@ -17,7 +17,7 @@
     width: 1100px;
     margin: 0 auto;
 }
-h4:before{
+h4.fl:before{
     content: "考";
     background-color: #419efc;
     border-radius: 50%;
