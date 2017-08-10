@@ -809,25 +809,39 @@ transition: all ease .5s; */ }
 .ni_g_ksry_del .ni_ks .ni_box.ni_bj{background: url('../images/ni_ks_01.png') no-repeat left center;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_zs{background: url('../images/ni_ks_02.png') no-repeat left center;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_xx{background: url('../images/ni_ks_03.png') no-repeat center top;padding: 55px 35px 0 35px;text-align: center;margin-left: 0;width: 90px;}
-.ni_g_ksry_del .ni_ks .ni_box.ni_cy{width: 300px;padding: 0px;font-size: 20px;color: #222222;margin-left: 20px;line-height: 25px;height: 75px;overflow: hidden;}
+.ni_g_ksry_del .ni_ks .ni_box.ni_cy{width: 234px;padding: 0px;font-size: 20px;color: #222222;margin-left: 20px;line-height: 75px;height: 75px;overflow: hidden;text-overflow: ellipsis;  white-space: nowrap;}
 .ni_g_ksry_del .ni_ks .ni_no_message{background: url('../images/ni_ks_04.png') no-repeat center top;padding: 55px 0 0 0;text-align: center;}
 .ni_border_r_d1e5f7{border-right: 1px solid #d1e5f7;}
 .ni_g_pa_txt{position: absolute;font-size: 16px;color: #3f9cfa;right: 15px;bottom: 15px;}
 .ni_g_pa_txt a{color: #3f9cfa;}
-
 .ni_g_tit_txt01 em{font-size: 20px;color: #ffffff;padding: 0 15px;background: #ff7c7c;display: inline-block;border-radius: 15px;margin-left: 15px;}
-
 .ni_add_km{color: #419efa;font-size: 16px;}
 .ni_g_km_list li{border: 1px solid #d1e5f7;border-radius: 5px;padding: 11px 0;position: relative;}
 .ni_g_km_list .ni_img{width: 90px;height: 96px;margin-left: 30px;}
 .ni_g_km_list .ni_img.ni_ico01{background: url("../images/consult/english_big.png") no-repeat center center;}
 .ni_g_km_list .ni_img.ni_ico02{background: url("../images/consult/math_big.png") no-repeat center center;}
 .ni_g_km_list .ni_img.ni_ico03{background: url("../images/consult/language_big.png") no-repeat center center;}
-
+/*
 .ni_g_km_list .ni_txt{width: 370px;margin-left: 50px;margin-top: 5px;}
 .ni_g_km_list .ni_txt .ni_w50{float: left;width:50%;font-size: 16px;line-height: 40px;}
 .ni_g_km_list .ni_txt .ni_w50 .ni_span01{color: #555;display: inline-block;width: 5em;text-align: right;}
 .ni_g_km_list .ni_txt .ni_w50 .ni_span02{color: #888;}
+.ni_g_km_list .ni_sz{margin-right: 40px;}
+.ni_g_km_list .ni_sz a{height: 30px;border-radius: 3px;border: 1px solid #419efc;line-height: 30px;color: #419efc;padding: 0 43px;cursor: pointer;display: inline-block;margin-top: 30px;margin-right: 10px;font-size: 14px;}
+.ni_g_km_list .ni_sz a:hover{background: #419efc;border-color: #419efc;color: #fff;}
+.ni_g_km_list .ni_sz a.ni_yc:hover{background-color: #419efc;background-image: url('../images/ni_down_hover.png');}
+.ni_g_km_list .ni_sz a.ni_yc.active:hover{background-color: #419efc;background-image: url('../images/ni_up_hover.png');}
+.ni_g_km_list .ni_sz a.ni_yc{background: url('../images/ni_down.png') no-repeat 112px center;position: relative;}
+.ni_g_km_list .ni_sz a.ni_yc.active{background: url('../images/ni_up.png') no-repeat 112px center;}
+.ni_g_km_list .ni_sz a.ni_yc i{position: absolute;width:20px;height: 20px;background: url('../images/ni_ico_ycts.png') no-repeat center center;right: -5px;top: -10px;}
+*/
+.ni_g_km_list .ni_txt{width: 600px;margin-left: 50px;margin-top: 5px;}
+.ni_g_km_list .ni_txt .ni_w33{float: left;width:33%;font-size: 16px;line-height: 40px;}
+.ni_g_km_list .ni_txt .ni_w33 .ni_span01{color: #555;display: inline-block;width: 80px;text-align: right;}
+.ni_g_km_list .ni_txt .ni_w33 .ni_span02{color: #888;}
+.ni_g_km_list .ni_txt .ni_w33 .ni_span02.ni_g_c_ff7c7c{color: #ff7c7c;}
+.ni_g_km_list .ni_txt .ni_w33 .ni_span02 em{color: #419efc;}
+.ni_g_km_list .ni_txt .icon_a{margin-left: 8px;display: inline-block;width: 14px;height: 14px; background:url(../images/consult/icon_a.png) 0 0 no-repeat;}
 .ni_g_km_list .ni_sz{margin-right: 40px;}
 .ni_g_km_list .ni_sz a{height: 30px;border-radius: 3px;border: 1px solid #419efc;line-height: 30px;color: #419efc;padding: 0 43px;cursor: pointer;display: inline-block;margin-top: 30px;margin-right: 10px;font-size: 14px;}
 .ni_g_km_list .ni_sz a:hover{background: #419efc;border-color: #419efc;color: #fff;}
