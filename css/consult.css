@@ -1467,3 +1467,44 @@ li.no-relation-item-block > img{
 }
 /*528设置主管题-评题3 end*/
 /*ni_add E*/
+/*520*/
+.D_leaderBox{border-radius: 5px;}
+.D_leaderContent{padding: 0 27px;}
+.D_leader {padding: 20px 0;border-bottom: 1px solid #efefef;}
+.D_leader  span{line-height: 34px;color: #555555;font-size: 16px;}
+.D_leader  span em{color: #222222;}
+.D_leader  .g_btn5 span{color: #2cce9a;}
+.D_leader  .g_btn5:hover span{color: #ffffff;}
+ /*530*/
+.leadIn_student{border-radius: 8px;background: #fff;  padding: 25px;margin-top: 20px;}
+.leadIn_student .leadIn_student_content{margin-top: 25px;}
+.leadIn_student .leadIn_student_left{width: 220px;}
+.leadIn_student .leadIn_student_left .selecterStyle2 .selecterValue{border-radius: 5px;}
+.leadIn_student .leadIn_student_timeBox{border: 1px solid #eaeaea;margin-top: 10px;height: 238px;border-radius: 5px;background: #fafafa;padding: 10px 0;}
+.leadIn_student .leadIn_student_time{cursor: pointer;position: relative;overflow: hidden;height: 100%;}
+.leadIn_student .leadIn_student_time li{height: 40px;line-height: 40px;margin-left: -1px;border: 1px solid transparent}
+.leadIn_student .leadIn_student_time li span.fl{font-size: 14px;color: #222222;display: inline-block;text-align: center;width: 74px;}
+.leadIn_student .leadIn_student_time li span.fr{margin-right: 15px;}
+.leadIn_student .leadIn_student_time li:hover{background: #e1f5ff;}
+.leadIn_student .leadIn_student_time li:hover span.fl,.leadIn_student .leadIn_student_time li:hover span.fr em{color: #44a5ff;}
+.leadIn_student .leadIn_student_time li:hover span.fl{font-size: 18px;margin-top: -2px;}
+.leadIn_student .leadIn_student_time li.on{background: #e1f5ff;}
+.leadIn_student .leadIn_student_time li.on span.fl,.leadIn_student .leadIn_student_time li.on span.fr em{color: #44a5ff;}
+.leadIn_student .leadIn_student_time li.on span.fl{font-size: 18px;margin-top: -2px;}
+.leadIn_student .leadIn_student_time li span.fr em{font-size: 14px;color: #888888;}
+.leadIn_student .leadIn_student_right{width: 886px;height: 260px;overflow: hidden;position: relative;margin-top: -10px}
+.leadIn_student .leadIn_student_table{cursor: pointer;width: 886px;border-collapse:separate; border-spacing:0px 10px;margin-top: -10px;}
+.leadIn_student .leadIn_student_table.on thead tr td{height: 0px;}
+.leadIn_student .leadIn_student_table thead tr td:first-child{padding-left: 30px;}
+.leadIn_student .leadIn_student_table tbody tr td:first-child{padding-left: 30px;}
+.leadIn_student .leadIn_student_table tbody tr td{height: 40px;font-size: 14px;color: #555555}
+.leadIn_student .leadIn_student_table tbody tr td:first-child{border-radius:5px 0 0 5px;}
+.leadIn_student .leadIn_student_table tbody tr td:last-child{border-radius:0 5px 5px 0;}
+.leadIn_student .leadIn_student_table tbody tr:hover td{background:#e1f5ff;}
+.leadIn_student .leadIn_student_table tbody tr.on td{background: #44a5ff;color: #ffffff;}
+.leadIn_student .leadIn_student_table tbody tr td span{width: 300px;overflow: hidden;display: inline-block;text-overflow: ellipsis;white-space: nowrap;vertical-align: middle;}
+.leadIn_student .leadIn_student_table thead tr td{background: #f5f5f5;}
+.leadIn_student .leadIn_student_table thead tr td:first-child{border-radius:5px 0 0 5px;}
+.leadIn_student .leadIn_student_table thead tr td:last-child{border-radius:0 5px 5px 0;}
+.leadIn_student .leadIn_student_table thead td{height: 42px;font-size: 16px;color: #555555}
+.create_exam{border-radius: 8px;  background: #fff;  padding: 25px;}
