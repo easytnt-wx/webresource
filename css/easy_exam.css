@@ -786,7 +786,7 @@ transition: all ease .5s; */ }
 	background-size: 60px;
 }
 
-.ni_g_km_list .ni_txt{width: 370px;margin-left: 50px;margin-top: 5px;}
+.ni_g_km_list .ni_txt{width: 600px;margin-left: 50px;margin-top: 5px;}
 .ni_g_km_list .ni_txt .ni_w50{float: left;width:50%;font-size: 16px;line-height: 40px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
 .ni_g_km_list .ni_txt .ni_w50 .ni_span01{color: #555;display: inline-block;width: 5em;text-align: right;}
 .ni_g_km_list .ni_txt .ni_w50 .ni_span02{color: #888;}
