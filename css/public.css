@@ -686,7 +686,7 @@ body,html{ width:100%; min-width:1200px;}
 .searchStyle2 .search{display: inline-block;*display: inline;*zoom: 1;width: 54px;height: 32px;background: url(../images/public/icon_search2.png) center center no-repeat #419efc; vertical-align: middle;cursor: pointer;}
 
 .searchStyle3{background:#f4faff; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #4fabec; border-radius:3px;display: inline-block;*display: inline;*zoom: 1;padding: 0 0 0 10px;}
-.searchStyle3 .inputSearch{background:#f4faff;color:#555;display:inline-block; height:28px; line-height:28px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;*border:0;font-size: 16px;color: #a9c0d4}
+.searchStyle3 .inputSearch{background:#f4faff;color:#555;display:inline-block; height:28px; line-height:28px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;*border:0;font-size: 16px;}
 .searchStyle3 .search{display: inline-block;*display: inline;*zoom: 1;width: 30px;height: 30px;background: url(../images/public/icon_search.png) center center no-repeat; vertical-align: middle;cursor: pointer;}
 
 .searchStyle4{background:#ffffff; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #4fabec; border-radius:3px;display: inline-block;*display: inline;*zoom: 1;padding: 0 0 0 10px;}

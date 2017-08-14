@@ -50,8 +50,9 @@ p.card_detail > span:nth-child(3){
     cursor: pointer;
 }
 .card_btn button[disabled="true"]{
-    cursor: not-allowed;
-    opacity: 0.8;
+    cursor: default;
+    border: 1px solid #ccc;
+    color: #ccc
 }
 .Btn3{
     background-color: #fff;

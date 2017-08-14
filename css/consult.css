@@ -838,6 +838,7 @@ transition: all ease .5s; */ }
 .ni_g_km_list .ni_txt{width: 600px;margin-left: 50px;margin-top: 5px;}
 .ni_g_km_list .ni_txt .ni_w33{float: left;width:33%;font-size: 16px;line-height: 40px;}
 .ni_g_km_list .ni_txt .ni_w33 .ni_span01{color: #555;display: inline-block;width: 80px;text-align: right;}
+.ni_g_km_list .ni_txt .ni_w33 .ni_span01 + p{ display: inline-block;width: 80px;white-space: nowrap;overflow: hidden;vertical-align: bottom;text-overflow: ellipsis; }
 .ni_g_km_list .ni_txt .ni_w33 .ni_span02{color: #888;}
 .ni_g_km_list .ni_txt .ni_w33 .ni_span02.ni_g_c_ff7c7c{color: #ff7c7c;}
 .ni_g_km_list .ni_txt .ni_w33 .ni_span02 em{color: #419efc;}
