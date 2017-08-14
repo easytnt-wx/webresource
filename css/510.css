@@ -6,7 +6,7 @@
 .mycheck{
 	margin-left: 130px;
 	min-height: 34px;
-	margin-top: 65px;
+	margin-top: -65px;
 }
 #classes > label{
 	padding-top: 10px;
