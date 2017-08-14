@@ -247,7 +247,7 @@
 .as_leftbox{background:#fff;border-radius:4px;height:900px;position:relative;overflow-y:hidden;}
 .as_scorepointWrap{padding:10px 25px 10px 10px;min-height:1200px;}
 .as_scorepointWrap dl{font-size:14px;}
-.as_scorepointWrap dt{width:178px;padding-left:25px;height:38px;line-height:38px;color:#077dfa;cursor:pointer;}
+.as_scorepointWrap dt{width:178px;padding-left:25px;height:38px;line-height:38px;color:#077dfa;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;font-weight: 500;}
 .as_scorepointWrap dt:hover,.as_scorepointWrap dt.on{background:#f8fbff;}
 .as_scorepointWrap dd{padding-left:35px;color:#3e99fa;display:none;}
 .as_scorepointWrap dd p{position:relative;padding: 10px 12px;cursor: pointer;width: 143px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
