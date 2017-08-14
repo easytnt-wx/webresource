@@ -6,6 +6,7 @@
 .mycheck{
 	margin-left: 130px;
 	min-height: 34px;
+	margin-top: 65px;
 }
 #classes > label{
 	padding-top: 10px;
@@ -30,4 +31,17 @@ form.form-horizontal > .form-group{
 }
 .form-group >.error_info{
 	margin-left: 15px;
+}
+div#classes {
+    margin: 50px 0 40px;
+}
+p.sele_all {
+    height: 30px;
+    margin-left: 4px;
+}
+.sele_all > label{
+	margin: 0 0 0 5px;
+	width: auto;
+	font-weight: 500;
+	font-size: 14px;
 }
