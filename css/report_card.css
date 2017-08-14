@@ -33,7 +33,7 @@
 .report_card_table thead .first_td{border-top-left-radius:6px;border-bottom-left-radius: 6px;}
 .report_card_table thead td em{color:#555;}
 .report_card_table thead td{background:#FBFBFB;}
-.report_card_table tbody tr:hover td{background:#E1F5FF;cursor:pointer;}
+.report_card_table tbody tr:hover td{background:#E1F5FF;cursor:default;}
 
 .examListImg{margin-top:40px;padding-bottom:117px;}
 .warm_delete{font-size:18px;width:350px;text-align:center;margin-top:45px;}
