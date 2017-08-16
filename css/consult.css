@@ -54,23 +54,25 @@
 .s_setting { margin-top: 20px; background: #ffffff; border-radius: 5px; }
 .s_setting .s_setting_content { padding: 25px 30px; }
 .s_setting .s_setting_content ul li { float: left; font-size: 18px; color: #222222; margin-right: 70px; }
-.s_setting .s_setting_content ul li input { font-size: 20px; color: #222222; border: 1px solid #00a0e9; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
-.s_setting .s_setting_content ul.on li input { background-color: #fff; font-size: 20px; color: #222222; border: 1px solid transparent; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
+.s_setting .s_setting_content ul li input { font-size: 20px; color: #222222; border: 1px solid #dcdcdc; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
+.s_setting .s_setting_content ul li input:focus{border:1px solid #00a0e9}
+.s_setting .s_setting_content ul.on li input { font-size: 20px; color: #222222; border: 1px solid transparent; border-radius: 5px; width: 62px; height: 36px; line-height: 36px; text-align: center; margin-left: 25px; }
 
-.setting_top { padding: 23px 27px 14px 27px; border-bottom: 1px solid #efefef; }
+.setting_top { padding: 23px 27px; border-bottom: 1px solid #efefef; }
 .setting_top > a{ cursor: default; }
 .setting_top .con_setting { display: inline-block; vertical-align: middle; width: 23px; height: 22px; background: url(../images/consult/con_setting.png) 0 0 no-repeat; }
-.setting_top span { display: inline-block; vertical-align: middle; font-size: 18px; color: #44a3fd; }
+.setting_top span { display: inline-block; vertical-align: middle; font-size: 22px; color: #222222; }
 
 .c_setting { margin-top: 10px; background: #ffffff; border-radius: 5px; padding-bottom: 66px; margin-bottom: 20px; }
 
 .c_setting_content { padding: 0 27px; }
 .c_setting_content p { padding: 25px 0; line-height: 40px; }
-.c_setting_content p em { color: #222222; font-size: 18px; display: inline-block; vertical-align: middle; }
+.c_setting_content p em { width: 55px;  color: #222222; font-size: 18px; display: inline-block; vertical-align: middle; }
 .c_setting_content p i { display: inline-block; vertical-align: middle; }
 .c_setting_content p .con_up { width: 12px; height: 14px; background: url(../images/consult/con_up.png) 0 0 no-repeat; }
 .c_setting_content p .con_down { width: 12px; height: 14px; background: url(../images/consult/con_down.png) 0 0 no-repeat; }
 .c_setting_content p .con_edit { width: 14px; height: 14px; background: url(../images/consult/con_edit.png) 0 0 no-repeat; }
+.c_setting_content p .icon_time { width: 14px; height: 14px; background: url(../images/consult/icon_time.png) 0 0 no-repeat; }
 .c_setting_content p a[href="javascript:void(0);"]{ cursor: default; }
 .c_setting_content p a[href="javascript:void(0);"] .con_down { width: 12px; height: 14px; background: url(../images/consult/con_down.png) -12px 0 no-repeat; }
 .c_setting_content p a[href="javascript:void(0);"] .con_edit { width: 14px; height: 14px; background: url(../images/consult/con_edit.png) -14px 0 no-repeat; }
@@ -81,18 +83,21 @@
 .c_setting_content p a[href="javascript:void(0);"].fr span,.c_setting_content p a[href="javascript:void(0);"].fr:hover span{ color: #ccc; }
 .c_setting_content p a.fr:hover span{color: #149eed}
 
-.c_setting_content p .setting_tips { border-radius: 4px;margin-left: 40px; display: inline-block; vertical-align: middle; width: 257px; height: 38px; background: #f6f6f6; border: 1px solid #dedede; line-height: 35px; }
-.c_setting_content p .setting_tips span { color: #555555; font-size: 14px; display: inline-block; vertical-align: middle; width: 204px; padding: 0 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.c_setting_content p .setting_tips i.con_x { display: inline-block; vertical-align: middle; width: 13px; height: 12px; background: url(../images/consult/con_x.png) 0 0 no-repeat; }
-.c_setting_content p .setting_tips i.con_x:hover{background: url(../images/consult/con_x1.png) 0 0 no-repeat; }
-
+.c_setting_content p .setting_tips {cursor: default; border-radius: 4px;margin-left: 40px; display: inline-block; vertical-align: middle;  height: 38px;line-height: 35px; }
+.c_setting_content p .setting_tips span { color: #555555; font-size: 14px; display: inline-block; vertical-align: middle; width: 204px; padding: 0 5px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.c_setting_content p .setting_tips i.icon_close {cursor: pointer; margin-right: 10px;display: inline-block; vertical-align: middle; width: 17px; height: 17px; background: url(../images/consult/icon_close.png) 0 0 no-repeat; }
+.c_setting_content p .setting_tips i.icon_close:hover{background: url(../images/consult/icon_close_hover.png) 0 0 no-repeat; }
+.c_setting_content p .setting_tips i.icon_download{cursor: pointer; display: inline-block;vertical-align: middle;width: 14px;height: 17px;
+    background:url(../images/consult/icon_download.png) 0 0 no-repeat;}
 .c_setting_content ul { margin-top: 22px; }
 .c_setting_content li { padding: 22px 15px 22px 23px; background: #f1fbff; border-radius: 5px; margin-top: 4px; }
 .c_setting_content li div.fl { height: 43px; line-height: 43px; }
 .c_setting_content li div.fl span { font-size: 18px; color: #005555; padding-right: 15px; border-right: 1px solid #d6e9f1; display: inline-block; vertical-align: middle; }
-.c_setting_content li div.fl span strong { font-weight: inherit; font-size: 26px; color: #ff7070; }
+.c_setting_content li div.fl span strong { font-weight: inherit; font-size: 26px; color: #ff7070; display: inline-block;vertical-align: sub;margin: 0 2px;}
+.c_setting_content li div.fl span em{display: inline-block;vertical-align: middle;}
 .c_setting_content li div.fl i { font-size: 18px; color: #005555; display: inline-block; vertical-align: middle; margin-left: 12px; margin-right: 42px; }
-.c_setting_content li div.fl i em { font-size: 26px; color: #2f8cec; }
+.c_setting_content li div.fl i em { font-size: 26px; color: #2f8cec;display: inline-block;vertical-align: sub;margin-right: 3px; }
+
 .c_setting_content li div.fr span em { display: inline-block; vertical-align: middle; font-size: 14px; color: #005555; }
 .c_setting_content li div.fr span.on i.con_error { display: inline-block; vertical-align: middle; width: 24px; height: 24px; background: url(../images/consult/con_ok.png) 0 0 no-repeat; }
 .c_setting_content li div.fr span.on em { display: inline-block; vertical-align: middle; font-size: 14px; color: #51ae30; }
@@ -1166,7 +1171,7 @@ div.ni_border_0{border: 0;}
 /*.g_btn4 i{display:inline-block;width:14px;height:17px;margin-right:7px;background:url(../images/consult/g_arrow.png) no-repeat;vertical-align:middle;}*/
 /*.g_btn4 span{display:inline-block;vertical-align:middle;}*/
 /*.g_btn4:hover{background:#57ADFF;}*/
-.g_btn5{display:inline-block;*display: inline;*zoom: 1;height:34px;line-height:34px;padding:0 13px;border:1px solid #1FD49A;color:#1FD49A;font-size:16px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
+.g_btn5{display:inline-block;*display: inline;*zoom: 1;height:34px;padding:0 13px;border:1px solid #1FD49A;color:#1FD49A;font-size:16px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
 .g_btn5 i{display:inline-block;width:10px;height:10px;margin-right:7px;background:url(../images/consult/g_add.png) no-repeat;vertical-align:middle;}
 .g_btn5 span{display:inline-block;vertical-align:middle;}
 .g_btn5:hover{color:#fff;background:#1FD49A;}
@@ -1184,7 +1189,7 @@ div.ni_border_0{border: 0;}
 .rm_keyPle{padding-bottom:12px;border-bottom:1px solid #F5F5F5;font-size:16px;}
 .quesNum{padding-top:29px;}
 .quesNum li{margin-bottom:23px;}
-.quesNum_list dt{display:inline-block;font-size:14px;margin-right:30px;}
+.quesNum_list dt{display:inline-block;font-size:14px;margin-right:30px;font-weight: 500;}
 .quesNum_list dt i{margin-left:10px;}
 .quesNum_list dt i.green{color:#23A57F;}
 .quesNum_list dd{display:inline-block;}
