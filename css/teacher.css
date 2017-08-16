@@ -335,11 +335,9 @@
   width: 40px;
   height: 40px; }
 
-.icon_download {
-  background: url(../images/teacher/icon_download.png) center center no-repeat;
-  width: 34px;
-  height: 36px; }
-
+.icon_download{cursor: pointer; display: inline-block;vertical-align: middle;width: 14px;height: 17px;
+    background:url(../images/consult/icon_download.png) 0 0 no-repeat;}
+    
 .icon_result {
   background: url(../images/teacher/icon_result.png) center center no-repeat;
   width: 34px;
