@@ -1,0 +1,33 @@
+@charset "utf-8";
+.listBox{
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 10px;
+	border : 1px solid #ccc;
+} 
+.listBox > h4{
+	color: #323232;
+	font-size: 24px;
+	display: inline-block;
+}
+.listBox > h4 > small{
+	margin-left: 20px;
+}
+.listBox > p{
+	padding: 0;
+	float: right;
+}
+.listBox > form{
+	margin: 20px 0;
+}
+span.info1{
+	color: #ff9800;
+	font-size: 24px;
+	font-weight: 600;
+}
+span.info2{
+	color: #2196f3;
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 5px;
+}

@@ -1,0 +1,8 @@
+.Wdate{ background:url(data.png) no-repeat 138px center; width:150px;}
+
+/*.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}*/
+
+.Wdate.inp.WdateFmtErr{border:1px solid #3d95d5;text-decoration:none;outline:none; blr:expression(this.onFocus=this.blur()); color:#888;}

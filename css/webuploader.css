@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+.webuploader-container{
+	position: relative;
+}
+.webuploader-element-invisible{
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #00b7ee;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+}
+.webuploader-pick-hover{
+	background: #42a0fc;
+}
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.uploader-list{
+	border: 2px dashed #ccc;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 20px;
+    min-height: 100px;
+}
+.webuploader-container{
+	display: inline-block;
+
+}
+.webuploader-pick{
+	padding: 6px 12px;
+	font-size: 14px;
+	background-color: #1ab4fa;
+}
+.btns > button{
+	vertical-align: baseline;
+}
+.btns{
+	text-align: right;
+	margin: 0 20px;
+}
+#picker{
+	margin-right: 10px;
+}
+.item > h4,.item > p.state{
+	display: inline-block;
+}
+.item > h4{
+	color: #42a0fc;
+	font-size: 16px;
+	margin-right: 20px;
+}
+.item > p.state{
+	font-size: 14px;
+}
+.item > p.progress{
+	margin: 10px 0;
+}

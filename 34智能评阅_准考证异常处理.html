@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>准考证异常处理</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+<script src="js/header.js"></script>
+<div class="wrapper pdlr20">
+    <div class="breadcrumb breadStyle1">
+        <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考试基本信息</a></p>
+    </div>
+    <div class="boxStyle create_exam mgb20">
+        <div class="tabStyle2" name="tab">
+            <div class="tabTit" name="tabTit">
+                <a href="#" class="on">语文</a> <a href="#">英语</a> <a href="#">文数</a><a href="#" class="">理数</a><a href="#" class="">文综</a><a href="#" class="">理综</a>
+            </div>
+            <div class="tabContent" name="tabCon">
+                <h3 class="title2 mgb30 mgt30 t_c">语文选择题怀疑处理</h3>
+                <div class="clearfix pdb10" style="padding-left: 30px;">.
+                    <span class="fl f14" style="line-height: 30px;">扫描批次：<i class="color4">0124567</i></span>
+                    <div class="fl serial-number">
+                        <input type="text" class="input mgr10 fl" style="width: 167px;"><a href="#" class="Btn3 mgr10 fl">保存</a><a href="#" class="Btn3 mgr10 fl" id="search">查询</a>
+                        <div class="checkList checkStyle1 fl">
+                            <label class="checkbox"><input type="checkbox" value='1' /><span>给零分</span></label>
+                        </div>
+                    </div>
+                    <span class="selecterBox selecterStyle3 fr mgl15" style="width:129px;">
+                        <span class="selecterValue">
+                            <p>已处理：<em class="color4">55</em></p>
+                            <input type="hidden" class="selRes" value="1" />
+                        </span>
+                        <span class="selecterDrop" style="width:129px;">
+                            <a href="#" value="1">张三：<em class="color4">14</em></a>
+                            <a href="#" value="2">张四：<em class="color4">56</em></a>
+                            <a href="#" value="3">张五：<em class="color4">16</em></a>
+                            <a href="#" value="4">张六：<em class="color4">33</em></a>
+                        </span>
+                    </span>
+                    <span class="fr right-select f14" style="line-height: 30px;">总数：<em class="color4">105</em></span>
+                </div>
+                <div class="layout clearfix bad-deal">
+                    <div class="left" style="margin-right: -208px;width: 208px;">
+                        <div class="checkList checkStyle1 mgb20 fr" style="width: 176px;">
+                            <label class="checkbox"><input type="checkbox" value='1' /><span>自动处理</span></label>
+                        </div>
+                        <div class="card_state fr" style="width: 176px;">
+                            <ul class="filter-list">
+                                <li><span class="filter-state1"></span></li>
+                                <li><span class="filter-state2"></span></li>
+                                <li><span class="filter-state3"></span></li>
+                                <li><span class="filter-state4"></span></li>
+                            </ul>
+                            <div class="state-box">
+                                <ul class="state-list abnormal">
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state2"></i><span>1254879</span></li>
+                                    <li><i class="icon_state3"></i><span>1254879</span></li>
+                                    <li><i class="icon_state4"></i><span>1254879</span></li>
+                                    <li><i class="icon_state5"></i><span>1254879</span></li>
+                                    <li><i class="icon_state6"></i><span>1254879</span></li>
+                                    <li><i class="icon_state7"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                    <li><i class="icon_state1"></i><span>1254879</span></li>
+                                </ul>
+                            </div>
+                            <p class="t_c pdtb10" style="border-top: 1px solid #dddddd;"><a class="prev-page" href="#">上一页</a><a class="next-page" href="#">下一页</a></p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right-wrapper" style="margin-left: 240px;">
+                            <div class="img-box">
+                                <img src="images/upload/paper.jpg" alt="">
+                                <div class="control-module">
+                                    <span class="right-rotate"></span><span class="left-rotate"></span>
+                                    <i class="add"></i><span class="control-bar"><em></em></span><i class="subtract"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabContent dis_none" name="tabCon"> 内容二 </div>
+            <div class="tabContent dis_none" name="tabCon"> 内容三 </div>
+        </div>
+    </div>
+</div>
+<!--template-->
+<!--考生查询-->
+<div class="search-box dis_none" id="show1">
+    <div class="search-area clearfix pdb20">
+        <span class="searchBox searchStyle1"><input class="inputSearch" type="text" style="width: 151px"><i class="search"></i></span><a href="" class="Btn3 fr mgl15">下一页</a><a href="#" class="Btn3 fr">上一页</a>
+    </div>
+    <table class="show-list">
+        <thead>
+            <tr>
+                <th width="15%">姓名</th>
+                <th width="30%">考号</th>
+                <th width="30%">学校</th>
+                <th width="25%">班级</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>李成</td>
+                <td>1232343</td>
+                <td>肇庆一高</td>
+                <td>高一（6）班</td>
+            </tr>
+            <tr>
+                <td>李成</td>
+                <td>1232343</td>
+                <td>肇庆一高</td>
+                <td>高一（6）班</td>
+            </tr>
+            <tr>
+                <td>李成</td>
+                <td>1232343</td>
+                <td>肇庆一高</td>
+                <td>高一（6）班</td>
+            </tr>
+            <tr>
+                <td>李成</td>
+                <td>1232343</td>
+                <td>肇庆一高</td>
+                <td>高一（6）班</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!--显示已处理-->
+<div class="processed dis_none" id="show2">
+    <table class="show-list">
+        <thead>
+        <tr>
+            <th width="40%">考号</th>
+            <th width="40%">姓名</th>
+            <th width="20%">班级</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1232343</td>
+            <td>李成</td>
+            <td>6班</td>
+        </tr>
+        <tr>
+            <td>1232343</td>
+            <td>李成</td>
+            <td>6班</td>
+        </tr>
+        <tr>
+            <td>1232343</td>
+            <td>李成</td>
+            <td>6班</td>
+        </tr>
+        <tr>
+            <td>1232343</td>
+            <td>李成</td>
+            <td>6班</td>
+        </tr>
+        <tr>
+            <td>1232343</td>
+            <td>李成</td>
+            <td>6班</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $(function(){
+        $(".selecterBox").Selector();
+        $('.checkList').checkBox();
+        $(".tabStyle2").tabControl();
+        $('.state-box').perfectScrollbar({
+            suppressScrollX:true
+        });
+        $('#search').click(function () {
+            var dia1=artDialogs({
+                title:'考生查询',
+                content:document.getElementById('show1')
+            });
+        });
+        var dialog;
+        $('.abnormal li').click(function () {
+            $(this).addClass('on').siblings().removeClass('on');
+            var top=$(this).offset().top;
+            if(dialog instanceof Object){
+                dialog.close();
+            }
+            dialog=art.dialog({
+                lock:false,
+                title:'同批次考生<div class="checkList checkStyle1 mgl10" style="display: inline-block;*display: inline;*zoom: 1;margin-top: -2px;"> <label class="checkbox"><input type="checkbox" value="1" /><span>显示已处理</span></label> </div>',
+                content:document.getElementById('show2'),
+                left:'254px',
+                top:''+top+'px',
+                init:function () {
+                    $('.checkList').checkBox();
+                }
+            });
+        });
+        $('.control-module').drag({
+            container:'.img-box'
+        });
+
+    });
+</script>
+</html>

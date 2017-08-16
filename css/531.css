@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.ni_box_style .layout .right{
+	height: 560px;
+}
+.waiting-person{
+	height: 500px;
+}
+.selected-person{
+	height: 500px;
+}
+.scroll-box{
+	height: 454px;
+}
+.Radio, .checkbox{
+	margin: 0;
+	font-weight: 500;
+}
+.scroll-box.ps-container{
+	margin:0;
+	padding: 0;
+}
+.layout .left{
+	overflow-y: auto;
+	position: relative;
+	width: 198px;
+}
+.boxStyle.ni_box_style .left{
+	padding: 0;
+}
+ul.tier{
+	padding: 20px 10px;
+	cursor: pointer;
+}
+
+.noline_open{
+	background: url(../images/ni_ico_on02.png) center center no-repeat;
+	margin-right: 5px;
+}
+.noline_close{
+	background: url(../images/ni_ico_on01.png) center center no-repeat;
+	margin-right: 5px;
+}
+.ni_box_style .tier  li{
+	outline: none;
+	white-space: nowrap;
+}
+.tier li span{
+	padding:0;
+	font-size: 14px;
+}
+ul.level0{
+	margin-left: 15px;
+} 
+.tier li span.badge{
+	background-color: #cee8ff;
+	color: #53a9ff;
+	line-height: 21px;
+    font-size: 16px;
+    padding: 0 9px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.icon-user{
+	width: 28px;
+    height: 28px;
+    background: url(../images/icon_user.png) top center no-repeat;
+}
+span.node_name{
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;	
+}
+.curSelectedNode.on{
+	display:inline-block;
+	background-color:rgba(66, 160, 252,.9);
+	padding:5px 15px 5px 5px;
+	border-radius:20px;
+}
+.curSelectedNode.on span{
+	color: #fff;
+}

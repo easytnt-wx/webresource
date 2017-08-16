@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>404</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg8">
+    <div class="pd20">
+        <div class="boxStyle notfound-404">
+            <div class="notfound-bottom"></div>
+            <div class="w1200" style="position: relative">
+                <div class="notfound-1"></div>
+                <div class="notfound-2"></div>
+                <div class="notfound-3"></div>
+            </div>
+            <div class="notfound-logo"></div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+$(function () {
+    var ratio=185/544;
+    var ratio1=123/544;
+    var ratio2=192/544;
+    var ratio3=290/544;
+    var h=$(window).height()-40-61-2;
+    $('.notfound-404').height(h);
+    $('.notfound-bottom').height(h*ratio);
+    $('.notfound-1').css({top:h*ratio1});
+    $('.notfound-2').css({top:h*ratio2});
+    $('.notfound-3').css({top:h*ratio3});
+    console.log(ratio);
+});
+</script>
+</html>

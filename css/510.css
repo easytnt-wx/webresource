@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 150px;
+	margin-left: 20px;
+}
+.mycheck{
+	margin-left: 130px;
+	min-height: 34px;
+	margin-top: -65px;
+}
+#classes > label{
+	padding-top: 10px;
+}
+.tabTit a{
+	text-decoration: none;
+}
+form.form-horizontal > .form-group{
+	position: relative;
+}
+.error_info{
+	color: #ff7c7c;
+	font-size: 14px;
+}
+.form-group.mytime .error_info{
+	margin-left: 15px;
+}
+.mycheck + .error_info{
+	position: absolute;
+	top: 12px;
+	right: 80px;
+}
+.form-group >.error_info{
+	margin-left: 15px;
+}
+div#classes {
+    margin: 50px 0 40px;
+}
+p.sele_all {
+    height: 30px;
+    margin-left: 4px;
+}
+.sele_all > label{
+	margin: 0 0 0 5px;
+	width: auto;
+	font-weight: 500;
+	font-size: 14px;
+}

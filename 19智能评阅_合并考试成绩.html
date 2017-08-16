@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>合并考试成绩</title>
+    <link rel="stylesheet" href="http://192.168.1.235/public/static/easy_exam/css/bootstrap/bootstrap.min.css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/easy_exam.css">
+    <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试名称</a><i> &gt; </i><a href="#">考生名单</a><i> &gt; </i><a class="current" href="#">从其它考试导入</a></p>
+            </div>
+            <div class="item_mergeMark mgb20">
+                <div class="boxStyle">
+                    <h3 class="title2 t_c ">其它考试</h3>
+                    <p class="chooseBox t_r"><span class="f14">仅选择我的考试</span><span class="onoff mgl10 open"><em></em></span><a href="javascript:void(0)" class="chooseWeek">同一周</a></p>
+                    <div class="examinfoTabWrap" name="tab">
+                        <div class="examinfoTab" name="tabScrollBox">
+                            <div class="showArea" name="showArea">
+                                <ul class="moveBox clearfix" name="moveBox">
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="mainWrap">
+                                            <div class="dropcont">
+                                                <h3 class="mgb10">第42周</h3>
+                                                <h4>11月5日—11月12日</h4>
+                                                <ul>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                    <li><a href="javascript:;">高三语文周练，考生405人</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropbox">
+                                                    <div class="drop"></div>
+                                                </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="btn prev" name="btn">&lt;</a>
+                            <a href="javascript:;" class="btn next ready" name="btn">&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ni_g_title01">可合并考试</div>
+                <div class="boxStyle mergeList mgb20">
+                    <p><strong class="thin">高三语文周练（11月20日）</strong></p>
+                    <dl class="clearfix name">
+                        <dt>科目</dt>
+                        <dd><span class="green">语文<i class="close_ico"></i></span><span class="blue">数学<i class="close_ico"></i></span><span class="red">英文<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <dl class="clearfix classRoom s_green">
+                        <dt>班级</dt>
+                        <dd><span>高三1班<i class="close_ico"></i></span><span>高三2班<i class="close_ico"></i></span><span>高三3班<i class="close_ico"></i></span><span>高三4班<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <a href="javascript:void(0)" class="chooseBtn">选中</a>
+                </div>
+                <div class="ni_g_title01">待合并考试</div>
+                <div class="boxStyle mergeList  mgb20">
+                    <p><strong class="thin">高三数学周练（11月26日）</strong></p>
+                    <dl class="clearfix name">
+                        <dt>科目</dt>
+                        <dd><span >语文<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <dl class="clearfix classRoom">
+                        <dt>班级</dt>
+                        <dd><span>高三1班<i class="close_ico"></i></span><span>高三2班<i class="close_ico"></i></span><span>高三3班<i class="close_ico"></i></span><span>高三4班<i class="close_ico"></i></span></dd>
+                    </dl>
+                </div>
+                <div class="boxStyle mergeList s_editMerge mgb20">
+                    <p><strong class="thin">高三数学周练（11月26日）</strong></p>
+                    <dl class="clearfix name">
+                        <dt>科目</dt>
+                        <dd><span >语文<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <dl class="clearfix classRoom">
+                        <dt>班级</dt>
+                        <dd><span>高三1班<i class="close_ico"></i></span><span>高三2班<i class="close_ico"></i></span><span>高三3班<i class="close_ico"></i></span><span>高三4班<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <a href="javascript:void(0)" class="editBtn">删除</a>
+                </div>
+                <div class="boxStyle mergeList s_editMerge mgb20">
+                    <p><strong class="thin">高三数学周练（11月26日）</strong></p>
+                    <dl class="clearfix name">
+                        <dt>科目</dt>
+                        <dd><span >语文<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <dl class="clearfix classRoom">
+                        <dt>班级</dt>
+                        <dd><span>高三1班<i class="close_ico"></i></span><span>高三2班<i class="close_ico"></i></span><span>高三3班<i class="close_ico"></i></span><span>高三4班<i class="close_ico"></i></span></dd>
+                    </dl>
+                    <a href="javascript:void(0)" class="editBtn">删除</a>
+                </div>
+                <div class="mergeBtn t_c mgb20"><a href="javascript:void(0)" class="mergeBtn_blue">合并</a></div>
+            </div> 
+        </div>
+    </div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scrollbar.js"></script>
+    <script type="text/javascript" src="js/fun.js"></script>
+    <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+    <script>
+        function tabScrollBox(obj,i,fn){
+            var wrap = obj;
+            var moveBox = wrap.find('[name="moveBox"]');
+            var btn_prev = wrap.find('[name="btn"].prev');
+            var btn_next = wrap.find('[name="btn"].next');
+            var n = moveBox.children().length;
+            var w,li_w;
+
+
+            i = isNaN(i)? 0 : i;
+
+            init();
+
+            function init(){
+                if(wrap.is(':hidden')){
+                    wrap.css('display','block');
+                    layout();
+                    wrap.removeAttr('style');
+                }else{
+                    layout();
+                };
+
+
+                $(window).on('resize',function(){
+                    setTimeout(function(){
+                        layout();
+                    },1000/60);
+                });
+
+                btnClick();
+            };
+
+            function layout(){
+                curI();
+                li_w = moveBox.children().width();
+                moveBox.css({'width':n*li_w,'marginLeft':-li_w/2});
+                var moveBox_maxH = moveBox.children().eq(i).height();
+                moveBox.css({'top':'50%','marginTop':-moveBox_maxH/2});
+
+                w = moveBox.parent().width();
+                moveBox.css({'left':-i*li_w+w/2});
+                btnCss();
+            };
+
+            function move(){
+                if(typeof(fn) != 'function') fn = undefined;;
+                moveBox.stop(false,false).animate({'left':-i*li_w+w/2},fn);
+            };
+
+            function btnCss(){
+                if(i == 0){
+                    btn_prev.removeClass('ready');
+                }else{
+                    btn_prev.addClass('ready');
+                };
+                if(i == n - 1){
+                    btn_next.removeClass('ready');
+                }else{
+                    btn_next.addClass('ready');
+                };
+            };
+
+            function btnClick(){
+                btn_prev.on('click',function(){
+                    if(i > 0){
+                        i--;
+                        btnCss();
+                        move();
+                    };
+                    curI();
+                });
+                btn_next.on('click',function(){
+                    if(i < n - 1){
+                        i++;
+                        btnCss();
+                        move();
+                    };
+                    curI();
+                }); 
+                wrap.on('click','.mainWrap',function(){
+                    var index = $(this).parent().index();
+                    i = index;
+                     btnCss();
+                     move();
+                     curI();
+
+                     $('.mainWrap').each(function(){
+                        addScrollFn($(this));
+                    });
+                });
+            };
+
+            function curI(){
+                moveBox.children().eq(i).addClass('cur').siblings().removeClass('cur');
+            };
+
+        };
+        $('.examinfoTab').each(function(){
+           tabScrollBox($(this));
+        });
+        function addScrollFn(obj){
+            if(obj.parent().hasClass('cur')){
+                obj.customScrollbar();
+            }else{
+                obj.off('mousewheel DOMMouseScroll');
+                obj.children('.dropcont').removeAttr('style');
+            };
+        };
+        $('.mainWrap').each(function(){
+            addScrollFn($(this));
+        });
+        $('.examinfoTab').on('click','.btn',function(){
+           $('.mainWrap').each(function(){
+                addScrollFn($(this));
+            });
+        });
+        $('.modifyClassBox').perfectScrollbar({
+           suppressScrollX:true
+        });
+
+
+        $('.onoff').click(function () {
+            $(this).toggleClass('open');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/scrollbar.js"></script>
+<script type="text/javascript" src="js/fun.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+
+<script>
+        
+
+</script>
+</html>

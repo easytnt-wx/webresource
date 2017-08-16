@@ -1,0 +1,104 @@
+#showComment{
+	color:#6db33f;
+}
+
+.rectangle textarea {
+    border: 0;
+    background-color: transparent;
+    color: #c83025;
+    resize: none;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.rectangle {
+  position:absolute;
+  border:2px solid #46b8da;
+  box-sizing: content-box;
+  cursor:move;
+  margin: 0;
+  padding: 15px;
+}
+
+.notDelete {
+  border-color: #e40000 !important;
+}
+
+.point {
+    background-color:#45a5fe;
+    opacity:1;
+    border: 1px solid #45a5fe;
+    border-radius: 100%;
+    font-size: 0;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    z-index: 5;
+}
+
+.notDelete .point {
+  background-color: #7073f4 !important;
+}
+
+.point-list{
+  padding: 0 0 0 20px;
+}
+
+.point-list li{
+  margin:10px 0;
+}
+
+.left {
+    cursor: w-resize;
+    left: -7px;
+    top: 47%;
+}
+.right {
+    cursor: w-resize;
+    right: -7px;
+    top: 47%;
+}
+.up {
+    cursor: s-resize;
+    left: 47%;
+    top: -7px;
+}
+.down {
+    bottom: -7px;
+    cursor: s-resize;
+    left: 47%;
+}
+.leftUp {
+    cursor: nw-resize;
+    left: -7px;
+    top: -7px;
+}
+.rightUp {
+    cursor: pointer;
+    right: -14px;
+    top: -14px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../../images/mark_close.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border:none;
+    background-color: #fff;
+}
+.rightUp:hover{
+    background-image: url("../../images/mark_close.png");
+    background-repeat: no-repeat;
+    background-position: -27px 0;
+}
+.leftDown {
+    bottom: -7px;
+    cursor: sw-resize;
+    left: -7px;
+}
+.rightDown {
+    bottom: -7px;
+    cursor: se-resize;
+    right: -7px;
+}

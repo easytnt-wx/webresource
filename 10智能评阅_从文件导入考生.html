@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>从文件导入考生</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/cwjdrks.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试名称</a><i> &gt; </i><a class="current" href="#">考生名单</a></p>
+            </div>
+            <div class="boxStyle student_page mgb20">
+                <h3 class="title2">从文件导入学生</h3>
+                <div class="base_info clearfix mgtb20">
+                    <p class="fl base_view"><span>考试基本信息：XXX考试（2016-11-05）</span><i>科目：九年级语文、九年级数学、九年级英语</i></p>
+                    <p class="fr register_template"><i>参加考试学校 <em class="color1">1</em>所，学生 <em class="color1">100</em>人</i><a class="Btn2 mgl15" href="#">下载报名模板</a></p>
+                </div>
+                <div id="upload">
+                    <div class="clearfix see_load pdb10">
+                        <dl class="fl file_list clearfix">
+                            <dt>考生名单文件：</dt>
+                            <dd>
+                                <span><em>九年级1班.xls（55/0）</em><i class="icon_remove">x</i></span>
+                                <span><em>九年级1班.xls（55/0）</em><i class="icon_remove">x</i></span>
+                                <span><em>九年级1班.xls（55/0）</em><i class="icon_remove">x</i></span>
+                                <span><em>九年级1班.xls（55/0）</em><i class="icon_remove">x</i></span>
+                                <span><em>九年级1班.xls（55/0）</em><i class="icon_remove">x</i></span>
+                                <span><em>九年级1班.xls（55/0）</em><i class="icon_remove">x</i></span>
+                            </dd>
+                        </dl>
+                        <a href="#" id="upload_file" class="Btn2 fr" style="width: 90px;">上传文件</a>
+                    </div>
+                    <div id="drap_file">
+                        <ul class="drag_list">
+                            <li><i>九年级4班.xls（55/0）</i><span class="progress_bar"><em style="width:50%;"></em></span></li>
+                            <li><i>九年级5班.xls（55/0）</i><span class="progress_bar"><em style="width:50%;"></em></span></li>
+                        </ul>
+                        <p class="t_c drag_txt"><i class="up_load"></i><span>将文件拖入此区域上传</span></p>
+                    </div>
+                </div>
+                <div class="export clearfix">
+                    <p class="gather fl"><span class="file_name">九年级1班.xls</span><i>共有学生<em class="color1">55</em>人</i><i>有异常学生<em class="color2">12</em>人</i></p>
+                    <a href="#" class="Btn2 fr" style="width: 62px;">导入</a>
+                </div>
+
+                <table class="tablestyle">
+                    <thead>
+                        <tr>
+                            <th width="10%">序号</th>
+                            <th width="13%">姓名</th>
+                            <th width="13%">学号</th>
+                            <th width="20%">考号</th>
+                            <th width="29%">学校</th>
+                            <th width="15%">年级/班级</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>10010011</td>
+                            <td>10010011</td>
+                            <td>华中师范大学附属小学</td>
+                            <td>初一 （5）班</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>10010011</td>
+                            <td>10010011</td>
+                            <td>华中师范大学附属小学</td>
+                            <td>初一 （5）班</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>10010011</td>
+                            <td>10010011</td>
+                            <td>华中师范大学附属小学</td>
+                            <td>初一 （5）班</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>10010011</td>
+                            <td>10010011</td>
+                            <td>华中师范大学附属小学</td>
+                            <td>初一 （5）班</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>10010011</td>
+                            <td>10010011</td>
+                            <td>华中师范大学附属小学</td>
+                            <td>初一 （5）班</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>张三</td>
+                            <td>10010011</td>
+                            <td>10010011</td>
+                            <td>华中师范大学附属小学</td>
+                            <td>初一 （5）班</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="turnPage t_c mgt30">
+                    <span><a class="p_left" href="#">上一页</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a class="on">5</a><a class="p_right" href="#">下一页</a></span><span class="mglr15 txt">共 100 页</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>

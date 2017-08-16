@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 100px;
+}
+.mytime > input{
+	width: 130px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.mytime > input + span{
+	left: -35px;
+	top: 4px;
+}
+form.form-horizontal > .form-group{
+	margin: 0;
+}
+.dis_lb{
+	display: inline-block;
+}
+.form-horizontal .radio, .form-horizontal .checkbox{
+	min-height: 20px;
+	padding-top: 0;
+}
+.checkStyle1 > label{
+	font-weight: 500;
+}
+.list_top_right > a:hover{
+	color: #fff;
+}
+.icon_date{
+	background-image: url(../images/public/icon_date.png);
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+}
+.row.noMargin{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}

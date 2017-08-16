@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+.rectangle {
+    position: absolute;
+    z-index: 100;
+    border: 2px solid #46b8da;
+    box-sizing: content-box;
+}
+.layout .left{
+	height: auto;
+	overflow-y: visible;
+}
+.processed{
+	width: 500px;
+	max-height: 600px;
+	overflow-y: auto;
+}
+.icon_state1+span {
+    width: 107px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.img-box{
+    height: 700px;
+    border: 1px solid #ddd;
+}
+.control-module{
+    right: 55px;
+}

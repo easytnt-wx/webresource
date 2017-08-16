@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>模板</title>
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/consult.css" rel="stylesheet" type="text/css">
+    <link href="css/report_card.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="exam_list">
+        <div class="ni_g_t_list">
+            <div class="w1200">
+                <ul class="ni_ul clearfix">
+                    <li class="ni_li on ni_li01 hover">
+                        <div class="ni_fl ni_ico "></div>
+                        <div class="ni_fl ni_txt">1.题块</div>
+                        <span></span>
+                    </li>
+                    <li class="ni_li on ni_li02 hover">
+                        <div class="ni_fl ni_ico"></div>
+                        <div class="ni_fl ni_txt">2.评题</div>
+                        <span></span>
+                    </li>
+                    <li class="ni_li ni_li03 hover">
+                        <div class="ni_fl ni_ico"></div>
+                        <div class="ni_fl ni_txt">3.给分点</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="w1200">
+            <div class='contentContainer mgt30 clearfix'>
+                <div class="as_leftbox fl bg9">
+                    <div class="as_scorepointWrap">
+                        <dl>
+                            <dt class="on">13-26 (20分)</dt>
+                            <dd>
+                               <p>给分点1 <span>（8分）</span><i class="icon_cross"></i></p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>27 (20分)</dt>
+                            <dd>
+                               <p>给分点1 <span class="on">（8分）</span><i class="icon_cross"></i></p>
+                               <p>给分点1 <span>（8分）</span><i class="icon_cross"></i></p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="as_midbox bg9 fl">
+                    <img src="./images/ni_sj4.jpg" alt=""/>
+                    <div class="control-module">
+                        <i class="overturn"></i><i class="add"></i><span class="control-bar"><em></em></span><i
+                            class="subtract"></i>
+                    </div>
+                </div>
+                <div class="as_rightbox fr bg9">
+                    <div class="as_scoredetailbox">
+                        <h4 class="as_scoretitle">13-26 （20分）</h4>
+                        <ul>
+                            <li>
+                                <label>名称</label><input type="text" value="31-26"/>
+                            </li>
+                            <li>
+                                <label>满分</label><input type="text" value="30"/>
+                            </li>
+                            <li>
+                                <label>给分方式</label><a href="#" class="as_btn on mgr10">连续</a><a class="as_btn"  href="">非连续</a>
+                            </li>
+                            <li>
+                                <label>给分区间</label><input type="text" value=""/>
+                            </li>
+                            <li>
+                                <label>有效得分</label><input type="text" value="0，5，10，15，20"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="as_newscorepoint" href=""><i></i><span>新增加给分点</span></a>
+                    <p class="as_btnlist"><a class="as_btn1 mgr10" href="#"><span>确定</span></a><a class="as_btn2" href="#"><span>重置</span></a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/fun.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+    <script>
+        $(".ni_g_silder_img01").perfectScrollbar();
+        $(".selecterBox").Selector({
+            callback: function (e) {
+                if ($(e).hasClass("ni_g_yc_bq_a")) {
+                    var dialog = art.dialog({
+                        title: '参考答题卡',
+                        content: document.getElementById('ni_fun_ckmb01'),
+                        background: '#000',
+                        drag: false,
+                        lock: true,
+                        opacity: 0.6
+                    });
+                }
+
+            }
+        });
+        $(function(){
+            $(".as_scorepointWrap dt.on").next().show();
+            $(".as_scorepointWrap dt").on("click",function(){
+                $(this).toggleClass("on");
+                if($(this).hasClass("on")){
+                    $(this).next().slideDown();
+                    $(this).parents("dl").siblings("dl").find("dt").removeClass("on").next().slideUp();
+                }else{$(this).next().slideUp()}
+            });
+        });
+        $('.accordionList').accordion();
+        $('.dropDown').drop();
+        $('.checkList').checkBox();
+        $('.radioList').radios();
+        $('.grouppaper_detail').hoverDrop();
+        $('.bookVersions').menuRight();
+        $(".searchStyle4").find('.inputSearch').focus(function () {
+            $(this).parents('.searchStyle4').addClass('on');
+        });
+        $('.control-module').drag({
+            container: '.as_midbox'
+        });
+        $(".as_leftbox").perfectScrollbar({
+            suppressScrollX: true
+        });
+    </script>
+</body>
+</html>

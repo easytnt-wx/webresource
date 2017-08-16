@@ -1,0 +1,403 @@
+@charset "utf-8";
+.ease_header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.easy_logoImg{
+    float: left;
+    padding: 24px 0;
+    margin: 0 20px 0 -20px;
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+}
+.easy_main{
+    background-color: #fff;
+}
+.btn1{
+    display: inline-block;
+    padding:4px 16px 4px 32px;
+    border-radius: 4px;
+    color: #9b9b9b;
+    margin: 18px 0;
+    background: url('../images/back.png') no-repeat 12px center;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+.exam_info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.exam_info > h3{
+    font-size: 24px;
+    color: #222;
+}
+.exam_info > span{
+    font-size: 14px;
+    color: #717171;
+    padding:3px 18px;
+    border-radius: 10px;
+    background-color: #f0f1f3;
+    margin-top: 15px;
+    display: inline-block;
+}
+.tag{
+    text-align: center;
+    position: relative;
+}
+.tag > a {
+    padding:12px 0;
+    display: inline-block;
+    font-size: 16px;
+    color: #747474;
+    margin-right: 40px;
+    border-bottom: 2px solid transparent;
+    transition: all ease-in .3s;
+}
+.tag > a.on,.tag > a:hover,.tag > a:focus{
+    color: #46a6ff;
+    border-bottom: 2px solid #46a6ff;
+    text-decoration: none;
+}
+.btnGrp1.psR{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.btnGrp1 > a,.btnGrp1 > button{
+    font-size: 14px;
+    color: #46a6ff;
+    padding: 6px 24px;
+    display: inline-block;
+    border:1px solid #46a6ff;
+    background-color: #fff;
+    outline: none;
+}
+.btnGrp1 > a.disabled,.btnGrp1 > a.disabled:hover,.btnGrp1 > a.disabled:focus,.btnGrp1 > button.disabled,.btnGrp1 > button.disabled:hover,.btnGrp1 > button.disabled:focus{
+    opacity: .65;
+    cursor: not-allowed;
+    background-color: #f2f2f2;
+    color: #747474;
+    border-color: #ccc;
+}
+.btnGrp1 > a:hover,.btnGrp1 > a:focus,.btnGrp1 > a.active,.btnGrp1 > button:hover,.btnGrp1 > button:focus,.btnGrp1 > button.active{
+    background-color: #bddeff;
+    color: #1e7de0;
+    text-decoration: none;
+}
+.btnGrp1 > a:first-child,.btnGrp1 > button:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+.btnGrp1 > a:last-child,.btnGrp1 > button:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -4px;
+}
+.suject{
+    text-align: left;
+    margin:0;
+    background-color: #fff;
+    padding: 25px 25px 0px 25px;
+    border:1px solid #d1e5f7;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+}
+.suject  button{
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 6px;
+    border:1px solid transparent;
+    font-size: 16px;
+    padding: 8px 16px;
+    color: #000022;
+    margin: 0 5px;
+    transition: all ease-in .2s;
+}
+.suject  button.on,.suject  button:hover,.suject  button:focus{
+    background-color: #46a6ff;
+    color: #fff;
+}
+.list{
+    margin-bottom: 30px; 
+}
+.list > h4{
+    color: #656565;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.boxStyle.reportBody{
+    border-radius: 0 0 4px 4px;
+    border-top: none;
+}
+
+.pst_rlt{
+    position: relative;
+}
+.aside{
+    position: absolute;
+    top: 0;
+    left: -160px;
+    background-color: #fff;
+    border:1px solid #d1e5f7;
+    border-radius: 4px;
+    min-width: 150px;
+    text-align: center;
+}
+.aside h4{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 160px;
+    border-bottom:1px solid #eee;
+}
+.aside ul{
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.aside  li{
+    text-align: center;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: 20px 0;
+    width: 160px;
+}
+.aside a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #666;
+    transition: all ease-in .3s;
+}
+.aside a.on,.aside a:hover,.aside a:focus{
+    background: #BDDEFF;
+    color: #2576DB;
+}
+
+
+
+/*新的头部 headerT*/
+.headerT {
+  background: url(../images/teacher/icon_menubg.png) left top repeat-x #45a5ff;
+  height: 80px;
+  color: #fff; }
+
+.logoTea > img{
+  display: block;
+  height: 34px;
+  margin: 23px 30px 23px -20px;
+}
+.infoT > dt {
+    font-weight: 500;
+}
+.wrapper{
+    margin-top: 0px;
+}
+@media screen\0 {
+  .navBar li a:hover {
+    background: #5fb3ff; }
+
+  .navBar li a.current {
+    background: #2e8beb; } }
+.navBar {
+  overflow: hidden; }
+  .navBar li {
+    float: left; }
+    .navBar li .icon_menu1, .navBar li .icon_menu3, .navBar li .icon_menu2, .navBar li .icon_menu4 {
+      margin-right: 7px; }
+    .navBar li a {
+      display: block;
+      padding: 26px 25px;
+      background: transparent;
+      position: relative;
+      -webkit-transition: background 300ms ease-in-out 0s;
+      -moz-transition: background 300ms ease-in-out 0s;
+      transition: background 300ms ease-in-out 0s; }
+      .navBar li a:hover {
+        background: -moz-linear-gradient(top, #3f9bfa, #5fb3ff);
+        background: -webkit-linear-gradient(top, #3f9bfa, #5fb3ff);
+        background: -o-linear-gradient(top, #3f9bfa, #5fb3ff);
+        *background: #5fb3ff; }
+      .navBar li a.current {
+        background: -moz-linear-gradient(top, #3e9af9, #2d8aea);
+        background: -webkit-linear-gradient(top, #3e9af9, #2d8aea);
+        background: -o-linear-gradient(top, #3e9af9, #2d8aea);
+        *background: #2e8beb; }
+        .navBar li a.current:after {
+          position: absolute;
+          content: '';
+          left: 50%;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-bottom: 8px solid #ecf6ff;
+          margin-left: -8px; }
+    .navBar li span {
+      font-size: 18px;
+      color: #fff;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      vertical-align: middle; }
+
+.icon_menu1, .icon_menu3, .icon_menu2, .icon_menu4 {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  background: #f00; }
+
+.icon_menu1 {
+  background: url(../images/teacher/icon_menu1.png) center center no-repeat; }
+
+.icon_menu2 {
+  background: url(../images/teacher/icon_menu2.png) center center no-repeat; }
+
+.icon_menu3 {
+  background: url(../images/teacher/icon_menu3.png) center center no-repeat; }
+
+.icon_menu4 {
+  background: url(../images/teacher/icon_menu4.png) center center no-repeat; }
+
+.handleArea {
+  background: #fff;
+  box-shadow: 0px 6px 10px 0px #efeff0; }
+
+.infoT {
+  padding: 19px 0; }
+  .infoT dt {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    /*margin-left: 30px;*/
+    margin-left: 18px; }
+    .infoT dt:first-child {
+      margin-left: 0; }
+
+.uerbox {
+  position: relative; }
+
+.drop_wrap {
+  padding-top: 10px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  z-index: 100; }
+
+.user_droplist {
+  padding: 5px;
+  box-shadow: 0 0 9px 0 #daedff;
+  background: #fff; }
+  .user_droplist li a {
+    color: #676767;
+    display: block;
+    *display: inline;
+    -webkit-transition: background 300ms ease-in-out 0s;
+    -moz-transition: background 300ms ease-in-out 0s;
+    transition: background 300ms ease-in-out 0s;
+    border-radius: 3px; }
+    .user_droplist li a span {
+      line-height: 30px;
+      width: 79px;
+      display: block;
+      *display: inline;
+      text-align: center; }
+    .user_droplist li a:hover {
+      background: #f1f1f1; }
+
+.userinfo .userT, .userinfo .NameT {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  color: #fff; }
+.userinfo .userT {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  margin-right: 10px;
+  overflow: hidden; }
+.userinfo .icon_drop {
+  cursor: pointer;
+  margin-left: 10px; }
+
+.classRoom, .logoutT {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  line-height: 26px;
+  border-radius: 3px;
+  padding: 0 10px;
+  background: transparent;
+  -webkit-transition: background 300ms ease-in-out 0s;
+  -moz-transition: background 300ms ease-in-out 0s;
+  transition: background 300ms ease-in-out 0s;
+  color: #fff; }
+  .classRoom:hover, .logoutT:hover {
+    background: #3b95ed; }
+
+.icon_drop {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  width: 8px;
+  height: 5px;
+  background: url(../images/teacher/icon_drop.png) center center no-repeat; }
+
+
+
+  
+/*屏幕分辨率为1280px - 1366px 的时候*/
+@media(max-width: 1280px){
+  .easy_main ~ .container{
+    width: 900px;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .easy_main ~ .container{
+    width: 1100px;
+    margin-right: 10px;
+  }
+}
+/*屏幕分辨率为1366px - 1440px 的时候*/
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .easy_main ~ .container{
+    width: 1100px;
+    margin-right: 40px;
+  }
+}
+/*屏幕分辨率为1440px - 1500px的时候*/
+@media (min-width: 1441px) and (max-width: 1500px) {
+  .easy_main ~ .container{
+    width: 1140px;
+    margin-right: 40px;
+  }
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+}

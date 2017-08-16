@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>从文件导入考生</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+    <link href="css/teacher.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/consult.css" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class='headerT'>
+        <div class='container w1200 clearfix'>
+            <!-- <span class='fl logoTea'></span> -->
+            <a href="javascript:void(0)" class="logoTea fl"><img src="images/teacher/logo.png" alt="logo"></a>
+            <ul class='navBar fl'>
+                <li><a href='javascript:;'><i class='icon_menu1'></i><span>手阅系统</span></a></li>
+                <li><a class='current' href='javascript:;'><i class='icon_menu2'></i><span>网阅系统</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu3'></i><span>卷库管理</span></a></li>
+            </ul>
+            <dl class='infoT fr'>
+                <dt>
+                    <div class='selecterStyle7'>
+                            <span class='selecterValue' style='width: 289px;'>
+                                <p>华师第一附属中学光谷校区</p>
+                                <input type='hidden' class='selRes' value='1' />
+                            </span>
+                        <i class='droparrow'></i>
+                        <div class='selectwrapper'>
+                            <div class='selecterdown' style='height: 179px;'>
+                                <span class='selecterDrop' style='width: 289px;'>
+                                    <a href='#' value='1'>华师第一附属中学光谷校区</a>
+                                    <a href='#' value='2'>武珞路中学</a>
+                                    <a href='#' value='3'>武汉市光谷实验中学</a>
+                                    <a href='#' class='active'  value='4'>武珞路中学</a>
+                                    <a href='#' value='5'>卓刀泉中学</a>
+                                    <a href='#' value='6'>华中科技大学附属中学</a>
+                                    <a href='#' value='6'>华中科技大学附属中学</a>
+                                    <a href='#' value='7'>华中科技大学附属中学</a>
+                                    <a href='#' value='8'>华中科技大学附属中学</a>
+                                    <a href='#' value='9'>华中科技大学附属中学</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </dt>
+                <dt>
+                    <div class='uerbox'>
+                        <p class='userinfo'>
+                            <span class='userT'><img src='images/public/user.png' alt=''></span><a class='NameT'>李小明</a><i class='icon_drop'></i>
+                        </p>
+                        <div class='drop_wrap'>
+                            <ul class='user_droplist'>
+                                <li><a href='javascript:;'><span>我的班级</span></a></li>
+                                <li><a href='javascript:;'><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="cs_top">
+        <div class="cs_top_title pdl10">
+            <div class="w1200 clearfix">
+                <div class="breadcrumb breadStyle3">
+                    <p class="breadtxt fl"><a href="#">考试列表</a><i></i><a href="#">考生名单</a><i> </i><a class="current" href="#">武汉四中七年级上第一次月考</a><i> </i><a class="current" href="#">管理考生</a><i></i><a class="current" href="#">其他考试导入学生</a></p>
+                </div>
+                <a href="#" class="to-back fr mgr10"><i class="icon_turnback"></i><span>返回</span></a>
+            </div>
+        </div>
+        <div class="w1200">
+            <div class="ni_g_main mgtb20 bg9 ni_border_0">
+                <div class="ni_tit">文件导入学生
+                    <div class="ni_btn fr mgr20">
+                        <a href="">下载导入模板</a>
+                    </div>
+                </div>
+                <div class="ni_pdlr70">
+                    <div class="ni_im_list ni_style_ffe194 mgtb10">
+                        <span>考试基本信息：</span>
+                        <span>text2017-05-16   武汉四中高二期中</span>
+                        <span>学生 <big>78</big> 人</span>
+                    </div>
+                    <div class="ni_im_list ni_style_ff7f7f mgtb10">
+                        <span>科目：</span>
+                        <span><big>综合实践活动&nbsp;&nbsp;&nbsp;&nbsp;英语&nbsp;&nbsp;&nbsp;&nbsp;语文&nbsp;&nbsp;&nbsp;&nbsp;传统文化&nbsp;&nbsp;&nbsp;&nbsp;品德与社会&nbsp;&nbsp;&nbsp;&nbsp;数学&nbsp;&nbsp;&nbsp;&nbsp;科学</big></span>
+                    </div>
+                    <div class="f14 mgb10 mgt30 pdt20 ni_g_b_ksmd">考生名单文件：
+                        <span>九年级1班.xlsx (50/50)<i></i></span>
+                        <span>九年级1班.xlsx (50/50)<i></i></span>
+                        <span>九年级1班.xlsx (50/50)<i></i></span>
+                    </div>
+                    <div id="drap_file">
+                        <ul class="drag_list">
+                            <li><i>九年级4班.xls（55/0）</i><span class="progress_bar"><em style="width:50%;"></em></span></li>
+                            <li><i>九年级5班.xls（55/0）</i><span class="progress_bar"><em style="width:50%;"></em></span></li>
+                        </ul>
+                        <p class="t_c drag_txt"><span>将文件拖入此区域上传</span></p>
+                    </div>
+                    <div class="ni_btn t_r mgt10 pdb30">
+                        <a class="ni_bg_f5f5f5" href="">选择文件</a>
+                        <a class="ni_bg_1ab4fa" href="">开始上传</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pdlr30 ni_g_bg_fff bg9 ni_border_0 mgb30 pdb20">
+                <div class="clearfix titWrap pdtb15">
+                    <span class="tit_main"><span class="f16 ni_g_c_222222">九年级1班.xls</span></span>
+                    <span class="tit_sub mgl10">共有学生 <i class="ni_g_c_45a4fe">63</i> 人，有异常学生 <i class="ni_g_c_ff8c8c">12</i> 人</span>
+                    <span  class="ni_fuc_ycts"><a href="javascript:;" class="whiteBtn mgl10 ni_bg_ff9f01 ni_c_fff ni_border_c_ff9f01"><span class="f16">查看异常学生</span></a></span>
+                    <span class="fr"><a href="javascript:;" class="whiteBtn mgl10 ni_g_bg_1ab4fa ni_c_fff ni_border_c_ff9f01"><span class="f16">导入</span></a></span>
+                </div>
+                <table class="examTable ni_hover_bg_e1f5ff" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                        <th>姓名</th>
+                        <th>学号</th>
+                        <th>考号</th>
+                        <th>学校</th>
+                        <th>年级 / 班级</th>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                    <tr>
+                        <td>张三</td>
+                        <td>10010011</td>
+                        <td>10010011</td>
+                        <td>华中师范大学附属小学</td>
+                        <td>初一（5）班</td>
+                    </tr>
+                </table>
+                <div class="turnPage2 t_c mgt20">
+                    <span class="total-page"><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a class="on" href="#">5</a></span><span class="next-page mgl10">&gt;</span><span class="last-page mgl10">尾页</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--异常提示 S-->
+    <div class="ni_g_pop_ycts ni_g_pop_ycts1 dis_none">
+        <div class="ni_tit">
+            <span class="mgr30">九年级1班.xls</span>
+            <span>共有学生 <big class="ni_g_color_45a4fe">55</big>人，有异常学生 <big class="ni_g_color_ff8c8c">12</big> 人</span>
+        </div>
+        <ul class="pdtb5 ni_ul">
+            <li class="clearfix">
+                <div class="fl"><span class="ni_r_j">第</span> <span class="ni_r ni_r_j">1</span> <span class="ni_r_j">行：</span></div>
+                <div class="fr ni_g_c_ffa8a8"><span class="ni_sp">考号长度不够;学校不在本次考试范围内;学生姓名没有数据;学生姓名没有数据</span></div>
+            </li>
+            <li class="clearfix">
+                <div class="fl"><span class="ni_r_j">第</span> <span class="ni_r ni_r_j">1</span> <span class="ni_r_j">行：</span></div>
+                <div class="fr ni_g_c_ffa8a8"><span class="ni_sp">考号长度不够;学校不在本次考试范围内;学生姓名没有数据;学生姓名没有数据</span></div>
+            </li>
+            <li class="clearfix">
+                <div class="fl"><span class="ni_r_j">第</span> <span class="ni_r ni_r_j">1</span> <span class="ni_r_j">行：</span></div>
+                <div class="fr ni_g_c_ffa8a8"><span class="ni_sp">考号长度不够;学校不在本次考试范围内;学生姓名没有数据;学生姓名没有数据</span></div>
+            </li>
+            <li class="clearfix">
+                <div class="fl"><span class="ni_r_j">第</span> <span class="ni_r ni_r_j">1</span> <span class="ni_r_j">行：</span></div>
+                <div class="fr ni_g_c_ffa8a8"><span class="ni_sp">考号长度不够;学校不在本次考试范围内;学生姓名没有数据;学生姓名没有数据</span></div>
+            </li>
+            <li class="clearfix">
+                <div class="fl"><span class="ni_r_j">第</span> <span class="ni_r ni_r_j">1</span> <span class="ni_r_j">行：</span></div>
+                <div class="fr ni_g_c_ffa8a8"><span class="ni_sp">考号长度不够;学校不在本次考试范围内;学生姓名没有数据;学生姓名没有数据</span></div>
+            </li>
+        </ul>
+        
+        <div class="turnPage2 t_c mgt20">
+            <span class="total-page"><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a class="on" href="#">5</a></span><span class="next-page mgl10">&gt;</span><span class="last-page mgl10">尾页</span>
+        </div>
+
+    </div>
+    <!--异常提示 E-->
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+    <script>
+         //异常提示
+        $(".ni_fuc_ycts").on("click",function(){
+            var dialog = artDialogs({
+                title:'<span class="mgl10 f16" >查看异常学生</span>',
+                content:$(".ni_g_pop_ycts1")[0],
+                padding:"0px",
+                background:"#000"
+            });
+        })
+        $(function(){
+            $('.checkList').checkBox();
+            $(".tabStyle2").tabControl();
+            $(".tier").floorTree();
+        });
+        $(function () {
+            var list=$('.waiting-list');
+            var waited=$('.waited');
+            var chooseed=$('.chooseed');
+            checkPerson(list);
+            var  checkRadios=$('.radioList').radios({
+                clickAfter:function (obj) {
+                    if(obj.text()=='自由分配'){
+                        $('.chooseed tbody').find('tr').each(function () {
+                            $(this).find('td').eq(2).children('input').show();
+                        });
+                    }else{
+                        $('.chooseed tbody').find('tr').each(function () {
+                            $(this).find('td').eq(2).children('input').hide();
+                        });
+                    }
+                }
+            });
+            $('.to-right').click(function () {
+                var statu=checkRadios.checked();
+                exchange(waited,chooseed);
+                if(typeof statu!='undefined'){
+                    chooseed.find('.input').show()
+
+                }
+            });
+            chooseed.on('click','.input',function () {
+                return false;
+            })
+            $('.to-left').click(function () {
+                exchange(chooseed,waited);
+                if(chooseed.find('tr').length==0){
+                    checkRadios.reload();
+                }
+            });
+            function exchange(from,to) {
+                var result=from.find('tr').filter(function () {
+                    return this.className=='wait';
+                });
+                $.map(result,function (ele,index) {
+                    $(ele).toggleClass().find('label').removeClass('checked').css({opacity:0}).children('input')[0].checked=false;
+                    $(ele).find('.input').hide();
+                    //console.log(ele);
+                });
+                result.remove();
+                to.append(result);
+            }
+            function checkPerson(box) {
+                box.on('click','tr',function () {
+                    var _this=$(this);
+                    $(this).toggleClass('wait');
+                    if(_this.is('.wait')){
+                        _this.find('label').addClass('checked').css({opacity:1}).children('input')[0].checked=true;
+                    }else{
+                        _this.find('label').removeClass('checked').css({opacity:0}).children('input')[0].checked=false;
+                    }
+                    console.log('bb');
+                    return false;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>模板</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">考试基本信息</a></p>
+            </div>
+            <div class="boxStyle create_exam mgb20">
+                <h3 class="title2">创建单元考试</h3>
+                <div class="set_info">
+                    <dl>
+                        <dt><span class="tit">姓名</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="error_tips pdl10"><i class="icon_error"></i><em>长度XXXXXX</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">学号</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="right_tips pdl10"><i class="icon_right"></i></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">考号</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="error_tips pdl10"><i class="icon_error"></i><em>长度XXXXXX</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">文理分科</span></dt>
+                        <dd>
+                            <div class="radioList radioStyle1">
+                                <label class="Radio"><input type="radio" value="1">一年级</label>
+                                <label class="Radio RadioChecked"><input type="radio" value="2">一年级</label>
+                                <label class="Radio"><input type="radio" value="2">高三</label>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">班级名称</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="set_warm mgl15"><i class="icon_warm"></i><em>请输入考试名称</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">班级代码</span></dt>
+                        <dd><input type="text" class="input" style="width: 314px;" /><span class="set_warm mgl15"><i class="icon_warm"></i><em>请输入考试名称</em></span></dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">学校</span></dt>
+                        <dd>
+                            <span class="selecterBox selecterStyle1" style="width:314px;">
+                                <span class="selecterValue">
+                                    <p>默认值请在a标签列表上加class="active"</p>
+                                    <input type="hidden" class="selRes" value="1" />
+                                </span>
+                                <span class="selecterDrop" style="width:314px;">
+                                    <a href="#" value="1">第一个选项第一个选项第一个选项</a>
+                                    <a href="#" value="2">第2个选项</a>
+                                    <a href="#" value="3">第3个选项</a>
+                                    <a href="#" class="active"  value="4">第4个选项</a>
+                                    <a href="#" value="5">第5个选项</a>
+                                    <a href="#" value="6">第6个选项</a>
+                                    <a href="#" value="7">第7个选项</a>
+                                    <a href="#" value="8">第8个选项</a>
+                                </span>
+                            </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="tit">&nbsp;</span></dt>
+                        <dd>
+                            <div class="checkList checkStyle1">
+                                <label class="checkbox"><input type="checkbox" value="1"><span>连续录入</span></label>
+                            </div>
+                        </dd>
+                    </dl>
+                    <p class="t_c"><a href="#" class="Btn1"><span>完成</span></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function(){
+            $('.radioList').radios();
+            $('.checkList').checkBox();
+            $(".selecterBox").Selector();
+        });
+    </script>
+</body>
+</html>

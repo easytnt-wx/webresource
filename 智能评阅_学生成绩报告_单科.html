@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>模板</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!-- 以下的css样式引用的路径是  css/report/css -->
+    <link rel="stylesheet" type="text/css" href="css/report/css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/report/css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/report/css/chart.css">
+    <link rel="stylesheet" type="text/css" href="css/report/css/dialog.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper pd20">
+            <div class="main_content">
+                <div class="main_charts">
+                    <h4 class="common_title"><span>概况</span></h4>
+                    <div class="situation">
+                        <ul class="situation_compare">
+                            <li class="index_tit">
+                                <p>分数</p>
+                                <p>得分率</p>
+                            </li>
+                            <li class="at_bar">
+                                <p class="tips">508</p>
+                                <p class="bars"><i>98.6%</i><span><em style="width: 60%;"></em></span></p>
+                            </li>
+                            <li>
+                                <p>比年级平均分高22分</p>
+                                <p>比本班其他科目平均分高8.31%</p>
+                            </li>
+                        </ul>
+                        <ul class="situation_compare">
+                            <li class="index_tit">
+                                <p>班级名次</p>
+                                <p>位居</p>
+                            </li>
+                            <li class="at_bar">
+                                <p class="tips">98</p>
+                                <p class="bars"><i>98.6%</i><span><em style="width: 60%;"></em></span></p>
+                            </li>
+                            <li>
+                                <p>比上次进步2个名次</p>
+                                <p>领先70%的本班同学</p>
+                            </li>
+                        </ul>
+                        <ul class="situation_compare">
+                            <li class="index_tit">
+                                <p>年级名次</p>
+                                <p>位居</p>
+                            </li>
+                            <li class="at_bar">
+                                <p class="tips">98</p>
+                                <p class="bars"><i>98.6%</i><span><em style="width: 60%;"></em></span></p>
+                            </li>
+                            <li>
+                                <p>比上次进步72个名次</p>
+                                <p>领先25%的本年级同学</p>
+                            </li>
+                        </ul>
+                        <div id="chart_situation" style="width: 100%;height: 384px;"></div>
+                        <dl class="subsection clearfix">
+                            <dt class="sub1">
+                            <p>不及格</p>
+                            <span><i>22</i>人</span><span><i>12.25</i>%</span>
+                            </dt>
+                            <dt class="sub2">
+                            <p>及格</p>
+                            <span><i>22</i>人</span><span><i>12.25</i>%</span>
+                            </dt>
+                            <dt class="sub3">
+                            <p>良好</p>
+                            <span><i>22</i>人</span><span><i>12.25</i>%</span>
+                            </dt>
+                            <dt class="sub4">
+                            <p>优秀</p>
+                            <span><i>22</i>人</span><span><i>12.25</i>%</span>
+                            </dt>
+                        </dl>
+                    </div>
+                    <h4 class="common_title"><span>对比同学</span></h4>
+                    <div class="compare_box side_distance">
+                        <div id="chart_updown" style="width: 100%;height: 421px;"></div>
+                        <p class="compare_explain t_c">个人总分得分率低于全班平均分，<i class="b_color">差值为-3.20%</i>；超过全部平均水平的科目有<i class="b_color">语文、英语</i>；低于平均的有<i class="b_color">数学、文科综合、理科综合</i>。</p>
+                    </div>
+                    <h4 class="common_title"><span>知识点分析</span></h4>
+                    <div class="knowledge_category side_distance">
+                        <div id="chart_category" style="width: 100%;height: 300px;"></div>
+                        <table class="analyze_list mgt30">
+                            <thead>
+                            <tr>
+                                <th width="122">知识点</th>
+                                <th width="174">个人得分率</th>
+                                <th width="174">班级平均得分率</th>
+                                <th width="69">比较</th>
+                                <th width="91">分值比重</th>
+                                <th width="125">题目解析</th>
+                                <th width="130">巩固练习</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>古文</td>
+                                <td><p class="percent_bar hot1"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><p class="percent_bar hot2"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><i class="up_arrow"></i></td>
+                                <td>分值比重</td>
+                                <td><i>第5题、第3题、第1题.</i><span></span></td>
+                                <td>推荐练习</td>
+                            </tr>
+                            <tr>
+                                <td>诗词</td>
+                                <td><p class="percent_bar hot1"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><p class="percent_bar hot2"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><i class="up_arrow"></i></td>
+                                <td>分值比重</td>
+                                <td><i>第5题、第3题、第1题.</i><span></span></td>
+                                <td>推荐练习</td>
+                            </tr>
+                            <tr>
+                                <td>语音</td>
+                                <td><p class="percent_bar hot1"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><p class="percent_bar hot2"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><i class="down_arrow"></i></td>
+                                <td>分值比重</td>
+                                <td><i>第5题、第3题、第1题.</i><span></span></td>
+                                <td>推荐练习</td>
+                            </tr>
+                            <tr>
+                                <td>字形</td>
+                                <td><p class="percent_bar hot1"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><p class="percent_bar hot2"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><i class="up_arrow"></i></td>
+                                <td>分值比重</td>
+                                <td><i>第5题、第3题、第1题.</i><span></span></td>
+                                <td>推荐练习</td>
+                            </tr>
+                            <tr>
+                                <td>写作</td>
+                                <td><p class="percent_bar hot1"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><p class="percent_bar hot2"><i>95.5%</i><span><em style="width: 66%;"></em></span></p></td>
+                                <td><i class="down_arrow"></i></td>
+                                <td>分值比重</td>
+                                <td><i>第5题、第3题、第1题.</i><span></span></td>
+                                <td>推荐练习</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="common_title"><span>易错集</span></h4>
+                    <div class="fallibility side_distance">
+                        <table class="fallibility_list">
+                            <thead>
+                            <tr>
+                                <th width="122">题号</th>
+                                <th width="71">满分值</th>
+                                <th width="139">个人得分率</th>
+                                <th width="142">平均得分率</th>
+                                <th width="160">本班失分人数</th>
+                                <th width="125">解析</th>
+                                <th width="122">练习</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><a class="pop_dialog" href="javascript:;">第1题</a></td>
+                                <td>1</td>
+                                <td>58.67%</td>
+                                <td>99.99%</td>
+                                <td>12</td>
+                                <td><a class="as_po" href="javascript:;">题目解析</a></td>
+                                <td><a href="#">推荐练习</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="pop_dialog" href="javascript:;">第1题</a></td>
+                                <td>40</td>
+                                <td>58.67%</td>
+                                <td>99.99%</td>
+                                <td>12</td>
+                                <td><a class="as_po" href="javascript:;">题目解析</a></td>
+                                <td><a href="#">推荐练习</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="pop_dialog" href="javascript:;">第1题</a></td>
+                                <td>5</td>
+                                <td>58.67%</td>
+                                <td>99.99%</td>
+                                <td>12</td>
+                                <td><a class="as_po" href="javascript:;">题目解析</a></td>
+                                <td><a href="#">推荐练习</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="pop_dialog" href="javascript:;">第1题</a></td>
+                                <td>10</td>
+                                <td>58.67%</td>
+                                <td>99.99%</td>
+                                <td>12</td>
+                                <td><a class="as_po" href="javascript:;">题目解析</a></td>
+                                <td><a href="#">推荐练习</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="pop_dialog" href="javascript:;">第1题</a></td>
+                                <td>20</td>
+                                <td>58.67%</td>
+                                <td>99.99%</td>
+                                <td>12</td>
+                                <td><a class="as_po" href="javascript:;">题目解析</a></td>
+                                <td><a href="#">推荐练习</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--模板-->
+                    <div class="sub_details dis_none" id="template1">
+                        <h4 class="number_points"><em>第1题</em><span>得分：<i>1.0</i>分（满分<i>1.0</i>分）  知识点：字形</span></h4>
+                        <dl class="sub_content">
+                            <dt>选出字形有误的一项：</dt>
+                            <dd>
+                                <ul>
+                                    <li><span>A</span>酝酿  搓捻  并蒂  小心翼翼  一字不漏  不求甚解</li>
+                                    <li><span>B</span>匿笑  绰号  肥硕  水波粼粼  翻来覆去  浑为一谈</li>
+                                    <li><span>C</span>停滞  寒站  肥硕  画图锦簇  持之以恒  疲倦不堪</li>
+                                    <li><span>D</span>并蒂  徘徊  黑痣  鸦雀无声  萍水相逢  疲倦不堪 </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <p class="own_answer">我的答案：<i>C</i></p>
+                        <p class="right_answer">正确答案：<i>B</i></p>
+                        <div class="sub_analysis">
+                            <h4 class="ana_index"> 解析</h4>
+                            <ul>
+                                <li><span>【成语】：</span>混为一谈</li>
+                                <li><span>【拼音】：</span>hun wei yi tan</li>
+                                <li><span>【解释】：</span>把不同的事物混在一起，当作同样的事物谈论</li>
+                                <li><span>【考点】：</span>本题考察考生对易混淆字的知识</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sub_details dis_none" id="template2">
+                        <h4 class="number_points"><em>第1题</em><span>得分：<i>1.0</i>分（满分<i>1.0</i>分）  知识点：字形</span></h4>
+                        <dl class="sub_content">
+                            <dt>中国的国土面积为9 596 960平方千米，把我国的国土面积用四舍五入精确到万位，并用科学计数法表示，应为________________________平方千米 。</dt>
+                        </dl>
+                        <p class="own_answer">我的答案：<img src="css/report/images/paper.png" alt="" style="display: block;max-width:100%;margin-top: 5px;"></p>
+                        <p class="right_answer">正确答案：<i>B</i></p>
+                        <div class="sub_analysis">
+                            <h4 class="ana_index"> 解析</h4>
+                            <ul>
+                                <li><span>【成语】：</span>混为一谈</li>
+                                <li><span>【拼音】：</span>hun wei yi tan</li>
+                                <li><span>【解释】：</span>把不同的事物混在一起，当作同样的事物谈论</li>
+                                <li><span>【考点】：</span>本题考察考生对易混淆字的知识</li>
+                            </ul>
+                            <h4 class="ana_index"> 优秀作答：</h4>
+                            <img src="css/report/images/paper.png" alt="" style="display: block;max-width:100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="css/report/js/jquery.js"></script>
+    <script type="text/javascript" src="css/report/js/fun.js"></script>
+    <script type="text/javascript" src="css/report/js/echarts.min.js"></script>
+    <script type="text/javascript" src="css/report/js/jquery.artDialog.js"></script>
+    <script type="text/javascript" src="css/report/js/jquery.artDialog.plugins.js"></script>
+    <!-- 以上的js引用的路径是 css/report/js -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var myChart = echarts.init(document.getElementById('chart_situation'));
+            //设置区段颜色
+            var number=[300, 60, 200,250, 123,110,300, 60, 200,250, 123,110,300, 60, 200,250, 123,110,300, 60, 200,250, 123,110,150,263,300,255];
+            var arr=[];
+            for(var i=0;i<number.length;i++){
+                var _varColor='';
+                if(i<9){
+                    _varColor='#de6b6b'
+                }else if(i<16){
+                    _varColor='#ff6d3f'
+                }else if(i<23){
+                    _varColor='#2a92e7'
+                }else{
+                    _varColor='#a4da34'
+                }
+                var obj={value:number[i],itemStyle:{normal:{color:_varColor}}};
+                arr.push(obj);
+            }
+            //设置x轴分隔刻度
+            var xArr=[];
+            var xArr2=[];
+            for(var i=1;i<=140;i++){
+                xArr.push(i);
+            }
+            for(var i=1;i<=xArr.length;i++){
+                if(i%5==0){
+                    var str=xArr[i-5]+'~'+xArr[i-1]
+
+                    xArr2.push(str);
+                }
+            }
+            console.log(xArr2);
+            option = {
+                tooltip : {
+                    trigger: 'axis'
+                },
+                grid:{
+                    left: '0',
+                    right: '20',
+                    top:'10',
+                    bottom: '7%',
+                    borderColor:'#f00',
+                    containLabel: true
+                },
+                tooltip:{position: 'top',backgroundColor:'#fff',borderColor:'#2a92e7',borderWidth:1,textStyle:{color:'#686868',fontSize:24},formatter:'{b}'},
+                calculable : true,
+                xAxis : [
+                    {
+                        type : 'category',
+                        axisLine:{lineStyle:{color:'#686868'}},
+                        axisTick:{lineStyle:{color:'#686868'}},
+                        axisLabel:{lineStyle:{color:'#686868'},rotate:45},
+                        data : xArr2
+                    }
+                ],
+                yAxis : [
+                    {
+                        type : 'value',
+                        max:400,
+                        min:0,
+                        splitNumber:8,
+                        axisLine:{lineStyle:{color:'#686868'}},
+                        axisTick:{lineStyle:{color:'#686868'}},
+                        axisLabel:{lineStyle:{color:'#686868'}},
+                    }
+                ],
+                series : [
+                    {
+                        name:'',
+                        type:'bar',
+                        barWidth:'50%',
+                        //barGap:'10%',
+                        data:arr,
+                        itemStyle:{normal:{color:'#ff6d3f'}},
+                        markLine: {
+                            silent: true,
+                            lineStyle:'',
+                        }
+                    }
+                ]
+            };
+            myChart.setOption(option);
+
+
+            var myChart2 = echarts.init(document.getElementById('chart_updown'));
+            var bar_data=[20, 24, 56, 77, 15, 46, 80, 62, 70, 80, 60, 70, 32, 93,86,20, 24, 56, 77, 15, 46, 80, 62, 70, 80, 60, 70, 32, 93,86,20, 24, 56, 77, 15, 46, 80, 62, 70, 80, 60, 70, 32, 93,86,20, 24, 56, 77, 15, 46, 80, 62, 70, 80, 60, 70, 32, 93,86,20, 24, 56, 77, 15, 46, 80, 62, 70, 80, 60, 70, 32, 93,86,20, 24, 56, 77, 15, 46, 80, 62, 70, 80, 60, 70, 32, 93,86];
+            //alert(bar_data.length);
+            var len=bar_data.length;
+            var sta=0,end=0;
+            if(len>0&&len<=5){
+                sta=0;
+                end=300;
+            }else if(len>5&&len<=15){
+                sta=0;
+                end=100;
+            }else if(len>15&&len<=30){
+                sta=0;
+                end=47;
+            }else if(len>30&&len<=45){
+                sta=0;
+                end=40;
+            }else if(len>45&&len<=60){
+                sta=0;
+                end=29;
+            }else if(len>60&&len<=75){
+                sta=0;
+                end=23;
+            }else if(len>75&&len<=90){
+                sta=0;
+                end=19;
+            }
+
+            option2 = {
+                tooltip : {
+                    trigger: 'axis'
+                },
+                toolbox: {
+                    show : false,
+                },
+                legend: {
+                    data:['班级平均得分率','我的得分率']
+                },
+                grid: {
+                    top:'10%',
+                    left: '0',
+                    right: '0',
+                    bottom: '1%',
+                    containLabel: true
+                },
+                dataZoom:[
+                    {
+                        type:'inside',
+                        show: true,
+                        xAxisIndex: [0],
+                        start: sta,
+                        end: end,
+                        handleColor:'#4fb0ff' ,
+                        showDetail:true,
+                        dataBackgroundColor:'#4fb0ff',
+                        zoomLock :true,
+                        bottom: '0',
+                    }
+                ],
+                calculable : true,
+                xAxis : [
+                    {
+                        type : 'category',
+                        data : ['1题','2题','3题','4题','5题','6题','7题','8题','9题','10题','11题','12题','13题','14题','15题','16题','17题','18题','19题','20题','21题','22题','23题','24题','25题','26题','27题','28题','29题','30题','31题','32题','33题','34题','35题','36题','37题','38题','39题','40题','41题','42题','43题','44题','45题','45题','47题','48题','48题','50题','51题','52题','53题','54题','55题','56题','57题','58题','59题','60题','61题','62题','63题','64题','65题','66题','67题','68题','69题','70题','71题','72题','73题','74题','75题','1题','2题','3题','4题','5题','6题','7题','8题','9题','10题','11题','12题','13题','14题','15题'],
+                        axisLabel: {
+                            show: true,
+                            textStyle: {
+                                color: '#757575'
+                            }
+                        },
+                        splitLine: {show: false},
+                        axisLine:{lineStyle:{color:'#8a8a8a'}},
+                    }
+                ],
+                yAxis : [
+                    {
+                        type : 'value',
+                        axisTick: {show: false},
+                        min: 0,
+                        max: 100,
+                        splitNumber:10,
+                        axisLine:{lineStyle:{color:'#8a8a8a'}},
+                        splitLine:{lineStyle:{color:'#8a8a8a'}},
+                        axisLabel: {
+                            formatter: '{value} %',
+                            interval: '25',
+                            textStyle: {color: '#757575', fontSize: '12'}
+                        }
+                    }
+                ],
+                series : [
+                    {
+                        name:'我的得分率',
+                        type:'bar',
+                        data:bar_data,
+                        itemStyle: {
+                            normal: {
+                                color: '#ff6d3f',
+                            }
+                        }
+                    },
+                    {
+                        name:'班级平均得分率',
+                        type:'line',
+                        itemStyle: {
+                            normal: {
+                                color: '#53aedb',
+                            }
+                        },
+
+                        data:[32, 24, 56, 77, 25, 76, 35, 62, 62, 40, 66, 53, 62, 63,86,32, 24, 56, 77, 25, 76, 35, 62, 62, 40, 66, 53, 62, 63,86,32, 24, 56, 77, 25, 76, 35, 62, 62, 40, 66, 53, 62, 63,86,32, 24, 56, 77, 25, 76, 35, 62, 62, 40, 66, 53, 62, 63,86,32, 24, 56, 77, 25, 76, 35, 62, 62, 40, 66, 53, 62, 63,86,32, 24, 56, 77, 25, 76, 35, 62, 62, 40, 66, 53, 62, 63,86],
+                    },
+                ]
+            };
+            myChart2.setOption(option2);
+
+            var myChart3 = echarts.init(document.getElementById('chart_category'));
+            option3 = {
+                tooltip : {
+                    trigger: 'axis',
+                    axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                        type : 'line'        // 默认为直线，可选为：'line' | 'shadow'
+                    }
+                },
+                legend: {
+                    data:['均衡指数','班级平均得分率']
+                },
+                grid: {
+                    top:'12%',
+                    left: '25%',
+                    right: '25%',
+                    bottom: '0',
+                    containLabel: true
+                },
+                xAxis: {
+                    type : 'category',
+                    data : ['古文','写作','字形','语音','诗词','阅读','错别字','拼音'],
+                    axisLine:{lineStyle:{color:'#8a8a8a'}}
+                },
+                yAxis: {
+                    type : 'value',
+                    axisLine:{lineStyle:{color:'#8a8a8a'}},
+                    splitLine:{lineStyle:{color:'#8a8a8a'}},
+                    axisLabel: {
+                        formatter: '{value} %',
+                    }
+                },
+                series: [
+                    {
+                        name: '均衡指数',
+                        type: 'bar',
+                        stack:  '总量',
+                        barWidth:'34',
+                        itemStyle: {
+                            normal: {
+                                color: '#ff6d3f'
+                            }
+                        },
+                        data: [0.1, 0.45, 0.33, 0.56, 0.78, 0.33,0.55,0.6]
+                    },
+                    {
+                        name: '班级平均得分率',
+                        type: 'line',
+                        itemStyle: {
+                            normal: {
+                                color: '#53aedb',
+                            }
+                        },
+                        data: [0.1, 0.45, 0.33, 0.56, 0.78, 0.33,0.55,0.6]
+                    }
+                ]
+            };
+            myChart3.setOption(option3);
+        });
+        $(function () {
+                $('table td').parent('td').hover(function () {
+                    $(this).addClass('hover');
+                },function () {
+                    $(this).removeClass('hover');
+                })
+            var dom=document.getElementById('template1');
+            $('.pop_dialog').on('click', function() {
+                var dialog = art.dialog({
+                    title: '题目分析',
+                    content: dom,
+                    width: '742px',
+                    padding:'14px 17px',
+                    maskClick: true
+                });
+            });
+            var dom2=document.getElementById('template2');
+            $('.as_po').on('click', function() {
+                var dialog = art.dialog({
+                    title: '题目分析',
+                    content: dom2,
+                    width: '742px',
+                    padding:'14px 17px',
+                    maskClick: true
+                });
+            });
+
+        });
+    </script>
+</body>
+</html>

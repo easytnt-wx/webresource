@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>模板</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/blue.css" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/chuanjiannianjikaoshi.css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class="ease_header pdlr20">
+        <div class="container clearfix">
+            <!-- <a href="#" class="fl easy_logo"></a> -->
+            <a href="#" class="easy_logoImg"><img src="images/logo.png" alt="logo"></a>
+            <ul class="easy_nav fl">
+                <li><a class="" href="javascript:;"><span>创建单元考试</span></a></li>
+                <li><a href="javascript:;"><span>创建年级考试</span></a></li>
+                <li><a href="javascript:;"><span>创建联考</span></a></li>
+                <li><a href="javascript:;"><span>设置</span></a></li>
+            </ul>
+            <dl class="easy_info fr">
+                <dt>
+                    <a class="scan_card" href="#"><i class="icon_scan"></i><span>扫描答题卡</span></a>
+                </dt>
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap" style="display: none;">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+	<div class="container">
+        <div class="wrapper pdlr20">
+            <div class="breadcrumb breadStyle1">
+                <p class="breadtxt">
+                    <a href="#">考试管理</a><i> &gt; </i>
+                    <a class="current" href="#">考试基本信息</a>
+                </p>
+            </div>
+            <div class="boxStyle create_exam mgb20">
+                <h3 class="title2">创建单元考试</h3>
+                <form action="" class="form-horizontal">
+                    <div class="form-group mytime">
+                        <label>阅卷时间</label>
+                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>到&nbsp;&nbsp;
+                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="glyphicon glyphicon-calendar"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>年级</label>
+                        <div class="mycheck">
+                            <label>
+                              <input type="radio" name="nianji" value="option1"> 一年级
+                            </label>
+                            <label>
+                              <input type="radio" name="nianji" value="option2"> 二年级
+                            </label>
+                            <label>
+                              <input type="radio" name="nianji" value="option1"> 三年级
+                            </label>
+                            <label>
+                              <input type="radio" name="nianji" value="option2"> 四年级
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>班级</label>
+                        <div class="mycheck">
+                            <label>
+                              <input type="checkbox" name="nianji" value="option1"> 一班
+                            </label>
+                            <label>
+                              <input type="checkbox" name="nianji" value="option2"> 二班
+                            </label>
+                            <label>
+                              <input type="checkbox" name="nianji" value="option1"> 三班
+                            </label>
+                            <label>
+                              <input type="checkbox" name="nianji" value="option2"> 四班
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>考试科目</label>
+                        <div class="mycheck">
+                            <label>
+                              <input type="checkbox" name="nianji" value="option1"> 语文
+                            </label>
+                            <label>
+                              <input type="checkbox" name="nianji" value="option2"> 数学
+                            </label>
+                            <label>
+                              <input type="checkbox" name="nianji" value="option1"> 英语
+                            </label>
+                            <label>
+                              <input type="checkbox" name="nianji" value="option2"> 文综
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>考试名称</label>
+                        <input type="text" class="form-control myinput">
+                    </div>
+                </form>
+            </div>
+        </div>
+	</div>
+    <div class='footer bg2'>
+        <div class='pd20 clearfix'>
+            <p class='fl'>Copyright© 2016 huijiaoyun.com. All rights reserved 鄂ICP备13001992号</p>
+            <p class='fr'><span>客服热线：6546546546</span><span>QQ：400888888转1</span></p>
+        </div>
+    </div>
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="js/icheck.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('#datetime').datetimepicker({
+          format : "yyyy-mm-dd",
+          minView : 2,
+          autoclose : 1,
+          todayBtn : 1
+        });
+        $('#datetimepicker').datetimepicker({
+          format : "yyyy-mm-dd",
+          minView : 2,
+          autoclose : 1,
+          todayBtn : 1
+        });
+        $("input").iCheck({
+            checkboxClass: 'icheckbox_square-blue',
+            radioClass: 'iradio_square-blue',
+        });
+      });
+    </script>
+</body>
+</html>

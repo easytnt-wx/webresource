@@ -1,0 +1,852 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>智能评阅</title>
+<link href="css/public.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/easy_exam.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+<script src="js/header.js"></script>
+<div class="wrapper pdlr20">
+    <div class="breadcrumb breadStyle1">
+        <p class="breadtxt"><a href="#">考试管理</a><i> &gt; </i><a class="current" href="#">进度监控</a></p>
+    </div>
+    <!--评卷监控 S-->
+    <div class="ni_g_title01" style="margin-top: 0;">评卷监控</div>
+    <div class="boxStyle s02 mgb20 ni_g_pr">
+        <div class="categoryTab"><a href="javascript:;" class="on">语文</a><a href="javascript:;">数学</a><a href="javascript:;">英语</a></div>
+      <div class="ni_g_box1 clearfix pdtb25">
+          <!--具体信息 S-->
+          <div class="ni_box1_l clearfix fl">
+            <h3 class="thin f16 c555 mgb25">语文进度监控</h3>    
+            <ul class="ni_ul">
+                <!--百分比显示，以报名数为除数，报名数永远是百分百，其余的请开发对应计算设置-->
+                <li class="ni_li clearfix ni_li01">
+                    <span class="ni_span_name fl">报名</span>
+                    <span class="ni_span_num fl">1000</span>
+                    <span class="ni_span_bar fl"><i style="width: 100%"></i></span>
+                </li>
+                <li class="ni_li clearfix ni_li02">
+                    <span class="ni_span_name fl">扫描</span>
+                    <span class="ni_span_num fl">600</span>
+                    <span class="ni_span_bar fl"><i style="width: 60%"></i></span>
+                </li>
+                <li class="ni_li clearfix ni_li03">
+                    <span class="ni_span_name fl">评阅</span>
+                    <span class="ni_span_num fl">500</span>
+                    <span class="ni_span_bar fl"><i style="width: 50%"></i></span>
+                </li>
+                <li class="ni_li clearfix ni_li04">
+                    <span class="ni_span_name fl">完成</span>
+                    <span class="ni_span_num fl">400</span>
+                    <span class="ni_span_bar fl"><i style="width: 40%"></i></span>
+                </li>
+                <li class="ni_li clearfix ni_li05">
+                    <span class="ni_span_name fl">剩余</span>
+                    <span class="ni_span_num fl">400</span>
+                    <span class="ni_span_bar fl"><i style="width: 40%"></i></span>
+                </li>
+            </ul>
+          </div>
+          <!--具体信息 E-->
+          <!--查看连接 S-->
+          <div class="ni_box1_r fr">
+                <h3 class="thin f14 c555 t_c mgb10">系统检测到还有答题卡未裁剪</h3>
+              <!--完成评卷无法点击样式，添加 ni_over -->
+              <a class="ni_g_button01 ni_g_button01_01 mgb20">剪裁答题中</a>
+              <a class="ni_g_button01 ni_g_button01_02 mgb20">重取监控数据（30秒）</a>
+              <a class="ni_g_button01 ni_g_button01_02 mgb20">暂停阅卷</a>
+              <a class="ni_g_button01 ni_g_button01_02 mgb10">回收评题（分钟）</a>
+              <p class="t_c"><a href="javascript:;">查看扫描情况</a></p>
+          </div>
+          <!--查看连接 E-->
+      </div>
+    </div>
+    <!--评卷监控 E-->
+    <!--题目详情 S-->
+    <div class="ni_g_title01">题目详情</div>
+    <!--题目详情 E-->
+    <!--题目详情 S-->
+    <div class="boxStyle mgb20 ni_g_pr">
+        <div class="questionDetailWrap">
+            <span class="fr">
+                <a href="javascript:;" class="Btn3"><span>暂停</span></a>
+                <span class="selecterBox selecterStyle1 mgl30" style="width:118px;">
+                    <span class="selecterValue">
+                        <p>默认值请在a标签列表上加class="active"</p>
+                        <input type="hidden" class="selRes" value="1" />
+                    </span> 
+                    <span class="selecterDrop" style="width:118px;">
+                        <a href="#" class="active" value="1">回收5分钟</a> 
+                        <a href="#" value="2">回收10分钟</a> 
+                    </span>
+                </span>
+                <a href="javascript:;" class="btn_switch show mgl30"></a>
+            </span>
+            <span class="mgr30">15-20</span>
+            <span class="progressWrap"><em style="width: 20%;"></em><i>20%</i></span>
+            <span class="mgl20">完成数量<i class="blue">201</i></span>
+            <span class="mgl20">剩余数量<i class="blue">920</i></span>
+            <span class="mgl20">问卷<i class="blue">0</i></span>
+        </div>
+        <div class="detailListWrap">
+            <ul class="groups_tree all">
+                <li>
+                    <a href="javascript:;" class="tit show"><i>全部</i><em></em></a>
+                    <ul class="groups_tree">
+                        <li>
+                           <a href="javascript:;" class="tit show"><i>第1组</i><em></em></a> 
+                           <ul class="groups_tree">
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第1小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第2小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第3小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" class="tit"><i>第2组</i><em></em></a> 
+                           <ul class="groups_tree">
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第1小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                           </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="questionDetailWrap mgt30">
+            <span class="fr">
+                <a href="javascript:;" class="Btn3"><span>暂停</span></a>
+                <span class="selecterBox selecterStyle1 mgl30" style="width:118px;">
+                    <span class="selecterValue">
+                        <p>默认值请在a标签列表上加class="active"</p>
+                        <input type="hidden" class="selRes" value="1" />
+                    </span> 
+                    <span class="selecterDrop" style="width:118px;">
+                        <a href="#" class="active" value="1">回收5分钟</a> 
+                        <a href="#" value="2">回收10分钟</a> 
+                    </span>
+                </span>
+                <a href="javascript:;" class="btn_switch show mgl30"></a>
+            </span>
+            <span class="mgr30">15-20</span>
+            <span class="progressWrap"><em style="width: 20%;"></em><i>20%</i></span>
+            <span class="mgl20">完成数量<i class="blue">201</i></span>
+            <span class="mgl20">剩余数量<i class="blue">920</i></span>
+            <span class="mgl20">问卷<i class="blue">0</i></span>
+        </div>
+        <div class="detailListWrap">
+            <ul class="groups_tree all">
+                <li>
+                    <a href="javascript:;" class="tit show"><i>全部</i><em></em></a>
+                    <ul class="groups_tree">
+                        <li>
+                           <a href="javascript:;" class="tit show"><i>第1组</i><em></em></a> 
+                           <ul class="groups_tree">
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第1小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第2小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第3小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" class="tit"><i>第2组</i><em></em></a> 
+                           <ul class="groups_tree">
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第1小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                           </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="questionDetailWrap mgt30">
+            <span class="fr">
+                <a href="javascript:;" class="Btn3"><span>暂停</span></a>
+                <span class="selecterBox selecterStyle1 mgl30" style="width:118px;">
+                    <span class="selecterValue">
+                        <p>默认值请在a标签列表上加class="active"</p>
+                        <input type="hidden" class="selRes" value="1" />
+                    </span> 
+                    <span class="selecterDrop" style="width:118px;">
+                        <a href="#" class="active" value="1">回收5分钟</a> 
+                        <a href="#" value="2">回收10分钟</a> 
+                    </span>
+                </span>
+                <a href="javascript:;" class="btn_switch show mgl30"></a>
+            </span>
+            <span class="mgr30">15-20</span>
+            <span class="progressWrap"><em style="width: 20%;"></em><i>20%</i></span>
+            <span class="mgl20">完成数量<i class="blue">201</i></span>
+            <span class="mgl20">剩余数量<i class="blue">920</i></span>
+            <span class="mgl20">问卷<i class="blue">0</i></span>
+        </div>
+        <div class="detailListWrap">
+            <ul class="groups_tree all">
+                <li>
+                    <a href="javascript:;" class="tit show"><i>全部</i><em></em></a>
+                    <ul class="groups_tree">
+                        <li>
+                           <a href="javascript:;" class="tit show"><i>第1组</i><em></em></a> 
+                           <ul class="groups_tree">
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第1小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第2小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第3小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="javascript:;" class="tit"><i>第2组</i><em></em></a> 
+                           <ul class="groups_tree">
+                               <li>
+                                   <a href="javascript:;" class="tit"><i>第1小组</i><em></em></a>
+                                   <div class="memberList">
+                                       <table class="memberTable" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                           <tr>
+                                               <td>张三（组长）</td>
+                                               <td>总数<i class="blue">1024</i></td>
+                                               <td>分配<i class="blue">100</i></td>
+                                               <td>完成<i class="blue">12</i></td>
+                                               <td>剩余<i class="blue">12</i></td>
+                                               <td>5分钟未评<i class="blue">1</i></td>
+                                               <td>10分钟未评<i class="blue">0</i></td>
+                                           </tr>
+                                       </table>
+                                   </div>
+                               </li>
+                           </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <!--题目详情 E-->
+
+</div>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    $(".selecterBox").Selector();
+
+    $('.questionDetailWrap .btn_switch').on('click',function(){
+        $(this).parents('.questionDetailWrap').next().slideToggle('fast');
+        $(this).toggleClass('show');
+    });
+
+    function groups_treeShow(obj,cl){
+        if(obj.hasClass(cl)){
+            obj.next().slideDown('fast');
+        }else{
+            obj.next().slideUp('fast');
+        };
+    };
+    $('.groups_tree a.tit').each(function(){
+        groups_treeShow($(this),'show');
+    });
+    $('.groups_tree li').on('click','> a.tit',function(){
+        if($(this).hasClass('show')){
+            $(this).removeClass('show');
+        }else{
+            $(this).addClass('show');
+        };
+        groups_treeShow($(this),'show');
+    });
+</script>
+</html>
