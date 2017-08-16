@@ -258,6 +258,9 @@
 .already li a span{color: #555555; font-size: 14px; display: inline-block; vertical-align: middle; max-width: 204px; padding: 0 15px 0 5px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;  }
 .already li .icon_close{cursor: pointer; margin-right: 10px;display: inline-block; vertical-align: middle; width: 17px; height: 17px; background: url(../images/consult/icon_close.png) 0 0 no-repeat; }
 .already li .icon_close:hover{background: url(../images/consult/icon_close_hover.png) 0 0 no-repeat;}
+.set_list i.con_up{ width: 12px;height: 14px;background: url(../images/consult/con_up.png) 0 0 no-repeat;}
+.set_list i.icon_time{ width: 12px;height: 14px;background: url(../images/consult/icon_time.png) 0 0 no-repeat;}
+.set_list i.con_edit{ width: 12px;height: 14px;background: url(../images/consult/con_edit.png) 0 0 no-repeat;}
 
 
 .number_index { padding: 0 30px; }
