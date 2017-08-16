@@ -254,7 +254,8 @@
 .set_list tbody tr.no_border { border: none; }
 
 .already li { display: inline-block; display: inline; zoom: 1; margin-right: 10px; }
-.already li a { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 14px; }
+.already li a { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; font-size: 14px; color: #555;cursor: default; }
+.already li a span{color: #555555; font-size: 14px; display: inline-block; vertical-align: middle; max-width: 204px; padding: 0 5px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;  }
 .already li .icon_close { cursor: pointer; }
 .already li .icon_close:hover { background: url(../images/icon_close_hover.png) center center no-repeat; }
 
