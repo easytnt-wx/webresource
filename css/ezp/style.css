@@ -636,7 +636,7 @@
 
 .number-lis { padding: 31px 0; }
 .number-lis li span { display: block; line-height: 41px; color: #03df9d; font-size: 24px; }
-.number-lis li span:hover { background: #fff; }
+.number-lis li span:hover { background: #45a5fe; color: #fff;}
 
 .inner-box { position: relative; overflow: hidden; }
 

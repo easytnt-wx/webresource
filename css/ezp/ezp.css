@@ -3,7 +3,8 @@
 	cursor: pointer;
 }
 .number-lis span.selected{
-	background-color: #fff;
+	background-color: #45a5fe;
+    color: #fff;
 }
 .number-scroll{
 	box-shadow: 2px 8px 20px #ababab;
