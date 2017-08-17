@@ -520,9 +520,9 @@
 /*弹出层样式*/
 table.aui_border, table.aui_dialog { border: 0; margin: 0; border-collapse: collapse; width: 100%; *width: auto; }
 
-.aui_state_focus .aui_inner { text-align: left; border: 1px solid transparent; box-shadow: 0 0 10px 0 #c8c9cb; background: #fff; border-radius: 5px; }
+.aui_state_focus .aui_inner { text-align: left; border: 1px solid transparent; box-shadow: 0 0 10px 0 #555; background: #fff; border-radius: 5px; }
 
-.aui_state_lock .aui_inner { text-align: left; border: 1px solid transparent; box-shadow: 0 0 10px 0 #c8c9cb; background: #fff; border-radius: 5px; }
+.aui_state_lock .aui_inner { text-align: left; border: 1px solid transparent; box-shadow: 0 0 10px 0 #555; background: #fff; border-radius: 5px; }
 
 .aui_state_noTitle .aui_inner { border: 0px; background: none; box-shadow: none; }
 
