@@ -207,8 +207,9 @@ span.gray8{ color:#888; font-size:18px;}
 /*输入框焦点*/
 *::-webkit-input-placeholder {color: #b3b3b3; } 
 *:-moz-placeholder { color:#b3b3b3;} 
-*:-ms-input-placeholder { color:#b3b3b3; } 
-*:input-placeholder { color: #b3b3b3; } 
+*:-ms-input-placeholder { color:#b3b3b3!important;} 
+*:input-placeholder { color: #b3b3b3; }
+ 
 
 /*****分页turnPage*****/
 .turnPage{ padding:10px 0}
