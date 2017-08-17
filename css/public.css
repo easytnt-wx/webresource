@@ -690,7 +690,7 @@ body,html{ width:100%; min-width:1200px;}
 .searchStyle3 .search{display: inline-block;*display: inline;*zoom: 1;width: 30px;height: 30px;background: url(../images/public/icon_search.png) center center no-repeat; vertical-align: middle;cursor: pointer;}
 
 .searchStyle4{background:#ffffff; overflow:hidden; vertical-align:middle; word-break:break-all; border:1px solid #4fabec; border-radius:3px;display: inline-block;*display: inline;*zoom: 1;padding: 0 0 0 10px;}
-.searchStyle4 .inputSearch{color:#999999;display:inline-block; height:28px; line-height:28px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;*border:0;font-size: 14px;color: #a9c0d4}
+.searchStyle4 .inputSearch{color:#222;display:inline-block; height:28px; line-height:28px; overflow:hidden; vertical-align:middle; word-break:break-all; border:none;outline: none; *display: inline;*zoom: 1;*border:0;font-size: 14px;}
 .searchStyle4 .search{display: inline-block;*display: inline;*zoom: 1;width: 30px;height: 30px;background: url(../images/public/icon_search.png) center center no-repeat; vertical-align: middle;cursor: pointer;}
 
 .searchStyle_g1 {background: #F4FAFF;overflow: hidden;vertical-align: middle;border: 1px solid #4FABEC;border-radius: 3px;display: inline-block;padding: 0 0 0 10px;}

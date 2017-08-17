@@ -967,7 +967,7 @@ transition: all ease .5s; */ }
 
 .ni_box_style .radioStyle1 .RadioChecked{background-image: url('../images/ni_rr_d.png');}
 .ni_g_l_bg_show {cursor: pointer;}
-.ni_box_style .searchStyle3 .inputSearch{color: #999999;}
+.ni_box_style .searchStyle3 .inputSearch{color: #222;}
 .ni_box_style .searchStyle3 .inputSearch:focus{color: #222;}
 .ni_g_main_l{width: 260px;float: left;margin-left: -260px;}
 .ni_g_main_c{width: 679px;border-left: 1px solid #e8e8e8;border-right: 1px solid #e8e8e8;margin: 0 auto;}
