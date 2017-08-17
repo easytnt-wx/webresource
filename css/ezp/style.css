@@ -563,23 +563,23 @@
 
 .control-btn .Btn5 { font-size: 0px; }
 .control-btn .Btn5:hover { background-color: #44a4fe; }
-.control-btn .Btn6.disabled { background: #f5f5f5; color: #b4b4b4; cursor: not-allowed; }
+.control-btn .Btn6.disabled { background: #f5f5f5; color: #b4b4b4; cursor: default; }
 .control-btn .Btn7 { font-size: 0px; }
 
 .full { background-image: url(../../images/icon_full.png); background-position: center center; background-repeat: no-repeat; }
 .full:hover { background-image: url(../../images/icon_full_hover.png); }
-.full.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_full_disabled.png); cursor: not-allowed; }
-.full.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_full_disabled.png); cursor: not-allowed; }
+.full.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_full_disabled.png); cursor: default; }
+.full.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_full_disabled.png); cursor: default; }
 
 .horizontal-move { background-image: url(../../images/icon_horizontal_move.png); background-position: center center; background-repeat: no-repeat; }
 .horizontal-move:hover { background-image: url(../../images/icon_horizontal_move_hover.png); }
-.horizontal-move.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_horizontal_disabled.png); cursor: not-allowed; }
-.horizontal-move.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_horizontal_disabled.png); cursor: not-allowed; }
+.horizontal-move.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_horizontal_disabled.png); cursor: default; }
+.horizontal-move.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_horizontal_disabled.png); cursor: default; }
 
 .vertical-move { background-image: url(../../images/icon_vertical_move.png); background-position: center center; background-repeat: no-repeat; }
 .vertical-move:hover { background-image: url(../../images/icon_vertical_move_hover.png); }
-.vertical-move.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_vertical_disabled.png); cursor: not-allowed; }
-.vertical-move.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_vertical_disabled.png); cursor: not-allowed; }
+.vertical-move.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_vertical_disabled.png); cursor: default; }
+.vertical-move.disabled:hover { background-color: #f5f5f5; background-image: url(../../images/icon_vertical_disabled.png); cursor: default; }
 
 .all-correct { background-image: url(../../images/icon_correct.png); background-position: center center; background-repeat: no-repeat; }
 
@@ -588,10 +588,10 @@
 .wrong { background-image: url(../../images/icon_wrong.png); background-position: center center; background-repeat: no-repeat; }
 
 .move-up { background-image: url(../../images/icon_up.png); background-position: center center; background-repeat: no-repeat; }
-.move-up.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_up_disabled.png); cursor: not-allowed; border-color: #d4d4d4; }
+.move-up.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_up_disabled.png); cursor: default; border-color: #d4d4d4; }
 
 .move-down { background-image: url(../../images/icon_down.png); background-position: center center; background-repeat: no-repeat; }
-.move-down.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_down_disabled.png); cursor: not-allowed; border-color: #d4d4d4; }
+.move-down.disabled { background-color: #f5f5f5; background-image: url(../../images/icon_down_disabled.png); cursor: default; border-color: #d4d4d4; }
 
 .mouse { background-image: url(../../images/icon_mouse.png); background-position: center center; background-repeat: no-repeat; }
 
