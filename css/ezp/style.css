@@ -2,7 +2,7 @@
 /*head*/
 .ease_header { background: url(../../images/icon_menubg.png) left top repeat-x #45a5ff; color: #fff; }
 
-.easy_logo { display: block; width: 172px; height: 33px; background: url(../../images/logo.png) center center no-repeat; padding: 24.5px 0 24.5px 0; margin-right: 62px; }
+.easy_logo { display: block; width: 172px; height: 33px; background: url(../../images/logo.png) center center no-repeat; padding: 24.5px 0 24.5px 0; margin-right: 30px; }
 
 .easy_nav { overflow: hidden; padding: 20px 0; }
 .easy_nav li { float: left; }

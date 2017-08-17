@@ -260,7 +260,7 @@
 
 .as_rightbox{width:300px;background:#fff;border-radius:4px;min-height:900px;}
 .as_scoredetailbox{padding:0 10px;}
-.as_scoretitle{padding-left:8px;border-bottom:1px solid #dfecf9;font-size:20px;color:#555;font-weight:normal;height:52px;line-height:52px;}
+.as_scoretitle{padding-left:8px;border-bottom:1px solid #dfecf9;font-size: 20px;color:#555;font-weight:normal;height:52px;line-height:52px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .as_scoredetailbox ul{font-size:16px;color:#555;padding-top:5px;padding-bottom:30px;}
 .as_scoredetailbox li{margin-top:15px;position: relative;}
 
