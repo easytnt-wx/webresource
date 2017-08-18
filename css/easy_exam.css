@@ -817,11 +817,14 @@ transition: all ease .5s; */ }
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m .ni_span01{width: 130px;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m span big{color: #16b2a1;}
 
-.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a{line-height: 30px;height: 30px;width: 115px;text-align: center;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a,.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button{line-height: 30px;height: 30px;width: 115px;text-align: center;border-radius: 6px;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a01{margin-right: 21px;background: #419efc;color: #fff;border-color: #419efc;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a01:hover{background: #6bb7ff;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a02{color: #419efc;border-color: #419efc;background: #fff;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a02:hover{background: #5badff;color: #fff;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02{color: #419efc;border: 1px solid #419efc;background: #fff;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02:hover{background: #5badff;color: #fff;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02[disabled="disabled"],.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02[disabled="disabled"]:hover{ color: #ccc;border-color: #ccc;cursor: default; }	
 .ni_g_vsb_hiden{visibility: hidden;}
 .ni_g_pop_add_tech .searchStyle1 .inputSearch,.ni_g_pop_add_tech .searchStyle1 .search,.ni_g_pop_add_tech .searchStyle1{background-color: #f4faff;}
 
