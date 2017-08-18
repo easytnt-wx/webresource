@@ -57,7 +57,7 @@
 
 .review_manage_boxStyle{padding:0px 32px 0 27px;background:#fff;border-radius:6px;}
 .rm_title_style{padding-top:10px;height:50px;line-height:50px;padding-left:6px;}
-.rm_title{font-size:22px;color:#002222;font-weight:normal;}
+.rm_title{font-size:22px;color:#002222;font-weight:normal;line-height: 50px;}
 .rm_monitor_box{padding:20px 8px 28px 6px;}
 .rm_progress_list li{margin-bottom:12px;}
 .rm_progress_wrap{height:27px;width:670px;line-height:27px;border-radius:6px;overflow: hidden;border:1px solid #49CC93;}
@@ -121,7 +121,7 @@
 .g_frame{display: inline-block;height:30px;line-height: 30px;text-align: center;color:#fff;background:#1FD49A;padding:0 11px;border-radius: 6px;font-size: 16px;}
 .g_frame1{display: inline-block;height:30px;line-height: 30px;text-align: center;color:#fff;background:#D6D6D6;padding:0 11px;border-radius: 6px;font-size: 16px;}
 
-.disc_detail{padding:30px 0 10px;}
+.disc_detail{padding:15px 0 10px;}
 .rm_detail_list{border:1px solid #eee;border-radius:6px;}
 .rm_detail_list dt{background:#F9F9F9;padding:27px 0 25px;height:32px;+height:34px;}
 

@@ -5,3 +5,9 @@
 dt{
 	font-weight: 500;
 }
+.rm_detail_table .tip_tit{
+	width: 130px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
