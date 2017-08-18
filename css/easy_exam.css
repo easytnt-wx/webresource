@@ -806,8 +806,8 @@ transition: all ease .5s; */ }
 .ni_g_km_list .ni_txt .ni_w50 .ni_span02.ni_g_c_3cce99{color: #3cce99;}
 .ni_g_km_list .ni_txt .ni_w50 .ni_span02.ni_g_c_419efc{color: #419efc;}
 
-.ni_g_h_s_box{padding: 0 20px;}
-.ni_g_h_s_box .ni_sbx{float: left;margin-right: 10px;}
+.ni_g_h_s_box{padding:0;margin-left: 6px;}
+.ni_g_h_s_box .ni_sbx{float: left;margin-right: 24px;padding-bottom: 30px;}
 .ni_g_h_s_box .ni_sbx.ni_last_sbx{margin-right: 0px;}
 .ni_g_h_s_box .ni_sbx .ni_tit{font-size: 20px;color: #222222;line-height: 44px;}
 .ni_g_h_s_box .ni_sbx .ni_cent{border: 1px solid #d1e5f7;padding: 20px;width:320px;font-size:14px;color: #888888;}
