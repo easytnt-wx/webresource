@@ -177,7 +177,7 @@
 /*.rm_radioWrap ul li .Radio.last_Radio{margin-right:0px;}*/
 
 .g_btn7{display:inline-block;*display: inline;*zoom: 1;width:178px;height:29px;line-height:0px;text-align:center;border:1px solid #58AAFC;color:#58AAFC;font-size:16px;border-radius:6px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s}
-.g_btn7 i{display:inline-block;width:15px;height:22px;margin-right:8px;background:url(../images/consult/pause.png) no-repeat;background-size: contain; vertical-align:middle;}
+.g_btn7 i{display:inline-block;width:15px;height:18px;margin-right:8px;background:url(../images/consult/pause.png) no-repeat;background-size: contain; vertical-align:middle;}
 .g_btn7 span{display:inline-block;line-height:29px;vertical-align:middle;}
 .g_btn7:hover{background:#DDEEFF;}
 
