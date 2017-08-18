@@ -32,8 +32,3 @@ form.form-horizontal > .form-group{
     width: 17px;
     height: 16px;
 }
-.row.noMargin{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-}
