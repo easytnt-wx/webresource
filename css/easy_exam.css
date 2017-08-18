@@ -817,7 +817,7 @@ transition: all ease .5s; */ }
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m .ni_span01{width: 130px;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_ct_m span big{color: #16b2a1;}
 
-.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a,.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button{line-height: 30px;height: 30px;width: 115px;text-align: center;border-radius: 6px;}
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a,.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button{line-height: 30px;height: 30px;width: 115px;text-align: center;border-radius: 6px;font-size: 16px;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a01{margin-right: 21px;background: #419efc;color: #fff;border-color: #419efc;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a01:hover{background: #6bb7ff;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a02{color: #419efc;border-color: #419efc;background: #fff;}
