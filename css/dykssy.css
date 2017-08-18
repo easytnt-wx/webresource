@@ -61,7 +61,7 @@ p.card_detail > span:nth-child(3){
     cursor: pointer;
 }
 .card_btn a.deal[disabled="true"]{
-    cursor: not-allowed;
+    cursor: default;
     opacity: 0.8;
 }
 ul.bar_list > li.nodata{
@@ -84,4 +84,9 @@ a[name="btn"]{
     border-radius: 4px;
     padding:6px 10px;
     font-size: 14px;
+}
+.set_btn > a[href="javascript:void(0);"]{
+    color: #ccc;
+    border: 1px solid #ccc;
+    cursor: default;
 }
