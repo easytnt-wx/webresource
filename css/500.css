@@ -9,7 +9,6 @@
 }
 .mytime > input + span{
 	left: -35px;
-	top: 4px;
 }
 form.form-horizontal > .form-group{
 	margin: 0;
