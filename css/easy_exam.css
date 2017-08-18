@@ -824,7 +824,7 @@ transition: all ease .5s; */ }
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn a.ni_a02:hover{background: #5badff;color: #fff;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02{color: #419efc;border: 1px solid #419efc;background: #fff;}
 .ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02:hover{background: #5badff;color: #fff;}
-.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02[disabled="disabled"],.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02[disabled="disabled"]:hover{ color: #ccc;border-color: #ccc;cursor: default; }	
+.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02[disabled="disabled"],.ni_g_h_s_box .ni_sbx .ni_cent .ni_btn button.ni_a02[disabled="disabled"]:hover{ background-color: #fff; color: #ccc;border-color: #ccc;cursor: default; }	
 .ni_g_vsb_hiden{visibility: hidden;}
 .ni_g_pop_add_tech .searchStyle1 .inputSearch,.ni_g_pop_add_tech .searchStyle1 .search,.ni_g_pop_add_tech .searchStyle1{background-color: #f4faff;}
 
