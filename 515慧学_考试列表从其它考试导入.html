@@ -504,7 +504,11 @@
     // $('.examinfoTab').each(function(){
     //    tabScrollBox($(this));
     // });
-    $(".selecterBox").Selector();
+    $(".selecterBox").Selector({
+      callback : function(){
+        console.log($('.selRes').attr('value'))
+      }
+    });
     $('.leadIn_student_time').perfectScrollbar();
     $('.leadIn_student_right').find('table tbody tr').on('click',function () {
         $(this).addClass('on').siblings('tr').removeClass('on');
