@@ -812,6 +812,7 @@ transition: all ease .5s; */ }
 .ni_g_ksry_del .ni_ks .ni_box .ni_t1 big{color: #222;font-size: 24px;}
 
 .ni_g_ksry_del .ni_ks .ni_box.ni_bj{background: url('../images/ni_ks_01.png') no-repeat left center;}
+.ni_g_ksry_del .ni_ks .ni_box.ni_sch{background: url('../images/ni_ks_05.png') no-repeat 0px 5px;background-size: 70px;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_zs{background: url('../images/ni_ks_02.png') no-repeat left center;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_xx{background: url('../images/ni_ks_03.png') no-repeat center top;padding: 55px 35px 0 35px;text-align: center;margin-left: 0;width: 90px;}
 .ni_g_ksry_del .ni_ks .ni_box.ni_cy{width: 234px;padding: 0px;font-size: 20px;color: #222222;margin-left: 20px;line-height: 75px;height: 75px;overflow: hidden;text-overflow: ellipsis;  white-space: nowrap;}
