@@ -700,7 +700,7 @@ a.d-close { position: absolute; right: 15px; top: 17px; background: #fff url(../
 
 .examTable tr th, .examTable tr td { height: 45px; }
 
-.examTable tr th { color: #222; background: #f7f7f7; font-weight: normal; text-align: left; }
+.examTable tr th { color: #222; background: #f7f7f7; font-weight: normal; text-align: left;padding-left: 20px; }
 
 .examTable tr td { color: #888; border-bottom: 1px solid #e9e9e9; text-align: left; padding-left: 20px;}
 
