@@ -70,22 +70,22 @@ h4:before{
     margin-top: 20px;
     padding-top: 15px;
 }
-.subjectList > .ok, .subjectList > .no {
+.subjectList > .yet, .subjectList > .no {
     min-height: 60px;
     line-height: 60px;
 }
-.subjectList > .ok > .dt{
+.subjectList > .yet > .dt{
     font-size: 14px;
     padding:0 30px;
 }
-.subjectList > .ok > .dt > em{
+.subjectList > .yet > .dt > em{
     font-size: 28px;
     color: #06e7a5;
 }
-.subjectList > .ok > .dd{
+.subjectList > .yet > .dd{
     max-width: 850px;
 }
-.subjectList > .ok > .dd > a{
+.subjectList > .yet > .dd > a{
     display: inline-block;
     border-radius: 4px;
     border: 1px solid #06e7a5;
@@ -96,7 +96,7 @@ h4:before{
     color: #fff;
     background-color: #06e7a5;
 }
-.subjectList > .ok > .dd > a:hover,.subjectList > .ok > .dd > a:focus{
+.subjectList > .yet > .dd > a:hover,.subjectList > .yet > .dd > a:focus{
     background-color: #06d095;
     border: 1px solid #06d095;
     text-decoration: none;
