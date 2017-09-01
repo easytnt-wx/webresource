@@ -123,9 +123,9 @@ h4:before{
     margin-right: 10px;
     color: #646464;
     background-color: #fff;
+    cursor: default;
 }
 .subjectList > .no > .dd > a:hover,.subjectList > .no > .dd > a:focus{
-    background-color: #eee;
     text-decoration: none;
 }
 .select{
