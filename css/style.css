@@ -733,7 +733,7 @@ a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 
 .login-boxbg { background: url(../images/login_bg2.jpg) center top no-repeat #58d1ce; position: absolute; left: 0; bottom: 0; right: 0; height: 319px; z-index: 20; }
 
-.login-logo { display: inline-block; *display: inline; *zoom: 1; /*width: 219px;*/width: 300px;height: 42px; background: url(../images/login_logo.png) center center no-repeat;background-size: 100%;}
+.login-logo { display: inline-block; *display: inline; *zoom: 1; width: 219px;height: 42px; background: url(../images/login_logo.png) center center no-repeat;background-size: 100%;}
 
 .login-box { background: #fff; border: 1px solid #e8e8e8; border-radius: 3px; padding: 50px 56px; width: 373px; position: absolute; left: 50%; top: 50%; z-index: 30; margin-left: -243.5px; margin-top: -182px; }
 
