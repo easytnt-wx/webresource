@@ -218,19 +218,19 @@
 /*异常评阅任务*/
 	/*科目图标 star*/
 	.con_S { display: block; margin: 0 auto; width: 70px; height: 70px;background-color: #ddf1ff;border-radius: 50%; }
-	.con_S.ni_icon001,.con_S.ni_icon1001,.con_S.ni_iconjcsub01{
+	.con_S.ni_icon001,.con_S.ni_icon1001,.con_S.ni_iconjcsub01,.con_S.ni_icon1{
 		background-image: url(../images/subject_01.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 50px;
 	}
-	.con_S.ni_icon003,.con_S.ni_icon1002,.con_S.ni_iconjcsub03{
+	.con_S.ni_icon003,.con_S.ni_icon1002,.con_S.ni_iconjcsub03,.con_S.ni_icon3{
 		background-image: url(../images/subject_03.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 50px;
 	}
-	.con_S.ni_icon002,.con_S.ni_icon1003,.con_S.ni_iconjcsub02{
+	.con_S.ni_icon002,.con_S.ni_icon1003,.con_S.ni_iconjcsub02,.con_S.ni_icon2{
 		background-image: url(../images/subject_02.png);
 		background-position: center;
 		background-repeat: no-repeat;
