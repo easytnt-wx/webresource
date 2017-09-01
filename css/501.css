@@ -95,19 +95,19 @@
     cursor: default;
 }
 
-.ni_img.ni_icon001,.ni_img.ni_icon1001,.ni_img.ni_iconjcsub01{
+.ni_img.ni_icon001,.ni_img.ni_icon1001,.ni_img.ni_iconjcsub01,.ni_img.ni_icon1{
 	background-image: url(../images/subject_01.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 60px;
 }
-.ni_img.ni_icon003,.ni_img.ni_icon1002,.ni_img.ni_iconjcsub03{
+.ni_img.ni_icon003,.ni_img.ni_icon1002,.ni_img.ni_iconjcsub03,.ni_img.ni_icon3{
 	background-image: url(../images/subject_03.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 60px;
 }
-.ni_img.ni_icon002,.ni_img.ni_icon1003,.ni_img.ni_iconjcsub02{
+.ni_img.ni_icon002,.ni_img.ni_icon1003,.ni_img.ni_iconjcsub02,.ni_img.ni_icon2{
 	background-image: url(../images/subject_02.png);
 	background-position: center;
 	background-repeat: no-repeat;
