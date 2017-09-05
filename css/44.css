@@ -51,7 +51,7 @@ span.page.active{
 	margin-bottom: 0;
 }
 .seachAnswerSheet{
-	margin: 0 0 20px 0;
+	margin: 0 0 40px 0;
 	text-align:center;
 }
 .seachAnswerSheet label{
@@ -71,4 +71,7 @@ input[name="studentIdentity"]{
 }
 input[name="studentIdentity"]:focus{
 	border:1px solid #42a0fc;
+}
+.botomLine {
+    border-bottom: #2196F3 dashed 2px;
 }
