@@ -50,3 +50,25 @@ span.page.active{
 .panel{
 	margin-bottom: 0;
 }
+.seachAnswerSheet{
+	margin: 0 0 20px 0;
+	text-align:center;
+}
+.seachAnswerSheet label{
+	font-size:14px;
+	font-weight:500;
+}
+.seachAnswerSheet input{
+	margin: 0 2px 0 5px;
+}
+input[name="studentIdentity"]{
+	width: 220px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 6px 6px;
+    font-size: 14px;
+}
+input[name="studentIdentity"]:focus{
+	border:1px solid #42a0fc;
+}
