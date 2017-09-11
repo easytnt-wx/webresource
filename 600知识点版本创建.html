@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>模板</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/consult.css" type="text/css">
+    <link rel="stylesheet" href="css/600.css" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class='headerT'>
+        <div class='container w1200 clearfix'>
+            <!-- <span class='fl logoTea'></span> -->
+            <a href="javascript:void(0)" class="logoTea fl"><img src="images/teacher/logo.png" alt="logo"></a>
+            <ul class='navBar fl'>
+                <li><a href='javascript:;'><i class='icon_menu1'></i><span>手阅系统</span></a></li>
+                <li><a class='current' href='javascript:;'><i class='icon_menu2'></i><span>网阅系统</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu3'></i><span>卷库管理</span></a></li>
+            </ul>
+            <dl class='infoT fr'>
+                <dt>
+                    <div class='uerbox'>
+                        <p class='userinfo'>
+                            <span class='userT'><img src='images/public/user.png' alt=''></span><a class='NameT'>李小明</a><i class='icon_drop'></i>
+                        </p>
+                        <div class='drop_wrap'>
+                            <ul class='user_droplist'>
+                                <li><a href='javascript:;'><span>我的班级</span></a></li>
+                                <li><a href='javascript:;'><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="cs_top">
+        <div class="cs_top_title pdl10">
+            <div class="w1200 clearfix">
+                <div class="breadcrumb breadStyle3">
+                    <p class="breadtxt">
+                        <a href="#">首页</a><i></i>
+                        <a class="current" href="#">路径1.1</a><i></i>
+                        <a class="current" href="#">路径1.1.1</a>
+                    </p>
+                </div>
+                <a href="#" class="to-back fr"><i class="icon_turnback"></i><span>返回</span></a>
+            </div>
+        </div>
+        <div class="w1200">
+            <div class='exam_list_Box mgtb30' name='tab' style='min-height: 640px;'>
+                <h4 class="pdt30 f_c333" style='margin-left: 190px;font-size: 20px;'>知识点版本创建</h4>
+                <div name='tabCon' class='exam_list_content tabContent' style='margin-left: 250px;'>
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label>科目:</label>
+                            <select class="selectpicker">
+                                <option value="1">语文</option>
+                                <option value="2">数学</option>
+                                <option value="3">英语</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>年级:</label>
+                            <select class="selectpicker">
+                                <option value="1">高一</option>
+                                <option value="2">高二</option>
+                                <option value="3">高三</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>版本名称:</label>
+                            <input type="text" class="form-control myinput">
+                            <!-- <span class="error_info"><i class='con_error'></i>请输入考试名称</span> -->
+                        </div>
+                        <div class="form-group">
+                            <label>版本时间:</label>
+                            <input type="text" class="form-control myinput">
+                            <!-- <span class="error_info"><i class='con_error'></i>请输入考试名称</span> -->
+                        </div>
+                        <div class="form-group">
+                            <label>知识点上传:</label>
+                            <div id="uploadfile" class="upload">
+                                <div class="upload_list"></div>
+                                <div class="btns">
+                                    <span class="Btn_sel">选择文件</span>
+                                    <button class="Btn_upload">上传文件</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='pdb40' style="margin-left: 350px;">
+                            <a href="#" class='Btn17'>
+                                <span>保存</span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script src="js/webuploader.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script>
+        $(function(){
+            var uploader = new WebUploader.create({
+                pick: ".Btn_sel",
+                accept : {
+                    title: 'excel',
+                    extensions: 'xls,xlsx'
+                }
+
+            });
+            uploader.on( 'fileQueued', function( file ) {
+                var $list = $('.upload_list');
+                var _fileDivHtml = '<div class="file_item" id="'+file.id+'"><i></i><span>'+file.name+'</span></div>'
+                $list.append(_fileDivHtml);
+                console.log(uploader.getStats());
+                $('.file_item').on('click','.del',function(){
+                    console.log(file.name);
+                    uploader.removeFile(file,true);
+                    $(this).parent().remove();
+                    console.log(uploader.getFiles());
+                })
+            });
+        })
+    </script>
+</body>
+</html>
+

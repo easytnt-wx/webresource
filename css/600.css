@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	padding: 0px 12px;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 4px;
+	border:1px solid #2196f3;
+	transition: all .2s ease-in;
+}
+.webuploader-pick-hover {
+	background: #2196f3;
+	border-radius: 4px;
+	border:1px solid #2196f3;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+.upload_list{
+	width: 100%;
+	min-height: 100px;
+	border:2px dashed #ccc;
+	border-radius: 6px;
+	padding: 5px 10px;
+}
+.btns{
+	margin-top: 10px;
+}
+.btns .Btn_sel{
+	margin-right: 10px;
+}
+.Btn_sel{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0;
+	background-color: #fff;
+	color: #2196f3;
+	cursor: pointer;
+	padding: 0;
+	border: none;
+}
+.Btn_sel:hover,.Btn_sel:focus{
+	background-color: #2196f3;
+	color: #fff;
+	border-radius: 4px;
+}
+.Btn_upload{
+	padding: 6px 12px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 18px;
+	font-size: 14px;
+	background-color: #2196f3;
+	color: #fff;
+	border-radius: 4px;
+	border:1px solid #2196f3;
+	cursor: pointer;
+	transition: all .2s ease-in;
+}
+.Btn_upload:hover,.Btn_sel:focus{
+	background-color: #1980d2;
+	color: #fff;
+}
+.file_item{
+	display: inline-block;
+	margin-right: 5px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+}
+.file_item:hover{
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	cursor: default;
+	background-color: #def4fe;
+}
+.file_item > i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	background-image: url("../images/public/icon_xlsx.png");
+	background-size: cover;
+	margin-right: 10px;
+}
+.file_item > span{
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 20px;
+	color: #555;
+}
+.file_item:hover > span{
+	color:#2196f3;
+}
+.del{
+	display: none;
+	width: 20px;
+    height: 20px;
+    display: inline;
+    float: right;
+    background: url(icons.png) no-repeat;
+    background-color: red;
+    cursor: pointer;
+    background-position: -48px -24px
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 150px;
+	margin-left: 20px;
+}
+div#uploadfile {
+    width: 550px;
+    margin-left: 130px;
+    margin-top: -30px;
+}

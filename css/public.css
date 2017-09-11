@@ -36,6 +36,7 @@ a,.blue,a.blue{color:#3d95d5; text-decoration:none;}.red,a.red{color:#a82929}.c2
 a.c555:hover{text-decoration:none}.cfff,a.cfff{color:#fff}
 span.gray8{ color:#888; font-size:18px;}
 .m_c{ margin:0 auto;}
+.f_c555{ color: #555; }.f_c333{ color: #333; }.f_c999{ color: #999; }
 /* function */
 .t_r{text-align:right}.t_c{text-align:center}.t_l{text-align:left}.dis_none{display:none}.dis_b{display:block;}.dis_ib{display:inline-block;}.dis_i{display:inline;}.thin{font-weight:normal}.bold{font-weight:bold}.cl{clear:both}
 
