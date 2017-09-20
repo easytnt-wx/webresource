@@ -1,0 +1,108 @@
+@charset "utf-8";
+html,body{
+	background-color: #f5f5f5;
+}
+.header-body{
+	background-color: #03A9F4;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	height: 50px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 12px;
+}
+.header-body > .container{
+	position: relative;
+}
+.logo{
+	padding: 13px 0;
+	position: absolute;
+	top: 0;
+	left: 8px;
+}
+.title1{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.suj{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	color: #fff;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	margin: 13px 0;
+}
+.suj > i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 9px;
+	height: 6px;
+	margin-left: 4px;
+	background-image: url('../../images/h5/control_drop.png');
+}
+.list_item{
+	background-color: #fff;
+	margin-bottom: 12px;
+	padding: 10px 15px;
+}
+.list_item > .title2 > span.kgt{
+	display: inline-block;
+	background-color: #4dadfe;
+	color: #fff;
+	padding: 2px 8px;
+	border-radius: 20px;
+	margin-right: 6px;
+}
+.list_item > .title2 > span.zgt{
+	display: inline-block;
+	background-color: #efa436;
+	color: #fff;
+	padding: 2px 8px;
+	border-radius: 20px;
+	margin-right: 6px;
+}
+.list_item  span.t{
+	background-color: #27d269;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	vertical-align: middle;
+	border-radius: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	margin-left: 5px;
+}
+.list_item  span.f{
+	background-color: #f44336;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	vertical-align: middle;
+	border-radius: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	margin-left: 5px;
+}
+.list_item  span.score{
+	display: inline-block;
+	background-color: rgba(33, 150, 243, 0.6);
+	color: #fff;
+	padding: 2px 8px;
+	border-radius: 20px;
+	margin-right: 6px;
+	margin-left: 5px;
+}
+.answeet{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
