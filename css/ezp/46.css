@@ -110,9 +110,9 @@
 .num-lis li input { height: 30px; line-height: 30px; border: 1px solid #d5d5d5; border-radius: 3px; outline: none; box-shadow: inset 0 0 10px 0 #f4f4f4; padding: 0; text-indent: 5px; display: block; color: #222222; font-size: 16px; width: 100%; }
 
 .save-num { display: block; text-align: center; line-height: 30px; color: #fff; border-radius: 3px; border: 1px solid #45a5fe; background: #45a5fe; font-size: 14px; }
-
-.change-num { display: block; text-align: center; line-height: 30px; color: #45a5fe; border-radius: 3px; border: 1px solid #45a5fe; background: transparent; font-size: 14px; }
-
+.save-num:hover{ background-color: #2196F3; }
+.change-num { display: block; text-align: center; line-height: 30px; color: #ff6666; border-radius: 3px; border: 1px solid #ff6666; background: transparent; font-size: 14px; }
+.change-num:hover{ background-color: #ff6666;color: #fff;}
 .control-bar2 { border: 1px solid #000; border-radius: 3px; background-color: rgba(0, 0, 0, 0.4); position: absolute; right: 0; bottom: 0; z-index: 100; }
 .control-bar2 .control-btn2 { padding: 6px; }
 .control-bar2 .control-btn2 span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 28px; height: 28px; border-radius: 3px; background-color: #000; cursor: pointer; }
