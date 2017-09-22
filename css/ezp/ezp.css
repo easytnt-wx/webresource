@@ -46,7 +46,8 @@
 }
 .num-lis{
     height: 320px;
-    overflow-y: auto;
+    overflow: hidden;
+    position: relative;
 }
 .row{
 	margin: 12px 5px;

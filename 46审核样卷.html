@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>审核样卷</title>
+        <link href="css/ezp/public.css" rel="stylesheet" type="text/css">
+        <link href="css/ezp/46.css" rel="stylesheet" type="text/css">
+        <link href="css/ezp/ezp.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="bg1">
+        <div class="wrapper">
+            <div class="control clearfix pdr20 bg2">
+                <div class="left fl">
+                    <div class="review">
+                        <span class="back"><em>列表</em><i></i></span>
+                        <i class="line"></i>
+                        <div class="number-scroll">
+                            <i class="scroll-up"></i><i class="scroll-down"></i>
+                            <ul class="number-lis">
+                                <li><span class="ok">12</span></li>
+                                <li><span class="no">15</span></li>
+                                <li><span class="no">14</span></li>
+                                <li><span class="ok">9</span></li>
+                                <li><span>10</span></li>
+                                <li><span>12</span></li>
+                                <li><span>15</span></li>
+                                <li><span>14</span></li>
+                                <li><span>9</span></li>
+                                <li><span>10</span></li>
+                                <li><span>12</span></li>
+                                <li><span>15</span></li>
+                                <li><span>14</span></li>
+                                <li><span>9</span></li>
+                                <li><span>10</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-box">
+                <div class="number-wrapper">
+                    <div class="set-numberbox">
+                        <div class="clearfix main-top pdb20">
+                            <h3 class="fl">11题</h3>
+                            <i class="fr">12分</i>
+                        </div>
+                        <h1 class="total-points pdtb20"><i>12</i>分</h1>
+                        <ul class="num-lis">
+                            <li><div><span title="给分点标题很长很长很长">给分点标题很长很长很长</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                            <li><div><span title="给分点标题很长很长很长">给分点</span><b class="score fr"><i>3</i>分</b></div></li>
+                        </ul>
+                        <a href="#" class="save-num mgtb20">通过</a>
+                        <a href="#" class="change-num">不通过</a>
+                    </div>
+                </div>
+                <div class="paper-main-box">
+                    <div class="control-bar2">
+                        <p class="control-btn2">
+                            <span class="zoom-full mglr5"></span>
+                            <span class="zoom-out mglr5"></span>
+                            <span class="zoom-bar mglr5">
+                                <i><em></em></i>
+                            </span>
+                            <span class="zoom-in mglr5"></span>
+                        </p>
+                    </div>
+                    <div class="imagesPool">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/mousewheel.js"></script>
+        <script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script>
+            $(function(){
+                $(".selecterBox").Selector();
+                $('.inner-box').fullPage();
+                $('.paper-main-box').fullPage();
+                $('.number-scroll').fullPage();
+                $('.imagesPool').perfectScrollbar();
+                $('.num-lis').perfectScrollbar();
+                $('.zoom-full').on('click',function () {
+                    $(this).fadeOut(function () {
+                        $('.img-view').fadeIn();
+                    });
+                });
+                $('.put').on('click',function () {
+                    $(this).parent().fadeOut(function () {
+                        $('.zoom-full').fadeIn();
+                    });
+                });
+
+                $('.onoff').click(function () {
+                    $(this).toggleClass('open');
+                });
+                $('.back').on('click',function () {
+                    $(this).siblings('.number-scroll').slideToggle();
+                });
+            });
+        </script>
+    </body>
+</html>
