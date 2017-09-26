@@ -565,7 +565,7 @@
 .control-btn .Btn6.disabled { background: #f5f5f5; color: #b4b4b4; cursor: default; }
 .control-btn .Btn7 { font-size: 0px; }
 .control-btn .Btn7:hover {background-color: #d7e7ff;}
-.control-btn .icon_see{ display: inline-block;width: 30px;height: 30px;line-height: 30px;border-radius: 3px;border: 1px solid #44a4fe; background-image: url(../../images/icon_see.png); background-position: center center; background-repeat: no-repeat;}
+.control-btn .icon_see{ display: inline-block;width: 30px;height: 30px;line-height: 30px;margin-left: 8px;font-size: 0; border-radius: 3px;border: 1px solid #44a4fe; background-image: url(../../images/icon_see.png); background-position: center center; background-repeat: no-repeat;}
 .control-btn .icon_see:hover{ background-color: #d7e7ff; }
 .full { background-image: url(../../images/icon_full.png); background-position: center center; background-repeat: no-repeat; }
 .full:hover { background-image: url(../../images/icon_full_hover.png); }
