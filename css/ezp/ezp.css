@@ -145,3 +145,45 @@
 .easy_menu .menu-btn~ul a:hover,.easy_menu .menu-btn~ul a.on{
     background-color: #ebf3ff;
 }
+
+/*查看参考答案插件样式 2017-10-11*/
+#scanView .svRotate{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 64px;
+    background-color: rgba(255,255,255,.5);
+}
+#scanView .svZooming{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 32px;
+    background-color: rgba(255,255,255,.5);
+}
+#scanView .svClose{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,.5);
+}
+#scanView .svGoLeft{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: rgba(255,255,255,.5);
+}
+#scanView .svGoRight{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgba(255,255,255,.5);
+}
