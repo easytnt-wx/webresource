@@ -82,3 +82,17 @@ span.node_name{
 .curSelectedNode.on span{
 	color: #fff;
 }
+.icon-plus.text-font{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background-image: url('../images/public/ztree/icon_addGroup.png');
+}
+.icon-trash.text-font{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background-image: url('../images/public/ztree/icon_delGroup.png');
+}
