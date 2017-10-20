@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷抽查</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/report_card.css" rel="stylesheet" type="text/css">
+    <link href="css/575.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+<div class="ease_header pdlr20">
+    <div class="header_container clearfix">
+        <a href="#" class="fl jp_subject">数理</a>
+        <h2 class="jp_schoolname fl">武汉四中七年级上第一次月考</h2>
+        <a class="menu-btn menu-btnStyle fr" href="#"></a>
+        <ul class="info-view fr">
+            <li><span><i>评题：</i><em>7-11</em></span></li>
+            <li><span><i>进度：</i><em>145/135</em></span></li>
+        </ul>
+    </div>
+    <div class="menu-list">
+        <div class="menu-tab">
+            <div class="menu-title">
+                <p><span class="icon_menu"></span>切换评题</p>
+            </div>
+            <ul class="menu-select">
+                <li><a href="javascript:;">21</a></li>
+                <li class="active"><a href="javascript:;">22</a></li>
+                <li><a href="javascript:;">23</a></li>
+                <li><a href="javascript:;">24</a></li>
+                <li><a href="javascript:;">25</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="wrapper jp_container">
+    <div class="control bg2">
+        <div class="right control-btn">
+            <div style="width:150px;display:inline-block;margin-left:30px;">
+                <span class="selecterBox selecterStyle_jp1" style="width:120px;">
+                    <span class="selecterValue">
+                        <p>显示品质</p>
+                        <input type="hidden" class="selRes" value="1"/>
+                    </span>
+                    <span class="selecterDrop" style="width:120px;">
+                        <a href="#" value="1">30</a>
+                        <a href="#" value="2">60</a>
+                        <a href="#" value="3">90</a>
+                    </span>
+                </span>
+            </div>
+            <div style="width:180px;display:inline-block;">
+                <a href="#" class="Btn5 full">全屏</a>
+                <a href="#" class="Btn5 horizontal-move mglr10">向上</a>
+                <a href="#" class="Btn5 vertical-move">向下</a>
+            </div>
+            <div style="width:200px;display:inline-block;">
+                <a href="#" class="Btn6 jp_Btn6">样卷</a>
+                <a href="#" class="Btn6 mgl10">优秀</a></td>
+            </div>
+        </div>
+    </div>
+    <div class="inner-box">
+        <div class="spot-check">
+            <div>
+                <p>时间范围</p>
+                <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="icon_date" style="position: absolute;top: 45px;right: 35px;"></span>
+                <input id="datetimepicker" name="a" type="text" class="form-control form_datetime mgt10" readonly style="background-color:#fff;"><span class="icon_date" style="position: absolute;top: 90px;right: 35px;"></span>
+            </div>
+            <div>
+                <p class="mgt10">分值范围</p>
+                <input type="text" class="input" style="width: 80px;"><em class="mglr5">到</em><input type="text" class="input" style="width: 80px;">
+            </div>
+            
+            <div class="checkList checkStyle1 pdb20 mgt10">
+                <label class="checkbox"><input type="checkbox" value='1' /><span>小组1</span></label>
+                <label class="checkbox"><input type="checkbox" value='2' /><span>小组2</span></label>
+                <label class="checkbox"><input type="checkbox" value='3' /><span>小组3</span></label>
+                <label class="checkbox"><input type="checkbox" value='4' /><span>小组4</span></label>
+            </div>
+            <a class="spotcheck-btn" href="javacript:;">查询</a>
+            <span class="spot-switch">抽查&gt;&gt;</span>
+        </div>
+        <div class="number-wrapper  spot-test">
+            <div class="number_paddingbox">
+                <div class="search-result">
+                    <ul class="result-list pdb10">
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                    </ul>
+                    <div class="search-turnpage">
+                        <i class="turn-left"></i><span><em>25</em><em>/</em><em>120</em></span><i class="turn-right"></i>
+                    </div>
+                </div>
+                <dl class="search-person mgt20">
+                    <dt class="disabled">
+                    <p class="main-detail clearfix pdb5"><span class="fl">王大锤</span><i class="fr"><em>16.5</em>分</i></p>
+                    <ul class="score-detail">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>0.5</li>
+                        <li>5</li>
+                        <li>8</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>5</li>
+                        <li>0</li>
+                    </ul>
+                    <a href="#" class="revaluation"><span>重评</span></a>
+                    </dt>
+                    <dt>
+                    <p class="main-detail clearfix pdb5"><span class="fl">张三疯</span><i class="fr"><em>16.5</em>分</i></p>
+                    <ul class="score-detail">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>0.5</li>
+                        <li>5</li>
+                        <li>8</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>5</li>
+                        <li>0</li>
+                    </ul>
+                    <a href="#" class="revaluation"><span>重评</span></a>
+                    </dt>
+                    <dt>
+                    <p class="main-detail clearfix pdb5"><span class="fl">刘宇</span><i class="fr"><em>16.5</em>分</i></p>
+                    <ul class="score-detail">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>0.5</li>
+                        <li>5</li>
+                        <li>8</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>5</li>
+                        <li>0</li>
+                    </ul>
+                    <a href="#" class="revaluation"><span>重评</span></a>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+        <div class="paper-main-box t_c">
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/lib/jquery-2.1.1.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $.fn.extend({
+        fullPage1: function (options) {
+            var defaults = {
+                ele: ['.ease_header', '.control']
+            };
+            options = $.extend({}, defaults, options);
+            return this.each(function () {
+                var H = 0;
+                $.each(options.ele, function (index, ele) {
+                    H += $(ele).outerHeight(true)
+                });
+                var full = $(window).height() - H;
+                $(this).height(full);
+            });
+        }
+    });
+    $(function(){
+        $('#datetime').datetimepicker({
+          format : "yyyy-mm-dd hh:ii",
+          minView : 0,
+          autoclose : 1,
+          todayBtn : 1
+        });
+        $('#datetimepicker').datetimepicker({
+          format : "yyyy-mm-dd hh:ii",
+          minView : 0,
+          autoclose : 1,
+          todayBtn : 1
+        });
+
+        $('.menu-btn').on('click',function(){
+            $('.menu-list').fadeIn(100);
+            $('.menu-tab').animate({
+                right : "0px"
+            },400);
+        });
+        $('.menu-list').on('click',function(){
+            $('.menu-tab').animate({
+                right : "-240px"
+            },400);
+            $('.menu-list').fadeOut(700);
+        })
+    });
+    $(function () {
+        $(".selecterBox").Selector();
+        $('.inner-box').fullPage1();
+        $('.paper-main-box').fullPage1();
+        $('.number-scroll').fullPage1();
+        $('.checkList').checkBox();
+        $('.number-wrapper').perfectScrollbar({
+            suppressScrollX: true
+        });
+        $('.paper-main-box').perfectScrollbar({
+            suppressScrollX: true,
+            wheelPropagation: false
+        });
+        $('.zoom-full').on('click', function () {
+            $(this).fadeOut(function () {
+                $('.img-view').fadeIn();
+            });
+        });
+        $('.put').on('click', function () {
+            $(this).parent().fadeOut(function () {
+                $('.zoom-full').fadeIn();
+            });
+        });
+
+        $('.onoff').click(function () {
+            $(this).toggleClass('open');
+        });
+        $('.jp_back').on('click', function () {
+            $(this).parent().toggleClass("bgcolor");
+            $(this).siblings('.number-scroll').slideToggle();
+        });
+        $('.spot-check').on('click','.spot-switch',{flag:true},function (event) {
+            console.log(event.data.flag);
+            if(event.data.flag){
+                $(this).parent().stop().animate({right:202});
+                $('.spot-test').stop().animate({right:0});
+            }else{
+                $(this).parent().stop().animate({right:0});
+                $('.spot-test').stop().animate({right:-202});
+            }
+            event.data.flag=!event.data.flag;
+        });
+    });
+</script>
+</html>

@@ -545,31 +545,16 @@ input[readonly="readonly"]{background-color: #eee;cursor: not-allowed;}
 .sq_siglechoice_table thead .sq_titlebottom td{background:#f9f9f9;border:0;border-bottom:1px solid #e8e8e8;}
 .sq_siglechoice_table span{display:inline-block;*display:inline;*zoom:1;height:20px;padding:0 7px;border-radius:10px;background:#00d596;color:#fff;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*571*/
 .ease_header {background:#42a0fc;color: #fff;height:80px;}
-.header_container{width:1200px;margin:0 auto;}
+.header_container{width:100%;margin:0 auto;}
 .jp_subject{padding:0 15px;height:28px;color:#fff;background:#6ab5ff;border-radius:14px;line-height:28px;margin-top:25px;font-size:18px;}
 .jp_schoolname{font-size:22px;color:#fff;margin-top:28px;margin-left:10px;font-weight:normal;}
 .menu-btnStyle{margin-top:35px;}
 .menu-btn { display: inline-block; *display: inline; *zoom: 1; width: 13px; height: 12px; background: url(../images/icon_menu.png) center center no-repeat; }
 .info-view li { display: inline-block; *display: inline; *zoom: 1; padding-right: 38px; }
 .info-view li span { font-size: 14px; color: #e6ffff; line-height: 80px; }
-
-.jp_container{margin:0 auto;margin-top:14px;border-radius:8px;width:1200px;background:#f5f6f8;border:1px solid #eee;}
+.jp_container{margin:0 auto;border-radius:8px;width:100%;background:#f5f6f8;}
 .control {border-bottom: 1px solid #eee; }
 
 .control .left { width:90px; }
@@ -588,7 +573,7 @@ input[readonly="readonly"]{background-color: #eee;cursor: not-allowed;}
 .number-lis li span { display: block; line-height: 41px; color: #03df9d; font-size: 24px; }
 .number-lis li span:hover { background: #fff; }
 
-.control .right { width: 1070px;padding-top:12px;padding-bottom:16px; }
+.control .right {padding:15px 0;}
 .control-btn .Btn5 { font-size: 0px;}
 .control-btn .Btn5:hover { background-color: #44a4fe; }
 .control-btn .Btn6{padding:0 14px;}
@@ -785,7 +770,7 @@ input[readonly="readonly"]{background-color: #eee;cursor: not-allowed;}
 .revaluation { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); color: #fff; font-size: 20px; text-align: center; opacity: 0; filter: alpha(opacity=0); }
 .revaluation span { display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; position: absolute; left: 50%; top: 50%; margin-left: -20px; margin-top: -10px; }
 
-.spot-check { width: 350px; position: absolute; right: 0; top: 0; padding: 28px 24px; background: #fff; z-index: 50; font-size: 14px; border: 1px solid #d1e5f7; border-radius: 5px 0 5px 5px; margin-top: 23px; }
+.spot-check { width: 240px; position: absolute; right: 0; top: 0; padding: 15px 25px 25px 25px; background: #fff; z-index: 50; font-size: 14px; border: 1px solid #d1e5f7; border-radius: 5px 0 5px 5px; margin-top: 23px; }
 .spot-check .checkStyle1 .checkbox { margin-right: 19px; }
 .spot-test { right: -202px; }
 

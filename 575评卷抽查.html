@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷抽查</title>
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/report_card.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+<div class="ease_header pdlr20">
+    <div class="header_container clearfix">
+        <a href="#" class="fl jp_subject">数理</a>
+
+        <h2 class="jp_schoolname fl">武汉四中七年级上第一次月考</h2>
+        <a class="menu-btn menu-btnStyle fr" href="#"></a>
+        <ul class="info-view fr">
+            <li><span><i>评题：</i><em>7-11</em></span></li>
+            <li><span><i>进度：</i><em>145/135</em></span></li>
+            <li><span><i>状态：</i><em>正评</em></span></li>
+            <li><span><i>速率：</i><em>4.2张/秒</em></span></li>
+            <li><span><i>密号：</i><em>123123</em></span></li>
+        </ul>
+    </div>
+</div>
+<div class="wrapper jp_container">
+    <div class="control clearfix pdr20 bg2">
+        <div class="left fl">
+            <div class="review">
+                <span class="jp_back"><em>回评</em><i></i></span>
+
+                <div class="number-scroll">
+                    <i class="scroll-up"></i><i class="scroll-down"></i>
+                    <ul class="number-lis">
+                        <li><span>16.5</span></li>
+                        <li><span>16.5</span></li>
+                        <li><span>16.5</span></li>
+                        <li><span>16.5</span></li>
+                        <li><span>16.5</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right fr">
+            <table class="control-btn">
+                <tbody>
+                <tr>
+                    <td>
+                        <span class="selecterBox selecterStyle_jp1" style="width:100px;">
+                            <span class="selecterValue">
+                                <p>显示品质</p>
+                                <input type="hidden" class="selRes" value="1"/>
+                            </span>
+                            <span class="selecterDrop" style="width:100px;">
+                                <a href="#" value="1">10</a>
+                                <a href="#" value="2">60</a>
+                                <a href="#" value="3">90</a>
+                            </span>
+                        </span>
+                    </td>
+                    <td><a href="#" class="Btn5 full disabled">全屏</a><a href="#"
+                                                                        class="Btn5 horizontal-move mglr10">向上</a><a
+                            href="#" class="Btn5 vertical-move">向下</a></td>
+                    <td><span class="right-wrong"><a class="all-correct" href="javascript:;">全对</a><a
+                            class="half-right" href="javascript:;">半对</a><a href="javascript:;"
+                                                                            class="wrong">错误</a></span>
+                    </td>
+                    <td><a href="#" class="Btn6 jp_Btn6 disabled">样卷</a><a href="#" class="Btn6 mgl10">优秀</a></td>
+                    <td><a href="#" class="Btn6">满分(A)</a><a href="#" class="Btn6 mgl10">零分(Z)</a></td>
+                    <td><a href="#" class="Btn6">异常</a></td>
+                    <td><a href="#" class="Btn7 move-up">a</a><a href="#" class="Btn7 move-down">b</a></td>
+                    <td><span class="way"><a href="#" class="mouse on">鼠标</a><a href="#" class="key">键盘</a></span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="inner-box">
+        <div class="spot-check">
+            <p class="pdb20"><input id="inputDate" class="inputDate1" type="text" style="width: 123px" onfocus="WdatePicker({startDate:'%y-%M-01 00',dateFmt:'yyyy-MM-dd HH:mm',alwaysUseStartDate:true})"><em class="mglr5">到</em><input id="aa" class="inputDate1" type="text" style="width: 123px" onfocus="WdatePicker({startDate:'%y-%M-01 00',dateFmt:'yyyy-MM-dd',alwaysUseStartDate:true})"></p>
+            <p class="pdb20">分值范围<input type="text" class="input mgl10" style="width: 120px;"><em class="mglr10">到</em><input type="text" class="input" style="width: 120px;"></p>
+            <div class="checkList checkStyle1 pdb20">
+                <label class="checkbox"><input type="checkbox" value='1' /><span>小组1</span></label>
+                <label class="checkbox"><input type="checkbox" value='2' /><span>小组2</span></label>
+                <label class="checkbox"><input type="checkbox" value='3' /><span>小组3</span></label>
+                <label class="checkbox"><input type="checkbox" value='4' /><span>小组4</span></label>
+            </div>
+            <a class="spotcheck-btn" href="javacript:;">查询</a>
+            <span class="spot-switch">抽查>></span>
+        </div>
+        <div class="number-wrapper  spot-test">
+            <div class="number_paddingbox">
+                <div class="search-result">
+                    <ul class="result-list pdb10">
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                        <li><span><i>密号：</i><em>123123</em></span></li>
+                    </ul>
+                    <div class="search-turnpage">
+                        <i class="turn-left"></i><span><em>25</em><em>/</em><em>120</em></span><i class="turn-right"></i>
+                    </div>
+                </div>
+                <dl class="search-person mgt20">
+                    <dt class="disabled">
+                    <p class="main-detail clearfix pdb5"><span class="fl">张三</span><i class="fr"><em>16.5</em>分</i></p>
+                    <ul class="score-detail">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>0.5</li>
+                        <li>5</li>
+                        <li>8</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>5</li>
+                        <li>0</li>
+                    </ul>
+                    <a href="#" class="revaluation"><span>重评</span></a>
+                    </dt>
+                    <dt>
+                    <p class="main-detail clearfix pdb5"><span class="fl">张三</span><i class="fr"><em>16.5</em>分</i></p>
+                    <ul class="score-detail">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>0.5</li>
+                        <li>5</li>
+                        <li>8</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>5</li>
+                        <li>0</li>
+                    </ul>
+                    <a href="#" class="revaluation"><span>重评</span></a>
+                    </dt>
+                    <dt>
+                    <p class="main-detail clearfix pdb5"><span class="fl">张三</span><i class="fr"><em>16.5</em>分</i></p>
+                    <ul class="score-detail">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>0.5</li>
+                        <li>5</li>
+                        <li>8</li>
+                        <li>2</li>
+                        <li>0</li>
+                        <li>5</li>
+                        <li>0</li>
+                    </ul>
+                    <a href="#" class="revaluation"><span>重评</span></a>
+                    </dt>
+                </dl>
+                <div class="separation"></div>
+                <div class="set-numberbox">
+                    <div class="clearfix main-top pdb20">
+                        <h3 class="fl">7-11题</h3>
+                        <i class="fr">28分</i>
+                    </div>
+                    <ul class="num-lis">
+                        <li><span>&nbsp;</span>
+
+                            <div class="set-box"><h1 class="total-points pdtb10 fl"><i>16.5</i>分</h1></div>
+                        </li>
+                        <li><span>7</span>
+
+                            <div class="set-box"><input type="text" placeholder="满分10分"></div>
+                        </li>
+                        <li><span>8</span>
+
+                            <div class="set-box"><input type="text" placeholder="满分10分"></div>
+                        </li>
+                        <li><span>9</span>
+
+                            <div class="set-box"><input type="text" placeholder="满分10分"></div>
+                        </li>
+                        <li><span>10</span>
+
+                            <div class="set-box"><input type="text" placeholder="满分10分"></div>
+                        </li>
+                    </ul>
+                    <p class="remind pdtb20"><span class="onoff open"><em></em></span><i class="mgl10 jp_warm">提醒</i>
+                    </p>
+                    <a href="#" class="save-num mgb15">保存</a>
+                    <a href="#" class="change-num">重改</a>
+                </div>
+            </div>
+        </div>
+        <div class="paper-main-box t_c">
+            <div class="read1 read-over" style="top: 35px;"></div>
+            <div class="read2 read-over" style="top: 170px;"></div>
+            <div class="read3 read-over" style="top: 301px;"></div>
+            <div class="postil"><textarea></textarea><i class="postil-close"></i></div>
+            <img src="images/upload/img-fragment.jpg" alt="">
+            <img src="images/upload/img-fragment.jpg" alt="">
+            <img src="images/upload/img-fragment.jpg" alt="">
+
+            <div class="control-bar2">
+                <div class="img-view"><i class="put"></i><img src="images/upload/img.jpg" alt=""></div>
+                <p class="control-btn2"><span class="zoom-full mglr5"></span><span
+                        class="zoom-in mglr5"></span><span class="zoom-bar mglr5"><i><em></em></i></span><span
+                        class="zoom-out mglr5"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $.fn.extend({
+        fullPage1: function (options) {
+            var defaults = {
+                ele: ['.ease_header', '.control']
+            };
+            options = $.extend({}, defaults, options);
+            return this.each(function () {
+                var H = 0;
+                $.each(options.ele, function (index, ele) {
+                    H += $(ele).outerHeight(true)
+                });
+                var full = $(window).height() - H - 200;
+                $(this).height(full);
+            });
+        }
+    });
+
+    $(function () {
+        $(".selecterBox").Selector();
+        $('.inner-box').fullPage1();
+        $('.paper-main-box').fullPage1();
+        $('.number-scroll').fullPage1();
+        $('.checkList').checkBox();
+        $('.number-wrapper').perfectScrollbar({
+            suppressScrollX: true
+        });
+        $('.paper-main-box').perfectScrollbar({
+            suppressScrollX: true,
+            wheelPropagation: false
+        });
+        $('.zoom-full').on('click', function () {
+            $(this).fadeOut(function () {
+                $('.img-view').fadeIn();
+            });
+        });
+        $('.put').on('click', function () {
+            $(this).parent().fadeOut(function () {
+                $('.zoom-full').fadeIn();
+            });
+        });
+
+        $('.onoff').click(function () {
+            $(this).toggleClass('open');
+        });
+        $('.jp_back').on('click', function () {
+            $(this).parent().toggleClass("bgcolor");
+            $(this).siblings('.number-scroll').slideToggle();
+        });
+        $('.spot-check').on('click','.spot-switch',{flag:true},function (event) {
+            console.log(event.data.flag);
+            if(event.data.flag){
+                $(this).parent().stop().animate({right:202});
+                $('.spot-test').stop().animate({right:0});
+            }else{
+                $(this).parent().stop().animate({right:0});
+                $('.spot-test').stop().animate({right:-202});
+            }
+            event.data.flag=!event.data.flag;
+        });
+    });
+</script>
+</html>
