@@ -53,3 +53,15 @@ label,dt{
 	background-color: #42a0fc;
 	color: #fff;
 }
+
+.imagesPool{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.paper-main-box {
+    position: relative;
+    margin: 0px 240px 0 0px;
+    overflow: hidden;
+}
