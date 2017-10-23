@@ -686,7 +686,7 @@ input[readonly="readonly"]{background-color: #eee;cursor: not-allowed;}
 .control-bar2 .control-btn2 span.zoom-bar i { position: relative; height: 2px; width: 102px; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; background-color: #959595; *vertical-align: text-bottom; }
 .control-bar2 .control-btn2 span.zoom-bar i em { display: block; position: absolute; left: 0; top: -4px; width: 10px; height: 10px; background-color: #ffffff; border-radius: 50%; cursor: pointer; }
 
-.img-view { text-align: center; position: relative; padding: 6px 0 0 0; display: none; }
+.img-view { text-align: center; position: relative; padding: 6px 0 0 0; display: none; box-sizing: content-box;}
 .img-view .put { position: absolute; display: block; width: 9px; height: 6px; background: url(../images/control_drop.png) center center no-repeat; left: 50%; top: 4px; cursor: pointer; }
 .img-view img { max-width: 100%; }
 
