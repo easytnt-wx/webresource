@@ -1,0 +1,26 @@
+@charset "utf-8";
+.basicInfo{
+	font-size: 16px;
+	padding: 5px 0 5px 25px;
+}
+.basicInfo > p{
+	line-height: 40px;
+	color: #555;
+}
+.basicInfo > p > span{
+	display: inline-block;
+	margin: 0 20px 0 10px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #333;
+}
+.font1{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.select1{
+	display: inline-block;
+	margin-left: 10px;
+}

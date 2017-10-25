@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/consult.css" type="text/css">
+    <link rel="stylesheet" href="css/603.css" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class='headerT'>
+        <div class='container w1200 clearfix'>
+            <!-- <span class='fl logoTea'></span> -->
+            <a href="javascript:void(0)" class="logoTea fl"><img src="images/teacher/logo.png" alt="logo"></a>
+            <ul class='navBar fl'>
+                <li><a href='javascript:;'><i class='icon_menu1'></i><span>手阅系统</span></a></li>
+                <li><a class='current' href='javascript:;'><i class='icon_menu2'></i><span>网阅系统</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu3'></i><span>卷库管理</span></a></li>
+            </ul>
+            <dl class='infoT fr'>
+                <dt>
+                    <div class='uerbox'>
+                        <p class='userinfo'>
+                            <span class='userT'><img src='images/public/user.png' alt=''></span><a class='NameT'>李小明</a><i class='icon_drop'></i>
+                        </p>
+                        <div class='drop_wrap'>
+                            <ul class='user_droplist'>
+                                <li><a href='javascript:;'><span>我的班级</span></a></li>
+                                <li><a href='javascript:;'><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="cs_top">
+        <div class="cs_top_title pdl10">
+            <div class="w1200 clearfix">
+                <div class="breadcrumb breadStyle3">
+                    <p class="breadtxt">
+                        <a href="#">考试列表</a><i></i>
+                        <a class="current" href="#">教师信息查询</a>
+                    </p>
+                </div>
+                <a href="#" class="to-back fr"><i class="icon_turnback"></i><span>返回</span></a>
+            </div>
+        </div>
+        <div class="cs_top_content2">
+            <div class="w1200">
+                <div class="f30 t_c pdb30">
+                    <span class="ni_ht">教师账号信息查询</span>
+                </div>
+            </div>
+        </div>
+        <div class="w1200 mgtb20">
+            <div class="boxStyle create_exam mgtb20 ni_border_0" style="min-height: 600px;">
+                <div class="form-group mytime">
+                    <div class="dis_ib">
+                        <div class="searchBox searchStyle3">
+                            <input class="inputSearch" id="teacherName" type="text" style='width: 220px;' placeholder="请输入教师名称">
+                            <i class="search"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="ni_g_km_list">
+                    <li class="clearfix mgtb20">
+                        <div class="basicInfo" style="width:50%;float:left;">
+                            <p>教师姓名: <span>张三丰</span></p>
+                            <p>学校名称: <span>武汉四中</span></p>
+                            <p>学校编码: <span>10001</span></p>
+                            <p>教师角色: <span>年级组长</span><button class="Btn24 edit">修改角色</button></p>
+                        </div>
+                        <div class="teachInfo pdr20" style="width:50%;float:right;">
+                            <p class="f18 t_c mgtb5">任教信息</p>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>年级</th>
+                                    <th>科目</th>
+                                    <th>班级代码</th>
+                                    <th>班级名称</th>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>157</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>八年级</td>
+                                    <td>数学</td>
+                                    <td>167</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>九年级</td>
+                                    <td>数学</td>
+                                    <td>187</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>158</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="clearfix mgtb20">
+                        <div class="basicInfo" style="width:50%;float:left;">
+                            <p>教师姓名: <span>王大锤</span></p>
+                            <p>学校名称: <span>武汉四中</span></p>
+                            <p>学校编码: <span>10001</span></p>
+                            <p>教师角色: <span>年级组长</span><button class="Btn24 edit">修改角色</button></p>
+                        </div>
+                        <div class="teachInfo pdr20" style="width:50%;float:right;">
+                            <p class="f18 t_c mgtb5">任教信息</p>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>年级</th>
+                                    <th>科目</th>
+                                    <th>班级代码</th>
+                                    <th>班级名称</th>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>157</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>八年级</td>
+                                    <td>数学</td>
+                                    <td>167</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>九年级</td>
+                                    <td>数学</td>
+                                    <td>187</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>158</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="clearfix mgtb20">
+                        <div class="basicInfo" style="width:50%;float:left;">
+                            <p>教师姓名: <span>陈翔</span></p>
+                            <p>学校名称: <span>武汉四中</span></p>
+                            <p>学校编码: <span>10001</span></p>
+                            <p>教师角色: <span>年级组长</span><button class="Btn24 edit">修改角色</button></p>
+                        </div>
+                        <div class="teachInfo pdr20" style="width:50%;float:right;">
+                            <p class="f18 t_c mgtb5">任教信息</p>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>年级</th>
+                                    <th>科目</th>
+                                    <th>班级代码</th>
+                                    <th>班级名称</th>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>157</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>八年级</td>
+                                    <td>数学</td>
+                                    <td>167</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>九年级</td>
+                                    <td>数学</td>
+                                    <td>187</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>158</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="clearfix mgtb20">
+                        <div class="basicInfo" style="width:50%;float:left;">
+                            <p>教师姓名: <span>李大柱</span></p>
+                            <p>学校名称: <span>武汉四中</span></p>
+                            <p>学校编码: <span>10001</span></p>
+                            <p>教师角色: <span>年级组长</span><button class="Btn24 edit">修改角色</button></p>
+                        </div>
+                        <div class="teachInfo pdr20" style="width:50%;float:right;">
+                            <p class="f18 t_c mgtb5">任教信息</p>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>年级</th>
+                                    <th>科目</th>
+                                    <th>班级代码</th>
+                                    <th>班级名称</th>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>157</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>八年级</td>
+                                    <td>数学</td>
+                                    <td>167</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>九年级</td>
+                                    <td>数学</td>
+                                    <td>187</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                                <tr>
+                                    <td>七年级</td>
+                                    <td>数学</td>
+                                    <td>158</td>
+                                    <td>七年级1班</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <div class='dis_none' id='editInfo'>
+        <form class="form-horizontal">
+            <div class="form-group" style="margin:0 0 20px 0">
+                <label style="min-width:40px;">教师姓名:</label>
+                <p class="font1"></p>
+            </div>
+            <div class="form-group" style="margin:0 0 20px 0">
+                <label style="min-width:40px;">学校名称:</label>
+                <p class="font1"></p>
+            </div>
+            <div class="form-group" style="margin:0 0 20px 0">
+                <label style="min-width:40px;">学校编码:</label>
+                <p class="font1"></p>
+            </div>
+            <div class="form-group" style="margin:0">
+                <label style="min-width:40px;">教师角色:</label>
+                <div class="select1">
+                    <select class="selectpicker">
+                        <option value="1">普通教师</option>
+                        <option value="2">班主任</option>
+                        <option value="3">年级组长</option>
+                        <option value="4">校长</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+    <script>
+        $(function(){
+            $('.ni_g_km_list').on('click','.edit',function () {
+                var $this = $(this);
+                var teacherName = $this.parents(".basicInfo").find('span').eq(0).text();
+                var schoolName = $this.parents(".basicInfo").find('span').eq(1).text();
+                var schoolCode = $this.parents(".basicInfo").find('span').eq(2).text();
+                $('#editInfo').find('p.font1').eq(0).text(teacherName);
+                $('#editInfo').find('p.font1').eq(1).text(schoolName);
+                $('#editInfo').find('p.font1').eq(2).text(schoolCode);
+                var dialog=art.dialog({
+                    title:'修改角色',
+                    content:document.getElementById('editInfo'),
+                    background: '#000',
+                    drag: true,
+                    lock: true,
+                    opacity: 0.6,
+                    ok:function () {
+                        
+                    },
+                    cancel:function () {
+
+                    }
+                });
+            });
+        })
+    </script>
+</body>
+</html>
