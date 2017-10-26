@@ -1,0 +1,23 @@
+@charset "utf-8";
+.ni_g_kskm_rt .ni_bx .ni_rt{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin-left: 120px;
+}
+.ni_g_kskm_rt .ni_bx .ni_rt .ni_p1 big{
+	font-size: 32px;
+}
+.ni_g_kskm_rt .ni_bx .ni_rt .ni_p1{
+	color: #222;
+    font-size: 14px;
+    padding-top: 80px;
+}
+.ni_g_kskm_rt .ni_tit{
+	font-size: 18px;
+	color: #333;
+}
+.ni_g_kskm_rt .ni_bx .ni_rt .ni_p2{
+	font-size: 16px;
+}
