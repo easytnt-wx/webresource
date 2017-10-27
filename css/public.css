@@ -547,6 +547,7 @@ body,html{ width:100%; min-width:1200px;}
 .breadStyle1 .breadtxt a.current{color: #888888;}
 .breadStyle1 .breadtxt i{width: 7px;height: 12px;background: url(../images/public/icon_bread2.png) center center no-repeat;overflow: hidden;text-indent: 999px;}
 /*btn*/
+a[href="javascript:void(0);"].disable, button.disable{ color: #ccc !important;border: 1px solid #ccc !important;cursor: default !important;background-color: #fff !important; }
 .Btn1{display: inline-block;*display: inline;*zoom: 1;color: #fff;text-align: center;background: #45a3ff;font-size: 16px;border-radius: 3px;line-height: 46px;padding: 0 20px; -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;width: 171px;}
 .Btn1 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
 .Btn1:hover{background: #5db0ff;}
