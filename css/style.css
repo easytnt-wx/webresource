@@ -528,11 +528,11 @@ a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 .waiting-person .tit .txt em { background: #8ea9b9; line-height: 20px; padding: 0 10px; color: #fff; font-size: 14px; border-radius: 20px; margin-left: 10px; }
 .waiting-person .tit .more { display: inline-block; *display: inline; *zoom: 1; width: 21px; height: 5px; background: url(../images/icon_more.png) center center no-repeat; margin-top: 10px; }
 
-.waiting-list { table-layout: fixed; border-collapse: collapse; width: 100%; font-size: 14px; color: #555555; text-align: left;padding: 5px 0 5px 8px; }
+.waiting-list { table-layout: fixed; border-collapse: collapse; width: 100%; font-size: 14px; color: #555555; text-align: left;}
 .waiting-list th { height: 0px; }
 .waiting-list tr { cursor: pointer; }
 .waiting-list tr.wait { background: #ebf5ff; }
-.waiting-list td { height: 40px; width: 20%; }
+.waiting-list td { height: 40px;padding: 5px 0 5px 8px;border-bottom: 1px solid #e8e8e8;}
 .waiting-list.checkStyle3 .checkbox { opacity: 0; filter: alpha(opacity=0); }
 
 .to-left, .to-right { display: block; height: 45px; width: 100%; }
