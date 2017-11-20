@@ -1,0 +1,32 @@
+@charset "utf-8";
+.ni_g_main{
+	height: 850px;
+}
+.ni_g_main .ni_tit{
+	border:none;
+	height: 60px;
+	line-height: 60px;
+	text-indent: 0;
+}
+.ni_g_main_l{
+	width: 260px;
+	float: left;
+	margin-left: 0;
+}
+.ni_g_main_r{
+	width: 200px;
+	float: right;
+	margin-right: 0;
+}
+.ni_g_main_c {
+    width: auto;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    margin: 0 200px 0 260px;
+    height: 100%;
+    overflow:hidden;
+}
+.ni_g_main_r .ni_list .ni_aw{
+	width: 90px;
+	height: 35px;
+}
