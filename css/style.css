@@ -532,7 +532,7 @@ a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 .waiting-list th { height: 0px; }
 .waiting-list tr { cursor: pointer; }
 .waiting-list tr.wait { background: #ebf5ff; }
-.waiting-list td { height: 40px;padding: 5px 0 5px 8px;border-bottom: 1px solid #e8e8e8;}
+.waiting-list td { height: 40px;padding: 5px 0 5px 8px;border-bottom: 1px solid #e8e8e8;overflow:hidden;text-overflow: ellipsis;}
 .waiting-list.checkStyle3 .checkbox { opacity: 0; filter: alpha(opacity=0); }
 
 .to-left, .to-right { display: block; height: 45px; width: 100%; }
