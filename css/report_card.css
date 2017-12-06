@@ -7,7 +7,7 @@
 
 
 .rc_classes li{text-align:center;font-size:16px;padding:0 15px;margin-top:20px;width:154px;}
-.rc_classes a{display:block;height:40px;line-height:40px;border-radius:20px;color:#555; text-decoration: none;}
+.rc_classes a{display:block;height:40px;line-height:40px;border-radius:20px;color:#555; text-decoration: none;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;padding: 0 8px;}
 .rc_classes a.on,.rc_classes a:hover{background:#BDDEFF;color:#2576DB}
 .class_report_table tbody td{text-align:center;font-size:16px;padding:0 15px;}
 .class_report_table span{display:block;height:40px;line-height:40px;border-radius:16px;cursor:pointer;}
