@@ -18,6 +18,7 @@
 .tip-text {
 	position: relative;
 	filter: inherit;
+	word-wrap:break-word;
 	top: -12px;
 }
 
