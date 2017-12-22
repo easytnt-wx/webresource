@@ -30,7 +30,7 @@
   overflow: hidden; }
   .navBar li {
     float: left; }
-    .navBar li .icon_menu1, .navBar li .icon_menu3, .navBar li .icon_menu2, .navBar li .icon_menu4 {
+    .navBar li .icon_menu1, .navBar li .icon_menu3, .navBar li .icon_menu2, .navBar li .icon_menu4,.navBar li .icon_menu5{
       margin-right: 7px; }
     .navBar li a {
       display: block;
@@ -69,7 +69,7 @@
       *zoom: 1;
       vertical-align: middle; }
 
-.icon_menu1, .icon_menu3, .icon_menu2, .icon_menu4 {
+.icon_menu1, .icon_menu3, .icon_menu2, .icon_menu4,.icon_menu5{
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -89,6 +89,9 @@
 
 .icon_menu4 {
   background: url(../images/teacher/icon_menu4.png) center center no-repeat; }
+
+.icon_menu5 {
+  background: url(../images/teacher/icon_menu5.png) center center no-repeat; }
 
 .handleArea {
   background: #fff;
