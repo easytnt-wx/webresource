@@ -614,14 +614,14 @@
 .way a.on.key { background-image: url(../../images/icon_keyboard_hover.png); }
 
 .control-btn { width: 100%; border-collapse: collapse; }
-.control-btn tbody tr td { width: 10%; }
+/*.control-btn tbody tr td { width: 5%; }
 .control-btn tbody tr td + td { width: 10%; }
-.control-btn tbody tr td + td + td { width: 15%; }
-.control-btn tbody tr td + td + td + td { width: 15%; }
+.control-btn tbody tr td + td + td { width: 5%; }
+.control-btn tbody tr td + td + td + td { width: 12%; }
 .control-btn tbody tr td + td + td + td + td { width: 15%; }
 .control-btn tbody tr td + td + td + td + td + td { width: 15%; }
 .control-btn tbody tr td + td + td + td + td + td + td { width: 5%; }
-.control-btn tbody tr td + td + td + td + td + td + td + td { width: 5%; }
+.control-btn tbody tr td + td + td + td + td + td + td + td { width: 5%; }*/
 
 .review { position: relative; text-align: center; }
 .review .line { display: block; *display: inline; *zoom: 1; width: 1px; top: -9px; bottom: -9px; right: 0; background-color: #d1e5f7; position: absolute; }
