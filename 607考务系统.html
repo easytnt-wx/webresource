@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>考务系统</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+    <link rel="stylesheet" href="css/blue.css" type="text/css">
+	<link href="css/public.css" rel="stylesheet" type="text/css">
+    <link href="css/teacher.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/consult.css" type="text/css">
+    <link href="css/report_card.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/607.css" type="text/css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class='headerT'>
+        <div class='container w1200 clearfix'>
+            <!-- <span class='fl logoTea'></span> -->
+            <a href="javascript:void(0)" class="logoTea fl"><img src="images/teacher/logo.png" alt="logo"></a>
+            <ul class='navBar fl'>
+                <li><a href='javascript:;'><i class='icon_menu1'></i><span>常规测验</span></a></li>
+                <li><a class='current' href='javascript:;'><i class='icon_menu2'></i><span>网阅考试</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu5'></i><span>在线考试</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu3'></i><span>题库管理</span></a></li>
+            </ul>
+            <dl class='infoT fr'>
+                <dt>
+                    <div class='uerbox'>
+                        <p class='userinfo'>
+                            <span class='userT'><img src='images/public/user.png' alt=''></span><a class='NameT'>李小明</a><i class='icon_drop'></i>
+                        </p>
+                        <div class='drop_wrap'>
+                            <ul class='user_droplist'>
+                                <li><a href='javascript:;'><span>我的班级</span></a></li>
+                                <li><a href='javascript:;'><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="cs_top">
+        <div class="t_c cs_top_content2">
+            <div class="w1200 rm_top_content pdb30 mgt20">
+                <h2>考务管理系统</h2>
+            </div>
+        </div>
+        <div class="w1200 clearfix">
+            <div class="report_card_box report_card_boxStyle1 fl mgt20" style="height: 550px;">
+                <ul class="rc_classes">
+                    <li><a href="javascript:;" class="on"><span>考生维护</span></a></li>
+                    <li><a href="javascript:;"><span>考场维护</span></a></li>
+                    <li><a href="javascript:;"><span>考场考号编排</span></a></li>
+                </ul>
+            </div>
+            <div class="tab_content">
+                <div class="report_card_box report_card_boxStyle3 mgt20 mgb40 fr" name="tab_item">
+                    <div class="iexport1 clearfix">
+                        <a href="#" class="mgl5 Btn26"><span class="icon_in"></span>批量导入</a>
+                        <a href="javascript:;" class="mgl5 Btn26" id="addoneStu"><span class="icon_add1"></span>单个添加</a>
+                        <a href="#" class="mgl5 Btn26"><span class="icon_down1"></span>下载模板</a>
+                        <a href="#" class="mgl5 Btn26"><span class="icon_out"></span>导出学生信息</a>
+                        <a href="javascript:;" class="mgl5 Btn21"><span class="icon_delall"></span>批量删除</a>
+                    </div>
+                    <div class='pdlr30'>
+                        <div class='list_top_left'>
+                            <form action="" class="form-horizontal">
+                                <div class="form-group mytime">
+                                    <span class="f16 mgr10">筛选:</span>
+                                    <select class="selectpicker">
+                                        <option value="1">全部年级</option>
+                                        <option value="2">高一</option>
+                                        <option value="2">高二</option>
+                                        <option value="3">高三</option>
+                                    </select>
+                                    <select class="selectpicker">
+                                        <option value="1">全部行政班</option>
+                                        <option value="2">高一1班</option>
+                                        <option value="3">高一2班</option>
+                                        <option value="3">高一3班</option>
+                                    </select>
+                                    <select class="selectpicker">
+                                        <option value="1">全部教学班</option>
+                                        <option value="2">物理班</option>
+                                        <option value="3">化学班</option>
+                                        <option value="3">生物班</option>
+                                    </select>
+                                    <span class="searchBox searchStyle_g1 fr"><input class="inputSearch placeholder1" value="" type="text"><i class="search"></i></span>
+                                    <p class="fr nub mgr10">共10人</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="pdlr30">
+                        <table class="table table-striped table-hover table-bordered">
+                            <tr>
+                                <th width="80px"><input type="checkbox"></th>
+                                <th width="120px">序号</th>
+                                <th width="120px">学校</th>
+                                <th width="120px">姓名</th>
+                                <th width="120px">学号</th>
+                                <th width="120px">年级</th>
+                                <th>行政班</th>
+                                <th>教学班</th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>1</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>2</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>3</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>4</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>5</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>6</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>7</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>8</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>9</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10</td>
+                                <td>张家口第一中学</td>
+                                <td>张三</td>
+                                <td>1001</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                        </table>
+                        <div class="row noMargin">
+                            <div class="col-xs-12 pager-container pagination">
+                                <div id="pager" class="pager" style="margin:0;text-align:left;">
+                                    <ul class="pages">
+                                        <li class="pgNext pgEmpty">首页</li>
+                                        <li class="pgNext pgEmpty">上一页</li>
+                                        <li class="page-number pgCurrent">1</li>
+                                        <li class="pgNext pgEmpty">下一页</li>
+                                        <li class="pgNext pgEmpty">末页</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="report_card_box report_card_boxStyle3 mgt20 mgb40 fr dis_none" name="tab_item">
+                    <div class="tabStyle2" name="tab">
+                        <div class="tabTit" name="tabTit">
+                            <a href="#" class="on">学校导入</a>
+                            <a href="#" class="last">考场维护</a>
+                        </div>
+                        <div class="tabContent" name="tabCon" id="studentsInfo">
+                            <div class="iexport1 clearfix">
+                                <a href="#" class="mgl5 Btn26"><span class="icon_in"></span>批量导入学校信息</a>
+                                <a href="#" class="mgl5 Btn26"><span class="icon_down1"></span>下载模板</a>
+                            </div>
+                            <div class='pdlr30'>
+                                <div class='list_top_left'>
+                                    <form action="" class="form-horizontal">
+                                        <div class="form-group mytime">
+                                            <span class="f16 mgr10">筛选:</span>
+                                            <select class="selectpicker">
+                                                <option value="1">全部学校</option>
+                                                <option value="2">张家口第一中学</option>
+                                                <option value="2">张家口师大附中</option>
+                                                <option value="3">张家口实验中学</option>
+                                            </select>
+                                            <select class="selectpicker">
+                                                <option value="1">全部教室</option>
+                                                <option value="2">教室01</option>
+                                                <option value="3">教室02</option>
+                                                <option value="3">教室03</option>
+                                            </select>
+                                            <span class="searchBox searchStyle_g1 fr"><input class="inputSearch placeholder1" value="" type="text"><i class="search"></i></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="pdlr30">
+                                <table class="table table-striped table-hover table-bordered">
+                                    <tr>
+                                        <th width="80px"><input type="checkbox"></th>
+                                        <th width="120px">序号</th>
+                                        <th width="120px">学校</th>
+                                        <th width="120px">教室</th>
+                                        <th width="120px">容纳人数</th>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室01</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>2</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室02</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>3</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室03</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>4</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室04</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>5</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室05</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>6</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室06</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>7</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室07</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>8</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室08</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>9</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室09</td>
+                                        <td>30</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>10</td>
+                                        <td>张家口第一中学</td>
+                                        <td>教室10</td>
+                                        <td>30</td>
+                                    </tr>
+                                </table>
+                                <div class="row noMargin">
+                                    <div class="col-xs-12 pager-container pagination">
+                                        <div id="pager" class="pager" style="margin:0;text-align:left;">
+                                            <ul class="pages">
+                                                <li class="pgNext pgEmpty">首页</li>
+                                                <li class="pgNext pgEmpty">上一页</li>
+                                                <li class="page-number pgCurrent">1</li>
+                                                <li class="pgNext pgEmpty">下一页</li>
+                                                <li class="pgNext pgEmpty">末页</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabContent dis_none" name="tabCon" id="teacherInfo">
+                            <div class="iexport1 pd20">
+                                <a href="#" class="mgl5 Btn26"><span class="icon_out"></span>导出考场信息</a>
+                                <a href="javascript:;" class="mgl5 Btn21"><span class="icon_delall"></span>批量删除</a>
+                            </div>
+                            <div class='pdlr30'>
+                                <div class='list_top_left'>
+                                    <form action="" class="form-horizontal">
+                                        <div class="form-group mytime">
+                                            <span class="f16 mgr10">筛选:</span>
+                                            <select class="selectpicker">
+                                                <option value="1">全部学校</option>
+                                                <option value="2">张家口第一中学</option>
+                                                <option value="2">张家口第一中学</option>
+                                                <option value="3">张家口第一中学</option>
+                                            </select>
+                                            <select class="selectpicker">
+                                                <option value="1">全部考场</option>
+                                                <option value="2">考场01</option>
+                                                <option value="2">考场02</option>
+                                                <option value="3">考场03</option>
+                                            </select>
+                                            <span class="searchBox searchStyle_g1 fr"><input class="inputSearch placeholder1" value="" type="text"><i class="search"></i></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="pdlr30">
+                                <table class="table table-striped table-hover table-bordered">
+                                    <tr>
+                                        <th width="80px"><input type="checkbox"></th>
+                                        <th width="120px">序号</th>
+                                        <th width="120px">学校</th>
+                                        <th width="120px">考场</th>
+                                        <th width="120px">学生人数</th>
+                                        <th width="120px">操作</th>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场01</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                   <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场02</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场03</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场04</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场05</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场06</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场07</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场08</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场09</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td>1</td>
+                                        <td>张家口第一中学</td>
+                                        <td>考场10</td>
+                                        <td>30</td>
+                                        <td>
+                                            <a href="javascript:;" class="Btn24 mglr10">查看</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="row noMargin">
+                                    <div class="col-xs-12 pager-container pagination">
+                                        <div id="pager" class="pager" style="margin:0;text-align:left;">
+                                            <ul class="pages">
+                                                <li class="pgNext pgEmpty">首页</li>
+                                                <li class="pgNext pgEmpty">上一页</li>
+                                                <li class="page-number pgCurrent">1</li>
+                                                <li class="pgNext pgEmpty">下一页</li>
+                                                <li class="pgNext pgEmpty">末页</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="report_card_box report_card_boxStyle3 mgt20 mgb40 fr dis_none" name="tab_item">
+                    <div class="iexport1 clearfix">
+                        <a href="#" class="mgl5 Btn26">重新编排考号</a>
+                        <a href="#" class="mgl5 Btn26">导出考号信息</a>
+                        <a href="#" class="mgl5 Btn26">打印考生条码</a>
+                    </div>
+                    <div class="pdlr30 mgt30">
+                        <table class="table table-striped table-hover table-bordered">
+                            <tr>
+                                <th width="80px"><input type="checkbox"></th>
+                                <th width="120px">考号</th>
+                                <th width="120px">姓名</th>
+                                <th width="120px">考场</th>
+                                <th width="120px">学校</th>
+                                <th width="120px">年级</th>
+                                <th width="120px">行政班</th>
+                                <th width="120px">教学班</th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>10001</td>
+                                <td>张三</td>
+                                <td>考场01</td>
+                                <td>张家口第一中学</td>
+                                <td>高一</td>
+                                <td>高一1班</td>
+                                <td>物理班</td>
+                            </tr>
+                            
+                        </table>
+                        <div class="row noMargin">
+                            <div class="col-xs-12 pager-container pagination">
+                                <div id="pager" class="pager" style="margin:0;text-align:left;">
+                                    <ul class="pages">
+                                        <li class="pgNext pgEmpty">首页</li>
+                                        <li class="pgNext pgEmpty">上一页</li>
+                                        <li class="page-number pgCurrent">1</li>
+                                        <li class="pgNext pgEmpty">下一页</li>
+                                        <li class="pgNext pgEmpty">末页</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+	<script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/icheck.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+    <script>
+        $(function(){
+            
+            $(".rc_classes li").on('click',function(){
+                var _this=$(this);
+                _this.find("a").addClass('on').parent().siblings().find("a").removeClass('on');
+                $("[name='tab_item']").eq(_this.index()).removeClass("dis_none").siblings().addClass("dis_none");
+            });
+            $(".tabStyle2").tabControl();
+
+            $("th input").on('ifChecked ifUnchecked',function(event){
+                var _this = $(this);
+                if(event.type == "ifChecked"){
+                    _this.parents("tr").siblings().find("input[type=checkbox]").iCheck('check');
+                }else{
+                    _this.parents("tr").siblings().find("input[type=checkbox]").iCheck('uncheck');
+                }
+            })
+
+
+            $('td input').on('ifChanged',function(event){
+                var _this = $(this);
+                var inp_leg = _this.parents('tbody').find("td").find("input[type=checkbox]").length;
+                var cheked_leg = _this.parents('tbody').find("td").find("input:checked").length;
+                if(inp_leg == cheked_leg){
+                    _this.parents("tbody").find("th").find("input[type=checkbox]").prop('checked',true);
+                }else{
+                    _this.parents("tbody").find("th").find("input[type=checkbox]").prop('checked',false);
+                }
+                $("input[type=checkbox]").iCheck('update');
+            })
+
+
+
+            $("input[type=checkbox]").iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue'
+            });
+
+        });
+    </script>
+</body>
+</html>

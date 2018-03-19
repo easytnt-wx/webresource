@@ -1,0 +1,99 @@
+@charset "utf-8";
+.rc_classes li{
+	width: 184px;
+}
+.iexport1{
+	width: 1002px;
+}
+
+.icon_add1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 3px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon_add1.png);
+}
+.icon_in{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 3px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon_in.png);
+}
+.icon_out{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 3px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon_out.png);
+}
+.icon_down1{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 3px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon_download.png);
+}
+.icon_delall{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 3px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon_delall.png);
+}
+
+.Btn21:hover {
+    background: #ffcaca;
+    color: #ec3333;
+}
+.Btn26{ font-size: 16px; }
+.Btn26:hover {
+    background: #def0ff;
+    color: #45a4fe;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 120px;
+}
+.form-group > label + .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 150px;
+    margin-left: 20px;
+}
+.nub{
+	font-size: 16px;
+	line-height: 30px;
+}
+
+
+.Btn-del24{border: 1px solid #ff6666;padding: 0 17px;color: #ff6969;background: #ffffff;display: inline-block;*display: inline;*zoom: 1;text-align: center;font-size:14px;border-radius: 5px;text-align: center;line-height: 34px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn-del24 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
+.Btn-del24:hover {background: #ff6666;color: #ffffff;}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+	vertical-align: middle;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+input[type="text"].myinput{
+	margin-right: 60px;
+}
+.error_info {
+    color: #ff7c7c;
+    font-size: 14px;
+}
