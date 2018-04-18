@@ -1,0 +1,128 @@
+@charset "utf-8";
+.examine-view .easy_logo{
+	height: 51px;
+}
+.menu-list{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 51;
+	overflow: hidden;
+	display: none;
+}
+.menu-tab{
+	width: 240px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: -240px;
+	background-color: #fff;
+	z-index: 51;
+}
+.menu-title{
+	color: #42a0fc;
+	font-size: 16px;
+	padding: 20px 15px;
+	cursor: default;
+	border-bottom: 1px solid #eee;
+}
+.menu-title span.icon_menu{
+	width: 22px;
+	height: 22px;
+	background-image: url("../images/public/menu.png");
+	background-size: cover;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+	line-height: 22px;
+}
+.menu-select > li > a{
+	color: #333;
+	padding: 12px 15px;
+	font-size: 14px;
+	transition: all ease-in .1s;
+	display: block;
+}
+.menu-select > li.active >a,.menu-select > li:hover > a{
+	background-color: #42a0fc;
+	color: #fff;
+}
+
+.control .left{
+	width: 200px;
+}
+.number-scroll{
+	background-color: #fff;
+	top: 45px;
+}
+.result-list li{
+	padding: 5px 12px;
+	line-height: 0;
+}
+.result-list li span{
+	color: #333;
+	line-height: 0;
+}
+.result-list li span i, .result-list li span em{
+	line-height: 32px;
+}
+.result-list li.on{
+	background-color: #d7e7ff;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 100px;
+}
+.mytime > input{
+	width: 160px;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+.mytime > input + span{
+	left: -35px;
+	top: 5px;
+}
+form.form-horizontal > .form-group{
+	margin: 0;
+}
+.dis_lb{
+	display: inline-block;
+}
+.form-horizontal .radio, .form-horizontal .checkbox{
+	min-height: 20px;
+	padding-top: 0;
+}
+.checkStyle1 > label{
+	font-weight: 500;
+}
+.list_top_right > a:hover{
+	color: #fff;
+}
+.icon_date{
+	background-image: url(../images/public/icon_date.png);
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+}
+.control .right{
+	width: 84%;
+}
+.number-wrapper{
+	width: 202px;
+	right: -202px;
+}
+.menu-btn{
+	width: 90px;
+}
+.menu-btn:hover,.menu-btn:active{
+	color: #fff;
+}
+.form-group{
+	min-height: 32px;
+}
+.back em{
+	line-height: 34.5px;
+}

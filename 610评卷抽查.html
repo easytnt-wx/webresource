@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>评卷抽查</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+    <link href="css/ezp/public.css" rel="stylesheet" type="text/css">
+    <link href="css/ezp/style.css" rel="stylesheet" type="text/css">
+    <link href="css/ezp/ezp.css" rel="stylesheet" type="text/css">
+    <link href="css/610.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+    <div class="ease_header pdr20 examine-view">
+        <div class="container1 clearfix">
+            <a href="#" class="fl easy_logo"></a>
+            <p class="fl f24 mgtb15 pdr30">2018年新疆伊犁中招考试</p>
+            <p class="fl f16 mgtb15">评题抽查</p>
+            <dl class="easy_info fr">
+                <dt>
+                    <div class="uerbox">
+                        <p class="userinfo">
+                            <span class="user_img"><img src="images/upload/user.png" alt=""></span><a class="user_name">李小明</a><i class="icon_drop"></i>
+                        </p>
+                        <div class="drop_wrap">
+                            <ul class="user_droplist">
+                                <li><a href="javascript:;"><span>我的班级</span></a></li>
+                                <li><a href="javascript:;"><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+            <a class="menu-btn menu-btnStyle fr" href="#">切换评题</a>
+            <div class="menu-list">
+                <div class="menu-tab">
+                    <div class="menu-title">
+                        <p><span class="icon_menu"></span>切换评题</p>
+                    </div>
+                    <ul class="menu-select">
+                        <li><a href="javascript:;">21</a></li>
+                        <li class="active"><a href="javascript:;">22</a></li>
+                        <li><a href="javascript:;">23</a></li>
+                        <li><a href="javascript:;">24</a></li>
+                        <li><a href="javascript:;">25</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="control clearfix pdr10 bg2">
+            <div class="left fl">
+                <div class="review">
+                    <span class="back"><em>查询结果列表</em><i></i></span>
+                    <i class="line"></i>
+                    <div class="number-scroll">
+                        <ul class="result-list pdt15 pdb10">
+                            <li class="on"><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                        </ul>
+                        <div class="search-turnpage">
+                            <i class="turn-left"></i><span><em>1</em><em>/</em><em>10</em></span><i class="turn-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='list_top_left fl'>
+                <form action="" class="form-horizontal">
+                    <div class="form-group mytime">
+                        <input type="text" name="a" class="form-control form_datetime" id="datetime" readonly style="background-color:#fff;"><span class="icon_date"></span><i style="margin-left:-10px">至</i>
+                        <input id="datetimepicker" name="a" type="text" class="form-control form_datetime" readonly style="background-color:#fff;"><span class="icon_date"></span>
+                        <p class="dis_lb">分值:<input type="text" class="input inputStyle3 mglr5"> 至 <input type="text" class="input inputStyle3 mglr5"></p>
+                        <p class="dis_lb mgl5">小组:</p>
+                        <select class="selectpicker">
+                            <option value="1">小组1</option>
+                            <option value="2">小组2</option>
+                            <option value="3">小组3</option>
+                        </select>
+                        <p class="dis_lb mgl5">阅卷员:</p>
+                        <select class="selectpicker">
+                            <option value="1">高一</option>
+                            <option value="2">高二</option>
+                            <option value="3">高三</option>
+                        </select>
+                        <p class="dis_lb mgl5">状态:</p>
+                        <select class="selectpicker">
+                            <option value="1">正常卷</option>
+                            <option value="2">仲裁卷</option>
+                            <option value="3">异常卷</option>
+                        </select>
+                        <a href="javascript:;" class="Btn19 mglr5">查询</a>
+                        <a href="javascript:;" class="Btn19 mglr5 fr" id="reset">重新打分</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="inner-box">
+            <div class="number-wrapper">
+                <div class="set-numberbox">
+                    <div class="clearfix main-top pdb20">
+                        <h3 class="fl">7-11题</h3>
+                        <i class="fr">28分</i>
+                    </div>
+                    <ul class="num-lis">
+                        <li><span>&nbsp;</span><div class="set-box"><h1 class="total-points pdtb10 fl"><i>16.5</i>分</h1></div></li>
+                        <li><span>7</span><div class="set-box"><input type="text"></div></li>
+                        <li><span>7</span><div class="set-box"><input type="text"></div></li>
+                        <li><span>7</span><div class="set-box"><input type="text"></div></li>
+                        <li><span>7</span><div class="set-box"><input type="text"></div></li>
+                    </ul>
+                    <p class="remind pdtb20"><span class="onoff mgl10 open"><em></em></span><i class="mgl10">提醒</i></p>
+                    <a href="#" class="save-num mgb15">保存</a>
+                    <a href="#" class="change-num">重改</a>
+                </div>
+            </div>
+            <div class="paper-main-box">
+                <div class="control-bar2">
+                    <div class="img-view"><i class="put"></i><img src="images/upload/editphoto_16.jpg" width="200px" alt=""></div>
+                </div>
+                <div class="imagesPool">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/lib/jquery-2.1.1.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $(function(){
+        $('#datetime').datetimepicker({
+          format : "yyyy-mm-dd hh:ii",
+          minView : 0,
+          autoclose : 1,
+          todayBtn : 1
+        });
+        $('#datetimepicker').datetimepicker({
+          format : "yyyy-mm-dd hh:ii",
+          minView : 0,
+          autoclose : 1,
+          todayBtn : 1
+        });
+        $('.selectpicker').selectpicker('render');
+
+        $('#reset').on('click',function(){
+            $('.number-wrapper').animate({
+                right:0
+            },300)
+        })
+
+        $(".selecterBox").Selector();
+        $('.inner-box').fullPage();
+        $('.paper-main-box').fullPage();
+        $('.number-scroll').fullPage();
+        $('.imagesPool').perfectScrollbar();
+        $('.zoom-full').on('click',function () {
+            $(this).fadeOut(function () {
+                $('.img-view').fadeIn();
+            });
+        });
+        $('.put').on('click',function () {
+            $(this).parent().fadeOut(function () {
+                $('.zoom-full').fadeIn();
+            });
+        });
+
+        $('.onoff').click(function () {
+            $(this).toggleClass('open');
+        });
+        $('.back').on('click',function () {
+            $(this).siblings('.number-scroll').slideToggle();
+        });
+
+        $('.menu-btn').on('click',function(){
+            $('.menu-list').fadeIn(100);
+            $('.menu-tab').animate({
+                right : "0px"
+            },400);
+        });
+        $('.menu-list').on('click',function(){
+            $('.menu-tab').animate({
+                right : "-240px"
+            },400);
+            $('.menu-list').fadeOut(700);
+        })
+
+        var _this = $('.zoom-bar em');
+        _this.on('mousedown',function(e){
+            left = parseInt(_this.css('left'));
+            starX=event.pageX;
+            $(document).on('mousemove',move);
+        })
+        _this.on('mouseup',function (event) {
+            $(document).off('mousemove',move);
+        });
+        $(document).on('mouseup',function () {
+            $(document).off('mousemove',move);
+        });
+        function move(event){
+            var moveX=event.pageX;
+            var offsetX = moveX - starX + left;
+            if(offsetX >= 0 && offsetX <= 100){
+                _this.css({left:offsetX});
+            }
+        }
+    });
+</script>
+</html>
