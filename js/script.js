@@ -358,12 +358,10 @@ $.fn.extend({
         return this.each(function () {
             var _this=$(this);
             var starX=0,starY=0;
-            var handleWidth=_this.outerWidth(true),containerWidth=$(options.container).width();
-            var handleHeight=_this.outerHeight(true),containerHeight=$(options.container).height();
-            var right=0,bottom=0;
+            var left=0,top=0;
             _this.on('mousedown',function (event) {
-                right=parseInt(_this.css('right'));
-                bottom=parseInt(_this.css('bottom'));
+                left=parseInt(_this.css('left'));
+                top=parseInt(_this.css('top'));
                 starX=event.pageX;
                 starY=event.pageY;
                 $(document).on('mousemove',move);
@@ -376,23 +374,25 @@ $.fn.extend({
             });
             function move(event) {
                 window.getSelection?window.getSelection().removeAllRanges():document.selection.empty();
+                var handleWidth=_this.outerWidth(true),containerWidth=$(options.container).width();
+                var handleHeight=_this.outerHeight(true),containerHeight=$(options.container).height();
                 var moveX=event.pageX,moveY=event.pageY;
-                var offsetRight=starX-moveX+right,offsetBottom=starY-moveY+bottom;
-                if(offsetRight<0){
-                    offsetRight=0
-                }else if((offsetRight+handleWidth)>containerWidth){
-                    offsetRight=containerWidth-handleWidth;
+                var offsetLeft=moveX-starX+left,offsetTop=moveY-starY+top;
+                if(offsetLeft<0){
+                    offsetLeft=0
+                }else if((offsetLeft+handleWidth)>containerWidth){
+                    offsetLeft=containerWidth-handleWidth;
                 }else{
-                    offsetRight=offsetRight;
+                    offsetLeft=offsetLeft;
                 }
-                if(offsetBottom<0){
-                    offsetBottom=0
-                }else if((offsetBottom+handleHeight)>containerHeight){
-                    offsetBottom=containerHeight-handleHeight;
+                if(offsetTop<0){
+                    offsetTop=0
+                }else if((offsetTop+handleHeight)>containerHeight){
+                    offsetTop=containerHeight-handleHeight;
                 }else{
-                    offsetBottom=offsetBottom;
+                    offsetTop=offsetTop;
                 }
-                _this.css({right:offsetRight,bottom:offsetBottom});
+                _this.css({left:offsetLeft,top:offsetTop});
             }
 
         });

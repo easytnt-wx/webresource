@@ -108,7 +108,7 @@ form.form-horizontal > .form-group{
     height: 16px;
 }
 .control .right{
-	width: 84%;
+	width: calc(100% - 200px);
 }
 .number-wrapper{
 	width: 202px;
@@ -126,3 +126,75 @@ form.form-horizontal > .form-group{
 .back em{
 	line-height: 34.5px;
 }
+
+.paper-main-box{
+	margin: 0 202px 0 200px;
+}
+.form-group.mytime a:focus {
+    outline: none;
+    text-decoration: none;
+    -moz-outline: none;
+}
+#reset:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.panel1{
+	position: absolute;
+	width: 280px;
+	padding: 10px 15px;
+	background-color: rgba(0,0,0,.6);
+	z-index: 999;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 8px;
+}
+.panel1:hover{
+	cursor: move;
+}
+.panel1 > .title{
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.gf-table{
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 100%;
+	text-shadow: 0 1px rgba(0,0,0,0.5);
+}
+.gf-table th,.gf-table td{
+	border-bottom:1px solid #f5f5f5;
+	font-size: 12px;
+	padding: 4px 2px;
+}
+td > p{
+	word-break: break-all;
+}
+.c_00dd78{
+	color: #00dd78;
+}
+.icon_scrolldown{
+	width: 18px;
+	height: 18px;
+	background-image: url("../images/scrolldown.png");
+}
+.icon_scrolldown:hover{
+	cursor: pointer;
+}
+.icon_scrollup{
+	width: 18px;
+	height: 18px;
+	background-image: url("../images/scrollup.png");
+}
+.icon_scrollup:hover{
+	cursor: pointer;
+}
+
+.right-wrong{
+	width: 126px;
+}
+.flt-bar { padding-top: 9px; padding-bottom: 9px; border-bottom: 1px solid #d1e5f7; }
+.transform-tool{ display: inline-block;margin-left: 10%; }
+.prnx{ display: inline-block;margin-right: 8%; }
