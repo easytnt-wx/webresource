@@ -198,3 +198,12 @@ td > p{
 .flt-bar { padding-top: 9px; padding-bottom: 9px; border-bottom: 1px solid #d1e5f7; }
 .transform-tool{ display: inline-block;margin-left: 10%; }
 .prnx{ display: inline-block;margin-right: 8%; }
+
+.set-numberbox.panel-body{
+	padding: 0;
+}
+.num-lis .form-group{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+	
