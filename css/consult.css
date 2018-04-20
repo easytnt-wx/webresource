@@ -288,7 +288,7 @@
 .c_setting_content li div.fr span.on em { display: inline-block; vertical-align: middle; font-size: 14px; color: #51ae30; }
 .c_setting_content li div.fr .Btn14 { margin-left: 43px; }
 .c_setting_content li div.fr .Btn14[href="javascript:void(0);"]{ background-color: #ccc; color: #f5f5f5;cursor: default; }
-.con_error { display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url(../images/consult/con_error.png) 0 0 no-repeat; }
+.con_error { display: inline-block; vertical-align: middle; width: 24px; height: 24px; background: url(../images/consult/con_error.png) 0 0 no-repeat; }
 
 .exam_list_ui .con_error { margin-left: 7px; margin-right: 3px; }
 
@@ -1655,6 +1655,13 @@ div.ni_border_0{border: 0;}
 }
 .reviewBox_rightBox ul label{font-size: 16px;color: #555555;display: inline-block;vertical-align: middle;width: 64px;text-align: right;margin-right: 12px;}
 .reviewBox_rightBox ul li{margin-top: 20px;padding-right:33px;position: relative}
+.reviewBox_rightBox ul li[name="zgItemAnswers"] span.on i.con_error { display: inline-block; vertical-align: middle; width: 24px; height: 24px; background: url(../images/consult/con_error.png) 0 0 no-repeat; }
+.reviewBox_rightBox ul li[name="zgItemAnswers"] span em { display: inline-block; vertical-align: middle; font-size: 14px; color: #005555; }
+.reviewBox_rightBox ul li[name="zgItemAnswers"] span.on i.con_error { display: inline-block; vertical-align: middle; width: 24px; height: 24px; background: url(../images/consult/con_ok.png) 0 0 no-repeat; }
+.reviewBox_rightBox ul li[name="zgItemAnswers"] span.on em { display: inline-block; vertical-align: middle; font-size: 14px; color: #51ae30; }
+
+
+
 .reviewBox_rightBox ul input{ -webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;height: 36px;border-radius: 5px;border: 1px solid #dcdcdc;width: 166px;padding:0 10px;}
 .reviewBox_rightBox ul input:hover {border: 1px solid #00a0e9;}
 .reviewBox_rightBox{width: 300px;height: 901px;border-radius: 5px;box-shadow: 0 0 20px #bfbfbf;}
