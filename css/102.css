@@ -2,12 +2,10 @@
 *{
 	box-sizing: content-box;
 }
-.ni_g_ksry_del .ni_ks .ni_box{
-	margin: 0 auto;
-}
-.ni_g_ksry_del .ni_ks .ni_box.ni_cz{background: url('../images/ni_ks_03.png') no-repeat left center;}
-.ni_g_km_list li{ padding: 15px 0 30px; }
 
+.ni_g_km_list .ni_txt .ni_w33{ line-height: 90px;font-size: 20px; }
+.ni_g_km_list li{ padding: 15px 0 25px 0; }
+.ni_g_km_list .ni_sz a{ height: 40px;line-height: 40px; font-size: 16px; }
 
 .ni_g_km_list .ni_img.ni_icon001,.ni_g_km_list .ni_img.ni_icon1001,.ni_g_km_list .ni_img.ni_iconjcsub01{
 	background-image: url(../images/subject_01.png);
