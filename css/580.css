@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*科目图标 star*/
+.con_S { display: block; margin: 0 auto; width: 70px; height: 70px;background-color: #ddf1ff;border-radius: 50%; }
+.con_S.ni_icon1,.con_S.ni_icon4,.con_S.ni_icon11{
+	background-image: url(../images/subject_01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon2{
+	background-image: url(../images/subject_02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon3{
+	background-image: url(../images/subject_03.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon8{
+	background-image: url(../images/subject_04.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon7{
+	background-image: url(../images/subject_05.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon5{
+	background-image: url(../images/subject_09.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon6{
+	background-image: url(../images/subject_08.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon9{
+	background-image: url(../images/subject_07.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon010,.con_S.ni_icon011,.con_S.ni_icon1009{
+	background-image: url(../images/subject_02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon1010{
+	background-image: url(../images/subject_02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon10{
+	background-image: url(../images/subject_06.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon013,.con_S.ni_icon1012{
+	background-image: url(../images/subject_11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_icon012,.con_S.ni_icon1013{
+	background-image: url(../images/subject_12.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconSUB48{
+	background-image: url(../images/subject_21.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconSUB7,.con_S.ni_iconSUB52{
+	background-image: url(../images/subject_14.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconSUB59{
+	background-image: url(../images/subject_15.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconSUB50,.con_S.ni_iconSUB49{
+	background-image: url(../images/subject_13.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconSUB27{
+	background-image: url(../images/subject_17.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconjcsub23{
+	background-image: url(../images/subject_19.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconjcsub18{
+	background-image: url(../images/subject_18.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconjcsub16{
+	background-image: url(../images/subject_20.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconjcsub21{
+	background-image: url(../images/subject_10.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+.con_S.ni_iconjcsub20{
+	background-image: url(../images/subject_16.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+/*科目图标 end*/
