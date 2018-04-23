@@ -7,7 +7,7 @@
 .ni_g_km_list li{ padding: 15px 0 25px 0; }
 .ni_g_km_list .ni_sz a{ height: 40px;line-height: 40px; font-size: 16px; }
 
-.ni_g_km_list .ni_img.ni_icon1,.ni_g_km_list .ni_img.ni_icon4,.ni_g_km_list .ni_img.ni_icon4{
+.ni_g_km_list .ni_img.ni_icon1,.ni_g_km_list .ni_img.ni_icon4,.ni_g_km_list .ni_img.ni_icon11{
 	background-image: url(../images/subject_01.png);
 	background-position: center;
 	background-repeat: no-repeat;
