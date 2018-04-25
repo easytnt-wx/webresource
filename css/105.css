@@ -1,0 +1,31 @@
+@charset "utf-8";
+.progress_list li{margin: 20px 0 0 30px;}
+.progress_wrap{height:27px;width:670px;line-height:27px;border-radius:16px;overflow: hidden;border:1px solid #49CC93;display: inline-block; vertical-align: middle;}
+.progress_tit{ font-size: 16px;font-weight: 500; display: inline-block; vertical-align: middle; min-width: 180px;text-align: right; margin-right: 12px;}
+
+.progress_wrap + em{ font-size: 18px;vertical-align: middle;margin-left:8px;font-weight: 500;  display: inline-block; color:#49CC93;}
+.progress_wrap.pass + em{ color:#49CC93; }
+.progress_wrap.pass + em .icon_do_success{ width: 27px;height: 27px;background-image: url('../images/icon_do_succes.png');display: inline-block;vertical-align: middle; }
+
+.progress_wrap p{margin-left:0px;height:27px;display: inline-block; width: 100%;}
+.progress_wrap p i{display:block;height:27px;background:#E2FAF0;}
+
+.progress_style02{border:1px solid #31C6E1;}
+.progress_style02  span{background:#31C6E1;}
+.progress_style02 + em{ font-size: 18px;vertical-align: middle;margin-left:8px;font-weight: 500; color:#61D0E6;}
+.progress_style02  p i{background:#D3F4FA;}
+
+.progress_style03{border:1px solid #FFB400;}
+.progress_style03 span{background:#FFB400;}
+.progress_style03 + em{ font-size: 18px;vertical-align: middle;margin-left:8px;font-weight: 500; color:#FFA437;}
+.progress_style03 p i{background:#FFF5DE;}
+
+.progress_style04{border:1px solid #FF8B8B;}
+.progress_style04 span{background:#FF8B8B;}
+.progress_style04 + em{ font-size: 18px;vertical-align: middle;margin-left:8px;font-weight: 500; color:#FFA5A5;}
+.progress_style04 p i{background:#FDE7E7;}
+
+.progress_style05{border:1px solid #C2AFFF;}
+.progress_style05 span{background:#C2AFFF;}
+.progress_style05 + em{ font-size: 18px;vertical-align: middle;margin-left:8px;font-weight: 500; color:#bea8ff;}
+.progress_style05 p i{background:#EDE7FF;}
