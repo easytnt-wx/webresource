@@ -217,3 +217,81 @@
     border:1px solid rgba(255,255,255,.5);
     background-image: url('../../images/public/ezp/icon_right.png');
 }
+
+
+
+
+
+
+
+
+#zgSvDiv .svRotate{
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 64px;
+    background-color: rgba(255,255,255,.5);
+    z-index: 110;
+    border:1px solid rgba(255,255,255,.5);
+    background-image: url('../../images/public/ezp/icon_rotate.png');
+}
+#zgSvDiv .svZooming{
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 32px;
+    background-color: rgba(255,255,255,.5);
+    z-index: 110;
+    border:1px solid rgba(255,255,255,.5);
+    background-image: url('../../images/public/ezp/icon_adp.png');
+}
+#zgSvDiv .svClose{
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,.5);
+    z-index: 110;
+    border:1px solid rgba(255,255,255,.5);
+    background-image: url('../../images/public/ezp/icon_off.png');
+}
+#zgSvDiv .svGoLeft{
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: rgba(255,255,255,.5);
+    z-index: 110;
+    border:1px solid rgba(255,255,255,.5);
+    background-image: url('../../images/public/ezp/icon_left.png');
+}
+#zgSvDiv .svGoRight{
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgba(255,255,255,.5);
+    z-index: 110;
+    border:1px solid rgba(255,255,255,.5);
+    background-image: url('../../images/public/ezp/icon_right.png');
+}
