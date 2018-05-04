@@ -580,9 +580,9 @@ a[href="javascript:void(0);"].disable, button.disable{ color: #ccc !important;bo
 .Btn12:hover{background: #ffb12f;}
 
 
-.Btn13{padding: 0 24px;background: #ff9f01;display: inline-block;*display: inline;*zoom: 1;color: #ffffff;text-align: center;font-size:16px;border-radius: 5px;line-height: 40px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
+.Btn13{ cursor: pointer; padding: 0 24px;background: #ff9f01;display: inline-block;*display: inline;*zoom: 1;color: #ffffff;text-align: center;font-size:16px;border-radius: 5px;line-height: 40px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .Btn13 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
-.Btn13:hover{background: #FA8D19;}
+.Btn13:hover{background: #FA8D19;color: #f1f1f1;}
 
 .Btn14{padding: 0 14px;background: #1ab4fa;display: inline-block;*display: inline;*zoom: 1;color: #ffffff;text-align: center;font-size:16px;border-radius: 5px;line-height: 40px;-webkit-transition: all 300ms ease-in-out 0s;-moz-transition: all 300ms ease-in-out 0s;transition: all 300ms ease-in-out 0s;}
 .Btn14 span{display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;}
