@@ -164,7 +164,7 @@ form.form-horizontal > .form-group{
 	text-shadow: 0 1px rgba(0,0,0,0.5);
 }
 .gf-table th,.gf-table td{
-	border-bottom:1px solid #f5f5f5;
+	border-bottom:1px solid #444;
 	font-size: 12px;
 	padding: 4px 2px;
 }

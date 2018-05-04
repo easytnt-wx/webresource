@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>评卷抽查</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+    <link rel="stylesheet" href="css/ezp/public.css"  type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/consult.css" type="text/css">
+    <link rel="stylesheet" href="css/107.css" type="text/css">
+</head>
+<body class="bg1">
+    <div class="ease_header pdr20 examine-view">
+        <div class="container1 clearfix">
+            <a href="#" class="fl easy_logo"></a>
+            <p class="fl f18 mgtb15 pdr30">2018年新疆伊犁中招考试（语文）<small class="mgl10">扫描异常复核</small></h2></p>
+            <a class="menu-btn menu-btnStyle fr" href="#">切换科目</a>
+            <div class="menu-list">
+                <div class="menu-tab">
+                    <div class="menu-title">
+                        <p><span class="icon_menu"></span>切换科目</p>
+                    </div>
+                    <ul class="menu-select">
+                        <li><a href="javascript:;">语文</a></li>
+                        <li class="active"><a href="javascript:;">数学</a></li>
+                        <li><a href="javascript:;">英语</a></li>
+                        <li><a href="javascript:;">物理</a></li>
+                        <li><a href="javascript:;">化学</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="control clearfix bg2">
+            <div class="tool_bar clearfix">
+                <!-- <h2 class="subj_title">语文<small class="mgl10">扫描异常复核</small></h2> -->
+                <div class="fr">
+                    <p class="mgr30">
+                        <span class="mgl10 f14">考点:</span>
+                        <select class="selectpicker">
+                            <option value="1">请选择</option>
+                            <option value="2">小组2</option>
+                            <option value="3">小组3</option>
+                        </select>
+                    </p>
+                    <p class="mgr30">
+                        <span class="mgl10 f14">考场:</span>
+                        <select class="selectpicker">
+                            <option value="1">请选择</option>
+                            <option value="2">小组2</option>
+                            <option value="3">小组3</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="inner-box">
+            <div class="fl w_200 panel_l">
+                <p class="f18 pd15 bold c222">考号列表</p>
+                <ul class="result-list">
+                    <li class="on"><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                    <li><span><em>1234567891234567</em></span></li>
+                </ul>
+            </div>
+            <div class="paper-main-box">
+                <div class="panel1">
+                    <div class="panel_body">
+                        <table class="gf-table">
+                            <tr>
+                                <th>考点</th>
+                                <th>考场</th>
+                                <th>考号</th>
+                                <th>姓名</th>
+                                <th>学科</th>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>10</td>
+                                <td>1000001</td>
+                                <td>王大锤</td>
+                                <td>语文</td>
+                            </tr>
+                        </table>
+                        <div>
+                            <p class="t_c pdtb10">
+                                <a href="javascript:;" class="Btn22 mgr10" id="reset">确定</a>
+                                <a href="javascript:;" class="Btn22" id="reset">更改题卡信息</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagesPool">
+                    <img src="images/upload/editphoto_16.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/lib/jquery-2.1.1.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $(function(){
+
+        $('.selectpicker').selectpicker('render');
+
+        $('.inner-box').fullPage({
+            ele:['.ease_header','.control','.flt-bar']
+        });
+        $('.paper-main-box').fullPage({
+            ele:['.ease_header','.control','.flt-bar']
+        });
+        $('.panel1').drag({
+            container:".paper-main-box"
+        });
+        $('.imagesPool').perfectScrollbar();
+        $('.result-list').perfectScrollbar();
+
+        $('.menu-btn').on('click',function(){
+            $('.menu-list').fadeIn(100);
+            $('.menu-tab').animate({
+                right : "0px"
+            },400);
+        });
+        $('.menu-list').on('click',function(){
+            $('.menu-tab').animate({
+                right : "-240px"
+            },400);
+            $('.menu-list').fadeOut(700);
+        })
+
+    });
+</script>
+</html>
