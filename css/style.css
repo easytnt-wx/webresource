@@ -457,7 +457,7 @@ a[href="javascript:void(0);"].design_card {color: #ccc;cursor: default;}
 .prev-page, .next-page { line-height: 22px; border: 1px solid #419efc; display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; width: 60px; text-align: center; border-radius: 3px; margin: 0 10px; }
 .prev-page:hover, .next-page:hover { background: #e7f3ff; }
 
-.img-box { position: relative; border: 3px solid #dddddd; border-radius: 3px; overflow: auto; }
+.img-box { position: relative; border: 1px solid #dddddd; border-radius: 3px; overflow: auto; }
 
 .control-module { position: absolute; right: 20px; bottom: 33px; border: 1px solid #000000; border-radius: 3px; background: rgba(0, 0, 0, 0.4); padding: 3px 6px; cursor: move; z-index: 50; }
 .control-module .control-bar, .control-module .right-rotate, .control-module .left-rotate, .control-module .add, .control-module .subtract, .control-module .overturn ,.control-module .del,.control-module .save{ display: inline-block; *display: inline; *zoom: 1; vertical-align: middle; cursor: pointer; }
