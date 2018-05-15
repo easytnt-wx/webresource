@@ -2,3 +2,25 @@
 .control-module{
 	top: 150px;
 }
+.reviewBox_left{
+	width: 200px;
+	height: 900px;
+}
+.reviewBox_left ul{
+	padding: 0 10px;
+}
+.reviewBox_right{
+	width: 340px;
+	height: 900px;
+}
+.reviewBox_rightBox,.reviewBox_rightBox2{
+	width: 340px;
+	height: 900px;
+	box-shadow: 0 0 20px #bfbfbf;
+}
+.reviewBox_rightBox h5,.reviewBox_rightBox2 h5{
+	width: 320px;
+}
+.reviewBox_rightBox ul label,.reviewBox_rightBox2 ul label{
+	width: 90px;
+}
