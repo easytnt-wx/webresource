@@ -153,8 +153,11 @@ form.form-horizontal > .form-group{
 	cursor: move;
 }
 .panel1 > .title{
-	font-size: 20px;
-	margin-bottom: 8px;
+	font-size: 18px;
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 15px;
+	padding-top: 8px;
 }
 .gf-table{
 	border-spacing: 0;
@@ -165,6 +168,7 @@ form.form-horizontal > .form-group{
 .gf-table th,.gf-table td{
 	border:1px solid #00dd78;
 	font-size: 16px;
+	font-weight: 500;
 	padding: 8px 12px;
 }
 td > p{
