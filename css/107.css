@@ -212,3 +212,11 @@ td > p{
 	background-color: #999;
 	overflow: hidden;
 }
+
+.tool-bar{
+	position: relative;
+    margin: 0 0 10px 208px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 15px 0 15px 20px;
+}
