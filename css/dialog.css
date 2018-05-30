@@ -156,6 +156,10 @@
 	filter: inherit;
 }
 
+.dialog-body form.form-horizontal > .form-group{
+	margin: 0 0 10px 0;
+}
+
 .dialog-sm {
 	width: 300px;
 	top: 40px;
