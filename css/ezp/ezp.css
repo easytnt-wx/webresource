@@ -45,7 +45,7 @@
     overflow: hidden;
 }
 .num-lis{
-    height: 320px;
+    max-height: 260px;
     overflow: hidden;
     position: relative;
 }
@@ -217,13 +217,6 @@
     border:1px solid rgba(255,255,255,.5);
     background-image: url('../../images/public/ezp/icon_right.png');
 }
-
-
-
-
-
-
-
 
 #zgSvDiv .svRotate{
     width: 32px;
