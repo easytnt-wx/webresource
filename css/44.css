@@ -22,14 +22,15 @@
 }
 span.page{
 	display: inline-block;
-	width: 30px;
-	line-height: 30px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
 	border-radius: 50%;
 	background: #ccc;
 	text-align: center;
 	color: #fff;
 	font-size: 16px;
-	margin-right: 6px;
+	margin-right: 10px;
 	cursor: pointer;
 }
 span.page.active{
@@ -95,4 +96,11 @@ input[name="studentIdentity"]:focus{
     border: 1px solid #ff4242;
     background: #ff4242;
     font-size: 16px;
+}
+
+.control-module{
+	width: 383px;
+	height: 42px;
+	right: 0;
+	bottom: 0;
 }
