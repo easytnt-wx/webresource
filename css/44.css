@@ -75,3 +75,24 @@ input[name="studentIdentity"]:focus{
 .botomLine {
     border-bottom: #2196F3 dashed 2px;
 }
+
+
+.deleteBag{
+	display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border: 1px solid #ff6666;
+    background: #ff6666;
+    font-size: 16px;
+}
+
+.deleteBag:hover,.deleteBag:active,.deleteBag:focus{
+	display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border: 1px solid #ff4242;
+    background: #ff4242;
+    font-size: 16px;
+}

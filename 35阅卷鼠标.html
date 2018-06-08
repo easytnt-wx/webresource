@@ -109,7 +109,7 @@
                         <li><span>7</span><div class="set-box"><input type="text"></div></li>
                         <li><span>7</span><div class="set-box"><input type="text"></div></li>
                     </ul>
-                    <p class="remind pdtb20"><span class="onoff mgl10 open"><em></em></span><i class="mgl10">提醒</i></p>
+                    <p class="remind pdtb20"><span class="onoff mgl10"><em></em></span><i class="mgl10">提醒</i></p>
                     <a href="#" class="save-num mgb15">保存</a>
                     <a href="#" class="change-num">重改</a>
                 </div>
@@ -156,7 +156,25 @@
         });
 
         $('.onoff').click(function () {
+            _this=$(this);
             $(this).toggleClass('open');
+            if(_this.hasClass('open') == true){
+                var H=$('.control').outerHeight(true);
+                var full=$(window).height()-H;
+                $('.inner-box').height(full);
+                $('.paper-main-box').height(full);
+                $('.number-scroll').height(full);
+                $('.ease_header').slideUp(300);
+
+            }else{
+                var H=$('.control').outerHeight(true);
+                var H2=$('.ease_header').outerHeight(true);
+                var full=$(window).height()-H-H2;
+                $('.inner-box').height(full);
+                $('.paper-main-box').height(full);
+                $('.number-scroll').height(full);
+                $('.ease_header').slideDown(300);
+            }
         });
         $('.back').on('click',function () {
             $(this).siblings('.number-scroll').slideToggle();
