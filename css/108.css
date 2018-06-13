@@ -1,0 +1,10 @@
+@charset "utf-8";
+.sq_detaillist2{ overflow-x: scroll; }
+.sq_detaillist2 .sq_subjecttarget_table{margin-bottom:20px;}
+.sq_detaillist2 .sq_subjecttarget_table thead td{background:#f3f3f3;white-space: nowrap;}
+.sq_subjecttarget_table td{text-align:center;font-size:14px;}
+.sq_subjecttarget_table thead td{height:43px;background:#f1f8ff;color:#333;}
+.sq_subjecttarget_table{margin-top:15px;border:1px solid #e8e8e8;border-radius:6px;margin-bottom:56px;}
+.sq_subjecttarget_table td{text-align:center;font-size:14px;}
+.sq_subjecttarget_table thead td{height:43px;background:#f1f8ff;color:#333;}
+.sq_subjecttarget_table tbody td{height:57px;color:#888;border-top: 1px solid #e8e8e8;white-space: nowrap;}
