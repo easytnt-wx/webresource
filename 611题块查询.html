@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>题块查询</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-select.css">
+    <link href="css/ezp/public.css" rel="stylesheet" type="text/css">
+    <link href="css/ezp/style.css" rel="stylesheet" type="text/css">
+    <link href="css/ezp/ezp.css" rel="stylesheet" type="text/css">
+    <link href="css/610.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg1">
+    <div class="ease_header pdr20 examine-view">
+        <div class="container1 clearfix">
+            <a href="#" class="fl easy_logo"></a>
+            <p class="fl f18 mgtb15 pdr30">2018xxx考试</p>
+            <p class="fl f16 mgtb15">语文</p>
+            <a class="menu-btn menu-btnStyle fr" href="#">切换评题</a>
+            <div class="menu-list">
+                <div class="menu-tab">
+                    <div class="menu-title">
+                        <p><span class="icon_menu"></span>切换评题</p>
+                    </div>
+                    <ul class="menu-select">
+                        <li><a href="javascript:;">21</a></li>
+                        <li class="active"><a href="javascript:;">22</a></li>
+                        <li><a href="javascript:;">23</a></li>
+                        <li><a href="javascript:;">24</a></li>
+                        <li><a href="javascript:;">25</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="control clearfix pdr20 bg2">
+            <div class="left fl">
+                <div class="review">
+                    <span class="back"><em>查询结果列表</em><i></i></span>
+                    <i class="line"></i>
+                    <div class="number-scroll">
+                        <ul class="result-list pdt15 pdb10">
+                            <li class="on"><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                            <li><span><i>密号:</i><em>1234567891234567</em></span></li>
+                        </ul>
+                        <div class="search-turnpage">
+                            <i class="turn-left"></i><span><em>1</em><em>/</em><em>10</em></span><i class="turn-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inner-box">
+            <div class="number-wrapper">
+                <div class="set-numberbox">
+                    <div class="clearfix main-top pdb20">
+                        <div class="set-box"><h1 class="total-points pdtb10 fl"><i>17</i>题</h1></div>
+                    </div>
+                    <div>
+                        <form action="">
+                            <div>
+                                <p class="mgtb10 f16">题卡密号区间</p>
+                                <input type="text" class="input mgb10" placeholder="起始密号" style="width:100%;">
+                                <input type="text" class="input" placeholder="结束密号" style="width:100%;">
+                            </div>
+                            <div>
+                                <p class="mgtb10 f16">分值范围</p>
+                                <input type="number" class="input" style="width: 60px;"><em class="mglr5">--</em>
+                                <input type="number" class="input" style="width: 60px;">
+                            </div>
+                        </form>
+                    </div>
+                    <a href="#" class="save-num mgtb20">查询</a>
+                </div>
+            </div>
+            <div class="paper-main-box">
+                <div class="imagesPool">
+                    <img src="images/upload/editphoto_16.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/lib/jquery-2.1.1.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+    $(function(){
+
+        $('.inner-box').fullPage({
+            ele:['.ease_header','.control','.flt-bar']
+        });
+        $('.paper-main-box').fullPage({
+            ele:['.ease_header','.control','.flt-bar']
+        });
+        $('.panel1').drag({
+            container:".paper-main-box"
+        });
+        $('.number-scroll').fullPage({
+            ele:['.ease_header','.control','.flt-bar']
+        });
+        $('.imagesPool').perfectScrollbar();
+
+
+        $('.back').on('click',function () {
+            $(this).siblings('.number-scroll').slideToggle();
+        });
+
+        $('.menu-btn').on('click',function(){
+            $('.menu-list').fadeIn(100);
+            $('.menu-tab').animate({
+                right : "0px"
+            },400);
+        });
+        $('.menu-list').on('click',function(){
+            $('.menu-tab').animate({
+                right : "-240px"
+            },400);
+            $('.menu-list').fadeOut(700);
+        })
+
+    });
+</script>
+</html>

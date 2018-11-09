@@ -56,7 +56,7 @@
 }
 .number-scroll{
 	background-color: #fff;
-	top: 45px;
+	top: 44px;
 }
 .result-list li{
 	padding: 5px 12px;
@@ -112,6 +112,7 @@ form.form-horizontal > .form-group{
 }
 .number-wrapper{
 	width: 202px;
+	border-left: 1px solid #d1e5f7;
 }
 .menu-btn{
 	width: 90px;
@@ -205,4 +206,9 @@ td > p{
 	margin-right: 0px;
     margin-left: 0px;
 }
-	
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
