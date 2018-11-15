@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>阅卷过程监控</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/public.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/consult.css" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg1">
+    <div class='headerT'>
+        <div class='container w1200 clearfix'>
+            <a href="javascript:void(0)" class="logoTea fl"><img src="images/teacher/logo.png" alt="logo"></a>
+            <ul class='navBar fl'>
+                <li><a href='javascript:;'><i class='icon_menu1'></i><span>常规测验</span></a></li>
+                <li><a class='current' href='javascript:;'><i class='icon_menu2'></i><span>网阅考试</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu5'></i><span>在线考试</span></a></li>
+                <li><a href='javascript:;'><i class='icon_menu3'></i><span>题库管理</span></a></li>
+            </ul>
+            <dl class='infoT fr'>
+                <dt>
+                    <div class='uerbox'>
+                        <p class='userinfo'>
+                            <span class='userT'><img src='images/public/user.png' alt=''></span><a class='NameT'>李小明</a><i class='icon_drop'></i>
+                        </p>
+                        <div class='drop_wrap'>
+                            <ul class='user_droplist'>
+                                <li><a href='javascript:;'><span>我的班级</span></a></li>
+                                <li><a href='javascript:;'><span>退出登录</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </dt>
+            </dl>
+        </div>
+    </div>
+    <div class="cs_top">
+        <div class="cs_top_title pdl10">
+            <div class="w1200 clearfix">
+                <div class="breadcrumb breadStyle3">
+                    <p class="breadtxt">
+                        <a href="#">首页</a><i></i>
+                        <a href="#">路径1.1</a><i></i>
+                        <a class="current" href="#">路径1.1.1</a>
+                    </p>
+                </div>
+                <a href="#" class="to-back fr"><i class="icon_turnback"></i><span>返回</span></a>
+            </div>
+        </div>
+        <div class="cs_top_content2">
+            <div class="w1200 rm_top_content">
+                <h2>2018武汉八校联考(语文)<small class="mgl10">阅卷监控</small></h2>
+                <p class="creat_teacher"><i>考试时间： 2017-5-1 至 2017-5-20</i></p>
+            </div>
+        </div>
+        <div class="w1200 clearfix mgb40">
+            <div class="create_exam mgt20">
+                <div class="ni_g_tit_txt01 clearfix">阅卷时间给分图</div>
+                <div id="average_charts" style="width:1160px;height:750px"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script type="text/javascript" src="js/fun.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+    <script>
+        var myChart = echarts.init(document.getElementById('average_charts'));
+        $.get('js/givescore.json', function (data) {
+            myChart.setOption(option = {
+                tooltip: {
+                    trigger: 'axis'
+                },
+                xAxis: {
+                    data: data.map(function (item) {
+                        return item[0];
+                    })
+                },
+                yAxis: {
+                    splitLine: {
+                        show: false
+                    }
+                },
+
+                dataZoom: [{
+                    startValue: '08:05'
+                }, {
+                    type: 'inside'
+                }],
+                series: {
+                    name: '分数',
+                    type: 'line',
+                    data: data.map(function (item) {
+                        return item[1];
+                    })
+                }
+            });
+        });
+    </script>
+</body>
+</html>

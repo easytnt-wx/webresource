@@ -65,6 +65,7 @@
                         <a href="#" class="on">分值分布</a>
                         <a href="#" class="">平均分</a>
                         <a href="#" class="">标准差</a>
+                        <a href="#" class="">阅卷过程分数</a>
                     </div>
                     <div class="tabContent" name="tabCon">
                         <div class="row">
@@ -96,16 +97,58 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tabContent dis_none" name="tabCon">
+                        <div class="row">
+                            <div class="col-md-2">
+                                右侧ztree树
+                            </div>
+                            <div class="col-md-10">
+                                <div id="average_charts" style="width:950px;height:750px"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 	<script src="js/lib/jquery-2.1.1.js"></script>
 	<script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/echarts.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
     <script>
         $(function(){
             $(".tabStyle2").tabControl();
+            var myChart = echarts.init(document.getElementById('average_charts'));
+                $.get('js/givescore.json', function (data) {
+                    myChart.setOption(option = {
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        xAxis: {
+                            data: data.map(function (item) {
+                                return item[0];
+                            })
+                        },
+                        yAxis: {
+                            splitLine: {
+                                show: false
+                            }
+                        },
+
+                        dataZoom: [{
+                            startValue: '08:05'
+                        }, {
+                            type: 'inside'
+                        }],
+                        series: {
+                            name: '分数',
+                            type: 'line',
+                            data: data.map(function (item) {
+                                return item[1];
+                            })
+                        }
+                    });
+                });
         });
     </script>
 </body>
