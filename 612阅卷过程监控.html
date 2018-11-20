@@ -74,36 +74,38 @@
     <script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
     <script>
         var myChart = echarts.init(document.getElementById('average_charts'));
-        $.get('js/givescore.json', function (data) {
-            myChart.setOption(option = {
-                tooltip: {
-                    trigger: 'axis'
-                },
-                xAxis: {
-                    data: data.map(function (item) {
-                        return item[0];
-                    })
-                },
-                yAxis: {
-                    splitLine: {
-                        show: false
-                    }
-                },
+        $.get('js/score.json', function (res) {
+            // myChart.setOption(option = {
+            //     tooltip: {
+            //         trigger: 'axis'
+            //     },
+            //     xAxis: {
+            //         data: data.map(function (item) {
+            //             return item[0];
+            //         })
+            //     },
+            //     yAxis: {
+            //         splitLine: {
+            //             show: false
+            //         }
+            //     },
 
-                dataZoom: [{
-                    startValue: '08:05'
-                }, {
-                    type: 'inside'
-                }],
-                series: {
-                    name: '分数',
-                    type: 'line',
-                    data: data.map(function (item) {
-                        return item[1];
-                    })
-                }
-            });
+            //     dataZoom: [{
+            //         startValue: '08:05'
+            //     }, {
+            //         type: 'inside'
+            //     }],
+            //     series: {
+            //         name: '分数',
+            //         type: 'line',
+            //         data: data.map(function (item) {
+            //             return item[1];
+            //         })
+            //     }
+            // });
+            alert("Data Loaded: " + res);
         });
+
     </script>
 </body>
 </html>

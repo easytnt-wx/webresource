@@ -1,0 +1,36 @@
+/* chrome-extension://pkgccpejnmalmdinmhkkfafefagiiiad/template/fehelper_jsonformat.html */
+[
+    {
+        "teacher": [
+            10,
+            12,
+            15,
+            4,
+            8,
+            6,
+            11
+        ]
+    },
+    {
+        "teacher": [
+            10,
+            12,
+            15,
+            4,
+            8,
+            6,
+            11
+        ]
+    },
+    {
+        "teacher": [
+            10,
+            12,
+            15,
+            4,
+            8,
+            6,
+            11
+        ]
+    }
+]
